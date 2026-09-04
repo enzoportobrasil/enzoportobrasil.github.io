@@ -329,19 +329,18 @@ a { color: inherit; }
   margin-bottom: 6px;
 }
 .hero-avatar {
-  width: 82px;
-  height: 82px;
-  flex: 0 0 82px;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
   object-fit: cover;
   object-position: center 32%;
-  border-radius: 22px;
+  border-radius: 16px;
   border: 1px solid var(--line);
   background: var(--surface);
-  box-shadow: 0 12px 32px rgba(19, 42, 50, 0.12);
+  box-shadow: 0 10px 24px rgba(19, 42, 50, 0.10);
 }
-.hero-identity-text {
-  display: grid;
-  gap: 4px;
+.hero-identity {
+  gap: 12px;
 }
 .hero-location {
   color: var(--muted);
