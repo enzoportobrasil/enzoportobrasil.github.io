@@ -329,15 +329,12 @@ a { color: inherit; }
   margin-bottom: 6px;
 }
 .hero-avatar {
-  width: 58px;
-  height: 58px;
-  flex: 0 0 58px;
+  width: 60px;
+  height: 60px;
+  flex: 0 0 60px;
   object-fit: cover;
   object-position: center 32%;
   border-radius: 16px;
-  border: 1px solid var(--line);
-  background: var(--surface);
-  box-shadow: 0 10px 24px rgba(19, 42, 50, 0.10);
 }
 .hero-identity {
   gap: 12px;
