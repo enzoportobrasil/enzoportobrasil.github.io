@@ -3,260 +3,91 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Enzo Porto Brasil — statistician and researcher working on extreme events, Bayesian spatial modelling, uncertainty, astrostatistics and scientific computing.">
+  <meta name="description" content="Enzo Porto Brasil — statistician and quantitative researcher working on extreme events, Bayesian spatial modelling, uncertainty, astrostatistics and scientific computing.">
   <meta name="theme-color" content="#0b6d69">
   <title>Enzo Porto Brasil — Statistics, Extremes & Physical Systems</title>
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Enzo Porto Brasil",
-    "email": "mailto:enzoportobrasil@gmail.com",
-    "address": {"@type": "PostalAddress", "addressLocality": "Brasília", "addressCountry": "Brazil"},
-    "alumniOf": {"@type": "CollegeOrUniversity", "name": "University of Brasília"},
-    "knowsAbout": ["Statistics", "Extreme Value Theory", "Bayesian inference", "Spatial statistics", "Astrostatistics", "Scientific computing", "Uncertainty quantification"]
-  }
+  {"@context":"https://schema.org","@type":"Person","name":"Enzo Porto Brasil","email":"mailto:enzoportobrasil@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Brasília","addressCountry":"Brazil"},"alumniOf":{"@type":"CollegeOrUniversity","name":"University of Brasília"},"knowsAbout":["Statistics","Extreme Value Theory","Bayesian inference","Spatial statistics","Astrostatistics","Scientific computing","Uncertainty quantification"]}
   </script>
 </head>
-<body>
+<body class="home-page">
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+<header class="site-header" data-site-header>
   <div class="container navbar">
-    <a class="brand" href="index.html" aria-label="Enzo Porto Brasil — home">
-      <span class="brand-mark">EB</span><span>Enzo Porto Brasil</span>
-    </a>
-    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Open navigation">☰</button>
-    <nav class="nav-links" data-nav aria-label="Primary navigation">
-      <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="talks.html">Talks</a>
-      <a href="cv.html">CV</a>
-      <a href="resources.html">Resources</a>
-    </nav>
-    <div class="nav-actions">
-      <button class="icon-button" data-theme-toggle aria-label="Switch theme">◐</button>
-    </div>
+    <a class="brand" href="index.html" aria-label="Enzo Porto Brasil — home"><span class="brand-mark">EB</span><span>Enzo Porto Brasil</span></a>
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span aria-hidden="true">Menu</span></button>
+    <nav class="nav-links" id="primary-nav" data-nav aria-label="Primary navigation"><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="talks.html">Talks</a><a href="cv.html">CV</a><a href="resources.html">Resources</a></nav>
+    <div class="nav-actions"><button class="icon-button" data-theme-toggle aria-label="Switch theme"><span aria-hidden="true">◐</span></button></div>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero">
-    <div class="container hero-grid">
-      <div data-reveal>
-       <div class="hero-identity">
-  <img
-    class="hero-avatar"
-    src="assets/img/profile_4.jpeg"
-    alt="Enzo Porto Brasil"
-    fetchpriority="high"
-  >
-  <div class="hero-identity-text">
-    <div class="eyebrow">Statistician · Researcher</div>
-    <div class="hero-location">Brasília, Brazil</div>
-  </div>
-</div>
-        <h1>Statistical inference for extreme events, uncertainty, and physical systems.</h1>
-        <p class="lead">I am Enzo Porto Brasil, a statistician trained at the University of Brasília. My research moves from missing data and simulation toward Bayesian spatial extremes, dependence modelling, astrostatistics, and scientific computing.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="research.html">Explore research <span aria-hidden="true">→</span></a>
-          <a class="button" href="publications.html">Publications & preprints</a>
-          <a class="button" href="cv.html">Academic CV</a>
-        </div>
+  <section class="hero hero-editorial" aria-labelledby="hero-title">
+    <div class="hero-media" aria-hidden="true"><img src="assets/img/2_MSc_research.webp" alt="" width="2066" height="1788" fetchpriority="high"></div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <div class="hero-index" data-reveal><span>01</span><span>Statistical inference</span><span>Brasília · Brazil</span></div>
+      <div class="hero-copy" data-reveal>
+        <p class="hero-role">Enzo Porto Brasil · Statistician / Quantitative Researcher</p>
+        <h1 id="hero-title">Inference for rare events,<br>uncertainty, and<br><em>physical systems.</em></h1>
+        <p class="hero-summary">Bayesian spatial modelling, Extreme Value Theory, simulation and dependence—moving carefully toward astrostatistics and quantitative physical science.</p>
+        <div class="hero-actions"><a class="button primary" href="research.html">Explore research <span aria-hidden="true">↗</span></a><a class="button hero-button" href="publications.html">Publications & preprints</a><a class="button hero-button" href="cv.html">Academic CV</a></div>
       </div>
-      <div class="research-map" aria-label="Research themes map" data-reveal>
-        <div class="map-core">Inference<br>& uncertainty</div>
-        <div class="map-node node-1">Extreme Value Theory</div>
-        <div class="map-node node-2">Astrostatistics</div>
-        <div class="map-node node-3">Spatial statistics</div>
-        <div class="map-node node-4">Scientific computing</div>
-        <div class="map-node node-5">Simulation</div>
-        <div class="map-node node-6">Dependence</div>
-        <div class="map-caption">A research programme connected by one question: what can the data actually support?</div>
-      </div>
+      <a class="scroll-cue" href="#research-statement"><span aria-hidden="true">↓</span> Read the research through-line</a>
     </div>
   </section>
 
-  <section class="section tint">
-    <div class="container story-grid">
-      <div data-reveal>
-        <div class="kicker">Research through-line</div>
+  <section class="section statement-section" id="research-statement">
+    <div class="container statement-grid">
+      <div class="section-rail" data-reveal><span>02</span><span>Research statement</span></div>
+      <div class="portrait-wrap" data-reveal><img src="assets/img/profile.webp" alt="Portrait of Enzo Porto Brasil" width="800" height="1200" loading="lazy"><p class="image-note">Statistician trained at the University of Brasília</p></div>
+      <div class="statement-copy" data-reveal>
         <p class="story-quote">“I chose Statistics because I wanted a rigorous language for uncertainty that could travel across scientific questions.”</p>
-      </div>
-      <div class="story-body" data-reveal>
-        <p>That path began with <strong>missing data and predictive modelling</strong>, where simulation made it possible to see how assumptions and incomplete observations alter inference. During my MSc, the same concern moved into <strong>spatial extremes, Bayesian computation, dependence, and complex environmental systems</strong>.</p>
-        <p>Alongside the thesis, I started carrying these questions into <strong>solar and astronomical data</strong>. What connects the projects is not a single application area, but a way of working: build explicit probabilistic models, test them under controlled simulation when possible, quantify uncertainty, and remain careful about the difference between what a model recovers and what observations truly allow us to claim.</p>
-        <a class="card-link" href="research.html">Read the research narrative →</a>
+        <div class="story-body"><p>My work begins with a simple discipline: be explicit about what the data can support. That path started with <strong>missing data and simulation</strong>, then moved into <strong>extreme events, spatial dependence, Bayesian computation, and complex environmental systems</strong>.</p><p>I now carry those questions into solar and astronomical data—not as an astrophysicist, but as a statistically trained researcher interested in how measurement, physical context and uncertainty shape inference.</p><a class="text-link" href="research.html">Read the research narrative <span aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section research-showcase" aria-labelledby="projects-title">
     <div class="container">
-      <div class="section-heading" data-reveal>
-        <div><div class="kicker">Featured work</div><h2>Research projects</h2></div>
-        <p>A curated set of projects that shows the progression from statistical methodology to environmental and physical systems. Each project page is designed to host papers, slides, posters, code, figures and supporting material as they become available.</p>
-      </div>
-      <div class="cards">
-        <article class="card" data-reveal>
-          <div class="card-visual has-image">
-  <img
-    src="assets/img/2_MSc_research.webp"
-    alt="Bayesian spatial extremes and MSc research"
-    loading="lazy"
-  >
-  <code>BGEV(s) · latent Gaussian fields · HMC/NUTS</code>
-</div>
-          <div class="card-body">
-            <div class="card-meta"><span class="tag">Bayesian statistics</span><span class="tag">Spatial extremes</span><span class="tag">MSc thesis</span></div>
-            <h3>Statistical Modelling of Spatial Extremes in Complex Systems</h3>
-            <p>A Bayesian hierarchical geostatistical model with BGEV marginals, spatially varying parameters, simulation-based assessment, and an application to relative-humidity deficit extremes in the Amazon.</p>
-            <a class="card-link" href="research/spatial-extremes.html">View project →</a>
-          </div>
+      <div class="section-heading editorial-heading" data-reveal><div><div class="kicker">03 · Selected research</div><h2 id="projects-title">Methods meet<br>scientific systems.</h2></div><p>Four connected research directions, moving between methodological questions and the physical systems that make those questions consequential.</p></div>
+      <div class="project-editorial-list">
+        <article class="project-feature project-feature--flagship" data-reveal>
+          <a class="project-image" href="research/spatial-extremes.html" aria-label="View spatial extremes project"><img src="assets/img/2_MSc_research.webp" alt="Satellite view representing spatial extremes research" width="2066" height="1788" loading="lazy"><span class="project-number">01</span></a>
+          <div class="project-copy"><div class="project-meta"><span>Bayesian statistics</span><span>Spatial extremes</span><span>MSc thesis</span></div><h3><a href="research/spatial-extremes.html">Statistical Modelling of Spatial Extremes in Complex Systems</a></h3><p>A Bayesian hierarchical geostatistical model with BGEV marginals, spatially varying parameters, simulation-based assessment, and an application to relative-humidity-deficit extremes in the Amazon.</p><p class="method-note">BGEV(s) · latent Gaussian fields · HMC/NUTS</p><a class="text-link" href="research/spatial-extremes.html">View project <span aria-hidden="true">→</span></a></div>
         </article>
-
-        <article class="card" data-reveal>
-          <div class="card-visual has-image">
-  <img
-    src="assets/img/4_sorce_mission_IA.webp"
-    alt="Solar irradiance and astrostatistics research"
-    loading="lazy"
-  >
-  <code>SORCE/XPS · EVT · solar spectral irradiance</code>
-</div>
-          <div class="card-body">
-            <div class="card-meta"><span class="tag">Astrostatistics</span><span class="tag">Space science</span><span class="tag">Extreme events</span></div>
-            <h3>Extremes of Solar Spectral Irradiance in the SORCE/XPS Record</h3>
-            <p>Extreme Value Theory applied to NASA SORCE solar spectral irradiance, developed as part of a broader move toward statistical inference for physical and astronomical observations.</p>
-            <a class="card-link" href="research/solar-irradiance.html">View project →</a>
-          </div>
+        <article class="project-feature project-feature--reverse" data-reveal>
+          <a class="project-image project-image--wide" href="research/solar-irradiance.html" aria-label="View solar irradiance project"><img src="assets/img/4_sorce_mission_IA.webp" alt="Solar observatory and extreme solar activity" width="1672" height="941" loading="lazy"><span class="project-number">02</span></a>
+          <div class="project-copy"><div class="project-meta"><span>Astrostatistics</span><span>Solar data</span><span>Extreme events</span></div><h3><a href="research/solar-irradiance.html">Extremes of Solar Spectral Irradiance in the SORCE/XPS Record</a></h3><p>Extreme Value Theory applied to NASA SORCE observations, marking a deliberate move toward statistical inference for physical and astronomical data.</p><p class="method-note">SORCE/XPS · EVT · observational physics</p><a class="text-link" href="research/solar-irradiance.html">View project <span aria-hidden="true">→</span></a></div>
         </article>
-
-        <article class="card" data-reveal>
-          <div class="card-visual has-image">
-  <img
-    src="assets/img/3_imputation_extremes.webp"
-    alt="Multiple imputation under extreme values"
-    loading="lazy"
-  >
-  <code>missingness × tail behaviour × simulation</code>
-</div>
-          <div class="card-body">
-            <div class="card-meta"><span class="tag">Missing data</span><span class="tag">Simulation</span><span class="tag">Extreme values</span></div>
-            <h3>Multiple Imputation Methods under Extreme Values</h3>
-            <p>A return to the missing-data questions of my undergraduate research, now asking how conventional imputation strategies behave when the data contain extreme observations.</p>
-            <a class="card-link" href="research/missing-data-extremes.html">View project →</a>
-          </div>
-        </article>
-
-        <article class="card" data-reveal>
-          <div class="card-visual has-image">
-  <img
-    src="assets/img/5_compound_extremes.webp"
-    alt="Compound climate extremes and dependence modelling"
-    loading="lazy"
-  >
-  <code>copulas · joint return levels · dependence</code>
-</div>
-          <div class="card-body">
-            <div class="card-meta"><span class="tag">Copulas</span><span class="tag">Climate extremes</span><span class="tag">Dependence</span></div>
-            <h3>Compound Climate Extremes and Dependence</h3>
-            <p>Work on the joint behaviour of maximum temperature and minimum relative humidity using copulas and an extreme-value framework for complex dependence.</p>
-            <a class="card-link" href="research/climate-dependence.html">View project →</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section tint">
-    <div class="container">
-      <div class="section-heading" data-reveal>
-        <div><div class="kicker">Selected outputs</div><h2>Recent research</h2></div>
-        <p>Public research outputs are linked to stable academic sources whenever possible. Supplementary materials can be added later without changing the site structure.</p>
-      </div>
-      <div class="output-list">
-        <div class="output-item" data-reveal>
-          <div class="output-year">2026</div>
-          <div><div class="output-title">Extremes of Solar Spectral Irradiance in the SORCE/XPS Record</div><div class="output-meta">Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F. · arXiv:2608.30878</div></div>
-          <a class="button small" href="https://arxiv.org/abs/2608.30878" target="_blank" rel="noreferrer">arXiv ↗</a>
-        </div>
-        <div class="output-item" data-reveal>
-          <div class="output-year">2026</div>
-          <div><div class="output-title">Multiple Imputation Methods under Extreme Values</div><div class="output-meta">Brasil, E. · arXiv:2602.04751</div></div>
-          <a class="button small" href="https://arxiv.org/abs/2602.04751" target="_blank" rel="noreferrer">arXiv ↗</a>
-        </div>
-        <div class="output-item" data-reveal>
-          <div class="output-year">2026</div>
-          <div><div class="output-title">Joint return levels of maximum temperature and minimum relative humidity...</div><div class="output-meta">Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E. · arXiv:2608.10252</div></div>
-          <a class="button small" href="https://arxiv.org/abs/2608.10252" target="_blank" rel="noreferrer">arXiv ↗</a>
-        </div>
-        <div class="output-item" data-reveal>
-          <div class="output-year">2026</div>
-          <div><div class="output-title">Conditional copula representations and extremal bounds for multivariate statistical functionals</div><div class="output-meta">Vila, R.; Otiniano, C.; Brito, C.; Brasil, E. · arXiv:2607.26256</div></div>
-          <a class="button small" href="https://arxiv.org/abs/2607.26256" target="_blank" rel="noreferrer">arXiv ↗</a>
+        <div class="project-pair">
+          <article class="project-feature project-feature--compact" data-reveal><a class="project-image" href="research/missing-data-extremes.html" aria-label="View missing data project"><img src="assets/img/3_imputation_extremes.webp" alt="Density contours representing imputation under extreme values" width="738" height="454" loading="lazy"><span class="project-number">03</span></a><div class="project-copy"><div class="project-meta"><span>Missing data</span><span>Simulation</span></div><h3><a href="research/missing-data-extremes.html">Multiple Imputation Methods under Extreme Values</a></h3><p>How conventional imputation strategies behave when incomplete observations meet tail behaviour.</p><a class="text-link" href="research/missing-data-extremes.html">View project <span aria-hidden="true">→</span></a></div></article>
+          <article class="project-feature project-feature--compact" data-reveal><a class="project-image" href="research/climate-dependence.html" aria-label="View compound extremes project"><img src="assets/img/5_compound_extremes.webp" alt="An erupting volcano representing compound extreme events" width="685" height="456" loading="lazy"><span class="project-number">04</span></a><div class="project-copy"><div class="project-meta"><span>Copulas</span><span>Dependence</span></div><h3><a href="research/climate-dependence.html">Compound Climate Extremes and Dependence</a></h3><p>Joint return levels and multivariate environmental behaviour through copula and extreme-value methods.</p><a class="text-link" href="research/climate-dependence.html">View project <span aria-hidden="true">→</span></a></div></article>
         </div>
       </div>
-      <div style="margin-top:26px"><a class="card-link" href="publications.html">Full publications & outputs →</a></div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-heading" data-reveal>
-        <div><div class="kicker">Research practice</div><h2>How I approach scientific problems</h2></div>
-      </div>
-      <div class="pillars">
-        <div class="pillar" data-reveal><div class="pillar-number">01</div><h3>Inference before decoration</h3><p>I am interested in what a model says about a scientific question, what assumptions make that statement possible, and how uncertainty propagates into the conclusion.</p></div>
-        <div class="pillar" data-reveal><div class="pillar-number">02</div><h3>Simulation as a stress test</h3><p>Controlled simulation gives a setting where the underlying structure is known, making it possible to study parameter recovery, calibration, sensitivity, and failure modes.</p></div>
-        <div class="pillar" data-reveal><div class="pillar-number">03</div><h3>Move toward the physical system</h3><p>Rather than treating astronomy, climate, or environmental data as interchangeable datasets, I want the domain problem and measurement process to shape the statistical modelling itself.</p></div>
-      </div>
+  <section class="section trajectory-section" aria-labelledby="trajectory-title">
+    <div class="container trajectory-layout">
+      <div class="trajectory-intro" data-reveal><div class="kicker">04 · Research coordinates</div><h2 id="trajectory-title">A trajectory shaped by uncertainty.</h2><p>This is an intellectual progression rather than a claim of a perfectly linear chronology.</p></div>
+      <ol class="research-coordinates"><li data-reveal><span class="coordinate-index">01</span><div><h3>Incomplete observations</h3><p>Missing-data methodology and predictive modelling.</p></div></li><li data-reveal><span class="coordinate-index">02</span><div><h3>Simulation & uncertainty</h3><p>Controlled experiments, calibration and failure modes.</p></div></li><li data-reveal><span class="coordinate-index">03</span><div><h3>Extremes & dependence</h3><p>Tail behaviour, copulas and compound risk.</p></div></li><li data-reveal><span class="coordinate-index">04</span><div><h3>Spatial structure</h3><p>Bayesian hierarchical models and latent Gaussian fields.</p></div></li><li data-reveal><span class="coordinate-index">05</span><div><h3>Physical systems</h3><p>Environmental, solar and increasingly astronomical applications.</p></div></li></ol>
     </div>
   </section>
 
-  <section class="section tint">
-    <div class="container">
-      <div class="section-heading" data-reveal>
-        <div><div class="kicker">Trajectory</div><h2>From missing data to complex physical systems</h2></div>
-      </div>
-      <div class="timeline">
-        <div class="timeline-row" data-reveal><div class="timeline-date">2018–2023</div><div class="timeline-content"><h3>BSc in Statistics · University of Brasília</h3><p>Probability, inference, computational statistics and predictive modelling. Undergraduate research on missing-data imputation using simulation and regression.</p></div></div>
-        <div class="timeline-row" data-reveal><div class="timeline-date">2022–2023</div><div class="timeline-content"><h3>Academic exchange · Lodz University of Technology</h3><p>On-campus work in modelling and data science, including statistical and experimental physics, computation and logic.</p></div></div>
-        <div class="timeline-row" data-reveal><div class="timeline-date">2024–2026</div><div class="timeline-content"><h3>MSc in Statistics · University of Brasília</h3><p>Bayesian hierarchical spatial modelling, Extreme Value Theory, geostatistics, copulas, HMC/NUTS and simulation. Thesis defended in July 2026.</p></div></div>
-        <div class="timeline-row" data-reveal><div class="timeline-date">2025–</div><div class="timeline-content"><h3>Applied research in Brazilian public institutions</h3><p>Large observational, administrative, longitudinal and territorial datasets; reproducible workflows; statistical reporting; public-sector research at HU Brasil and Ipea.</p></div></div>
-      </div>
+  <section class="section outputs-section" aria-labelledby="outputs-title">
+    <div class="container"><div class="section-heading" data-reveal><div><div class="kicker">05 · Selected outputs</div><h2 id="outputs-title">Recent research</h2></div><p>Public outputs linked to stable academic sources.</p></div>
+      <div class="output-list"><article class="output-item" data-reveal><div class="output-year">2026</div><div><div class="output-title">Extremes of Solar Spectral Irradiance in the SORCE/XPS Record</div><div class="output-meta">Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F. · arXiv:2608.30878</div></div><a class="button small" href="https://arxiv.org/abs/2608.30878" target="_blank" rel="noreferrer">arXiv ↗</a></article><article class="output-item" data-reveal><div class="output-year">2026</div><div><div class="output-title">Multiple Imputation Methods under Extreme Values</div><div class="output-meta">Brasil, E. · arXiv:2602.04751</div></div><a class="button small" href="https://arxiv.org/abs/2602.04751" target="_blank" rel="noreferrer">arXiv ↗</a></article><article class="output-item" data-reveal><div class="output-year">2026</div><div><div class="output-title">Joint return levels of maximum temperature and minimum relative humidity...</div><div class="output-meta">Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E. · arXiv:2608.10252</div></div><a class="button small" href="https://arxiv.org/abs/2608.10252" target="_blank" rel="noreferrer">arXiv ↗</a></article><article class="output-item" data-reveal><div class="output-year">2026</div><div><div class="output-title">Conditional copula representations and extremal bounds for multivariate statistical functionals</div><div class="output-meta">Vila, R.; Otiniano, C.; Brito, C.; Brasil, E. · arXiv:2607.26256</div></div><a class="button small" href="https://arxiv.org/abs/2607.26256" target="_blank" rel="noreferrer">arXiv ↗</a></article></div>
+      <p class="section-link"><a class="text-link" href="publications.html">Full publications & outputs <span aria-hidden="true">→</span></a></p>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-heading" data-reveal>
-        <div><div class="kicker">Selected talks</div><h2>Research in public</h2></div>
-        <p>Slides, posters, abstracts and event documentation can be attached to these entries over time, turning the site into a curated evidence layer for the academic CV.</p>
-      </div>
-      <div class="output-list">
-        <div class="output-item" data-reveal><div class="output-year">Nov 2025</div><div><div class="output-title">Joint extremes of solar irradiance and air density: an EVT and copula approach to tail uncertainty</div><div class="output-meta">Systematic and Measurement Errors across the Sciences: Astrostatistics and Data Science · University of Alabama in Huntsville · Oral presentation</div></div><span class="status">International</span></div>
-        <div class="output-item" data-reveal><div class="output-year">Jun 2026</div><div><div class="output-title">Extremes in Nature: statistics, uncertainty, and forecasting in the face of extreme phenomena</div><div class="output-meta">1st Workshop of the Graduate Program in Statistics · University of Brasília · Invited speaker</div></div><span class="status">Invited</span></div>
-        <div class="output-item" data-reveal><div class="output-year">Sep 2024</div><div><div class="output-title">Assessing imputation methods for missing data using statistical models: a simulation approach</div><div class="output-meta">1st Brazil–Colombia Binational Colloquium on Probability and Statistics · Oral presentation</div></div><span class="status">Oral</span></div>
-      </div>
-      <div style="margin-top:26px"><a class="card-link" href="talks.html">Talks, posters & materials →</a></div>
-    </div>
-  </section>
+  <section class="section practice-section" aria-labelledby="practice-title"><div class="container"><div class="section-heading" data-reveal><div><div class="kicker">06 · Research practice</div><h2 id="practice-title">How I approach scientific problems</h2></div></div><div class="pillars"><article class="pillar" data-reveal><div class="pillar-number">01</div><h3>Inference before decoration</h3><p>Ask what a model says about a scientific question, which assumptions make that statement possible, and how uncertainty propagates.</p></article><article class="pillar" data-reveal><div class="pillar-number">02</div><h3>Simulation as a stress test</h3><p>Use controlled settings to study recovery, calibration, sensitivity and failure modes before trusting observational conclusions.</p></article><article class="pillar" data-reveal><div class="pillar-number">03</div><h3>Move toward the physical system</h3><p>Let the domain problem and measurement process shape the statistical modelling, rather than treating every dataset as interchangeable.</p></article></div></div></section>
 </main>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div><p class="footer-title">Enzo Porto Brasil</p><p class="footer-copy">Statistician working on uncertainty, extreme events, Bayesian spatial modelling, dependence, astrostatistics and scientific computing. Based in Brasília, Brazil.</p></div>
-      <div class="footer-links">
-        <a data-link="email" href="#">Email</a><a data-link="linkedin" href="#" target="_blank" rel="noreferrer">LinkedIn</a><a data-link="github" href="#" target="_blank" rel="noreferrer">GitHub</a><a data-link="orcid" href="#" target="_blank" rel="noreferrer">ORCID</a>
-      </div>
-    </div>
-    <div class="footer-bottom"><span>© <span data-current-year></span> Enzo Porto Brasil.</span><span>Built as a lightweight, accessible GitHub Pages site.</span></div>
-  </div>
-</footer>
-<script src="assets/js/site-config.js"></script>
-<script src="assets/js/main.js"></script>
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div><p class="footer-kicker">Enzo Porto Brasil · Brasília</p><p class="footer-title">Statistics for the limits<br>of what data can tell us.</p></div><div class="footer-links"><a data-link="email" href="#">Email</a><a data-link="linkedin" href="#" target="_blank" rel="noreferrer">LinkedIn</a><a data-link="github" href="#" target="_blank" rel="noreferrer">GitHub</a><a data-link="orcid" href="#" target="_blank" rel="noreferrer">ORCID</a></div></div><div class="footer-bottom"><span>© <span data-current-year></span> Enzo Porto Brasil.</span><span>Lightweight, accessible, and built for the open web.</span></div></div></footer>
+<script src="assets/js/site-config.js"></script><script src="assets/js/main.js"></script>
 </body>
 </html>
