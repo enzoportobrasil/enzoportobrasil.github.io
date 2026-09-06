@@ -1,4 +1,5 @@
 (() => {
+  document.documentElement.classList.add('js');
   const config = window.SITE_CONFIG || {};
 
   // Theme
@@ -19,11 +20,43 @@
   const navToggle = document.querySelector('[data-nav-toggle]');
   const nav = document.querySelector('[data-nav]');
   if (navToggle && nav) {
+    const closeNavigation = () => {
+      nav.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.setAttribute('aria-label', 'Open navigation');
+    };
+
     navToggle.addEventListener('click', () => {
       const open = nav.classList.toggle('is-open');
       navToggle.setAttribute('aria-expanded', String(open));
+      navToggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    });
+
+    nav.addEventListener('click', (event) => {
+      if (event.target.closest('a')) closeNavigation();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && nav.classList.contains('is-open')) {
+        closeNavigation();
+        navToggle.focus();
+      }
     });
   }
+
+  // Quietly strengthen orientation on long pages.
+  const header = document.querySelector('[data-site-header]') || document.querySelector('.site-header');
+  const progress = document.querySelector('[data-scroll-progress]');
+  const updateScrollState = () => {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    if (header) header.classList.toggle('is-scrolled', scrollTop > 24);
+    if (progress) {
+      const distance = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.transform = `scaleX(${distance > 0 ? Math.min(scrollTop / distance, 1) : 0})`;
+    }
+  };
+  updateScrollState();
+  window.addEventListener('scroll', updateScrollState, { passive: true });
 
   // Populate contact / social links from one config file.
   const mapping = {
