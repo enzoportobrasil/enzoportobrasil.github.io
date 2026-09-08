@@ -1,0 +1,22 @@
+# Original photos, local archives and unused source documents are not site assets.
+exclude:
+  - _source-materials
+  - assets/img/apresentacoes/cobipe-2024/photos
+  - assets/img/apresentacoes/cobipe-2024/web/album/waterside-panorama-1600.webp
+  - assets/img/apresentacoes/cobipe-2024/web/album/waterside-panorama-480.webp
+  - assets/img/apresentacoes/emr-epbest-2025/photos
+  - assets/img/apresentacoes/rbras-seagro-2025/documents/solar-irradiance-abstract.pdf
+  - assets/img/apresentacoes/rbras-seagro-2025/documents/temperature-humidity-abstract.pdf
+  - assets/img/apresentacoes/sys2025/figures/dependence-scatter-density.png
+  - assets/img/apresentacoes/sys2025/figures/natural-extremes.png
+  - assets/img/apresentacoes/sys2025/figures/solar-storm-and-wildfire-news.pdf
+  - assets/img/apresentacoes/sys2025/figures/solar-storms-satellites-whales.pdf
+  - assets/img/apresentacoes/sys2025/figures/ssi-air-density-minima-workflow.pdf
+  - assets/img/apresentacoes/sys2025/figures/ssi-uncertainty-copula-minima.png
+  - assets/img/apresentacoes/sys2025/photos
+  - assets/img/apresentacoes/wasa-2024/documents/imputation-abstract.pdf
+  - assets/img/apresentacoes/wasa-2024/photos
+  - assets/img/apresentacoes/workshop-pgest-unb-2026/figures/natural-extremes.pdf
+  - assets/img/apresentacoes/workshop-pgest-unb-2026/figures/neurons-bubbles-popcorn.pdf
+  - assets/img/apresentacoes/workshop-pgest-unb-2026/photos
+  - assets/img/fotos-extras-estilo
