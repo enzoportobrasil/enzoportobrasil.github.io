@@ -4,15 +4,19 @@
 
   // Theme
   const root = document.documentElement;
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme) root.dataset.theme = savedTheme;
-
   document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+    const updateLabel = () => {
+      const label = root.dataset.theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+      button.setAttribute('aria-label', window.SITE_I18N?.text(label) || label);
+    };
+    updateLabel();
+    document.addEventListener('site:language', updateLabel);
     button.addEventListener('click', () => {
       const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
       root.dataset.theme = next;
-      localStorage.setItem('theme', next);
-      button.setAttribute('aria-label', next === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      root.style.colorScheme = next;
+      try { localStorage.setItem('theme', next); } catch {}
+      updateLabel();
     });
   });
 
@@ -23,13 +27,14 @@
     const closeNavigation = () => {
       nav.classList.remove('is-open');
       navToggle.setAttribute('aria-expanded', 'false');
-      navToggle.setAttribute('aria-label', 'Open navigation');
+      navToggle.setAttribute('aria-label', window.SITE_I18N?.text('Open navigation') || 'Open navigation');
     };
 
     navToggle.addEventListener('click', () => {
       const open = nav.classList.toggle('is-open');
       navToggle.setAttribute('aria-expanded', String(open));
-      navToggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+      const label = open ? 'Close navigation' : 'Open navigation';
+      navToggle.setAttribute('aria-label', window.SITE_I18N?.text(label) || label);
     });
 
     nav.addEventListener('click', (event) => {
@@ -41,6 +46,14 @@
         closeNavigation();
         navToggle.focus();
       }
+    });
+    document.addEventListener('click', (event) => {
+      if (!nav.contains(event.target) && !navToggle.contains(event.target)) closeNavigation();
+    });
+    window.matchMedia('(min-width: 1001px)').addEventListener('change', closeNavigation);
+    document.addEventListener('site:language', () => {
+      const label = nav.classList.contains('is-open') ? 'Close navigation' : 'Open navigation';
+      navToggle.setAttribute('aria-label', window.SITE_I18N.text(label));
     });
   }
 
@@ -89,7 +102,7 @@
   });
 
   // Reveal motion, respecting reduced motion.
-  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const items = document.querySelectorAll('[data-reveal]');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -99,6 +112,6 @@
         }
       });
     }, { threshold: 0.12 });
-    items.forEach((item) => observer.observe(item));
+    items.forEach((item) => { item.classList.add('reveal-ready'); observer.observe(item); });
   }
 })();

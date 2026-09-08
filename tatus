@@ -1,0 +1,19 @@
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/files/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/js/main.js', LF will be replaced by CRLF the next time Git touches it
+ 404.html                            |   3 [32m+[m[31m-[m
+ assets/css/styles.css               | 173 [32m+++++++++++++++[m[31m------[m
+ assets/files/README.md              |  19 [32m+[m[31m--[m
+ assets/js/main.js                   |  31 [32m++[m[31m--[m
+ cv.html                             |  13 [32m+[m[31m-[m
+ index.html                          |  76 [32m+++++[m[31m----[m
+ publications.html                   |  23 [32m+[m[31m--[m
+ research.html                       |  27 [32m++[m[31m--[m
+ research/climate-dependence.html    |   3 [32m+[m[31m-[m
+ research/missing-data-extremes.html |   3 [32m+[m[31m-[m
+ research/solar-irradiance.html      |   3 [32m+[m[31m-[m
+ research/spatial-extremes.html      | 132 [32m+++++++++++++++[m[31m-[m
+ resources.html                      |  56 [32m+++++[m[31m--[m
+ sitemap.xml                         |   4 [32m+[m
+ talks.html                          | 297 [32m++++++++++++++++++++++++++++++++++[m[31m--[m
+ 15 files changed, 706 insertions(+), 157 deletions(-)
