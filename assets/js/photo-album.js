@@ -9,6 +9,8 @@
     const status = album.querySelector('[data-album-status]');
     const photoId = link.querySelector('img').id;
     const cache = new Map();
+    const thumbnails = [...album.querySelectorAll("[data-album-select]")];
+    const markSelection = () => thumbnails.forEach((a, i) => a.setAttribute("aria-current", String(i === index)));
     let index = 0;
     let busy = false;
     let start = null;
@@ -46,6 +48,7 @@
         link.replaceChildren(image);
         image.classList.add('album-enter');
         index = position;
+        markSelection();
         image.alt = t(photos[index].alt);
         album.querySelector('[data-album-caption]').textContent = t(photos[index].caption);
         album.querySelector('[data-album-counter]').textContent = `${index + 1} / ${photos.length}`;
@@ -62,6 +65,8 @@
       }
     };
     previous.hidden = next.hidden = false;
+    markSelection();
+    thumbnails.forEach(a => a.addEventListener("click", event => { event.preventDefault(); show(Number(a.dataset.albumSelect)); }));
     document.addEventListener('site:language', () => {
       album.querySelector('[data-album-caption]').textContent = t(photos[index].caption);
       link.querySelector('img').alt = t(photos[index].alt);

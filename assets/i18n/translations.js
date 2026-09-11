@@ -574,4 +574,12 @@ BSc thesis · Universidade de Brasília · Portuguese · 61 pages|Trabalho de co
 University repository ↗|Repositório da universidade ↗|Repositorio de la universidad ↗
 BSc thesis · 2023 ↗|Trabalho de graduação · 2023 ↗|Trabajo de grado · 2023 ↗
 Read article (PDF) ↗|Ler artigo (PDF) ↗|Leer artículo (PDF) ↗
+Applied Research & Social Impact|Pesquisa Aplicada & Impacto Social|Investigación Aplicada & Impacto Social
+APPLIED RESEARCH|PESQUISA APLICADA|INVESTIGACIÓN APLICADA
+PUBLIC SYSTEMS|SISTEMAS PÚBLICOS|SISTEMAS PÚBLICOS
+SOCIAL IMPACT|IMPACTO SOCIAL|IMPACTO SOCIAL
+Applied and interdisciplinary work connecting statistical practice with education, public institutions, and socially relevant questions.|Trabalho aplicado e interdisciplinar conectando a prática estatística à educação, às instituições públicas e a questões socialmente relevantes.|Trabajo aplicado e interdisciplinario que conecta la práctica estadística con la educación, las instituciones públicas y cuestiones socialmente relevantes.
+View work|Ver trabalhos|Ver trabajos
+View applied research outputs|Ver produção de pesquisa aplicada|Ver producción de investigación aplicada
+Editorial visualization of Brazil with municipal boundaries and territorial patterns.|Visualização editorial do Brasil com limites municipais e padrões territoriais.|Visualización editorial de Brasil con límites municipales y patrones territoriales.
 `.trim().split('\n').map(line => line.split('|'));

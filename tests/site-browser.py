@@ -7,10 +7,13 @@ from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from functools import partial
 from threading import Thread
 from playwright.sync_api import sync_playwright
-import json, sys
+import json, sys, os
 
-ROOT=Path(__file__).resolve().parents[1]
-OUT=Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'.site-work/screenshots'
+REPO=Path(__file__).resolve().parents[1]
+ROOT=Path(os.environ.get('SITE_ROOT', REPO/'_site')).resolve()
+if not (ROOT/'index.html').is_file():
+    raise SystemExit('Build first with bundle exec jekyll build, or set SITE_ROOT to a generated site directory.')
+OUT=Path(sys.argv[1]) if len(sys.argv)>1 else REPO/'.site-work/screenshots'
 OUT.mkdir(parents=True,exist_ok=True)
 class QuietHandler(SimpleHTTPRequestHandler):
     def log_message(self,*args): pass
@@ -29,11 +32,13 @@ try:
     context=browser.new_context(viewport={'width':1440,'height':1000},color_scheme='light',reduced_motion='reduce')
     page=context.new_page(); errors=[]
     page.on('pageerror',lambda error: errors.append(str(error)))
+    page.on('response',lambda response: errors.append(f'HTTP {response.status}: {response.url}') if response.url.startswith(BASE) and response.status >= 400 else None)
     for name in pages:
         page.goto(BASE+name,wait_until='networkidle')
+        check(not page.locator('body').inner_text().lstrip().startswith('---'),name+': front matter processed')
         check(page.locator('html').get_attribute('data-theme')=='dark',name+': dark default')
         check(page.locator('html').get_attribute('lang')=='en',name+': English default')
-        for width in [360,390,768,1024,1440]:
+        for width in [360,390,430,768,1024,1280,1440,1600]:
             page.set_viewport_size({'width':width,'height':900})
             for lang in ['en','pt','es']:
                 page.evaluate('(lang)=>window.SITE_I18N.setLanguage(lang)',lang)
@@ -43,6 +48,7 @@ try:
         page.evaluate("window.SITE_I18N.setLanguage('en')")
         page.evaluate("document.querySelectorAll('img').forEach(img=>img.loading='eager')")
         page.wait_for_function("[...document.images].every(i=>i.complete)")
+        page.evaluate("Promise.all([...document.images].map(i=>i.decode().catch(()=>{})))")
         check(page.evaluate("[...document.images].every(i=>i.naturalWidth>0)"),name+': image failed')
         if name in ['index.html','research.html','resources.html','talks.html']:
             page.screenshot(path=str(OUT/(name.replace('.html','')+'-desktop.png')),full_page=True)

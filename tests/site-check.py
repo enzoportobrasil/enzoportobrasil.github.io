@@ -3,9 +3,10 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import unquote, urlsplit
 import json
+import os
 import re
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get('SITE_ROOT', Path(__file__).resolve().parents[1])).resolve()
 class Page(HTMLParser):
     def __init__(self, path):
         super().__init__(convert_charrefs=True)

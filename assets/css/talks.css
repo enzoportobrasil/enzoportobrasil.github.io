@@ -1,3 +1,4 @@
+@import url("document-actions.css");
 /* Static event entries reuse the site's palette, buttons, navigation and typography. */
 .talks-page .page-hero { padding-block: clamp(3rem, 7vw, 6rem); }
 .talks-page .page-hero h1 { font-size: clamp(3rem, 7vw, 6.6rem); }
@@ -14,7 +15,6 @@
 .talk-location { margin: 0; color: var(--muted); font-size: .87rem; }
 .talk-description { margin: 24px 0 0; color: var(--muted); max-width: 64ch; }
 .talk-file-note { margin: 12px 0; color: var(--muted); font-size: .76rem; }
-.talks-page .button.primary { background: var(--accent-strong); color: var(--bg); }
 .talk-photo { min-width: 0; margin: 0; }
 .talk-photo > a { display: block; }
 .talk-photo img { width: 100%; height: auto; }
@@ -36,7 +36,6 @@
 .poster-preview img { object-fit: contain; }
 .poster-copy h3 { margin: 24px 0 12px; font: 500 clamp(1.4rem, 2vw, 1.85rem)/1.25 var(--display); }
 .poster-copy .talk-description { font-size: .9rem; margin-top: 18px; }
-.poster-copy .button { font-size: .78rem; padding: 12px 16px; }
 .poster-copy .hero-actions { gap: 10px; }
 .document-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 16px 0; font-size: .85rem; }
 .document-links a { color: var(--accent); text-underline-offset: 4px; }
@@ -87,20 +86,70 @@
 @media (max-width: 820px) { .album-frame { height: clamp(320px, 100vw, 480px); } }
 @media (prefers-reduced-motion: reduce) { .album-enter { animation: none; } }
 
-/* Give Huntsville's photographs their own generous editorial space. */
-#sys2025 .talk-opening { grid-template-columns: minmax(0, 1fr); gap: 48px; }
-#sys2025 .talk-copy { max-width: 1000px; }
-#sys2025 .talk-description { max-width: 76ch; }
-#sys2025 .photo-album { max-width: 1100px; margin-inline: auto; }
-#sys2025 .album-frame { height: clamp(460px, 58vw, 740px); background: var(--surface); }
-#sys2025 .talk-gallery--research { max-width: 1100px; }
-#cobipe-2024 .talk-opening { grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 5vw, 64px); }
-#cobipe-2024 .talk-opening > .talk-photo { max-width: 520px; }
-#cobipe-2024 .talk-description + .talk-description { margin-top: 16px; }
-#cobipe-2024 .cobipe-gallery { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); }
-#cobipe-2024 .cobipe-gallery > .talk-photo:not(.talk-figure) { max-width: 480px; }
-@media (max-width: 820px) {
-  #sys2025 .album-frame { height: clamp(340px, 110vw, 620px); }
-  #cobipe-2024 .talk-opening, #cobipe-2024 .cobipe-gallery { grid-template-columns: minmax(0, 1fr); }
-  #cobipe-2024 .talk-opening > .talk-photo, #cobipe-2024 .cobipe-gallery > .talk-photo:not(.talk-figure) { max-width: 100%; }
+
+/* A shared reading grid with intentionally different scientific compositions. */
+.talks-page .talk-copy { min-width: 0; }
+.talks-page .talk-photo figcaption,
+.talks-page .photo-album figcaption,
+.talks-page .pibic-video figcaption { font-size: .8125rem; line-height: 1.65; margin-top: 12px; }
+.talks-page .talk-file-note { font-size: .8125rem; }
+.talks-page .hero-actions { gap: 12px 16px; }
+.talks-page a.button { max-width: 100%; white-space: normal; text-decoration: none; }
+.talks-page .talk-figure img { object-fit: contain; }
+.talks-page .poster-preview { width: 100%; max-width: none; }
+.talks-page .poster-preview > a { display: flex; align-items: end; aspect-ratio: 1 / 1.414; }
+.talks-page .poster-preview img { height: 100%; object-fit: contain; object-position: bottom; }
+.talks-page .event-photo-pair { align-items: start; gap: 28px; }
+.talks-page .event-photo-pair .talk-photo > a { display: flex; align-items: center; height: clamp(240px, 30vw, 380px); }
+.talks-page .event-photo-pair img { width: 100%; height: 100%; object-fit: contain; object-position: left center; }
+.talks-page #sys2025 .talk-opening { grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); align-items: start; }
+.talks-page #sys2025 .talk-copy h2 { font-size: clamp(2.5rem, 4.5vw, 4.25rem); }
+.talks-page #sys2025 .talk-opening > .talk-photo { max-width: none; padding-top: 36px; }
+.talks-page #sys2025 .talk-gallery--research { max-width: 100%; margin-inline: 0; }
+.talks-page #sys2025 .talk-gallery--research img { max-height: 650px; }
+.talks-page #sys2025 .photo-album { margin-top: 64px; }
+.talks-page #sys2025 .album-frame { height: clamp(360px, 45vw, 560px); border: 0; background: transparent; }
+.talks-page .album-thumbnails { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; }
+.talks-page .album-thumbnails a { display: block; padding: 3px; border: 1px solid transparent; }
+.talks-page .album-thumbnails img { width: 100%; height: 110px; object-fit: contain; }
+.talks-page .album-thumbnails a[aria-current="true"] { border-color: var(--accent); }
+.talks-page .album-thumbnails a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.talks-page #cobipe-2024 .talk-opening { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.talks-page #cobipe-2024 .talk-copy h2 { font-size: clamp(2.2rem, 3.5vw, 3rem); }
+.talks-page #cobipe-2024 .talk-opening > .talk-photo { max-width: none; }
+.talks-page #cobipe-2024 .event-photo-pair { max-width: 820px; }
+.talks-page #emr-epbest-2025 .event-photo-pair,
+.talks-page #wasa-2024 .event-photo-pair { max-width: 960px; }
+.talks-page #pibic-2022 .talk-copy { max-width: 850px; }
+.talks-page .pibic-video { max-width: 960px; margin-inline: 0; }
+.talks-page .talk-closing { border-top: 1px solid var(--line); }
+.talks-page .talk-closing h2 { max-width: 20ch; font: 500 clamp(2.5rem, 5vw, 5rem)/1.08 var(--display); }
+@media (max-width: 1100px) and (min-width: 821px) {
+  .talks-page .poster-grid--three { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+@media (max-width: 820px) {
+  .talks-page #sys2025 .talk-opening,
+  .talks-page #cobipe-2024 .talk-opening { grid-template-columns: minmax(0, 1fr); }
+  .talks-page #sys2025 .talk-opening > .talk-photo { padding-top: 0; }
+  .talks-page #sys2025 .album-frame { height: clamp(240px, 65vw, 420px); }
+  .talks-page .album-thumbnails { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .talks-page .album-thumbnails img { height: 90px; }
+  .talks-page .event-photo-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .talks-page .event-photo-pair .talk-photo > a { height: auto; }
+  .talks-page .event-photo-pair img { height: auto; }
+}
+@media (max-width: 480px) {
+  .talks-page .event-photo-pair { grid-template-columns: minmax(0, 1fr); }
+  .talks-page .event-photo-pair .talk-photo { max-width: 360px; }
+}
+
+/* One compact control group per scholarly record; metadata follows separately. */
+.talks-page .talk-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-top: 24px; }
+.talks-page .talk-actions .button { flex: 0 1 auto; margin: 0; min-height: 44px; padding: 10px 14px; transition: color .18s ease, background-color .18s ease, border-color .18s ease; }
+.talks-page a.button.talk-action--primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.talks-page a.button.talk-action--primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); color: var(--bg); }
+.talks-page a.button.talk-action--support { background: transparent; border-color: var(--line); color: var(--muted); }
+.talks-page a.button.talk-action--support:hover { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.talks-page .talk-actions .button:active { border-color: var(--accent-strong); box-shadow: inset 0 0 0 1px var(--accent-strong); }
+.talks-page .event-documents .talk-actions { margin-top: 0; gap: 10px 12px; }
+@media (prefers-reduced-motion: reduce) { .talks-page .talk-actions .button { transition: none; } }

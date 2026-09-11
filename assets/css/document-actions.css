@@ -1,0 +1,4 @@
+/* Shared document actions: Publications and Talks use the same component. */
+.research-outputs-page .scholarly-links .button, .talks-page a.button, .talks-page button.button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; height: auto; padding: 10px 16px; border-color: color-mix(in srgb, var(--accent) 48%, var(--line)); background: var(--accent-soft); color: var(--accent); font-size: .8125rem; line-height: 1.6; text-align: center; white-space: nowrap; }
+.research-outputs-page .scholarly-links .button:hover, .talks-page a.button:hover, .talks-page button.button:hover { transform: none; color: var(--accent-strong); border-color: var(--accent); background: var(--accent-soft); }
+.talks-page .button:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }

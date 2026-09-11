@@ -28,3 +28,12 @@ exclude:
   - assets/reserve
   - assets/ASSETS_MANIFEST.md
   - assets/ASSET_MIGRATION_REPORT.md
+
+  # Development dependencies and baseline screenshots are not public assets.
+  - Gemfile
+  - Gemfile.lock
+  - qa-before-home.png
+  - qa-before-mobile.png
+  - qa-contact-0.jpg
+  - qa-contact-1.jpg
+  - qa-contact-2.jpg

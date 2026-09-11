@@ -1,2 +1,16 @@
 # Heavy source materials are kept locally, not shipped with the website.
 /_source-materials/
+
+# Local previews and QA dependencies.
+/_site/
+/.bundle/
+/.jekyll-cache/
+/.jekyll-metadata
+/.site-work/
+
+# Local development / Codex files
+.site-work/
+agents/
+SKILL.md
+__pycache__/
+*.pyc
