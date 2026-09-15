@@ -587,4 +587,6 @@ Editorial visualization of Brazil with municipal boundaries and territorial patt
 Download Academic CV|Baixar CV Acadêmico|Descargar CV Académico
 Email|E-mail|Correo electrónico
 LinkedIn ↗|LinkedIn ↗|LinkedIn ↗
+Curriculum vitae|Currículo|Currículum
+Personal Website|Site pessoal|Sitio web personal
 `.trim().split('\n').map(line => line.split('|'));

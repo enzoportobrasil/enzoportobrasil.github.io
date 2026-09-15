@@ -65,7 +65,7 @@ def build():
     for cat,triple in categories.items():
         items=sorted([x for x in records if x['type']=='course' and x.get('cv') and x['category']==cat],key=lambda x:x['date'],reverse=True)
         if not items:continue
-        cv.append(f'<details class="cv-record-group" open><summary><span>{E(triple[0])}</span><span class="cv-record-count" aria-hidden="true">{len(items):02}</span></summary><ul class="cv-doc-training cv-course-list">'+''.join(training_row(x) for x in items)+'</ul></details>')
+        cv.append(f'<details class="cv-record-group"><summary><span>{E(triple[0])}</span><span class="cv-record-count" aria-hidden="true">{len(items):02}</span></summary><ul class="cv-doc-training cv-course-list">'+''.join(training_row(x) for x in items)+'</ul></details>')
     events=[]
     items=sorted([x for x in records if x['type']=='event' and x.get('cv')],key=lambda x:x['date'],reverse=True)
     # Recent participation is visible; older university activities can be expanded with a native summary.
