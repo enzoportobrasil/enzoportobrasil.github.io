@@ -8,6 +8,7 @@
 .research-area .area-visuals figure > a { height: clamp(230px, 28vw, 340px); display: flex; align-items: center; }
 .research-area .area-visuals figure img { height: 100%; object-fit: contain; }
 .research-area .hub-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 42px 28px; margin-top: 30px; align-items: start; }
+.research-area .hub-grid--pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .research-area .hub-card { min-width: 0; border-top: 1px solid var(--line); padding-top: 18px; }
 .research-area .hub-card-link { display: block; text-decoration: none; }
 /* Native proportions: media height follows the source, not a common thumbnail box. */

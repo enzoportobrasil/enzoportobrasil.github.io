@@ -1,0 +1,86 @@
+[
+  {
+    "name": "imputation-comparison",
+    "source": "assets/img/research/03-imputation-extremes/p3-eqm-multipla-linear.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 839
+  },
+  {
+    "name": "imputation-diagnostics",
+    "source": "assets/img/research/03-imputation-extremes/n_80_200_graficos.1_mesclado.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 1044
+  },
+  {
+    "name": "pibic-cover",
+    "source": "assets/img/apresentacoes/pibic-2022/documents/dichotomous-imputation-full-text.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 2263
+  },
+  {
+    "name": "cobipe-cover",
+    "source": "assets/img/apresentacoes/cobipe-2024/documents/imputation-slides.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "name": "dependence-panels",
+    "source": "assets/img/research/05-compound-extremes/correlacoes.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 590
+  },
+  {
+    "name": "joint-minima",
+    "source": "assets/img/research/05-compound-extremes/Extremos na Natureza  definitivo-5.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 986
+  },
+  {
+    "name": "imputation-preprint-cover",
+    "source": "https://arxiv.org/pdf/2602.04751",
+    "page": 1,
+    "width": 1600,
+    "height": 2262
+  },
+  {
+    "name": "compound-preprint-cover",
+    "source": "https://arxiv.org/pdf/2608.10252",
+    "page": 1,
+    "width": 1600,
+    "height": 2262
+  },
+  {
+    "name": "bsc-cover",
+    "source": "https://bdm.unb.br/bitstream/10483/38509/1/2023_EnzoPortoBrasil_tcc.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 2262
+  },
+  {
+    "name": "sys-title-slide",
+    "source": "assets/img/apresentacoes/sys2025/documents/joint-extremes-slides.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "name": "extremos-natureza-title-slide",
+    "source": "assets/img/apresentacoes/workshop-pgest-unb-2026/documents/extremos-na-natureza-slides.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "name": "conditional-copula-cover",
+    "source": "https://arxiv.org/pdf/2607.26256",
+    "page": 1,
+    "width": 1600,
+    "height": 2262
+  }
+]
