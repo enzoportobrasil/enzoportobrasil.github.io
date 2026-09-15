@@ -1,6 +1,6 @@
 /* Document hierarchy for the CV only; fonts, colours and container come from the site. */
 .academic-cv .cv-doc-container { max-width: 1120px; padding-bottom: clamp(56px, 7vw, 96px); }
-.academic-cv .cv-doc-intro { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px 40px; padding-block: clamp(28px, 4vw, 40px) clamp(24px, 3vw, 32px); border-bottom: 1px solid var(--line); }
+.academic-cv .cv-doc-intro { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px 40px; padding-block: clamp(28px, 4vw, 40px) clamp(32px, 4vw, 44px); }
 .academic-cv .cv-doc-intro-main { min-width: 0; }
 .academic-cv .cv-doc-intro .eyebrow { margin: 0 0 10px; }
 .academic-cv .cv-doc-intro h1 { margin: 0; font: 500 clamp(1.9rem, 3.4vw, 2.6rem)/1.1 var(--display); letter-spacing: -.03em; }
