@@ -51,11 +51,27 @@
       attrOriginals.set(element, cache);
     });
   }
+  const metaOriginals = new Map();
+  function translateMetadata() {
+    if (!metaOriginals.has('title')) metaOriginals.set('title', document.title);
+    document.title = text(metaOriginals.get('title'));
+    document.querySelectorAll('meta[name="description"],meta[property="og:title"],meta[property="og:description"]').forEach(meta => {
+      if (!metaOriginals.has(meta)) metaOriginals.set(meta, meta.content);
+      meta.content = text(metaOriginals.get(meta));
+    });
+  }
   function setLanguage(next, save = false) {
     language = ['en','pt','es'].includes(next) ? next : 'en';
     document.documentElement.lang = language === 'pt' ? 'pt-BR' : language;
-    document.querySelectorAll('[data-language-select]').forEach(select => { select.value = language; });
+    document.querySelectorAll('[data-language-select]').forEach(select => {
+      select.value = language;
+      const picker = select.closest('[data-language-picker]');
+      if (!picker) return;
+      picker.dataset.language = language;
+      picker.querySelector('[data-language-current]').textContent = language.toUpperCase();
+    });
     translate();
+    translateMetadata();
     if (save) { try { localStorage.setItem('language', language); } catch {} }
     document.dispatchEvent(new CustomEvent('site:language', { detail: { language } }));
   }

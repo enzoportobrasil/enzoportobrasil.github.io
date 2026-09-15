@@ -33,11 +33,11 @@
 </nav>
 <div class="nav-actions">
 <label class="sr-only" for="site-language">Language</label>
-<select id="site-language" data-language-select aria-label="Language">
-<option value="en" lang="en" aria-label="English">EN</option>
-<option value="pt" lang="pt-BR" aria-label="Português">PT</option>
-<option value="es" lang="es" aria-label="Español">ES</option>
-</select>
+<span class="language-picker" data-language-picker data-language="en"><span class="language-current" data-language-current data-no-i18n aria-hidden="true">EN</span><select id="site-language" data-language-select aria-label="Language">
+<option value="en" lang="en">English</option>
+<option value="pt" lang="pt-BR">Português</option>
+<option value="es" lang="es">Español</option>
+</select></span>
 <button class="icon-button" data-theme-toggle aria-label="Switch theme">◐</button>
 </div>
 </div>
@@ -49,7 +49,7 @@
 <a href="../research.html">Research</a> / Imputation &amp; Missing Data</div>
 <div class="eyebrow">Research area · 2022–2026</div>
 <h1 lang="en">Imputation &amp; Missing Data</h1>
-<p class="lead">Missing-data mechanisms, predictive modelling and simulation-based evaluation, from undergraduate research to multiple imputation in the presence of extreme observations. This area brings together papers, presentations and the experiments behind them.</p>
+<p class="lead">Missing data mechanisms, predictive modelling and simulation evaluation, from undergraduate research to multiple imputation in the presence of extreme and noisy observations. This area brings together papers, presentations and the experiments behind them.</p>
 <div class="hero-actions">
 <a class="button primary" href="#area-outputs">Explore the work ↓</a>
 <a href="#area-methods">Themes and methods ↓</a>
@@ -60,7 +60,7 @@
 <div class="container">
 <div class="area-intro content">
 <h2>A question carried across several studies</h2>
-<p>The early work examined how statistical models recover missing values in controlled settings. The PIBIC study focused on dichotomous variables; the undergraduate thesis expanded the comparison of imputation strategies. Later work asks how those strategies behave when incomplete data also contain extreme observations.</p>
+<p>The early work examined how statistical models recover missing values in controlled settings. The PIBIC study focused on dichotomous variables; the undergraduate thesis broadened the comparison of imputation strategies across variables of different statistical natures, including quantitative, count, and categorical data. Later work asks how those strategies behave when incomplete data also contain other systematic errors.</p>
 </div>
 <div class="area-visuals">
 <figure class="research-figure">
@@ -165,7 +165,7 @@
 <section class="container research-section" id="simulation-materials">
 <span class="section-label">Supporting material</span>
 <h2>Simulation materials</h2>
-<p>During the simulation studies, graphical reports were generated to examine imputation performance across sample sizes and settings. The collections below include additional diagnostics and results beyond the figures selected on this page.</p>
+<p>During the simulation studies, graphical reports were generated to examine imputation performance across sample sizes and settings. The collections below include examples of diagnostics and results beyond the figures selected on this page.</p>
 <div class="document-links">
 <a href="../assets/img/research/03-imputation-extremes/n_20_40_graficos.1_mesclado.pdf">n = 20 and 40 · PDF ↗</a>
 <a href="../assets/img/research/03-imputation-extremes/n_80_200_graficos.1_mesclado.pdf">n = 80 and 200 · PDF ↗</a>
@@ -177,7 +177,7 @@
 <h2>Ideas that connect the work</h2>
 <ol class="method-sequence">
 <li>
-<strong>Missingness</strong>How the missing-data mechanism and the incomplete variable shape the problem.</li>
+<strong>Missingness</strong>How the missing data mechanism and the incomplete variable shape the problem.</li>
 <li>
 <strong>Predictive modelling</strong>Single and multiple imputation, regression models and comparisons of predictive error.</li>
 <li>
@@ -186,7 +186,7 @@
 </section>
 <section class="research-section area-closing">
 <h2>Beyond filling the gaps</h2>
-<p>The later work extends the original question rather than closing it. Good prediction does not automatically imply well-calibrated uncertainty, and larger samples do not necessarily remove the effects of extreme contamination. Those distinctions connect the early experiments to the continuing study of imputation as a modelling choice.</p>
+<p>The later work extends the original question rather than closing it. Good prediction does not automatically imply well calibrated uncertainty, and larger samples do not necessarily remove the effects of extreme contamination. Those distinctions connect the early experiments to the continuing study of imputation as a modelling choice.</p>
 </section>
 </div>
 </main>

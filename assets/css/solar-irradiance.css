@@ -1,0 +1,14 @@
+/* Only the SORCE/XPS essay; shared research styles and the site shell are unchanged. */
+.sorce-research .sorce-overview { padding-top: clamp(28px, 4vw, 48px); }
+.sorce-research .sorce-overview figure { margin-block: 0; }
+.sorce-research .sorce-overview figcaption { max-width: 100ch; }
+.sorce-research .sorce-story { max-width: 980px; }
+.sorce-research .sorce-tail { margin-top: 38px; }
+.sorce-research .sorce-tail h3 { margin: 0 0 12px; font: 500 clamp(1.5rem, 2.5vw, 2rem)/1.2 var(--display); }
+.sorce-research .sorce-tail > p { max-width: 70ch; }
+.sorce-research .sorce-tail figure { margin-top: 22px; }
+.sorce-research .sorce-output-group { margin-top: 34px; }
+.sorce-research .sorce-output-group h3 { font: 500 1.35rem var(--display); margin: 0 0 8px; }
+.sorce-research .sorce-output-group > p { margin: 0; color: var(--muted); font-size: .88rem; max-width: 75ch; }
+.sorce-research .sorce-output-group .output-rows { margin-top: 18px; }
+.sorce-research .sorce-closing { padding-bottom: 45px; }

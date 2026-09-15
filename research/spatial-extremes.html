@@ -7,14 +7,20 @@ permalink: /research/spatial-extremes.html
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="../assets/js/preferences.js"></script>
+<script src="../assets/js/preferences.js">
+</script>
 <meta name="description" content="MSc research by Enzo Porto Brasil on Bayesian hierarchical modelling of spatial extremes with BGEV marginals.">
 <meta name="theme-color" content="#0b6d69">
 <title>Spatial Extremes — Enzo Porto Brasil</title>
 <link rel="stylesheet" href="../assets/css/styles.css">
-<link rel="stylesheet" href="../assets/css/spatial-extremes.css">
-<link rel="stylesheet" href="../assets/css/bgev-animation.css">
-<link rel="canonical" href="https://enzoportobrasil.github.io/research/spatial-extremes.html"><meta property="og:type" content="website"><meta property="og:title" content="Spatial Extremes — Enzo Porto Brasil"><meta property="og:description" content="MSc research by Enzo Porto Brasil on Bayesian hierarchical modelling of spatial extremes with BGEV marginals."><meta property="og:url" content="https://enzoportobrasil.github.io/research/spatial-extremes.html"></head>
+<link rel="stylesheet" href="../assets/css/research-detail.css">
+
+<link rel="canonical" href="https://enzoportobrasil.github.io/research/spatial-extremes.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Spatial Extremes — Enzo Porto Brasil">
+<meta property="og:description" content="MSc research by Enzo Porto Brasil on Bayesian hierarchical modelling of spatial extremes with BGEV marginals.">
+<meta property="og:url" content="https://enzoportobrasil.github.io/research/spatial-extremes.html">
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
@@ -30,81 +36,181 @@ permalink: /research/spatial-extremes.html
 <a href="../talks.html">Talks</a>
 <a href="../cv.html">CV</a>
 </nav>
-<div class="nav-actions"><label class="sr-only" for="site-language">Language</label><select id="site-language" data-language-select aria-label="Language"><option value="en" lang="en" aria-label="English">EN</option><option value="pt" lang="pt-BR" aria-label="Português">PT</option><option value="es" lang="es" aria-label="Español">ES</option></select>
+<div class="nav-actions">
+<label class="sr-only" for="site-language">Language</label>
+<span class="language-picker" data-language-picker data-language="en"><span class="language-current" data-language-current data-no-i18n aria-hidden="true">EN</span><select id="site-language" data-language-select aria-label="Language">
+<option value="en" lang="en">English</option>
+<option value="pt" lang="pt-BR">Português</option>
+<option value="es" lang="es">Español</option>
+</select></span>
 <button class="icon-button" data-theme-toggle aria-label="Switch theme">◐</button>
 </div>
 </div>
 </header>
-<main id="main" class="spatial-thesis">
-<section class="page-hero">
+<main id="main" class="research-detail">
+<header class="page-hero">
 <div class="container">
 <div class="breadcrumb">
 <a href="../research.html">Research</a> / Spatial Extremes</div>
 <div class="eyebrow">MSc dissertation · Statistics</div>
 <h1>Statistical Modelling of Spatial Extremes in Complex Systems</h1>
-<p class="thesis-author">Enzo Porto Brasil <span>Universidade de Brasília · 29 July 2026</span>
+<p class="lead" id="dissertation-abstract">A Bayesian hierarchical model for spatial extremes with Bimodal Generalized Extreme Value (BGEV) marginals. Gaussian spatial structures allow all four marginal parameters to vary across locations. Simulation experiments and quarterly humidity-deficit extremes in the Brazilian Amazon examine what the model can recover, and where its interpretation needs care.</p>
+<p class="research-byline">Enzo Porto Brasil <span>· University of Brasília (UnB) · 2026</span>
 </p>
 <div class="hero-actions">
-<a class="button primary" href="../assets/img/research/02-spatial-extremes/disserta%C3%A7%C3%A3o%20ENZO%20PORTO%20BRASIL%20-%20matricula%20REG-REDACTED%20-%20vers%C3%A3o%20final.pdf" target="_blank" rel="noopener">Read the dissertation ↗</a>
-<a class="button" href="../assets/img/research/02-spatial-extremes/disserta%C3%A7%C3%A3o%20ENZO%20PORTO%20BRASIL%20-%20matricula%20REG-REDACTED%20-%20vers%C3%A3o%20final.pdf" download="Enzo-Porto-Brasil-MSc-dissertation.pdf">Download PDF ↓</a>
+<a class="button primary" href="../assets/img/research/02-spatial-extremes/disserta%C3%A7%C3%A3o%20ENZO%20PORTO%20BRASIL%20-%20matricula%20REG-REDACTED%20-%20vers%C3%A3o%20final.pdf" target="_blank" rel="noopener noreferrer">Read the dissertation ↗</a>
+<a href="#model">Explore the model ↓</a>
 </div>
-<p class="thesis-file-note">Complete dissertation · Portuguese · PDF · 39.2 MB</p>
+<p class="file-note">MSc dissertation · Portuguese, with English abstract · PDF</p>
 </div>
-</section>
-<section class="section compact">
-<div class="container thesis-intro">
+</header>
+<div class="section compact">
+<div class="container project-layout">
 <article class="content">
-<h2>Abstract</h2>
-<p id="dissertation-abstract">The Generalized Extreme Value (GEV) distribution is widely used in the modelling of spatial extremes, but it may be limited when representing data from complex systems subject to multiple occurrence regimes. In this work, a Bayesian hierarchical geostatistical model is proposed for spatial extreme values with Bimodal Generalized Extreme Value (BGEV) marginal distribution, allowing the accommodation of bimodality and greater marginal flexibility. In the proposed model, latent predictors associated with the four parameters of the BGEV distribution are specified through Gaussian spatial structures, with appropriate transformations to preserve the parametric constraints of the distribution. Inference is performed using Hamiltonian Monte Carlo, employing the No-U-Turn Sampler algorithm implemented in the Stan software, accessed through R. The performance of the model is evaluated through a simulation study and an application to quarterly extremes of relative humidity deficit in the Amazon region. The results indicate the potential of the methodology for modelling spatial extreme data with bimodal behavior, while preserving a hierarchical structure capable of representing spatial heterogeneity in the marginal parameters.</p>
+<section class="research-section" id="question">
+<span class="section-label">01 / The question</span>
+<h2>When one regime is not enough</h2>
+<p>The conventional Generalized Extreme Value (GEV) distribution is a standard model for block extremes. However, in a complex system the observed marginal distribution may reflect more than one occurrence regime. A single unimodal shape can then leave part of that structure unresolved.</p>
+<p>The dissertation asks how to accommodate this marginal flexibility and complexity while allowing extreme value behaviour to vary across space. The BGEV supplies a flexible local distribution; the hierarchy connects its parameters across locations.</p>
+</section>
 </article>
-<aside class="thesis-details" aria-label="Dissertation details">
-<h2>Supervision</h2>
+<aside class="project-aside" aria-label="Dissertation metadata">
+<h3>Supervision</h3>
 <dl>
 <dt>Advisor</dt>
 <dd>Cira Etheowalda Guevara Otiniano</dd>
 <dt>Co-advisor</dt>
 <dd>Fidel Ernesto Castro Morales</dd>
 </dl>
-<h2>Original title</h2>
+<h3>Methods</h3>
+<div class="aside-list">
+<span>Bayesian hierarchical modelling</span>
+<span>BGEV marginals</span>
+<span>Gaussian spatial fields</span>
+<span>HMC / NUTS · Stan and R</span>
+<span>Monte Carlo simulation</span>
+</div>
+<h3>Original title</h3>
 <p lang="pt-BR">Modelagem estatística de extremos espaciais em sistemas complexos</p>
 </aside>
 </div>
-</section>
-<section class="section compact" aria-label="Interactive construction of the BGEV distribution">
-<div class="container"><div class="bgev" data-bgev id="bgev-animation"><img class="bgev-fallback" src="../assets/img/research/02-spatial-extremes/bgev-construction.svg" width="1100" height="520" alt="BGEV construction: transform a GEV variable using the inverse signed power, then multiply its density by the Jacobian. Curves for delta 0, 1 and 3 with xi 0, mu 0 and rho 1."></div></div>
-</section>
-<section class="section compact thesis-figures" aria-labelledby="figures-heading">
-<div class="container">
-<div class="section-heading">
-<h2 id="figures-heading">Selected figures</h2>
 </div>
-<figure class="thesis-figure">
-<h3>The BGEV distribution</h3>
-<a class="thesis-figure-image" href="../assets/img/research/02-spatial-extremes/bgev_xi_igual_0.pdf" aria-label="Open original figure: The BGEV distribution">
+<article class="container research-story" aria-label="Model, evidence and research outputs">
+<section class="research-section" id="model">
+<span class="section-label">02 / The model</span>
+<h2>Local extremes, shared spatial structure</h2>
+<p>At each location, a BGEV marginal describes the extremes through four parameters: μ, ϱ, ξ and δ. Spatial covariates and latent Gaussian effects enter their predictors. Transformations preserve the parameter constraints; spatial dependence is induced through these latent structures.</p>
+<ol class="method-sequence">
+<li>
+<strong>Marginal behaviour</strong>BGEV parameters describe local location, scale, tail behaviour and additional flexibility.</li>
+<li>
+<strong>Spatial hierarchy</strong>Gaussian latent effects and covariates allow the four parameters to vary by location.</li>
+<li>
+<strong>Posterior inference</strong>HMC/NUTS in Stan estimates the hierarchy and its uncertainty from the observed extremes.</li>
+</ol>
+<figure class="research-figure">
+
+<a class="figure-image" href="../assets/img/research/02-spatial-extremes/bgev_xi_igual_0.pdf" aria-label="Open original figure: The BGEV distribution">
 <img src="../assets/img/research/02-spatial-extremes/web/bgev-distribution-1600.webp" srcset="../assets/img/research/02-spatial-extremes/web/bgev-distribution-800.webp 800w, ../assets/img/research/02-spatial-extremes/web/bgev-distribution-1600.webp 1600w, ../assets/img/research/02-spatial-extremes/web/bgev-distribution-2400.webp 2400w" sizes="(max-width: 820px) calc(100vw - 32px), (max-width: 1148px) calc(100vw - 48px), 1100px" width="1600" height="617" loading="lazy" decoding="async" alt="BGEV density and cumulative distribution curves for delta equal to 0, 1 and 3.">
 </a>
-<figcaption>Probability density (left) and cumulative distribution (right) for μ = 0, ϱ = 1 and ξ = 0, with varying δ. Dissertation, Figure 2.2. <a href="../assets/img/research/02-spatial-extremes/bgev_xi_igual_0.pdf">View original PDF ↗</a>
-</figcaption>
+<figcaption>
+<span class="figure-number">FIG. 01</span>BGEV density and cumulative distribution for μ = 0, ϱ = 1 and ξ = 0, with δ = 0, 1 and 3. Varying δ changes the marginal shape. Dissertation, Figure 2.2.</figcaption>
 </figure>
-<figure class="thesis-figure">
-<h3>Spatial simulation</h3>
-<a class="thesis-figure-image" href="../assets/img/research/02-spatial-extremes/fig_comparacao_verdade_estimativa_C3_scn_base_balanceado_S20_T200_rep001.pdf" aria-label="Open original figure: Spatial simulation">
+</section>
+<section class="research-section" id="simulation">
+<span class="section-label">03 / Simulation</span>
+<h2>What the model is trying to recover</h2>
+<p>Controlled simulations make the true parameters available for comparison. The study evaluates local parameter recovery, errors and credible-interval coverage, alongside density and quantile recovery and MCMC diagnostics. The example below is a balanced scenario that considered 20 locations, with 200 extreme observations at each location.</p>
+<figure class="research-figure">
+
+<a class="figure-image" href="../assets/img/research/02-spatial-extremes/fig_comparacao_verdade_estimativa_C3_scn_base_balanceado_S20_T200_rep001.pdf" aria-label="Open original figure: Spatial simulation">
 <img src="../assets/img/research/02-spatial-extremes/web/spatial-parameters-1600.webp" srcset="../assets/img/research/02-spatial-extremes/web/spatial-parameters-800.webp 800w, ../assets/img/research/02-spatial-extremes/web/spatial-parameters-1600.webp 1600w, ../assets/img/research/02-spatial-extremes/web/spatial-parameters-2400.webp 2400w" sizes="(max-width: 820px) calc(100vw - 32px), (max-width: 1148px) calc(100vw - 48px), 1100px" width="1600" height="636" loading="lazy" decoding="async" alt="Two rows of maps comparing true and estimated spatial surfaces for the four BGEV parameters.">
 </a>
-<figcaption>True and estimated BGEV parameter surfaces in scenario C3: 20 locations and 200 extreme observations per location. Dissertation, Figure 4.17. <a href="../assets/img/research/02-spatial-extremes/fig_comparacao_verdade_estimativa_C3_scn_base_balanceado_S20_T200_rep001.pdf">View original PDF ↗</a>
-</figcaption>
+<figcaption>
+<span class="figure-number">FIG. 02</span>True fields (top) and estimated fields (bottom) for the four BGEV parameters in scenario C3. Points mark the locations used in fitting; smooth regions between them are conditional spatial reconstructions. Dissertation, Figure 4.17.</figcaption>
 </figure>
-<figure class="thesis-figure thesis-figure--portrait">
-<h3>Amazon application</h3>
-<a class="thesis-figure-image" href="../assets/img/research/02-spatial-extremes/4.%20nivel%20de%20retorno.png" aria-label="Open original figure: Amazon application">
+<p>The experiments recovered informative spatial patterns, but performance was not uniform across parameters and scenarios. Sampling was consistently more difficult for the location components μ(s), with weaker mixing in some fits. The visual agreement of surfaces therefore needs to be read alongside the computational diagnostics.</p>
+</section>
+<section class="research-section" id="amazon">
+<span class="section-label">04 / Atmospheric application</span>
+<h2>From simulation to the Amazon</h2>
+<p>The application uses relative humidity from 11 automatic stations of Brazil’s National Institute of Meteorology (INMET). The source records span 2000–2026, with availability varying by station. Low humidity is expressed as a deficit and aggregated into quarterly maxima.</p>
+<figure class="research-figure">
+<a href="../assets/img/research/02-spatial-extremes/disserta%C3%A7%C3%A3o%20ENZO%20PORTO%20BRASIL%20-%20matricula%20REG-REDACTED%20-%20vers%C3%A3o%20final.pdf#page=122" aria-label="Open source for Locations of 11 INMET stations along the Amazonas–Pará corridor, with rivers and the sampled spatial domain.">
+<img src="../assets/img/research/detail-figures/amazon-stations-1600.webp" srcset="../assets/img/research/detail-figures/amazon-stations-800.webp 800w, ../assets/img/research/detail-figures/amazon-stations-1600.webp 1600w" sizes="(max-width: 850px) calc(100vw - 36px), 820px" width="1600" height="832" loading="lazy" decoding="async" alt="Locations of 11 INMET stations along the Amazonas–Pará corridor, with rivers and the sampled spatial domain.">
+</a>
+<figcaption>
+<span class="figure-number">FIG. 03</span>The station network defines the spatial support of the application. Dissertation, Figure 5.5.</figcaption>
+</figure>
+<h3>From observations to spatial inference</h3>
+<p>The fitted model yields local posterior summaries for the BGEV parameters. Their representations on a regular grid describe spatial variation under the estimated Gaussian structures; the cartographic step does not refit the model or provide a separate full assessment of predictive uncertainty at unobserved sites.</p>
+<figure class="research-figure">
+<a href="../assets/img/research/02-spatial-extremes/disserta%C3%A7%C3%A3o%20ENZO%20PORTO%20BRASIL%20-%20matricula%20REG-REDACTED%20-%20vers%C3%A3o%20final.pdf#page=129" aria-label="Open source for Four maps showing descriptive posterior surfaces for the BGEV parameters in the Amazon application.">
+<img src="../assets/img/research/detail-figures/amazon-fields-1600.webp" srcset="../assets/img/research/detail-figures/amazon-fields-800.webp 800w, ../assets/img/research/detail-figures/amazon-fields-1600.webp 1600w" sizes="(max-width: 850px) calc(100vw - 36px), 820px" width="1600" height="705" loading="lazy" decoding="async" alt="Four maps showing descriptive posterior surfaces for the BGEV parameters in the Amazon application.">
+</a>
+<figcaption>
+<span class="figure-number">FIG. 04</span>Gridded representations of posterior parameter summaries, conditioned on the fitted model and the 11-station domain. Dissertation, Figure 5.9.</figcaption>
+</figure>
+<h3>Return levels on the scale of humidity deficit</h3>
+<p>With four quarterly blocks per year, return periods of 2, 5 and 10 years correspond to 8, 20 and 40 blocks. The resulting levels summarize high quantiles of quarterly maximum humidity deficit, rather than a prediction of when a dry episode will occur.</p>
+<figure class="research-figure figure-portrait">
+
+<a class="figure-image" href="../assets/img/research/02-spatial-extremes/4.%20nivel%20de%20retorno.png" aria-label="Open original figure: Amazon application">
 <img src="../assets/img/research/02-spatial-extremes/web/amazon-return-levels-1600.webp" srcset="../assets/img/research/02-spatial-extremes/web/amazon-return-levels-800.webp 800w, ../assets/img/research/02-spatial-extremes/web/amazon-return-levels-1600.webp 1600w, ../assets/img/research/02-spatial-extremes/web/amazon-return-levels-2400.webp 2400w" sizes="(max-width: 820px) calc(100vw - 32px), 760px" width="1600" height="1642" loading="lazy" decoding="async" alt="Three maps of the Amazon study region showing return levels for 2, 5 and 10 years.">
 </a>
-<figcaption>Estimated 2-, 5- and 10-year return levels for quarterly maxima of relative humidity deficit (%). Dissertation, Figure 5.10. <a href="../assets/img/research/02-spatial-extremes/4.%20nivel%20de%20retorno.png">View original image ↗</a>
-</figcaption>
+<figcaption>
+<span class="figure-number">FIG. 05</span>Descriptive 2-, 5- and 10-year return-level surfaces for quarterly maximum relative-humidity deficit (%). These are model-based summaries over the observed domain, not operational climate forecasts. Dissertation, Figure 5.10.</figcaption>
 </figure>
+</section>
+<section class="research-section" id="findings">
+<span class="section-label">05 / Synthesis</span>
+<h2>What this work adds</h2>
+<ol class="findings">
+<li>
+<span>A common hierarchy combines flexible BGEV marginals with spatial variation in all four parameters.</span>
+</li>
+<li>
+<span>The simulation also reveals where the main difficulties arise, particularly in recovering and sampling the location components.</span>
+</li>
+<li>
+<span>The Amazon application translates local posterior estimates into a descriptive account of humidity-deficit extremes and return levels.</span>
+</li>
+</ol>
+<p class="research-note">Overall, the results support the proposed model as a promising framework for spatial extremes, with consistent behavior across the simulation study and an environmental and atmospheric application. Additional sensitivity checks were also carried out during model development as part of the calibration process, although these analyses are not presented in detail in the dissertation. The computational diagnostics helped identify specific components, particularly those associated with μ(s), where further refinement may improve sampling efficiency. Extending the framework to fully Bayesian prediction at unobserved locations is a natural next step that could further broaden its spatial applicability.</p>
+</section>
+<section class="research-section" id="outputs">
+<span class="section-label">06 / Research outputs</span>
+<h2>Read the complete work</h2>
+<div class="output-rows">
+<a class="output-row" href="../assets/img/research/02-spatial-extremes/disserta%C3%A7%C3%A3o%20ENZO%20PORTO%20BRASIL%20-%20matricula%20REG-REDACTED%20-%20vers%C3%A3o%20final.pdf">
+<small>Full text · 2026</small>
+<strong>Statistical Modelling of Spatial Extremes in Complex Systems</strong>
+<span>PDF ↗</span>
+</a>
+<a class="output-row" href="../talks.html#extremos-na-natureza">
+<small>Presentation · 2026</small>
+<strong>Extremes in nature · invited talk at UnB</strong>
+<span>Talk →</span>
+</a>
+<a class="output-row" href="../publications.html#in-preparation">
+<small>Ongoing work</small>
+<strong>Related manuscripts in preparation</strong>
+<span>Publications →</span>
+</a>
 </div>
 </section>
-<section class="section compact"><div class="container content"><h2>From dissertation to research programme</h2><p>The dissertation brings together model construction, simulation assessment and an Amazon application. A methodological manuscript is in preparation; the dissertation remains the complete public account of this work.</p><div class="document-links"><a href="../talks.html#extremos-na-natureza">UnB talk on extremes · 2026 →</a><a href="../publications.html#in-preparation">Manuscripts in preparation →</a></div></div></section></main>
+</article>
+<section class="research-related">
+<div class="container">
+<h2>Continue exploring</h2>
+<nav class="related-links" aria-label="Related research">
+<a href="solar-irradiance.html">Solar spectral irradiance →</a>
+<a href="climate-dependence.html">Dependence &amp; compound extremes →</a>
+<a href="missing-data-extremes.html">Missing data under extremes →</a>
+</nav>
+</div>
+</section>
+</main>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-grid">
@@ -114,7 +220,8 @@ permalink: /research/spatial-extremes.html
 </div>
 <div class="footer-links">
 <a data-link="email" href="mailto:enzoportobrasil@gmail.com">enzoportobrasil@gmail.com</a>
-<a data-link="linkedin" href="https://www.linkedin.com/in/enzo-porto-brasil-3231971b3/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+<a data-link="linkedin" href="https://www.linkedin.com/in/enzo-porto-brasil-3231971b3/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+</div>
 </div>
 <div class="footer-bottom">
 <span>© <span data-current-year>
@@ -127,6 +234,10 @@ permalink: /research/spatial-extremes.html
 </script>
 <script src="../assets/js/main.js">
 </script>
-<script type="module" src="../assets/js/bgev-animation.mjs"></script>
-<script src="../assets/i18n/translations.js"></script><script src="../assets/js/i18n.js"></script></body>
+
+<script src="../assets/i18n/translations.js">
+</script>
+<script src="../assets/js/i18n.js">
+</script>
+</body>
 </html>

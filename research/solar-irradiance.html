@@ -1,2 +1,221 @@
-<!doctype html><html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="../assets/js/preferences.js"></script><meta name="description" content="Research by Enzo Porto Brasil on extreme solar spectral irradiance using NASA SORCE data and Extreme Value Theory."><meta name="theme-color" content="#0b6d69"><title>Solar Irradiance & Astrostatistics — Enzo Porto Brasil</title><link rel="stylesheet" href="../assets/css/styles.css"><link rel="canonical" href="https://enzoportobrasil.github.io/research/solar-irradiance.html"><meta property="og:type" content="website"><meta property="og:title" content="Solar Irradiance & Astrostatistics — Enzo Porto Brasil"><meta property="og:description" content="Research by Enzo Porto Brasil on extreme solar spectral irradiance using NASA SORCE data and Extreme Value Theory."><meta property="og:url" content="https://enzoportobrasil.github.io/research/solar-irradiance.html"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container navbar"><a class="brand" href="../index.html"><span class="brand-mark">EB</span><span>Enzo Porto Brasil</span></a><button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">☰</button><nav class="nav-links" id="primary-nav" data-nav aria-label="Primary navigation"><a href="../publications.html">Publications</a><a href="../talks.html">Talks</a><a href="../cv.html">CV</a></nav><div class="nav-actions"><label class="sr-only" for="site-language">Language</label><select id="site-language" data-language-select aria-label="Language"><option value="en" lang="en" aria-label="English">EN</option><option value="pt" lang="pt-BR" aria-label="Português">PT</option><option value="es" lang="es" aria-label="Español">ES</option></select><button class="icon-button" data-theme-toggle aria-label="Switch theme">◐</button></div></div></header><main id="main"><section class="page-hero"><div class="container"><div class="breadcrumb"><a href="../research.html">Research</a> / Astrostatistics</div><div class="eyebrow">Solar & astronomical data</div><h1 lang="en">Extremes of Solar Spectral Irradiance in the SORCE/XPS Record</h1><p class="lead">A project using Extreme Value Theory to study extreme behaviour in solar spectral irradiance measured by NASA’s SORCE mission, bringing statistical methodology into dialogue with physical observations.</p></div></section><section class="section compact"><div class="container project-layout"><article class="content"><h2>The scientific move</h2><p>Astronomy had been part of my academic interests long before I had a statistical toolkit strong enough to contribute quantitatively. During the MSc, work with solar irradiance became one of the first places where those directions genuinely met: a physical observational record, questions about extreme behaviour, and methods I could interrogate statistically rather than treat as a black box.</p><figure class="research-evidence"><a href="../assets/img/apresentacoes/sys2025/figures/ssi-air-density-maxima-workflow.pdf"><img src="../assets/img/apresentacoes/sys2025/web/maxima-workflow-1600.webp" alt="Workflow connecting solar irradiance and air density observations to marginal models, copulas and risk curves." width="1600" height="1011" loading="lazy" decoding="async"></a><figcaption>Related solar–atmospheric work presented at sys2025, slide 29. This is a separate analysis from the SORCE/XPS preprint. <a href="../assets/img/apresentacoes/sys2025/figures/ssi-air-density-maxima-workflow.pdf">View original PDF ↗</a></figcaption></figure><h2>Statistical focus</h2><p>The preprint models extremes of daily logarithmic irradiance changes in the 2005–2019 SORCE/XPS record using GEV distributions. Maximum likelihood fits are checked against probability weighted moments. Long return periods require extrapolation beyond this finite record; reported measurement uncertainty informs interpretation but is not propagated through the likelihood.</p><h2>Scientific communication</h2><p>Related solar and atmospheric research produced posters and oral presentations, including an international talk in the astrophysics applications track of <em>Systematic and Measurement Errors across the Sciences: Astrostatistics and Data Science</em> at The University of Alabama in Huntsville.</p><h2>Why it matters to my research</h2><p>The project marks a shift from treating a physical dataset as merely another application toward asking how the measurement process, scientific context, uncertainty and statistical model interact. That is the direction I want to deepen in astrostatistics, cosmology and other quantitative physical sciences.</p></article><aside class="project-aside"><h3>Public links</h3><div class="aside-list"><a href="https://arxiv.org/abs/2608.30878" target="_blank" rel="noreferrer">arXiv:2608.30878 ↗</a></div><h3 style="margin-top:24px">Methods</h3><div class="aside-list"><span>Extreme Value Theory</span><span>Tail modelling</span><span>Physical observational data</span><span>R / reproducible analysis</span></div><h3>Related outputs</h3><div class="aside-list"><a href="../assets/img/apresentacoes/emr-epbest-2025/documents/solar-irradiance-poster.pdf">Solar irradiance poster · 2025 →</a><a href="../assets/img/apresentacoes/rbras-seagro-2025/documents/solar-irradiance-poster.pdf">Solar–atmospheric poster · 2025 →</a><a href="../talks.html#sys2025">Alabama talk · 2025 →</a><a href="../talks.html#extremos-na-natureza">UnB invited talk · 2026 →</a></div></aside></div></section></main><footer class="site-footer"><div class="container"><div class="footer-grid"><div><p class="footer-title">Enzo Porto Brasil</p><p class="footer-copy">Statistical inference for extreme events, uncertainty and complex physical systems.</p></div><div class="footer-links"><a data-link="email" href="mailto:enzoportobrasil@gmail.com">enzoportobrasil@gmail.com</a><a data-link="linkedin" href="https://www.linkedin.com/in/enzo-porto-brasil-3231971b3/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div><div class="footer-bottom"><span>© <span data-current-year></span> Enzo Porto Brasil.</span><a href="../research.html">Back to research</a></div></div></footer><script src="../assets/js/site-config.js"></script><script src="../assets/js/main.js"></script><script src="../assets/i18n/translations.js"></script><script src="../assets/js/i18n.js"></script></body></html>
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../assets/js/preferences.js">
+</script>
+<meta name="description" content="Research by Enzo Porto Brasil on extreme solar spectral irradiance using NASA SORCE data and Extreme Value Theory.">
+<meta name="theme-color" content="#0b6d69">
+<title>Solar Irradiance & Astrostatistics — Enzo Porto Brasil</title>
+<link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/research-detail.css">
+<link rel="stylesheet" href="../assets/css/solar-irradiance.css">
+<link rel="canonical" href="https://enzoportobrasil.github.io/research/solar-irradiance.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Solar Irradiance & Astrostatistics — Enzo Porto Brasil">
+<meta property="og:description" content="Research by Enzo Porto Brasil on extreme solar spectral irradiance using NASA SORCE data and Extreme Value Theory.">
+<meta property="og:url" content="https://enzoportobrasil.github.io/research/solar-irradiance.html">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="container navbar">
+<a class="brand" href="../index.html">
+<span class="brand-mark">EB</span>
+<span>Enzo Porto Brasil</span>
+</a>
+<button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">☰</button>
+<nav class="nav-links" id="primary-nav" data-nav aria-label="Primary navigation">
+<a href="../publications.html">Publications</a>
+<a href="../talks.html">Talks</a>
+<a href="../cv.html">CV</a>
+</nav>
+<div class="nav-actions">
+<label class="sr-only" for="site-language">Language</label>
+<span class="language-picker" data-language-picker data-language="en"><span class="language-current" data-language-current data-no-i18n aria-hidden="true">EN</span><select id="site-language" data-language-select aria-label="Language">
+<option value="en" lang="en">English</option>
+<option value="pt" lang="pt-BR">Português</option>
+<option value="es" lang="es">Español</option>
+</select></span>
+<button class="icon-button" data-theme-toggle aria-label="Switch theme">◐</button>
+</div>
+</div>
+</header>
+<main id="main" class="research-detail sorce-research">
+<header class="page-hero">
+<div class="container">
+<div class="breadcrumb">
+<a href="../research.html">Research</a> / Astrostatistics</div>
+<div class="eyebrow">Solar spectral irradiance · Extreme value inference</div>
+<h1 lang="en">Inference at the Extremes of the SORCE/XPS and INMET Records</h1>
+<p class="lead">How large are the rare increases and reductions in solar spectral irradiance recorded by SORCE/XPS? This research models both tails of daily irradiance changes, with attention to the finite observational record and measurement uncertainty. A connected line of work examines joint extremes with atmospheric variables.</p>
+<p class="research-byline">Enzo Porto Brasil and collaborators <span>· University of Brasília (UnB) · 2025–2026</span>
+</p>
+<div class="hero-actions">
+<a class="button primary" href="https://arxiv.org/abs/2608.30878">Read related preprint ↗</a>
+<a href="#research-outputs">Talks and posters ↓</a>
+</div>
+</div>
+</header>
+<div class="container sorce-overview">
+<figure class="research-figure">
+<a href="../assets/img/research/04-sorce/dataset_sorce_inmet_joint_extremes.png" aria-label="Open full-size source: Overview of solar irradiance, logarithmic changes, reported uncertainty and Brasília air-density extremes over the 2005–2019 study period.">
+<img src="../assets/img/research/04-sorce/web/dataset-overview-1600.webp" srcset="../assets/img/research/04-sorce/web/dataset-overview-800.webp 800w, ../assets/img/research/04-sorce/web/dataset-overview-1600.webp 1600w, ../assets/img/research/04-sorce/web/dataset-overview-2400.webp 2400w" sizes="(max-width: 850px) calc(100vw - 36px), 1080px" width="1600" height="624" loading="eager" decoding="async" alt="Overview of solar irradiance, logarithmic changes, reported uncertainty and Brasília air-density extremes over the 2005–2019 study period.">
+</a>
+<figcaption>
+<span class="figure-number">FIG. 01</span>The broader research line: SORCE observations and uncertainty alongside INMET derived air density. The Lyman-alpha panel provides historical context; the preprint analyses the XPS 0.1–7.0 nm band. The air density maxima are shifted upward by 0.02 kg/m³ for visual separation, as marked in the original. <a href="../assets/img/research/04-sorce/dataset_sorce_inmet_joint_extremes.png">Open source ↗</a>
+</figcaption>
+</figure>
+</div>
+<section class="section compact">
+<div class="container project-layout">
+<article class="content">
+<h2>Observing extremes on space missions</h2>
+<p>The core study uses daily, band-integrated irradiance from photodiode 7 of NASA’s Solar Radiation and Climate Experiment / X-Ray Photometer System (SORCE/XPS), covering 2005–2019. Daily logarithmic changes put relative increases and reductions on a common, dimensionless scale.</p>
+<p>The statistical question concerns the tails of this processed record: how to describe unusually large changes, assess the fit, and express their recurrence without overstating what fifteen years of observations can support.</p>
+<h2>From observations to tail inference</h2>
+<p>A regular daily series is constructed by linear interpolation. Stationary GEV models are fitted to block extremes by maximum likelihood, with probability weighted moments as a sensitivity check. Autocorrelation and Ljung–Box diagnostics guide the choice of block lengths.</p>
+<p>Reported measurement precision and absolute uncertainty inform the interpretation; they are not propagated through the preprint’s likelihood. Gaps, interpolation and the stationarity assumption remain part of the inferential context.</p>
+</article>
+<aside class="project-aside" aria-label="SORCE study metadata">
+<h3>Observations</h3>
+<div class="aside-list">
+<span>SORCE/XPS · photodiode 7</span>
+<span>0.1–7.0 nm · 2005–2019</span>
+<span>Daily logarithmic changes</span>
+</div>
+<h3>Statistical focus</h3>
+<div class="aside-list">
+<span>GEV · block extremes</span>
+<span>Maximum likelihood / PWM</span>
+<span>Tail diagnostics</span>
+<span>Annualized return levels</span>
+</div>
+</aside>
+</div>
+</section>
+<article class="container sorce-story" aria-label="Tail results and connected research">
+<section class="research-section" id="both-tails">
+<span class="section-label">The SORCE/XPS preprint</span>
+<h2>Increases and reductions deserve separate attention</h2>
+<p>The upper and lower tails are fitted separately, using different block lengths selected from the dependence diagnostics. Return levels describe recurrence under these stationary models, not a schedule of future solar events.</p>
+<section class="sorce-tail" aria-labelledby="upper-tail">
+<h3 id="upper-tail">Upper tail · extreme increases</h3>
+<p>Maxima of daily log-changes are taken over 60-day blocks. The density and quantile diagnostics assess the fit; the return-level curve shows how inference becomes less precise beyond the observed record.</p>
+<figure class="research-figure">
+<a href="https://arxiv.org/pdf/2608.30878" aria-label="Open source for GEV density fit, quantile diagnostic and return-level curve with uncertainty bands for 60-day block maxima.">
+<img src="../assets/img/research/detail-figures/solar-tail-fit-1600.webp" srcset="../assets/img/research/detail-figures/solar-tail-fit-800.webp 800w, ../assets/img/research/detail-figures/solar-tail-fit-1600.webp 1600w" sizes="(max-width: 850px) calc(100vw - 36px), 820px" width="1600" height="673" loading="lazy" decoding="async" alt="GEV density fit, quantile diagnostic and return-level curve with uncertainty bands for 60-day block maxima.">
+</a>
+<figcaption>
+<span class="figure-number">FIG. 02</span>Upper tail: GEV density fit, quantile diagnostic and annualized return levels for 60-day block maxima. Bands show uncertainty in the quantile and return-level estimates. Preprint, Figure 4. <a href="https://arxiv.org/pdf/2608.30878#page=8">Open source ↗</a>
+</figcaption>
+</figure>
+</section>
+<section class="sorce-tail" aria-labelledby="lower-tail">
+<h3 id="lower-tail">Lower tail · extreme reductions</h3>
+<p>For 15-day blocks, the minimum daily log-change is multiplied by −1 so that the magnitude of a reduction can be modelled as an upper extreme. Positive levels in this transformed plot therefore refer to decreases in irradiance on the original scale.</p>
+<figure class="research-figure">
+<a href="https://arxiv.org/pdf/2608.30878#page=8" aria-label="Open full-size source: GEV density, quantile diagnostic and annualized return levels for sign-reversed 15-day block minima of daily irradiance log-changes.">
+<img src="../assets/img/research/04-sorce/web/lower-tail-fit-1600.webp" srcset="../assets/img/research/04-sorce/web/lower-tail-fit-800.webp 800w, ../assets/img/research/04-sorce/web/lower-tail-fit-1600.webp 1600w" sizes="(max-width: 850px) calc(100vw - 36px), 1080px" width="1600" height="673" loading="lazy" decoding="async" alt="GEV density, quantile diagnostic and annualized return levels for sign-reversed 15-day block minima of daily irradiance log-changes.">
+</a>
+<figcaption>
+<span class="figure-number">FIG. 03</span>Lower tail: diagnostics and return levels for transformed 15-day block minima. The transformation reverses the sign of the minimum log-change. Preprint, Figure 5. <a href="https://arxiv.org/pdf/2608.30878#page=8">Open source ↗</a>
+</figcaption>
+</figure>
+</section>
+<p class="research-note">The positive fitted shape estimates are compatible with heavy tails under these block constructions. Their difference is descriptive: the unequal block lengths do not support a formal test of tail asymmetry. Long-period return levels depend on extrapolation and do not define physical limits for solar emission.</p>
+</section>
+<section class="research-section" id="connected-analysis">
+<span class="section-label">Connected solar–atmospheric work</span>
+<h2>Where marginal shape meets dependence</h2>
+<p>The related presentations pair SORCE irradiance and its reported uncertainty with air density derived from INMET temperature, pressure and humidity observations in Brasília. This is a multivariate extension of the research line, distinct from the univariate SORCE/XPS preprint.</p>
+<p>GEV and BGEV fits describe the marginal extremes before copulas are used to model dependence and joint risk measures. The comparison below shows why one marginal family need not suit every variable: bimodal structure appears in the air density maxima and absolute uncertainty minima illustrated here.</p>
+<figure class="research-figure">
+<a href="../assets/img/research/04-sorce/extremes_distribution_plots.pdf" aria-label="Open full-size source: Six marginal-density panels: maxima and minima of irradiance log-changes, air density and absolute uncertainty, with GEV and selected BGEV fits.">
+<img src="../assets/img/research/04-sorce/web/distribution-comparison-1600.webp" srcset="../assets/img/research/04-sorce/web/distribution-comparison-800.webp 800w, ../assets/img/research/04-sorce/web/distribution-comparison-1600.webp 1600w, ../assets/img/research/04-sorce/web/distribution-comparison-2400.webp 2400w" sizes="(max-width: 850px) calc(100vw - 36px), 1080px" width="1600" height="686" loading="lazy" decoding="async" alt="Six marginal-density panels: maxima and minima of irradiance log-changes, air density and absolute uncertainty, with GEV and selected BGEV fits.">
+</a>
+<figcaption>
+<span class="figure-number">FIG. 04</span>Presentation-material comparison of GEV and BGEV fits across three variables and both tails. The original parameter labels and signed-minimum convention are retained; these panels are separate from the preprint diagnostics above. <a href="../assets/img/research/04-sorce/extremes_distribution_plots.pdf">Open source ↗</a>
+</figcaption>
+</figure>
+</section>
+<section class="research-section" id="research-outputs">
+<span class="section-label">Read, view and follow the work</span>
+<h2>Research outputs</h2>
+<div class="sorce-output-group">
+<h3>SORCE/XPS extremes</h3>
+<div class="output-rows">
+<a class="output-row" href="https://arxiv.org/abs/2608.30878">
+<small>Preprint · 2026</small>
+<strong>Extremes of solar spectral irradiance in the SORCE/XPS record</strong>
+<span>arXiv ↗</span>
+</a>
+<a class="output-row" href="../assets/img/apresentacoes/emr-epbest-2025/documents/solar-irradiance-poster.pdf">
+<small>EMR / EPBEST · 2025</small>
+<strong>Extreme solar irradiance in the NASA SORCE mission: an EVT approach</strong>
+<span>Poster ↗</span>
+</a>
+</div>
+</div>
+<div class="sorce-output-group">
+<h3>Solar and broader extremes</h3>
+<p>These outputs develop compound variable analyses or present the solar work within a wider discussion of extremes.</p>
+<div class="output-rows">
+<a class="output-row" href="../assets/img/apresentacoes/rbras-seagro-2025/documents/solar-irradiance-poster.pdf">
+<small>RBras / SEAGRO · 2025</small>
+<strong>Extreme solar irradiance and its relationship with atmospheric variables</strong>
+<span>Poster ↗</span>
+</a>
+<a class="output-row" href="../talks.html#sys2025">
+<small>sys2025 · 2025</small>
+<strong>Joint extremes of solar irradiance and air density: an EVT and copula approach to tail uncertainty</strong>
+<span>Talk →</span>
+</a>
+<a class="output-row" href="../talks.html#extremos-na-natureza">
+<small>UnB workshop · 2026</small>
+<strong>Extremes in Nature: statistics, uncertainty and prediction in extreme phenomena</strong>
+<span>Talk →</span>
+</a>
+</div>
+</div>
+</section>
+<section class="research-section sorce-closing">
+<h2>Research connections</h2>
+<p>The continuing question is how measurement, preprocessing and statistical assumptions shape what can be learned from a physical record. The SORCE/XPS analysis develops this question for individual tails; the connected solar–atmospheric work extends it to joint behaviour.</p>
+<nav class="related-links" aria-label="Connected research">
+<a href="climate-dependence.html">Dependence &amp; compound extremes →</a>
+<a href="spatial-extremes.html">Spatial extremes &amp; BGEV modelling →</a>
+</nav>
+</section>
+</article>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<p class="footer-title">Enzo Porto Brasil</p>
+<p class="footer-copy">Statistical inference for extreme events, uncertainty and complex physical systems.</p>
+</div>
+<div class="footer-links">
+<a data-link="email" href="mailto:enzoportobrasil@gmail.com">enzoportobrasil@gmail.com</a>
+<a data-link="linkedin" href="https://www.linkedin.com/in/enzo-porto-brasil-3231971b3/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© <span data-current-year>
+</span> Enzo Porto Brasil.</span>
+<a href="../research.html">Back to research</a>
+</div>
+</div>
+</footer>
+<script src="../assets/js/site-config.js">
+</script>
+<script src="../assets/js/main.js">
+</script>
+<script src="../assets/i18n/translations.js">
+</script>
+<script src="../assets/js/i18n.js">
+</script>
+</body>
+</html>

@@ -10,10 +10,13 @@
   const links = [...main.querySelectorAll('a[href$=".pdf"][target="_blank"]')];
   if (!links.length) return;
 
-  const lang = document.documentElement.lang;
-  const L = {
-    open: lang === 'pt-BR' ? 'Abrir original ↗' : lang === 'es' ? 'Abrir original ↗' : 'Open original ↗',
-    close: lang === 'pt-BR' ? 'Fechar' : lang === 'es' ? 'Cerrar' : 'Close'
+  // Read the language when the viewer opens, so in-page language changes are respected.
+  const labels = () => {
+    const lang = document.documentElement.lang;
+    return {
+      open: lang === 'pt-BR' ? 'Abrir original ↗' : lang === 'es' ? 'Abrir original ↗' : 'Open original ↗',
+      close: lang === 'pt-BR' ? 'Fechar' : lang === 'es' ? 'Cerrar' : 'Close'
+    };
   };
 
   let dialog = null;
@@ -26,7 +29,7 @@
       <div class="certificate-viewer-head">
         <h2 class="certificate-viewer-title"></h2>
         <a class="certificate-viewer-open" target="_blank" rel="noopener noreferrer"></a>
-        <button type="button" class="certificate-viewer-close" aria-label="${L.close}">&times;</button>
+        <button type="button" class="certificate-viewer-close" aria-label="${labels().close}">&times;</button>
       </div>
       <div class="certificate-viewer-body"></div>
     `;
@@ -51,7 +54,9 @@
     dialog.querySelector('.certificate-viewer-title').textContent = title;
     const openLink = dialog.querySelector('.certificate-viewer-open');
     openLink.href = href;
+    const L = labels();
     openLink.textContent = L.open;
+    dialog.querySelector('.certificate-viewer-close').setAttribute('aria-label', L.close);
     dialog.querySelector('.certificate-viewer-body').innerHTML =
       `<iframe src="${href}" title="${title}" loading="eager"></iframe>`;
     document.body.classList.add('has-certificate-viewer');

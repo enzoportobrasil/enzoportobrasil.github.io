@@ -414,8 +414,18 @@ h1, h2, h3, p { overflow-wrap: break-word; }
 /* Restrained shared controls and document archive. */
 .sr-only, .project-image .image-caption, .project-image .project-number, .research-evidence figcaption, .thesis-figure figcaption { position: absolute; width: 1px; min-width: 0; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 .nav-actions { gap: 8px; flex-shrink: 0; }
-[data-language-select] { width: 64px; height: 44px; border: 1px solid currentColor; border-radius: 0; background: transparent; color: inherit; font: 650 .75rem var(--sans); padding: 0 6px; cursor: pointer; }
+/* Language picker: the native select stays the control (keyboard, screen readers, mobile picker);
+   the visible face adds a small local SVG flag, because Windows does not render flag emoji. */
+.language-picker { position: relative; display: inline-flex; align-items: center; gap: 6px; min-width: 64px; height: 44px; padding: 0 9px; border: 1px solid currentColor; color: inherit; font: 650 .75rem var(--sans); cursor: pointer; }
+.language-picker::after { content: ""; width: 5px; height: 5px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: translateY(-2px) rotate(45deg); opacity: .7; }
+.language-current { display: inline-flex; align-items: center; gap: 6px; line-height: 1; }
+.language-current::before { content: ""; flex: none; width: 16px; height: 11px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='t'%3E%3Cpath d='M30 15h30v15zv15H0zH0V0zV0h30z'/%3E%3C/clipPath%3E%3Cpath d='M0 0v30h60V0z' fill='%23012169'/%3E%3Cpath d='M0 0l60 30m0-30L0 30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0 0l60 30m0-30L0 30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30 0v30M0 15h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30 0v30M0 15h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E") center / cover no-repeat; box-shadow: 0 0 0 1px color-mix(in srgb, currentColor 20%, transparent); }
+.language-picker[data-language="pt"] .language-current::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 14'%3E%3Cpath fill='%23009739' d='M0 0h20v14H0z'/%3E%3Cpath fill='%23FEDD00' d='M10 1.7 18.3 7 10 12.3 1.7 7z'/%3E%3Ccircle cx='10' cy='7' r='3.1' fill='%23012169'/%3E%3Cpath d='M7 6.5q3-1 6 .5' fill='none' stroke='%23fff' stroke-width='.6'/%3E%3C/svg%3E"); }
+.language-picker[data-language="es"] .language-current::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Cpath fill='%23AA151B' d='M0 0h3v2H0z'/%3E%3Cpath fill='%23F1BF00' d='M0 .5h3v1H0z'/%3E%3C/svg%3E"); }
+[data-language-select] { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; padding: 0; border: 0; opacity: 0; font-size: 16px; cursor: pointer; }
 [data-language-select] option { background: var(--surface); color: var(--ink); }
+.language-picker:has(:focus-visible) { outline: 2px solid var(--accent); outline-offset: 4px; }
+@supports not selector(:has(*)) { .language-picker:focus-within { outline: 2px solid var(--accent); outline-offset: 4px; } }
 .icon-button, .nav-toggle { min-height: 44px; min-width: 44px; }
 .output-title { margin: 0; text-wrap: pretty; }
 .page-hero-grid > *, .section-heading > * { min-width: 0; max-width: 100%; }

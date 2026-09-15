@@ -1,0 +1,31 @@
+[
+  {
+    "name": "dataset-overview",
+    "source": "assets/img/research/04-sorce/dataset_sorce_inmet_joint_extremes.png",
+    "page": null,
+    "crop_points": null,
+    "width": 1600,
+    "height": 624
+  },
+  {
+    "name": "distribution-comparison",
+    "source": "assets/img/research/04-sorce/extremes_distribution_plots.pdf",
+    "page": 1,
+    "crop_points": null,
+    "width": 1600,
+    "height": 686
+  },
+  {
+    "name": "lower-tail-fit",
+    "source": "https://arxiv.org/pdf/2608.30878",
+    "page": 8,
+    "crop_points": [
+      80,
+      307,
+      515,
+      490
+    ],
+    "width": 1600,
+    "height": 673
+  }
+]
