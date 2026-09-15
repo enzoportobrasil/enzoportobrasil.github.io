@@ -1,0 +1,211 @@
+@import url("document-actions.css");
+/* Static event entries reuse the site's palette, buttons, navigation and typography. */
+.talks-page .page-hero { padding-block: clamp(3rem, 7vw, 6rem); }
+.talks-page .page-hero h1 { font-size: clamp(3rem, 7vw, 6.6rem); }
+.talks-page .page-hero .lead { margin-top: 28px; max-width: 58ch; }
+.talk-jump-links { display: flex; flex-wrap: wrap; gap: 12px 28px; margin-top: 28px; }
+.talk-jump-links a, .talk-certificate { color: var(--accent); font-size: .85rem; text-underline-offset: 5px; }
+.talk-event { scroll-margin-top: 110px; }
+.talk-event + .talk-event { margin-top: clamp(4rem, 8vw, 7rem); padding-top: clamp(4rem, 8vw, 7rem); border-top: 1px solid var(--line); }
+.talk-opening { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(32px, 6vw, 80px); align-items: center; }
+.talk-copy h2 { margin: 20px 0 24px; font: 500 clamp(2.2rem, 4vw, 3.65rem)/1.07 var(--display); letter-spacing: -.035em; }
+.talk-copy h2 span { display: block; margin-top: 14px; font-size: .58em; line-height: 1.22; letter-spacing: -.015em; color: var(--muted); }
+.talk-event-name { margin: 0 0 8px; font-weight: 650; }
+.original-title { color: var(--muted); font-size: .82rem; line-height: 1.6; margin-top: -8px; }
+.talk-location { margin: 0; color: var(--muted); font-size: .87rem; }
+.talk-description { margin: 24px 0 0; color: var(--muted); max-width: 64ch; }
+.talk-file-note { margin: 12px 0; color: var(--muted); font-size: .76rem; }
+.talk-photo { min-width: 0; margin: 0; }
+.talk-photo > a { display: block; }
+.talk-photo img { width: 100%; height: auto; }
+.talk-opening > .talk-photo { width: 100%; max-width: 440px; justify-self: end; }
+.talk-photo figcaption { margin-top: 12px; color: var(--muted); font-size: .78rem; line-height: 1.65; }
+.talk-photo figcaption a { color: var(--accent); white-space: nowrap; text-underline-offset: 3px; }
+.talk-gallery { display: grid; grid-template-columns: minmax(0, .65fr) minmax(0, 1.35fr); gap: clamp(28px, 5vw, 64px); align-items: center; margin-top: clamp(36px, 6vw, 64px); }
+.talk-gallery > .talk-photo:not(.talk-figure) { max-width: 340px; }
+.talk-figure img { border: 1px solid var(--line); background: #fff; }
+.talk-archive { background: var(--surface); border-top: 1px solid var(--line); }
+.talk-archive h2 { font-size: clamp(2.2rem, 4vw, 3.4rem); }
+.talk-authors { color: var(--muted); font-size: .8rem; line-height: 1.7; margin-top: 16px; }
+.event-photo-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(24px, 4vw, 48px); margin-top: 40px; align-items: center; }
+.event-photo-pair img { max-height: 620px; object-fit: contain; }
+.poster-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(32px, 5vw, 64px); margin-top: 56px; }
+.poster-grid--three { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+.poster-work { min-width: 0; }
+.poster-preview { max-width: 440px; margin-inline: auto; }
+.poster-preview img { object-fit: contain; }
+.poster-copy h3 { margin: 24px 0 12px; font: 500 clamp(1.4rem, 2vw, 1.85rem)/1.25 var(--display); }
+.poster-copy .talk-description { font-size: .9rem; margin-top: 18px; }
+.poster-copy .hero-actions { gap: 10px; }
+.document-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 16px 0; font-size: .85rem; }
+.document-links a { color: var(--accent); text-underline-offset: 4px; }
+.event-documents { margin-top: 32px; color: var(--muted); font-size: .85rem; }
+.event-documents summary { cursor: pointer; padding-block: 12px; }
+.event-documents > div { display: flex; flex-wrap: wrap; gap: 16px 32px; padding: 12px 0; }
+.pibic-video { max-width: 1000px; margin: 40px auto 0; }
+.video-frame { aspect-ratio: 16 / 9; background: var(--surface); border: 1px solid var(--line); }
+.video-preview { display: block; position: relative; width: 100%; height: 100%; padding: 0; border: 0; cursor: pointer; background: transparent; }
+.video-preview img { width: 100%; height: 100%; object-fit: contain; }
+.video-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 4px; background: var(--accent-strong); color: var(--bg); font: 600 .9rem var(--sans); white-space: nowrap; box-shadow: 0 3px 18px #0002; }
+.video-play > span:first-child { font-size: 1.7rem; }
+.video-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+.event-archive { margin-top: 32px; border-top: 1px solid var(--line); }
+.event-archive > summary { cursor: pointer; padding-block: 18px; color: var(--accent); font-size: .85rem; }
+.pibic-video figcaption { margin-top: 12px; font-size: .8rem; color: var(--muted); }
+.pibic-video figcaption a { color: var(--accent); text-underline-offset: 3px; }
+@media (max-width: 820px) {
+  .poster-grid, .poster-grid--three, .event-photo-pair { grid-template-columns: minmax(0, 1fr); }
+  .poster-grid { gap: 48px; }
+  .poster-preview { max-width: 100%; }
+  .talk-opening, .talk-gallery { grid-template-columns: minmax(0, 1fr); }
+  .talk-opening > .talk-photo { justify-self: start; }
+  .talk-gallery > .talk-photo:not(.talk-figure) { max-width: 360px; }
+  .talk-event { scroll-margin-top: 90px; }
+}
+
+/* A shared reading grid with intentionally different scientific compositions. */
+.talks-page .talk-copy { min-width: 0; }
+.talks-page .talk-photo figcaption,
+.talks-page .pibic-video figcaption { font-size: .8125rem; line-height: 1.65; margin-top: 12px; }
+.talks-page .talk-file-note { font-size: .8125rem; }
+.talks-page .hero-actions { gap: 12px 16px; }
+.talks-page a.button { max-width: 100%; white-space: normal; text-decoration: none; }
+.talks-page .talk-figure img { object-fit: contain; }
+.talks-page .poster-preview { width: 100%; max-width: none; }
+.talks-page .poster-preview > a { display: flex; align-items: end; aspect-ratio: 1 / 1.414; }
+.talks-page .poster-preview img { height: 100%; object-fit: contain; object-position: bottom; }
+.talks-page .event-photo-pair { align-items: start; gap: 28px; }
+.talks-page .event-photo-pair .talk-photo > a { display: flex; align-items: center; height: clamp(240px, 30vw, 380px); }
+.talks-page .event-photo-pair img { width: 100%; height: 100%; object-fit: contain; object-position: left center; }
+.talks-page #cobipe-2024 .talk-opening { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.talks-page #cobipe-2024 .talk-copy h2 { font-size: clamp(2.2rem, 3.5vw, 3rem); }
+.talks-page #cobipe-2024 .talk-opening > .talk-photo { max-width: none; }
+.talks-page #cobipe-2024 .event-photo-pair { max-width: 820px; }
+.talks-page #pibic-2022 .talk-copy { max-width: 850px; }
+.talks-page .pibic-video { max-width: 960px; margin-inline: 0; }
+.talks-page .talk-closing { border-top: 1px solid var(--line); }
+.talks-page .talk-closing h2 { max-width: 20ch; font: 500 clamp(2.5rem, 5vw, 5rem)/1.08 var(--display); }
+@media (max-width: 1100px) and (min-width: 821px) {
+  .talks-page .poster-grid--three { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 820px) {
+  .talks-page #cobipe-2024 .talk-opening { grid-template-columns: minmax(0, 1fr); }
+  .talks-page .event-photo-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .talks-page .event-photo-pair .talk-photo > a { height: auto; }
+  .talks-page .event-photo-pair img { height: auto; }
+}
+@media (max-width: 480px) {
+  .talks-page .event-photo-pair { grid-template-columns: minmax(0, 1fr); }
+  .talks-page .event-photo-pair .talk-photo { max-width: 360px; }
+}
+
+/* One compact control group per scholarly record; metadata follows separately. */
+.talks-page .talk-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-top: 24px; }
+.talks-page .talk-actions .button { flex: 0 1 auto; margin: 0; min-height: 44px; padding: 10px 14px; transition: color .18s ease, background-color .18s ease, border-color .18s ease; }
+.talks-page a.button.talk-action--primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.talks-page a.button.talk-action--primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); color: var(--bg); }
+.talks-page a.button.talk-action--support { background: transparent; border-color: var(--line); color: var(--muted); }
+.talks-page a.button.talk-action--support:hover { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.talks-page .talk-actions .button:active { border-color: var(--accent-strong); box-shadow: inset 0 0 0 1px var(--accent-strong); }
+.talks-page .event-documents .talk-actions { margin-top: 0; gap: 10px 12px; }
+@media (prefers-reduced-motion: reduce) { .talks-page .talk-actions .button { transition: none; } }
+
+/* Shared event decks: Huntsville geometry is the canonical reference. */
+.talks-page .talk-event--deck .talk-opening { grid-template-columns: minmax(0, .44fr) minmax(0, .56fr); gap: clamp(28px, 4vw, 52px); align-items: center; }
+.talks-page .talk-event--deck h2 { font-size: clamp(2.2rem, 3.4vw, 3.3rem); }
+.event-photo-deck { min-width: 0; width: 100%; }
+.event-photo-deck-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.event-photo-counter { font: .75rem var(--mono); color: var(--muted); white-space: nowrap; }
+.event-photo-cards { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 24px 8px; }
+.event-photo-cards::-webkit-scrollbar { display: none; }
+.event-photo-card { display: flex; flex: 0 0 88%; aspect-ratio: 4 / 3; min-width: 0; align-items: center; justify-content: center; scroll-snap-align: start; border: 1px solid var(--line); border-radius: 4px; padding: 5px; background: var(--surface-2); box-shadow: 0 12px 28px #0002; }
+.event-photo-card img { width: 100%; height: 100%; object-fit: contain; border-radius: 2px; }
+.event-photo-card--postcard img { height: 80%; }
+.event-photo-card[aria-current="true"] { border-color: var(--accent); }
+.event-photo-controls { display: flex; align-items: center; justify-content: flex-end; gap: 12px; }
+.event-photo-controls[hidden] { display: none; }
+.event-photo-controls button { width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 4px; background: transparent; color: var(--accent); font: 1rem var(--sans); cursor: pointer; }
+.event-photo-controls button:hover { background: var(--accent-soft); }
+.huntsville-science { margin: clamp(32px, 4vw, 52px) 0 0; }
+.huntsville-science a { display: block; }
+.huntsville-science img { width: 100%; height: auto; border: 1px solid var(--line); }
+.event-photo-lightbox { width: fit-content; max-width: 96vw; max-height: 94dvh; padding: 48px 12px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink); }
+.event-photo-lightbox::backdrop { background: #000c; }
+.event-photo-lightbox img { max-width: 90vw; max-height: 80dvh; object-fit: contain; }
+.event-photo-lightbox button { position: absolute; top: 2px; right: 8px; width: 44px; height: 44px; border: 0; background: transparent; color: var(--ink); font-size: 1.6rem; cursor: pointer; }
+@media (min-width: 821px) {
+  .event-photo-deck.is-ready .event-photo-cards { display: block; position: relative; overflow: visible; height: clamp(300px, 36vw, 470px); perspective: 1200px; touch-action: pan-y pinch-zoom; }
+  .event-photo-deck.is-ready .event-photo-card { position: absolute; width: 76%; height: auto; top: 12%; left: 12%; aspect-ratio: 4 / 3; transform: translateX(var(--x, 0%)) translateY(var(--y, 0px)) translateZ(var(--z, 0px)) rotate(var(--r, 0deg)); z-index: var(--layer, 0); opacity: 0; visibility: hidden; transition: transform 450ms var(--ease), opacity 450ms var(--ease), border-color 450ms var(--ease); }
+  .event-photo-deck.is-ready .event-photo-card[data-visible="true"] { opacity: 1; visibility: visible; }
+  .event-photo-card[data-position="0"] { --x: 0%; --y: 0px; --z: 0px; --r: 0deg; --layer: 5; }
+  .event-photo-card[data-position="1"] { --x: 16%; --y: -22px; --z: -65px; --r: 4deg; --layer: 4; }
+  .event-photo-card[data-position="2"] { --x: -18%; --y: -36px; --z: -110px; --r: -5deg; --layer: 3; }
+  .event-photo-card[data-position="3"] { --x: 20%; --y: -48px; --z: -170px; --r: 6deg; --layer: 2; }
+  .event-photo-deck.is-ready .event-photo-card[data-visible="true"]:not([data-position="0"]):is(:hover, :focus-visible) { transform: translateX(var(--x)) translateY(calc(var(--y) - 12px)) translateZ(var(--z)) rotate(var(--r)); border-color: var(--accent); }
+}
+@media (max-width: 820px) {
+  .talks-page .talk-event--deck .talk-opening { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .event-photo-cards { scroll-padding-left: 8px; overscroll-behavior-x: contain; }
+  .event-photo-cards::after { content: ''; flex: 0 0 12%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .event-photo-deck.is-ready .event-photo-card { transition: none; }
+  .event-photo-cards { scroll-behavior: auto; }
+}
+
+/* Matched scientific stages preserve each full poster inside one shared page ratio. */
+.talks-page .event-scientific-posters { margin-top: clamp(32px, 4vw, 52px); }
+.talks-page .event-scientific-posters .poster-preview > a { display: flex; align-items: flex-start; justify-content: center; aspect-ratio: 1 / 1.414; border: 1px solid var(--line); background: #faf9f6; }
+.talks-page .event-scientific-posters .poster-preview img { width: 100%; height: 100%; object-fit: contain; object-position: top center; border: 0; background: transparent; }
+
+/* PIBIC follows the WASA split composition, with a single video stage. */
+.talk-pibic .talk-pibic-meta { margin: 10px 0 18px; color: var(--muted); font: .75rem/1.7 var(--mono); text-transform: uppercase; letter-spacing: .04em; }
+.talk-pibic-layout { display: grid; grid-template-columns: minmax(0, .40fr) minmax(0, .60fr); gap: clamp(28px, 4vw, 52px); align-items: center; }
+.talks-page #pibic-2022 .talk-copy h2 { margin: 0 0 20px; font-size: clamp(1.85rem, 2.7vw, 2.85rem); line-height: 1.16; letter-spacing: -.025em; }
+.talk-pibic .talk-authors { margin-top: 14px; }
+.talk-pibic-body { min-width: 0; margin-top: 22px; color: var(--muted); font-size: .9rem; line-height: 1.65; }
+.talk-pibic-body > p { margin: 0 0 16px; max-width: 65ch; }
+.talk-pibic .talk-actions { margin-top: 22px; gap: 8px; }
+.talks-page .talk-pibic .talk-actions a { background: transparent; color: var(--ink); border-color: var(--line); }
+.talks-page .talk-pibic .talk-actions .talk-pibic-watch { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.talks-page .talk-pibic .talk-actions a:hover { border-color: var(--accent); }
+.talk-pibic-resources { display: flex; flex-wrap: wrap; gap: 0 20px; margin-top: 10px; }
+.talk-pibic-resource { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font-size: .8rem; text-underline-offset: 4px; }
+.talk-pibic .talk-file-note { margin-top: 8px; }
+.talk-pibic-video { width: 100%; min-width: 0; margin: 0; scroll-margin-top: 100px; }
+.talk-pibic-preview { display: block; position: relative; width: 100%; aspect-ratio: 16 / 9; padding: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); cursor: pointer; }
+.talk-pibic-preview[hidden], .talk-pibic-inline[hidden] { display: none; }
+.talk-pibic-preview img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.talk-pibic-play { position: absolute; bottom: 16px; right: 16px; display: flex; align-items: center; gap: 10px; padding: 10px 16px; background: var(--accent); color: var(--bg); font: 600 .85rem var(--sans); border-radius: 3px; }
+.talk-pibic-play > span:first-child { font-size: 1.5rem; }
+.talk-pibic-video figcaption { margin-top: 10px; color: var(--muted); font-size: .8rem; }
+.talk-pibic-inline { display: block; width: 100%; aspect-ratio: 16 / 9; }
+.talk-video-dialog { width: min(90vw, 1040px); max-width: 94vw; max-height: 94dvh; margin: auto; padding: 48px 12px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink); }
+.talk-video-dialog::backdrop { background: #000c; }
+.talk-video-dialog video { display: block; width: 100%; aspect-ratio: 16 / 9; max-height: calc(90dvh - 64px); background: #000; }
+.talk-video-close { position: absolute; right: 8px; top: 2px; width: 44px; height: 44px; border: 0; background: transparent; color: var(--ink); font-size: 1.6rem; cursor: pointer; }
+.talk-pibic :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.talks-closing { padding-block: clamp(40px, 5vw, 68px) clamp(28px, 3vw, 40px); border-top: 1px solid var(--line); }
+.talks-closing-copy { max-width: 760px; }
+.talks-closing h2 { margin: 12px 0 20px; font: 500 clamp(1.8rem, 2.7vw, 2.6rem)/1.18 var(--display); letter-spacing: -.025em; }
+.talks-closing-copy > p:not(.kicker) { color: var(--muted); margin: 0 0 16px; }
+.talks-closing-links { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 28px; margin-top: 12px; padding-top: 14px; border-top: 1px solid var(--line); }
+.talks-closing-links a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font-size: .85rem; text-underline-offset: 5px; text-decoration-color: var(--line); transition: color .18s ease, text-decoration-color .18s ease; }
+.talks-closing-links a:is(:hover, :focus-visible) { color: var(--accent-strong); text-decoration-color: currentColor; }
+@media (prefers-reduced-motion: reduce) { .talks-closing-links a { transition: none; } }
+@media (max-width: 480px) { .talks-closing-links { flex-direction: column; align-items: flex-start; gap: 4px; } }
+@media (max-width: 720px) {
+  .talk-pibic-layout { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .talk-pibic-video { margin-top: 0; }
+  .talk-video-dialog { width: 94vw; padding-inline: 6px; }
+}
+
+/* Final Talks notes use the existing reading width, muted text and footer system. */
+.talks-page .talk-photo figcaption { font-size: .75rem; line-height: 1.6; }
+.talks-page .talk-event-name { font-size: .9rem; font-weight: 500; color: var(--muted); }
+.talks-page .talks-support-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(40px, 6vw, 88px); row-gap: 0; margin: clamp(28px, 3.5vw, 44px) 0 0; padding: 0; list-style: none; }
+.talks-page .talks-support-list li { position: relative; margin: 0; padding: 22px 0 26px 24px; border-top: 1px solid var(--line); color: var(--ink); font-size: 1.0625rem; font-weight: 400; line-height: 1.65; text-wrap: pretty; }
+.talks-page .talks-support-list li::before { content: ""; position: absolute; top: 35px; left: 0; width: 8px; height: 1px; background: var(--accent); }
+@media (max-width: 820px) {
+  .talks-page .talks-support-list { grid-template-columns: minmax(0, 1fr); gap: 0; }
+}

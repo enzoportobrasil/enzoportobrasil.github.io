@@ -1,0 +1,36 @@
+/* Optional pixel-art signature on the Talks page. Isolated component: safe to delete
+   this file, its <link>, its markup block and its <script> tag to fully remove it. */
+.pixel-buddy {
+  position: relative;
+  display: inline-flex;
+  align-items: flex-end;
+  height: 64px;
+  margin-left: 18px;
+  vertical-align: middle;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity .5s ease, transform .5s ease;
+}
+.pixel-buddy.is-visible { opacity: 1; transform: translateY(0); }
+.pixel-buddy img {
+  height: 100%;
+  width: auto;
+  display: block;
+  image-rendering: pixelated;
+}
+.pixel-buddy-turn {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+.pixel-buddy:hover .pixel-buddy-turn { opacity: 1; }
+.pixel-buddy:hover .pixel-buddy-front { opacity: 0; }
+.pixel-buddy-front { transition: opacity .3s ease; }
+@media (prefers-reduced-motion: reduce) {
+  .pixel-buddy { transition: none; }
+  .pixel-buddy-turn, .pixel-buddy-front { transition: none; }
+}
+@media (max-width: 600px) {
+  .pixel-buddy { height: 52px; margin-left: 12px; }
+}

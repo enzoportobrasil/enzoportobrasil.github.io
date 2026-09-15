@@ -1,0 +1,556 @@
+[
+  {
+    "original": "1st_workshop_pgest_unb/074A9A01-3B2D-4434-947C-FF39E7239958_1_105_c.jpeg",
+    "path": "workshop-pgest-unb-2026/photos/presenting-models.jpg",
+    "sha256": "f6603bb33e8037bf749be8375918db1cbf5e8ddac9aaa3e9bf48334f85c8b18c",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "1st_workshop_pgest_unb/WhatsApp Image 2026-09-05 at 23.56.41.jpeg",
+    "path": "workshop-pgest-unb-2026/photos/workshop-conversation.jpg",
+    "sha256": "18e91a5b4db00e531ad315d14059b442a70a71bacfcfc5926e71b83670777a7f",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "1st_workshop_pgest_unb/img_talk/Extremos na Natureza  definitivo-2.pdf",
+    "path": "workshop-pgest-unb-2026/figures/natural-extremes.pdf",
+    "sha256": "1c28f063f1a7c290863977d01f362775031f1745e02bbcb6955cec2daa3ac29a",
+    "type": "figure-excerpt",
+    "selected": false
+  },
+  {
+    "original": "1st_workshop_pgest_unb/img_talk/Extremos na Natureza  definitivo-3.pdf",
+    "path": "workshop-pgest-unb-2026/figures/neurons-bubbles-popcorn.pdf",
+    "sha256": "7d7e6051ad67092e6d7cba94bcb33e40db66f66b8a49832d7efe703a85d4b9ff",
+    "type": "figure-excerpt",
+    "selected": false
+  },
+  {
+    "original": "1st_workshop_pgest_unb/palestra_Enzo_Extremos_na_Natureza - 11.06.26 - wokshop_ppgest.pdf",
+    "path": "workshop-pgest-unb-2026/documents/extremos-na-natureza-slides.pdf",
+    "sha256": "e9d1f88a5b50f6409e9f5774ef7faace3c32a2bebd3d00fdffcc48f531a11029",
+    "type": "complete-slides",
+    "selected": true
+  },
+  {
+    "original": "sys2025/0A1F5C07-CEB8-4CFD-B364-2CF4623BAA46_1_105_c.jpeg",
+    "path": "sys2025/photos/gravitational-waves-session.jpg",
+    "sha256": "ea0561f56c4761bc7347fd5eb1c5b1c696a8bd4abf6cbe10c8db86890cbe3fb0",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "sys2025/1EEA972B-4D73-49BD-B55E-9281067DA135_1_105_c.jpeg",
+    "path": "sys2025/photos/space-shuttle-outdoors.jpg",
+    "sha256": "34b5e8534f29f52eb056a02fe2dd45baeec8ba30fb2d254b800e7b6ffbfa442b",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "sys2025/2D595111-64AD-422D-9AB0-98A7D53D0970_1_105_c.jpeg",
+    "path": "sys2025/photos/morton-hall-portrait.jpg",
+    "sha256": "b4dc20b1fcf5fb6c543fe872f225abddcac3ef090e449ea2963a707e3752a4ba",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "sys2025/342B2948-77B1-4472-9433-5FEA3CD93768_1_105_c.jpeg",
+    "path": "sys2025/photos/cramer-research-hall.jpg",
+    "sha256": "38b8438f22f6440371661ec1caa47c96b252544222549437e770a395f1d252c4",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "sys2025/381E7CF0-7963-4DF2-85B7-83E6C8FBEBD7_1_105_c.jpeg",
+    "path": "sys2025/photos/morton-hall-entrance.jpg",
+    "sha256": "630f7b2c891473f3d1a791b2a7cc221020a28ed3058eacf685b43687064f802c",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "sys2025/3D2D45EE-67DA-4687-A86D-B542D28D337A_1_105_c.jpeg",
+    "path": "sys2025/photos/campus-autumn.jpg",
+    "sha256": "27c8de13fc50ec5010031e5f6fe130e19a0c3241fed66e7b2b2f1dbf5e4d7a8d",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "sys2025/3FCB2DD1-314D-4EE6-A5F5-1EFD16A3F6AA_1_105_c.jpeg",
+    "path": "sys2025/photos/uah-campus-portrait.jpg",
+    "sha256": "934da5b43e9e395e851fece4fbfdee031aef7e9b79b431cd44f88356a32b8d8e",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "sys2025/4035BAC3-6BB2-439F-A712-F06615C0DFAC_1_105_c.jpeg",
+    "path": "sys2025/photos/outer-planets-exhibit.jpg",
+    "sha256": "d3aec9e44d7e2959d45b4ed9f9cd795503c4ec6565ddd67047e68c83dc62ac8e",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "sys2025/4928C623-8AFF-4B97-9CFB-FB1005FF51D5_1_105_c.jpeg",
+    "path": "sys2025/photos/campus-walk.jpg",
+    "sha256": "8a35a6ad835b891110728ff8e42c1a832bac75b1859f69172788557545a18baa",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "sys2025/527E29C7-4990-4F4A-91F8-32F41FAC8AB0_1_105_c.jpeg",
+    "path": "sys2025/photos/street-view.jpg",
+    "sha256": "82cb609ef472f76e6ffe1d6728154ac03e7e953353b71bc0457975b4d769e219",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "sys2025/6B4F458C-A32E-4067-A6B0-93E09486BBD7_1_105_c.jpeg",
+    "path": "sys2025/photos/uah-research-center-portrait.jpg",
+    "sha256": "122304f3215d9d22104e5b6ae32f2b9cafee1ed3b72030188c82158e541649a4",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "sys2025/96177750-9E16-439F-B4E5-8DED45E18F1C_1_105_c.jpeg",
+    "path": "sys2025/photos/rocket-exhibit-portrait.jpg",
+    "sha256": "64467e13ee6ccc87fb873552fc3f7f2496ddf8c39b004e41f0a273f9d031595c",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "sys2025/A0F778EF-4318-4601-AB55-BDFC02D7EBDA_1_105_c.jpeg",
+    "path": "sys2025/photos/huntsville-postcard.jpg",
+    "sha256": "e7f58fa86618a3e0208ff07e5f487767a478845d270da84dc4b879a8c3b54325",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "sys2025/A1657FC3-F54A-4C28-B682-A9103F458710_1_102_a.jpeg",
+    "path": "sys2025/photos/river-from-above.jpg",
+    "sha256": "4275e14a8d0e3aebafb4c5a1feafafa85b55a5c6922a9ea5723c789d741e4784",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "sys2025/C6A3EF7F-71A9-4ED6-BCE4-65B0FC36B42C_1_105_c.jpeg",
+    "path": "sys2025/photos/space-rocket-center.jpg",
+    "sha256": "50ea17182a92691faa8e36be238f15cf3ab8e325526167877f04a23b990fadea",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "sys2025/Sys2025Certificate-1.pdf",
+    "path": "sys2025/documents/participation-certificate.pdf",
+    "sha256": "029efcca2e7f1ff42da838be669db7ce7d7e142b88970b9a0072ff09b1790e18",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "sys2025/img_talk/ISxAI_min.png",
+    "path": "sys2025/figures/ssi-uncertainty-copula-minima.png",
+    "sha256": "9d07e39425559586b5b80bbe044d2136b6e8e3dbc6590f46d2718858ea34d4d7",
+    "type": "figure-excerpt",
+    "selected": false
+  },
+  {
+    "original": "sys2025/img_talk/correlacoes.png",
+    "path": "sys2025/figures/dependence-scatter-density.png",
+    "sha256": "a3d35abf1ae7b6c6907894a9be904de36fb1ffb81a9cd7202c92263a0b94c6d3",
+    "type": "figure-excerpt",
+    "selected": false
+  },
+  {
+    "original": "sys2025/img_talk/extremes.png",
+    "path": "sys2025/figures/natural-extremes.png",
+    "sha256": "534f9e7c558418889bf6e1afb26a8d248db39fb247ff7214b0a004a9725c8883",
+    "type": "figure-excerpt",
+    "selected": false
+  },
+  {
+    "original": "sys2025/img_talk/news1-2.pdf",
+    "path": "sys2025/figures/solar-storms-satellites-whales.pdf",
+    "sha256": "4e202385b396a5a911042f1aae029219c4ddeb29a440ea7c480f26abf939e7a2",
+    "type": "figure-excerpt",
+    "selected": false
+  },
+  {
+    "original": "sys2025/img_talk/news2.pdf",
+    "path": "sys2025/figures/solar-storm-and-wildfire-news.pdf",
+    "sha256": "97821f045a6c4a85fd387a03efa8c4554ace1aa4fb3cf858c4089f82d1aed3ad",
+    "type": "figure-excerpt",
+    "selected": false
+  },
+  {
+    "original": "sys2025/img_talk/quadro_geral_ISxDA_max.pdf",
+    "path": "sys2025/figures/ssi-air-density-maxima-workflow.pdf",
+    "sha256": "e4c4cfa9196c18f9612ffe5d684e8a4dffa46bb54d1e24d15f25e1b9006f7f9a",
+    "type": "figure-excerpt",
+    "selected": true
+  },
+  {
+    "original": "sys2025/img_talk/quadro_geral_ISxDA_min.pdf",
+    "path": "sys2025/figures/ssi-air-density-minima-workflow.pdf",
+    "sha256": "920e24241258a3ba7bcaf98e26dafb612ac2ea493ab9ecab4bcb87dc23f86562",
+    "type": "figure-excerpt",
+    "selected": false
+  },
+  {
+    "original": "sys2025/palestra sys2025 - slides.pdf",
+    "path": "sys2025/documents/joint-extremes-slides.pdf",
+    "sha256": "a13234085f0f8837ffb283b8f221e048eb18b2564276260cbc52be7656c9316b",
+    "type": "complete-slides",
+    "selected": true
+  },
+  {
+    "original": "1s_workshop_prob_est_brasil_colombia/CDDC3A46-32CF-4B36-A7F8-91DE396B1357_1_201_a.jpeg",
+    "path": "cobipe-2024/photos/presenting-imputation.jpg",
+    "sha256": "e7398a4edb8f9cea00fdc7519fed19605d508c19d81e66a20c069ae9c580d389",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "1s_workshop_prob_est_brasil_colombia/36DCA846-73F3-4070-B28F-D0CF1DF77358_1_102_o.jpeg",
+    "path": "cobipe-2024/photos/comparing-scenarios.jpg",
+    "sha256": "1ecc280d90a099749d630bb256124a72672a9ea77c768a1b2bf22fe8729b0d4a",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "1s_workshop_prob_est_brasil_colombia/EB00114D-725B-4F6E-8848-35F062A9A855_1_201_a.heic",
+    "path": "cobipe-2024/photos/waterside-panorama.heic",
+    "sha256": "c80eebdac11a8533a41c0f6083c962506aa149550635c3e1314ad48cf1fc1398",
+    "type": "photo",
+    "selected": false,
+    "availability": "missing locally when checked on 2026-09-06; not used on the page"
+  },
+  {
+    "original": "1s_workshop_prob_est_brasil_colombia/slides_ENZO_coBIPE 2024.pdf",
+    "path": "cobipe-2024/documents/imputation-slides.pdf",
+    "sha256": "0e76bd8e4da84eb417e69e4c23ffaabe6b3a53a121c408b26f22e9e67ac79f14",
+    "type": "complete-slides",
+    "selected": true
+  },
+  {
+    "original": "1s_workshop_prob_est_brasil_colombia/p3-eqm-poisson-20.pdf",
+    "path": "cobipe-2024/figures/imputation-mse-20-percent.pdf",
+    "sha256": "8223c0e626e970e119b71d541c9e52761f8932cfdebaafcf92f71fe46b17fa67",
+    "type": "figure-excerpt",
+    "selected": true
+  },
+  {
+    "original": "cobipe-2024/documents/abstract_cobipe_2024.pdf",
+    "path": "cobipe-2024/documents/imputation-abstract.pdf",
+    "sha256": "b71d508d53f178f65155fdd4c45ed3118e5baa2125a7469f06341effb4b2ba5a",
+    "type": "abstract",
+    "selected": true
+  },
+  {
+    "original": "cobipe-2024/documents/certificado_cobipe_2024.pdf",
+    "path": "cobipe-2024/documents/oral-presentation-certificate.pdf",
+    "sha256": "402f554619a50bd2c8600d2d01620b90e72a64def4faa5659291582040fc1fc9",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/ENZO_certificado _EMR (apresentacao).pdf",
+    "path": "emr-epbest-2025/documents/emr-presentation-certificate.pdf",
+    "sha256": "377456001d9caa9fb56fe9b891c7eb9426495c7c26b00514ea012270607949f6",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/ENZO_certificado _EMR (participacao).pdf",
+    "path": "emr-epbest-2025/documents/emr-participation-certificate.pdf",
+    "sha256": "a4b3de0c066ceae1180d338ddbd101fa956540c9daa8d5d441cf7f4b76a7c2d0",
+    "type": "certificate",
+    "selected": false
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/ENZO_certificado _EPBEST (apresentacao).pdf",
+    "path": "emr-epbest-2025/documents/epbest-presentation-certificate.pdf",
+    "sha256": "8e0053aaa845b5eacc0410400eebee2143876782a2b52c34ad08f5b921149317",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/ENZO_certificado _EPBEST (participacao).pdf",
+    "path": "emr-epbest-2025/documents/epbest-participation-certificate.pdf",
+    "sha256": "b20bab6bf04284e5fb33d6eb7335b8cf6e283117427219cf298f1ce1b00e6b65",
+    "type": "certificate",
+    "selected": false
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/Poster_ENZO_EMR 2025.pdf",
+    "path": "emr-epbest-2025/documents/extremes-mice-poster.pdf",
+    "sha256": "0ebd66705e28ec6708c0b15850d45dc7400076a02f4c158720378e7b7626707a",
+    "type": "poster",
+    "selected": true
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/fotos/314C6EBE-AFA8-4164-BFD1-0F28ED287E54_1_105_c.jpeg",
+    "path": "emr-epbest-2025/photos/coast.jpg",
+    "sha256": "ffaacab06c7d500dc7f3e37bb1ef81125f091efacf7f8ca7355b8a897448eb44",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/fotos/3FBC4A9D-9498-4CF1-BD7A-542769B124DB_1_105_c.jpeg",
+    "path": "emr-epbest-2025/photos/event-group.jpg",
+    "sha256": "f5abce578caa1c29c1ebeb5b584698197d2b84dd25e7a842ac7081669923ee4f",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/fotos/401CD86D-18B3-4E06-98E2-25BEC8D6A66C_1_105_c.jpeg",
+    "path": "emr-epbest-2025/photos/between-posters.jpg",
+    "sha256": "85a8fa743f5e8ed69086905876d7bc4f7527c3b4dedc4d36382a0499340fc9ce",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/fotos/7C8ECCF2-8FAE-42AF-A986-7B0D8DE1BDEE_1_201_a.jpeg",
+    "path": "emr-epbest-2025/photos/poster-conversation.jpg",
+    "sha256": "449d7ad3cec64125d1e646a7bd3bb987e4af7f917773b681ccba7bc44d8a4aba",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/fotos/837073A0-F7D6-418D-99BE-0FB8D71C73EA_1_105_c.jpeg",
+    "path": "emr-epbest-2025/photos/poster-session-group.jpg",
+    "sha256": "2c7039fae375891845669a0e55f2ccace9a327d9cf0660aac14677a2c66bb6a1",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/fotos/DDA7F846-9090-4AE8-85B2-99E8F01E1FDA_1_201_a.heic",
+    "path": "emr-epbest-2025/photos/event-portrait.heic",
+    "sha256": "a93460061430630192d28c5ede2ea9936040d953cb4de847f522e43e1517e834",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "5th Paraíba Meeting of Statistics and 19th School of Regression Models/poster_ENZO_EPBEST 2025.pdf",
+    "path": "emr-epbest-2025/documents/solar-irradiance-poster.pdf",
+    "sha256": "65c08a075ada297558c55692a254b94ba0fb8d489a2802cf9303c1542653b10e",
+    "type": "poster",
+    "selected": true
+  },
+  {
+    "original": "PIBIC 2021-2022 Undergraduate Research Congress/32 Certificado PIBIC - UNB.pdf",
+    "path": "pibic-2022/documents/research-program-certificate.pdf",
+    "sha256": "c362078802961dcd12f08c2068c5182b2168edaa009c97b5ccbe171a139d252d",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "PIBIC 2021-2022 Undergraduate Research Congress/PIBIC - Enzo Porto Brasil.mp4",
+    "path": "../../../_source-materials/pibic-2022/imputation-video.mp4",
+    "sha256": "c9c2c29acb073f72f3daff14a6413cdcd043c5a99f0540395febdf4aaa8a0280",
+    "type": "video-source",
+    "selected": false
+  },
+  {
+    "original": "PIBIC 2021-2022 Undergraduate Research Congress/PIBIC_TEXTO_COMPLETO.pdf",
+    "path": "pibic-2022/documents/dichotomous-imputation-full-text.pdf",
+    "sha256": "0f6105911af6d17f9e27b3a169aa24d66cd83d30116dd7f45b1a075fb7279b0c",
+    "type": "full-text",
+    "selected": true
+  },
+  {
+    "original": "PIBIC 2021-2022 Undergraduate Research Congress/Slide apresentação PIBIC - Enzo Porto Brasil.pdf",
+    "path": "pibic-2022/documents/dichotomous-imputation-slides.pdf",
+    "sha256": "65b81d22b8edd1a13e000ee5c2c4085866f11211e922031e552106d5661aeeb3",
+    "type": "slides",
+    "selected": true
+  },
+  {
+    "original": "RBras and Seagro/RBras_SEAGRO_2025 - resumo BEATRIZ.pdf",
+    "path": "rbras-seagro-2025/documents/temperature-humidity-abstract.pdf",
+    "sha256": "5e0d808aec119bbeaa8f308f514acc12735f7a7819b0ec07ffdd49f5c6320071",
+    "type": "abstract",
+    "selected": false
+  },
+  {
+    "original": "RBras and Seagro/RBras_SEAGRO_2025 - resumo ENZO.pdf",
+    "path": "rbras-seagro-2025/documents/solar-irradiance-abstract.pdf",
+    "sha256": "117a2f3e8b8f15c84dcf385bf0ff062e81e4cd42fbfc61fbb06f96e86ebfa951",
+    "type": "abstract",
+    "selected": false
+  },
+  {
+    "original": "RBras and Seagro/beatriz_rbras.pdf",
+    "path": "rbras-seagro-2025/documents/temperature-humidity-presentation-certificate.pdf",
+    "sha256": "212362e0b563c9ec5aa3ba9311602ad1d57c2b0038252c713e0d391baa37dfc4",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "RBras and Seagro/carol_rbras.pdf",
+    "path": "rbras-seagro-2025/documents/climate-financial-risk-presentation-certificate.pdf",
+    "sha256": "c8379c4a3a5b3dada159f5ebdd3ea6d921a44a1deeb4259815ed92cd4f155c26",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "RBras and Seagro/enzo_rbras.pdf",
+    "path": "rbras-seagro-2025/documents/solar-irradiance-presentation-certificate.pdf",
+    "sha256": "827391854294787a76d7b72b59cb95ae462b25a91804619c6f8c8964c32aa0f7",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "RBras and Seagro/rbras_poster_beatriz.pdf",
+    "path": "rbras-seagro-2025/documents/temperature-humidity-poster.pdf",
+    "sha256": "24f6b9f7a6b96e6df9f8f0ca3c4bc355b6cadbf27f0cfb3f71ed22bae76992c4",
+    "type": "poster",
+    "selected": true
+  },
+  {
+    "original": "RBras and Seagro/rbras_poster_carol.pdf",
+    "path": "rbras-seagro-2025/documents/climate-financial-risk-poster.pdf",
+    "sha256": "94796aa3577152dfb71470a843a629e4fc2d57f75c7eaa62aec52dd1bef2a4a6",
+    "type": "poster",
+    "selected": true
+  },
+  {
+    "original": "RBras and Seagro/rbras_poster_enzo.pdf",
+    "path": "rbras-seagro-2025/documents/solar-irradiance-poster.pdf",
+    "sha256": "67d7483abc67f941aa7b32318ab0c3ad5e048f3009b840911859e2398ebcffd9",
+    "type": "poster",
+    "selected": true
+  },
+  {
+    "original": "poster_wasa_2025/1. Poster__WASA-2.pdf",
+    "path": "wasa-2024/documents/imputation-poster.pdf",
+    "sha256": "20da30a1ac70631d8aba3ec80422763654e7b12c711a3888d6933b7dd4d992b2",
+    "type": "poster",
+    "selected": true
+  },
+  {
+    "original": "poster_wasa_2025/1371D2FE-BEFF-4E52-81F1-C431F71704A9_1_105_c.jpeg",
+    "path": "wasa-2024/photos/auditorium.jpg",
+    "sha256": "4adbe61115f1824039ca5e64895d0d59830c9ef4e11b2155ddec205fc4198f1d",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "poster_wasa_2025/2. Resumo WASA.pdf",
+    "path": "wasa-2024/documents/imputation-abstract.pdf",
+    "sha256": "4cac496dbe32af42191197deb3dbd3743e5530da8ca9db33f50e34b5d74ccf4a",
+    "type": "abstract",
+    "selected": false
+  },
+  {
+    "original": "poster_wasa_2025/3. ceriticado WASA.pdf",
+    "path": "wasa-2024/documents/poster-presentation-certificate.pdf",
+    "sha256": "96501533d97124ff5e9fa376480b5b0205bf3c0f96dd82692edc948cf5eb557d",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "poster_wasa_2025/31A86B1D-80F4-45BC-AA41-12B40E021928_1_105_c.jpeg",
+    "path": "wasa-2024/photos/poster-selfie.jpg",
+    "sha256": "71dafc1ca29f85081b391cee184759a6e902b8be795ab351af4722d73345bb9b",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "poster_wasa_2025/5CB13323-BBA5-4DB0-B286-9BD0F362692B_1_105_c.jpeg",
+    "path": "wasa-2024/photos/poster-portrait.jpg",
+    "sha256": "3cfbbe0c455a18e1fbfc9d74eaa7ccc770f02df98fe8516ad1a40eba99b5870b",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "poster_wasa_2025/6766DA27-7418-47B0-8749-A02B6752D926_1_105_c.jpeg",
+    "path": "wasa-2024/photos/evening-portrait.jpg",
+    "sha256": "0a172da9feb8cd67339d200541aeca0b838ff716041dc26f224edb82a99356f0",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "poster_wasa_2025/844EF745-480A-4F0E-AC4B-55E3F40724CA_1_201_a.heic",
+    "path": "wasa-2024/photos/statistics-department.heic",
+    "sha256": "f4e8f6592d94646e0cf2d92def8021d493e382f32ee6a5c58b35fe99f963f347",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "poster_wasa_2025/C5A2D014-792B-4807-AE8D-CE3D6F48B38F_1_201_a.jpeg",
+    "path": "wasa-2024/photos/cathedral-group.jpg",
+    "sha256": "501f65faf9aaaa50264c6c992c535cf0479feb78c224bafb0cd84b0c6facc11c",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "poster_wasa_2025/F462C753-0B0F-4992-B08A-F85AEEAAF9E3_1_105_c.jpeg",
+    "path": "wasa-2024/photos/workshop-banner.jpg",
+    "sha256": "73f0f79176c46f29fb2b667f51028f2e1778e530dd1174172274d95b465205a6",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "poster_wasa_2025/F986A0A9-C0BD-4B3F-B9C9-D608D81A751E_1_201_a.jpeg",
+    "path": "wasa-2024/photos/auditorium-group.jpg",
+    "sha256": "ad9649d938231592b42c509f023c402d73b78fae8314ec498229614b2e4cc99e",
+    "type": "photo",
+    "selected": true
+  },
+  {
+    "original": "poster_wasa_2025/FE521DAC-408C-4685-BE09-74E4396B8E64_1_105_c.jpeg",
+    "path": "wasa-2024/photos/workshop-group.jpg",
+    "sha256": "10b83f24a263c91b96e95ec2b63f3320a8f1b997bea773cf7c282cd01f70c69a",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "../fotos_extras_estilo/219B7858-21DA-4A4A-8FD0-41EEA1AF9F05_1_201_a.jpeg",
+    "path": "../fotos-extras-estilo/photos/stairway-portrait.jpg",
+    "sha256": "76718d351063e4e12da2fc0a27bc35bc15a614e65bd9288df5f34e8f993bf31f",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "../fotos_extras_estilo/9191FEC2-3ECE-4A1C-9CDE-E4903586ED8E_1_105_c.jpeg",
+    "path": "../fotos-extras-estilo/photos/concrete-and-light.jpg",
+    "sha256": "6a6f01efc4ed5d8baa84f3d19f3b3c234ad10fc451e3e7a39d0dd1726fed564c",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "../fotos_extras_estilo/B1835CC6-F167-4B2B-AD4C-1B4CC749E392_1_105_c.jpeg",
+    "path": "../fotos-extras-estilo/photos/garden-flowers.jpg",
+    "sha256": "6a459171fef32a0c11fd3e7030b34ed2560e2321d5890db0769246d3271f735b",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "../fotos_extras_estilo/B207D475-0164-4CF9-A639-2E3310998D78_1_105_c.jpeg",
+    "path": "../fotos-extras-estilo/photos/pink-flowers.jpg",
+    "sha256": "7fb0445d6e3a84b35702c273b9653aca04dd18f03d5b0aeffc0d857d9b5cdbca",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "../fotos_extras_estilo/F4FEBDBE-7D49-4308-8E48-138E174279FF_1_105_c.jpeg",
+    "path": "../fotos-extras-estilo/photos/books-on-table.jpg",
+    "sha256": "e3603c27d21fe594b06bb8d0b5eebcefe118e626db195e2baf18f3773f18ffcb",
+    "type": "photo",
+    "selected": false
+  },
+  {
+    "original": "50 ANPOCS/carta_aceite_ANPOCS.pdf",
+    "path": "../../../_source-materials/anpocs-2026/acceptance-letter.pdf",
+    "sha256": "fb3a2f66420eef5e147ad0e848e1bf82904a23c6edd81d50c7adfa42e00b9ad7",
+    "type": "acceptance-letter",
+    "selected": false
+  },
+  {
+    "original": "2 encontro panamericano educacao/aceite_panamericano.pdf",
+    "path": "../../../_source-materials/panamerican-education-2026/acceptance-letter.pdf",
+    "sha256": "4f5b874e7b1e260fbcc93aac81f8f5dd2c309ffef636daf545d839d86d82455a",
+    "type": "acceptance-letter",
+    "selected": false
+  }
+]

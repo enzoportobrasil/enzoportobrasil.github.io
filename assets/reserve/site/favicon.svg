@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EB monogram">
+  <rect width="64" height="64" rx="16" fill="#102c3b"/>
+  <circle cx="45" cy="18" r="10" fill="none" stroke="#67c8bf" stroke-width="1.5" opacity=".8"/>
+  <path d="M18 17h22M18 31h17M18 46h23" stroke="#f7f8f7" stroke-width="5" stroke-linecap="round"/>
+  <path d="M19 17v29" stroke="#f7f8f7" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,353 @@
+{
+  "categories": {
+    "astronomy-space-physics": [
+      "Astronomy, Space, Physical & Earth Sciences",
+      "Astronomia, espaço, ciências físicas e da Terra",
+      "Astronomía, espacio, ciencias físicas y de la Tierra"
+    ],
+    "statistics-mathematics": [
+      "Statistics, Probability & Mathematical Methods",
+      "Estatística, probabilidade e métodos matemáticos",
+      "Estadística, probabilidad y métodos matemáticos"
+    ],
+    "computing-data": [
+      "Data Science & Scientific Computing",
+      "Ciência de dados e computação científica",
+      "Ciencia de datos y computación científica"
+    ],
+    "research-practice": [
+      "Research Methods & Academic Practice",
+      "Métodos de pesquisa e prática acadêmica",
+      "Métodos de investigación y práctica académica"
+    ],
+    "technical-professional": [
+      "Technical & Professional Training",
+      "Formação técnica e profissional",
+      "Formación técnica y profesional"
+    ],
+    "social-education-humanities": [
+      "Social Sciences, Education & Humanities",
+      "Ciências sociais, educação e humanidades",
+      "Ciencias sociales, educación y humanidades"
+    ]
+  },
+  "groups": {
+    "course": [
+      "Certificates & Additional Training",
+      "Certificados e formação complementar",
+      "Certificados y formación complementaria"
+    ],
+    "event": [
+      "Conference & Workshop Participation",
+      "Participação em congressos e encontros",
+      "Participación en congresos y encuentros"
+    ],
+    "research": [
+      "Research & Academic Activities",
+      "Pesquisa e atividades acadêmicas",
+      "Investigación y actividades académicas"
+    ],
+    "service": [
+      "Academic Service & Organisation",
+      "Serviço e organização acadêmica",
+      "Servicio y organización académica"
+    ]
+  },
+  "strings": [
+    [
+      "Statistician working across extreme events, scientific computing, and the physical, environmental and social sciences.",
+      "Estatístico que atua com eventos extremos, computação científica e as ciências físicas, ambientais e sociais.",
+      "Estadístico que trabaja en eventos extremos, computación científica y las ciencias físicas, ambientales y sociales."
+    ],
+    [
+      "Higher Education",
+      "Ensino superior",
+      "Educación superior"
+    ],
+    [
+      "Earlier Technical & STEM Education",
+      "Formação técnica e escolar anterior",
+      "Formación técnica y escolar previa"
+    ],
+    [
+      "Building Electrician — Control and Industrial Processes",
+      "Eletricista Predial — Controle e Processos Industriais",
+      "Electricista de Edificios — Control y Procesos Industriales"
+    ],
+    [
+      "Completed intermediate professional qualification within the Technical Programme in Electrotechnics.",
+      "Qualificação profissional intermediária concluída no âmbito do curso técnico em Eletrotécnica.",
+      "Cualificación profesional intermedia completada dentro del programa técnico de Electrotecnia."
+    ],
+    [
+      "Secondary Education",
+      "Ensino médio",
+      "Educación secundaria"
+    ],
+    [
+      "Brazilian secondary education, completed in 2017.",
+      "Ensino médio brasileiro, concluído em 2017.",
+      "Ensino Médio brasileño, completado en 2017."
+    ],
+    [
+      "Selected three-year subject averages",
+      "Médias de disciplinas selecionadas nos três anos",
+      "Promedios de asignaturas seleccionadas durante los tres años"
+    ],
+    [
+      "Original Brazilian 0–100 scale",
+      "Escala brasileira original de 0 a 100",
+      "Escala brasileña original de 0 a 100"
+    ],
+    [
+      "Mathematics",
+      "Matemática",
+      "Matemáticas"
+    ],
+    [
+      "Chemistry",
+      "Química",
+      "Química"
+    ],
+    [
+      "Physics",
+      "Física",
+      "Física"
+    ],
+    [
+      "Jun 2016",
+      "Jun 2016",
+      "Jun 2016"
+    ],
+    [
+      "Jun 2017",
+      "Jun 2017",
+      "Jun 2017"
+    ],
+    [
+      "Research Areas, Methods & Scientific Computing",
+      "Áreas de pesquisa, métodos e computação científica",
+      "Áreas de investigación, métodos y computación científica"
+    ],
+    [
+      "Conferences, Workshops & Academic Events",
+      "Congressos, encontros e eventos acadêmicos",
+      "Congresos, encuentros y eventos académicos"
+    ],
+    [
+      "Participation records; presentations and academic service are listed separately.",
+      "Registros de participação; apresentações e serviço acadêmico constam em seções próprias.",
+      "Registros de participación; las presentaciones y el servicio académico figuran en sus propias secciones."
+    ],
+    [
+      "Courses, Certificates & Additional Training",
+      "Cursos, certificados e formação complementar",
+      "Cursos, certificados y formación complementaria"
+    ],
+    [
+      "In progress",
+      "Em andamento",
+      "En curso"
+    ],
+    [
+      "Completed",
+      "Concluído",
+      "Completado"
+    ],
+    [
+      "Course participant",
+      "Participante de curso",
+      "Participante del curso"
+    ],
+    [
+      "Participant",
+      "Participante",
+      "Participante"
+    ],
+    [
+      "Monitor",
+      "Monitor",
+      "Monitor"
+    ],
+    [
+      "General coordinator",
+      "Coordenador geral",
+      "Coordinador general"
+    ],
+    [
+      "Poster presenter",
+      "Apresentador de pôster",
+      "Presentador de póster"
+    ],
+    [
+      "Speaker",
+      "Palestrante",
+      "Ponente"
+    ],
+    [
+      "View certificate ↗",
+      "Ver certificado ↗",
+      "Ver certificado ↗"
+    ],
+    [
+      "Public certificate ↗",
+      "Certificado público ↗",
+      "Certificado público ↗"
+    ],
+    [
+      "Public certificates →",
+      "Certificados públicos →",
+      "Certificados públicos →"
+    ],
+    [
+      "Published workload: 20 h",
+      "Carga horária publicada: 20 h",
+      "Carga horaria publicada: 20 h"
+    ],
+    [
+      "Course syllabus ↗",
+      "Programa do curso ↗",
+      "Programa del curso ↗"
+    ],
+    [
+      "Research materials & academic records.",
+      "Materiais de pesquisa e registros acadêmicos.",
+      "Materiales de investigación y registros académicos."
+    ],
+    [
+      "Theses, code, course certificates and records of participation, research and academic service.",
+      "Teses, código, certificados de cursos e registros de participação, pesquisa e serviço acadêmico.",
+      "Tesis, código, certificados de cursos y registros de participación, investigación y servicio académico."
+    ],
+    [
+      "Academic archive",
+      "Arquivo acadêmico",
+      "Archivo académico"
+    ],
+    [
+      "Certificates & academic activities",
+      "Certificados e atividades acadêmicas",
+      "Certificados y actividades académicas"
+    ],
+    [
+      "Public documents organised by activity and subject. Search by title, institution or year.",
+      "Documentos públicos organizados por atividade e assunto. Busque por título, instituição ou ano.",
+      "Documentos públicos organizados por actividad y tema. Busca por título, institución o año."
+    ],
+    [
+      "Activity",
+      "Atividade",
+      "Actividad"
+    ],
+    [
+      "All activities",
+      "Todas as atividades",
+      "Todas las actividades"
+    ],
+    [
+      "Course certificate",
+      "Certificado de curso",
+      "Certificado de curso"
+    ],
+    [
+      "Academic service certificate",
+      "Certificado de serviço acadêmico",
+      "Certificado de servicio académico"
+    ],
+    [
+      "Education",
+      "Formação",
+      "Formación"
+    ],
+    [
+      "Additional Research Outputs",
+      "Produção científica adicional",
+      "Producción científica adicional"
+    ],
+    [
+      "Manuscripts in Preparation",
+      "Manuscritos em preparação",
+      "Manuscritos en preparación"
+    ],
+    [
+      "Interdisciplinary Contributions",
+      "Contribuições interdisciplinares",
+      "Contribuciones interdisciplinarias"
+    ],
+    [
+      "Academic Service, Teaching & Volunteering",
+      "Serviço acadêmico, ensino e voluntariado",
+      "Servicio académico, docencia y voluntariado"
+    ],
+    [
+      "Academic leadership & service",
+      "Liderança e serviço acadêmico",
+      "Liderazgo y servicio académico"
+    ],
+    [
+      "Teaching & academic support",
+      "Ensino e apoio acadêmico",
+      "Docencia y apoyo académico"
+    ],
+    [
+      "Research Outputs",
+      "Produção científica",
+      "Producción científica"
+    ],
+    [
+      "Scientific Presentations",
+      "Apresentações científicas",
+      "Presentaciones científicas"
+    ],
+    [
+      "English",
+      "Inglês",
+      "Inglés"
+    ],
+    [
+      "Submitted Manuscripts and Preprints",
+      "Manuscritos submetidos e preprints",
+      "Manuscritos enviados y preprints"
+    ],
+    [
+      "Research & Professional Experience",
+      "Experiência profissional e de pesquisa",
+      "Experiencia profesional y de investigación"
+    ],
+    [
+      "Fellowships, Scholarships & Distinctions",
+      "Bolsas e distinções",
+      "Becas y distinciones"
+    ],
+    [
+      "Climate & atmospheric systems",
+      "Clima e sistemas atmosféricos",
+      "Clima y sistemas atmosféricos"
+    ],
+    [
+      "Solar irradiance and air density; temperature and humidity extremes; climate and financial risk.",
+      "Irradiância solar e densidade do ar; extremos de temperatura e umidade; clima e risco financeiro.",
+      "Irradiancia solar y densidad del aire; extremos de temperatura y humedad; clima y riesgo financiero."
+    ],
+    [
+      "Quantitative social & public-sector research",
+      "Pesquisa social quantitativa e no setor público",
+      "Investigación social cuantitativa y en el sector público"
+    ],
+    [
+      "Education indicators, national microdata and longitudinal records; public policy; diversity, equity and inclusion; administrative data validation.",
+      "Indicadores educacionais, microdados nacionais e registros longitudinais; políticas públicas; diversidade, equidade e inclusão; validação de dados administrativos.",
+      "Indicadores educativos, microdatos nacionales y registros longitudinales; políticas públicas; diversidad, equidad e inclusión; validación de datos administrativos."
+    ],
+    [
+      "Abstracts book committee: editorial review.",
+      "Comitê do livro de resumos: revisão.",
+      "Comité del libro de resúmenes: revisión."
+    ],
+    [
+      "Certificate ↗",
+      "Certificado ↗",
+      "Certificado ↗"
+    ]
+  ]
+}

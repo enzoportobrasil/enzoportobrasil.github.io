@@ -1,0 +1,227 @@
+{
+  "sys2025": {
+    "photos": [
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/1_morton-hall-portrait.jpg",
+        "sha256": "b4dc20b1fcf5fb6c543fe872f225abddcac3ef090e449ea2963a707e3752a4ba",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/morton-hall-portrait.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/1_morton-hall-portrait.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Enzo smiling outside Morton Hall, with the campus buildings and trees behind him.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/2_outer-planets-exhibit.jpg",
+        "sha256": "d3aec9e44d7e2959d45b4ed9f9cd795503c4ec6565ddd67047e68c83dc62ac8e",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/outer-planets-exhibit.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/2_outer-planets-exhibit.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Huntsville visit photograph 5.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/3_uah-research-center-portrait.jpg",
+        "sha256": "122304f3215d9d22104e5b6ae32f2b9cafee1ed3b72030188c82158e541649a4",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/uah-research-center-portrait.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/3_uah-research-center-portrait.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Enzo smiling beside the University of Alabama in Huntsville research centre sign.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/4_space-rocket-center.jpg",
+        "sha256": "50ea17182a92691faa8e36be238f15cf3ab8e325526167877f04a23b990fadea",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/space-rocket-center.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/4_space-rocket-center.jpg",
+        "width": 768,
+        "height": 1024,
+        "alt": "Enzo standing beside the U.S. Space and Rocket Center sign, with a rocket behind him at sunset.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/5_street-view.jpg",
+        "sha256": "82cb609ef472f76e6ffe1d6728154ac03e7e953353b71bc0457975b4d769e219",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/street-view.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/5_street-view.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Huntsville visit photograph 8.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/6_nasa_marshals_perfil.png",
+        "sha256": "133394d82bc6bd28c971733d403e672dd4a2cf56f7e8b352fb413d5d7fdc345e",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/nasa_marshals_perfil.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/6_nasa_marshals_perfil.png",
+        "width": 1200,
+        "height": 900,
+        "alt": "Huntsville visit photograph 3.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/7_space-shuttle-outdoors.jpg",
+        "sha256": "34b5e8534f29f52eb056a02fe2dd45baeec8ba30fb2d254b800e7b6ffbfa442b",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/space-shuttle-outdoors.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/7_space-shuttle-outdoors.jpg",
+        "width": 768,
+        "height": 1024,
+        "alt": "Huntsville visit photograph 7.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/8_rocket-exhibit-portrait.jpg",
+        "sha256": "64467e13ee6ccc87fb873552fc3f7f2496ddf8c39b004e41f0a273f9d031595c",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/rocket-exhibit-portrait.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/8_rocket-exhibit-portrait.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Huntsville visit photograph 4.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/sys2025/photos_selected/9_Fundo de huntsville-postcard Removido.png",
+        "sha256": "b4c1410cb78ebcc29491a141f79446be10cf79dc8ebf83f76f0762c1c4063132",
+        "src": "assets/img/apresentacoes/sys2025/web/deck/huntsville-postcard.webp",
+        "enlarge": "assets/img/apresentacoes/sys2025/photos_selected/9_Fundo de huntsville-postcard Removido.png",
+        "width": 465,
+        "height": 641,
+        "alt": "A Huntsville postcard with a rocket, statistical symbols and the phrase Be greater than average.",
+        "postcard": true
+      }
+    ],
+    "unnumbered": []
+  },
+  "emr-epbest-2025": {
+    "photos": [
+      {
+        "source": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/1_between-posters.jpg",
+        "sha256": "85a8fa743f5e8ed69086905876d7bc4f7527c3b4dedc4d36382a0499340fc9ce",
+        "src": "assets/img/apresentacoes/emr-epbest-2025/web/deck/between-posters.webp",
+        "enlarge": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/1_between-posters.jpg",
+        "width": 768,
+        "height": 1024,
+        "alt": "Enzo standing between two research posters, smiling with his arms crossed.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/2_event-portrait.heic",
+        "sha256": "a93460061430630192d28c5ede2ea9936040d953cb4de847f522e43e1517e834",
+        "src": "assets/img/apresentacoes/emr-epbest-2025/web/deck/event-portrait.webp",
+        "enlarge": "assets/img/apresentacoes/emr-epbest-2025/web/deck/event-portrait-original.webp",
+        "width": 1200,
+        "height": 746,
+        "alt": "EPBEST / EMR event photograph 2.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/3_event-group.jpg",
+        "sha256": "f5abce578caa1c29c1ebeb5b584698197d2b84dd25e7a842ac7081669923ee4f",
+        "src": "assets/img/apresentacoes/emr-epbest-2025/web/deck/event-group.webp",
+        "enlarge": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/3_event-group.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "EPBEST / EMR event photograph 3.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/4_poster-conversation.jpg",
+        "sha256": "449d7ad3cec64125d1e646a7bd3bb987e4af7f917773b681ccba7bc44d8a4aba",
+        "src": "assets/img/apresentacoes/emr-epbest-2025/web/deck/poster-conversation.webp",
+        "enlarge": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/4_poster-conversation.jpg",
+        "width": 708,
+        "height": 1200,
+        "alt": "EPBEST / EMR event photograph 4.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/5_poster-session-group.jpg",
+        "sha256": "2c7039fae375891845669a0e55f2ccace9a327d9cf0660aac14677a2c66bb6a1",
+        "src": "assets/img/apresentacoes/emr-epbest-2025/web/deck/poster-session-group.webp",
+        "enlarge": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/5_poster-session-group.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Enzo and four other participants standing beside a research poster.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/6_coast.jpg",
+        "sha256": "ffaacab06c7d500dc7f3e37bb1ef81125f091efacf7f8ca7355b8a897448eb44",
+        "src": "assets/img/apresentacoes/emr-epbest-2025/web/deck/coast.webp",
+        "enlarge": "assets/img/apresentacoes/emr-epbest-2025/photos_selected/6_coast.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "EPBEST / EMR event photograph 6.",
+        "postcard": false
+      }
+    ],
+    "unnumbered": []
+  },
+  "wasa-2024": {
+    "photos": [
+      {
+        "source": "assets/img/apresentacoes/wasa-2024/photos_selected/1_poster-selfie-photo.jpg",
+        "sha256": "71dafc1ca29f85081b391cee184759a6e902b8be795ab351af4722d73345bb9b",
+        "src": "assets/img/apresentacoes/wasa-2024/web/deck/poster-selfie-photo.webp",
+        "enlarge": "assets/img/apresentacoes/wasa-2024/photos_selected/1_poster-selfie-photo.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Enzo taking a smiling selfie and pointing toward his imputation poster.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/wasa-2024/photos_selected/2_auditorium.jpg",
+        "sha256": "4adbe61115f1824039ca5e64895d0d59830c9ef4e11b2155ddec205fc4198f1d",
+        "src": "assets/img/apresentacoes/wasa-2024/web/deck/auditorium.webp",
+        "enlarge": "assets/img/apresentacoes/wasa-2024/photos_selected/2_auditorium.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "WASA event photograph 2.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/wasa-2024/photos_selected/3_workshop-banner.jpg",
+        "sha256": "73f0f79176c46f29fb2b667f51028f2e1778e530dd1174172274d95b465205a6",
+        "src": "assets/img/apresentacoes/wasa-2024/web/deck/workshop-banner.webp",
+        "enlarge": "assets/img/apresentacoes/wasa-2024/photos_selected/3_workshop-banner.jpg",
+        "width": 768,
+        "height": 1024,
+        "alt": "WASA event photograph 3.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/wasa-2024/photos_selected/4_poster-portrait.jpg",
+        "sha256": "3cfbbe0c455a18e1fbfc9d74eaa7ccc770f02df98fe8516ad1a40eba99b5870b",
+        "src": "assets/img/apresentacoes/wasa-2024/web/deck/poster-portrait.webp",
+        "enlarge": "assets/img/apresentacoes/wasa-2024/photos_selected/4_poster-portrait.jpg",
+        "width": 768,
+        "height": 1024,
+        "alt": "WASA event photograph 4.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/wasa-2024/photos_selected/5_auditorium-group.jpg",
+        "sha256": "ad9649d938231592b42c509f023c402d73b78fae8314ec498229614b2e4cc99e",
+        "src": "assets/img/apresentacoes/wasa-2024/web/deck/auditorium-group.webp",
+        "enlarge": "assets/img/apresentacoes/wasa-2024/photos_selected/5_auditorium-group.jpg",
+        "width": 1170,
+        "height": 1119,
+        "alt": "Enzo and three other participants in front of the WASA presentation screen.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/wasa-2024/photos_selected/6_statistics-department.heic",
+        "sha256": "f4e8f6592d94646e0cf2d92def8021d493e382f32ee6a5c58b35fe99f963f347",
+        "src": "assets/img/apresentacoes/wasa-2024/web/deck/statistics-department.webp",
+        "enlarge": "assets/img/apresentacoes/wasa-2024/web/deck/statistics-department-original.webp",
+        "width": 1200,
+        "height": 966,
+        "alt": "WASA event photograph 6.",
+        "postcard": false
+      }
+    ],
+    "unnumbered": []
+  }
+}
