@@ -1,2 +1,221 @@
-<!doctype html><html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="../assets/js/preferences.js"></script><meta name="description" content="Research by Enzo Porto Brasil on multiple imputation methods under extreme values."><meta name="theme-color" content="#0b6d69"><title>Missing Data under Extremes — Enzo Porto Brasil</title><link rel="stylesheet" href="../assets/css/styles.css"><link rel="canonical" href="https://enzoportobrasil.github.io/research/missing-data-extremes.html"><meta property="og:type" content="website"><meta property="og:title" content="Missing Data under Extremes — Enzo Porto Brasil"><meta property="og:description" content="Research by Enzo Porto Brasil on multiple imputation methods under extreme values."><meta property="og:url" content="https://enzoportobrasil.github.io/research/missing-data-extremes.html"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container navbar"><a class="brand" href="../index.html"><span class="brand-mark">EB</span><span>Enzo Porto Brasil</span></a><button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">☰</button><nav class="nav-links" id="primary-nav" data-nav aria-label="Primary navigation"><a href="../publications.html">Publications</a><a href="../talks.html">Talks</a><a href="../cv.html">CV</a></nav><div class="nav-actions"><label class="sr-only" for="site-language">Language</label><select id="site-language" data-language-select aria-label="Language"><option value="en" lang="en" aria-label="English">EN</option><option value="pt" lang="pt-BR" aria-label="Português">PT</option><option value="es" lang="es" aria-label="Español">ES</option></select><button class="icon-button" data-theme-toggle aria-label="Switch theme">◐</button></div></div></header><main id="main"><section class="page-hero"><div class="container"><div class="breadcrumb"><a href="../research.html">Research</a> / Missing data</div><div class="eyebrow">Missingness, extremes & simulation</div><h1 lang="en">Multiple Imputation Methods under Extreme Values</h1><p class="lead">A methodological project connecting the missing-data questions of my undergraduate work with the extreme-value problems that became central during the MSc.</p></div></section><section class="section compact"><div class="container project-layout"><article class="content"><h2>Where it came from</h2><p>My BSc thesis used predictive modelling and simulation to compare single and multiple imputation strategies across controlled missing-data scenarios. Later, after moving into Extreme Value Theory, a natural question returned: <strong>what happens to conventional imputation procedures when the data contain extreme observations?</strong></p><figure class="research-evidence"><a href="../assets/img/apresentacoes/cobipe-2024/figures/imputation-mse-20-percent.pdf"><img src="../assets/img/apresentacoes/cobipe-2024/web/imputation-mse-1600.webp" alt="Boxplots and density curves comparing mean squared error in four imputation scenarios." width="1600" height="690" loading="lazy" decoding="async"></a><figcaption>Earlier work: simulation comparison presented at coBIPE 2024. This figure belongs to the undergraduate research direction, not the 2026 preprint. <a href="../assets/img/apresentacoes/cobipe-2024/figures/imputation-mse-20-percent.pdf">View original PDF ↗</a></figcaption></figure><h2>Research logic</h2><p>I use Monte Carlo simulation and MICE in R to compare multiple imputation methods in regression settings, with and without extreme values. The comparisons examine how sample size, missingness and the fitted model affect predictive performance. Linear regression imputation performed best overall by cross-validated mean squared error in the studied scenarios; that result is not a universal ranking of methods.</p><h2>Why it matters to my research</h2><p>This work makes the continuity in my trajectory explicit. Missing data did not disappear when I started studying extremes; the original question became harder. It also reinforced a methodological habit that appears throughout my work: use synthetic-data experiments to understand what a procedure recovers before trusting it on observations where the truth is unknown.</p></article><aside class="project-aside"><h3>Public links</h3><div class="aside-list"><a href="https://arxiv.org/abs/2602.04751" target="_blank" rel="noreferrer">arXiv:2602.04751 ↗</a></div><h3 style="margin-top:24px">Status</h3><div class="aside-list"><span>Submitted to Austrian Journal of Statistics</span></div><h3>Related outputs</h3><div class="aside-list"><a href="https://bdm.unb.br/handle/10483/38509">BSc thesis · 2023 ↗</a><a href="../assets/img/apresentacoes/pibic-2022/documents/dichotomous-imputation-full-text.pdf">PIBIC report · 2022 →</a><a href="../talks.html#cobipe-2024">coBIPE talk · 2024 →</a><a href="../talks.html#wasa-2024">WASA poster · 2024 →</a><a href="../assets/img/apresentacoes/emr-epbest-2025/documents/extremes-mice-poster.pdf">MICE and extremes poster · 2025 →</a></div></aside></div></section></main><footer class="site-footer"><div class="container"><div class="footer-grid"><div><p class="footer-title">Enzo Porto Brasil</p><p class="footer-copy">Statistical inference for extreme events, uncertainty and complex physical systems.</p></div><div class="footer-links"><a data-link="email" href="mailto:enzoportobrasil@gmail.com">enzoportobrasil@gmail.com</a><a data-link="linkedin" href="https://www.linkedin.com/in/enzo-porto-brasil-3231971b3/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div><div class="footer-bottom"><span>© <span data-current-year></span> Enzo Porto Brasil.</span><a href="../research.html">Back to research</a></div></div></footer><script src="../assets/js/site-config.js"></script><script src="../assets/js/main.js"></script><script src="../assets/i18n/translations.js"></script><script src="../assets/js/i18n.js"></script></body></html>
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../assets/js/preferences.js">
+</script>
+<meta name="description" content="Research area spanning missing-data mechanisms, predictive modelling, simulation and multiple imputation under extreme observations.">
+<meta name="theme-color" content="#0b6d69">
+<title>Imputation &amp; Missing Data</title>
+<link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/research-detail.css">
+<link rel="stylesheet" href="../assets/css/research-area.css">
+<link rel="canonical" href="https://enzoportobrasil.github.io/research/missing-data-extremes.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Imputation &amp; Missing Data">
+<meta property="og:description" content="Research area spanning missing-data mechanisms, predictive modelling, simulation and multiple imputation under extreme observations.">
+<meta property="og:url" content="https://enzoportobrasil.github.io/research/missing-data-extremes.html">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="container navbar">
+<a class="brand" href="../index.html">
+<span class="brand-mark">EB</span>
+<span>Enzo Porto Brasil</span>
+</a>
+<button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">☰</button>
+<nav class="nav-links" id="primary-nav" data-nav aria-label="Primary navigation">
+<a href="../publications.html">Publications</a>
+<a href="../talks.html">Talks</a>
+<a href="../cv.html">CV</a>
+</nav>
+<div class="nav-actions">
+<label class="sr-only" for="site-language">Language</label>
+<select id="site-language" data-language-select aria-label="Language">
+<option value="en" lang="en" aria-label="English">EN</option>
+<option value="pt" lang="pt-BR" aria-label="Português">PT</option>
+<option value="es" lang="es" aria-label="Español">ES</option>
+</select>
+<button class="icon-button" data-theme-toggle aria-label="Switch theme">◐</button>
+</div>
+</div>
+</header>
+<main id="main" class="research-detail research-area">
+<header class="page-hero">
+<div class="container">
+<div class="breadcrumb">
+<a href="../research.html">Research</a> / Imputation &amp; Missing Data</div>
+<div class="eyebrow">Research area · 2022–2026</div>
+<h1 lang="en">Imputation &amp; Missing Data</h1>
+<p class="lead">Missing-data mechanisms, predictive modelling and simulation-based evaluation, from undergraduate research to multiple imputation in the presence of extreme observations. This area brings together papers, presentations and the experiments behind them.</p>
+<div class="hero-actions">
+<a class="button primary" href="#area-outputs">Explore the work ↓</a>
+<a href="#area-methods">Themes and methods ↓</a>
+</div>
+</div>
+</header>
+<section class="section compact">
+<div class="container">
+<div class="area-intro content">
+<h2>A question carried across several studies</h2>
+<p>The early work examined how statistical models recover missing values in controlled settings. The PIBIC study focused on dichotomous variables; the undergraduate thesis expanded the comparison of imputation strategies. Later work asks how those strategies behave when incomplete data also contain extreme observations.</p>
+</div>
+<div class="area-visuals">
+<figure class="research-figure">
+<a href="../assets/img/research/03-imputation-extremes/p3-eqm-multipla-linear.pdf" aria-label="Open original figure: Boxplots of mean squared error for single and multiple imputation at 5, 10, 20 and 40 percent missingness.">
+<img src="../assets/img/research/area-hubs/imputation-comparison-1600.webp" srcset="../assets/img/research/area-hubs/imputation-comparison-800.webp 800w, ../assets/img/research/area-hubs/imputation-comparison-1600.webp 1600w" sizes="(max-width: 650px) calc(100vw - 36px), 1100px" width="1600" height="839" alt="Boxplots of mean squared error for single and multiple imputation at 5, 10, 20 and 40 percent missingness." loading="lazy" decoding="async">
+</a>
+<figcaption>Comparing single and multiple imputation across four missingness levels. The red line marks the reference MSE in the supplied simulation figure. <a href="../assets/img/research/03-imputation-extremes/p3-eqm-multipla-linear.pdf">Open PDF ↗</a>
+</figcaption>
+</figure>
+<figure class="research-figure">
+<a href="../assets/img/research/03-imputation-extremes/n_80_200_graficos.1_mesclado.pdf" aria-label="Open original figure: Predictive MSE densities, method-wise boxplots and quantile diagnostics for clean data and data with extreme values.">
+<img src="../assets/img/research/area-hubs/imputation-diagnostics-1600.webp" srcset="../assets/img/research/area-hubs/imputation-diagnostics-800.webp 800w, ../assets/img/research/area-hubs/imputation-diagnostics-1600.webp 1600w" sizes="(max-width: 650px) calc(100vw - 36px), 1100px" width="1600" height="1044" alt="Predictive MSE densities, method-wise boxplots and quantile diagnostics for clean data and data with extreme values." loading="lazy" decoding="async">
+</a>
+<figcaption>A later simulation setting: n = 80, with clean and contaminated data shown separately. First page of the n = 80/200 diagnostic collection; the full PDF contains 32 pages. <a href="../assets/img/research/03-imputation-extremes/n_80_200_graficos.1_mesclado.pdf">Open PDF ↗</a>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section class="container research-section" id="area-outputs">
+<span class="section-label">Research outputs · newest first</span>
+<h2>From experiments to papers and presentations</h2>
+<div class="hub-grid">
+<article class="hub-card">
+<a class="hub-card-link" href="https://arxiv.org/abs/2602.04751">
+<div class="hub-preview hub-preview--document">
+<img src="../assets/img/research/area-hubs/imputation-preprint-cover-1600.webp" alt="First page of Multiple Imputation Methods under Extreme Values." loading="lazy" decoding="async">
+</div>
+<span class="hub-kind">Preprint · 2026</span>
+<h3>Multiple Imputation Methods under Extreme Values</h3>
+<p>Six MICE methods evaluated through Monte Carlo simulation, with attention to prediction and regression inference.</p>
+<span class="hub-action">Read preprint ↗</span>
+</a>
+</article>
+<article class="hub-card">
+<a class="hub-card-link" href="../assets/img/apresentacoes/emr-epbest-2025/documents/extremes-mice-poster.pdf">
+<div class="hub-preview hub-preview--poster">
+<img src="../assets/img/apresentacoes/emr-epbest-2025/web/extremes-mice-poster-1200.webp" alt="Full preview of the 2025 poster on MICE and extreme values." loading="lazy" decoding="async">
+</div>
+<span class="hub-kind">Poster · EMR / EPBEST · 2025</span>
+<h3>Effects of extreme values on multiple imputation with MICE in R</h3>
+<p>Conference presentation of the connection between missing data, extreme observations and MICE.</p>
+<span class="hub-action">View poster ↗</span>
+</a>
+</article>
+<article class="hub-card">
+<a class="hub-card-link" href="../assets/img/apresentacoes/wasa-2024/documents/imputation-poster.pdf">
+<div class="hub-preview hub-preview--poster">
+<img src="../assets/img/apresentacoes/wasa-2024/web/imputation-poster-1200.webp" alt="Full preview of the WASA 2024 imputation poster." loading="lazy" decoding="async">
+</div>
+<span class="hub-kind">Poster · WASA · 2024</span>
+<h3>Evaluating imputation strategies for missing data through statistical modeling and simulations</span></h3>
+<p>A conference output from the earlier simulation-based comparison of imputation techniques.</p>
+<span class="hub-action">View poster ↗</span>
+</a>
+<div class="document-links">
+<a href="../talks.html#wasa-2024">Presentation record →</a>
+</div>
+</article>
+<article class="hub-card">
+<a class="hub-card-link" href="../talks.html#cobipe-2024">
+<div class="hub-preview hub-preview--slide">
+<img src="../assets/img/research/area-hubs/cobipe-cover-1600.webp" alt="Title slide of the coBIPE presentation by Enzo P. Brasil and Eduardo Y. Nakano." loading="lazy" decoding="async">
+</div>
+<span class="hub-kind">Oral presentation · Natal · 2024</span>
+<h3>Assessing imputation techniques for missing data using statistical models: a simulation approach</span></h3>
+<p>Statistical models and simulation, presented at the Brazil–Colombia Binational Colloquium on Probability and Statistics.</p>
+<span class="hub-action">Explore the talk →</span>
+</a>
+<div class="document-links">
+<a href="../assets/img/apresentacoes/cobipe-2024/documents/imputation-slides.pdf">Slides ↗</a>
+</div>
+</article>
+<article class="hub-card">
+<a class="hub-card-link" href="https://bdm.unb.br/handle/10483/38509">
+<div class="hub-preview hub-preview--document">
+<img src="../assets/img/research/area-hubs/bsc-cover-1600.webp" alt="Original University of Brasília cover of Enzo Porto Brasil’s undergraduate thesis." loading="lazy" decoding="async">
+</div>
+<span class="hub-kind">Undergraduate thesis · 2023</span>
+<h3>Imputation Methods for Missing Data Using Predictive Modelling</h3>
+<p>The BSc study that developed the comparison of single and multiple imputation through simulation.</p>
+<span class="hub-action">University repository ↗</span>
+</a>
+</article>
+<article class="hub-card">
+<a class="hub-card-link" href="../assets/img/apresentacoes/pibic-2022/documents/dichotomous-imputation-full-text.pdf">
+<div class="hub-preview hub-preview--document">
+<img src="../assets/img/research/area-hubs/pibic-cover-1600.webp" alt="First page of the PIBIC report on imputation for dichotomous variables." loading="lazy" decoding="async">
+</div>
+<span class="hub-kind">PIBIC research · 2022</span>
+<h3>Imputation Methods for Dichotomous Variables</h3>
+<p>An undergraduate research report on missing values in binary variables.</p>
+<span class="hub-action">Read report ↗</span>
+</a>
+<div class="document-links">
+<a href="../assets/img/apresentacoes/pibic-2022/documents/dichotomous-imputation-slides.pdf">Slides ↗</a>
+<a href="../talks.html#pibic-2022">Presentation record →</a>
+</div>
+</article>
+</div>
+</section>
+<section class="container research-section" id="simulation-materials">
+<span class="section-label">Supporting material</span>
+<h2>Simulation materials</h2>
+<p>During the simulation studies, graphical reports were generated to examine imputation performance across sample sizes and settings. The collections below include additional diagnostics and results beyond the figures selected on this page.</p>
+<div class="document-links">
+<a href="../assets/img/research/03-imputation-extremes/n_20_40_graficos.1_mesclado.pdf">n = 20 and 40 · PDF ↗</a>
+<a href="../assets/img/research/03-imputation-extremes/n_80_200_graficos.1_mesclado.pdf">n = 80 and 200 · PDF ↗</a>
+<a href="../assets/img/research/03-imputation-extremes/n_500_graficos.1_mesclado.pdf">n = 500 · PDF ↗</a>
+</div>
+</section>
+<div class="container">
+<section class="research-section area-methods" id="area-methods">
+<h2>Ideas that connect the work</h2>
+<ol class="method-sequence">
+<li>
+<strong>Missingness</strong>How the missing-data mechanism and the incomplete variable shape the problem.</li>
+<li>
+<strong>Predictive modelling</strong>Single and multiple imputation, regression models and comparisons of predictive error.</li>
+<li>
+<strong>Simulation and extremes</strong>Known-truth experiments to examine recovery, interval coverage and sensitivity to extreme observations.</li>
+</ol>
+</section>
+<section class="research-section area-closing">
+<h2>Beyond filling the gaps</h2>
+<p>The later work extends the original question rather than closing it. Good prediction does not automatically imply well-calibrated uncertainty, and larger samples do not necessarily remove the effects of extreme contamination. Those distinctions connect the early experiments to the continuing study of imputation as a modelling choice.</p>
+</section>
+</div>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<p class="footer-title">Enzo Porto Brasil</p>
+<p class="footer-copy">Statistical inference for extreme events, uncertainty and complex physical systems.</p>
+</div>
+<div class="footer-links">
+<a data-link="email" href="mailto:enzoportobrasil@gmail.com">enzoportobrasil@gmail.com</a>
+<a data-link="linkedin" href="https://www.linkedin.com/in/enzo-porto-brasil-3231971b3/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© <span data-current-year>
+</span> Enzo Porto Brasil.</span>
+<a href="../research.html">Back to research</a>
+</div>
+</div>
+</footer>
+<script src="../assets/js/site-config.js">
+</script>
+<script src="../assets/js/main.js">
+</script>
+<script src="../assets/i18n/translations.js">
+</script>
+<script src="../assets/js/i18n.js">
+</script>
+</body>
+</html>
