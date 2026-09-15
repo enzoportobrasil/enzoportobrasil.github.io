@@ -1,0 +1,1473 @@
+% !TEX program = xelatex
+% =====================================================================
+% academic_cv.tex
+% General, non-application-specific Academic CV for the public website.
+%
+% This file reuses, unchanged, the full macro architecture (documentclass,
+% packages, geometry, colours, typography, section/entry commands, footer,
+% page numbering) of Enzo Porto Brasil's LaTeX CV template family used for
+% targeted PhD-application CVs. Only the "APPLICATION-SPECIFIC POSITIONING"
+% block (headline, keywords, profile text) and the curated section content
+% below were changed for a general audience. Targeted variants live outside
+% this repository and are unaffected.
+% =====================================================================
+
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[
+  a4paper,
+  left=0.55in,
+  right=0.55in,
+  top=0.30in,
+  bottom=0.30in,
+  footskip=11pt
+]{geometry}
+
+\usepackage{comment}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{tgpagella}
+  \newcommand{\HeaderFont}{}
+\else
+  \usepackage{fontspec}
+  \IfFontExistsTF{Charis SIL}
+    {\setmainfont{Charis SIL}}
+    {\IfFontExistsTF{TeX Gyre Pagella}
+      {\setmainfont{TeX Gyre Pagella}}
+      {\setmainfont{Latin Modern Roman}}}
+  \IfFontExistsTF{EB Garamond}
+    {\newfontfamily\HeaderFont{EB Garamond}}
+    {\newfontfamily\HeaderFont{TeX Gyre Pagella}}
+\fi
+
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{needspace}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+
+% =====================================================================
+% GENERAL-CV POSITIONING
+% =====================================================================
+
+\newcommand{\TargetHeadline}{Statistical Inference, Uncertainty \& Scientific Computing}
+\newcommand{\TargetSubheadline}{}
+
+\newcommand{\TargetKeywords}{
+  statistics,
+  statistical inference,
+  Bayesian inference,
+  frequentist inference,
+  hierarchical modelling,
+  spatial statistics,
+  uncertainty quantification,
+  Monte Carlo simulation,
+  simulation-based inference,
+  computational statistics,
+  scientific computing,
+  Extreme Value Theory,
+  copulas,
+  Gaussian processes,
+  missing data,
+  multiple imputation,
+  astrostatistics,
+  environmental statistics,
+  reproducible research,
+  R,
+  Python,
+  Stan
+}
+
+\newcommand{\ProfileText}{
+I am a statistician with a BSc and MSc in Statistics from the University of Brasília (UnB). My research centres on statistical inference, uncertainty quantification, and simulation, developed through Bayesian and frequentist methods, hierarchical and spatial modelling, and computational tools including R, Python, and Stan. During my MSc, I applied these methods to problems in extreme value theory and dependence structures, working with physical and environmental data, including NASA solar irradiance measurements, alongside separate applied work with large administrative and public-sector datasets. Across these projects, my consistent interest has been how statistical modelling, computation, and uncertainty quantification can be combined to draw reliable conclusions from complex, real-world data.
+}
+
+% =====================================================================
+% CANDIDATE INFORMATION
+% =====================================================================
+
+\newcommand{\CandidateName}{Enzo Porto Brasil}
+\newcommand{\CandidateLocation}{Brasília, Brazil}
+\newcommand{\CandidateEmail}{enzoportobrasil@gmail.com}
+
+\newcommand{\CandidateLinkedIn}{https://www.linkedin.com/in/enzo-porto-brasil-3231971b3/}
+
+\newcommand{\CandidateLinkedInText}{linkedin.com/in/enzo-porto-brasil-3231971b3}
+
+% =====================================================================
+% COLOURS, PDF METADATA, AND GLOBAL TYPOGRAPHY
+% =====================================================================
+
+\definecolor{CVText}{HTML}{151719}
+\definecolor{CVMuted}{HTML}{646A70}
+\definecolor{CVRule}{HTML}{B8BEC4}
+\definecolor{CVBlue}{HTML}{064F7D}
+\definecolor{blue}{HTML}{0000FF}
+\definecolor{CVBlack}{HTML}{000000}
+\definecolor{CVInstitution}{HTML}{303438}
+
+\hypersetup{
+  pdfauthor={Enzo Porto Brasil},
+  pdftitle={Academic CV, Enzo Porto Brasil},
+  pdfsubject={Academic CV},
+  pdfkeywords={\TargetKeywords}
+}
+
+\urlstyle{same}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\linespread{0.995}
+\raggedbottom
+
+\emergencystretch=1.5em
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+% =====================================================================
+% FOOTER
+% =====================================================================
+
+\pagestyle{fancy}
+
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\setlength{\headheight}{8pt}
+
+\fancyfoot[C]{%
+  \fontsize{7.2}{8.0}\selectfont
+  \color{CVMuted}%
+  \CandidateName
+  \enspace·\enspace
+  Academic CV
+  \enspace·\enspace
+  \thepage/\pageref{LastPage}%
+}
+
+% =====================================================================
+% SHARED DIMENSIONS
+% =====================================================================
+\newlength{\CVSectionGlobalGap}
+\setlength{\CVSectionGlobalGap}{0.45em}
+
+\newsavebox{\CVProfileBox}
+\newlength{\CVProfileHeight}
+
+% Header spacing controls
+\newlength{\CVTopEducationGap}
+\setlength{\CVTopEducationGap}{0.18cm}
+
+\newlength{\CVNameHeadlineGap}
+\setlength{\CVNameHeadlineGap}{0.38em}
+
+\newlength{\CVContactLineGap}
+\setlength{\CVContactLineGap}{0.03em}
+
+\newlength{\CVDateColumn}
+\setlength{\CVDateColumn}{0.078\textwidth}
+
+\newlength{\CVEntryGap}
+\setlength{\CVEntryGap}{0.78em}
+
+\newlength{\CVEntryIndent}
+\setlength{\CVEntryIndent}{
+  \dimexpr\CVDateColumn+\CVEntryGap\relax
+}
+
+\newlength{\CVEntryWidth}
+\setlength{\CVEntryWidth}{
+  \dimexpr\textwidth-\CVEntryIndent\relax
+}
+
+\newlength{\CVDetailLabel}
+\setlength{\CVDetailLabel}{0.112\linewidth}
+
+\newlength{\CVDetailGap}
+\setlength{\CVDetailGap}{0.54em}
+
+\newlength{\CVPubNumberWidth}
+\setlength{\CVPubNumberWidth}{1.62em}
+
+\newlength{\CVPubGap}
+\setlength{\CVPubGap}{0.50em}
+
+\newlength{\CVLowerDateWidth}
+\setlength{\CVLowerDateWidth}{0.105\textwidth}
+
+\newlength{\CVLowerDateGap}
+\setlength{\CVLowerDateGap}{0.72em}
+
+\newlength{\CVLowerRightInset}
+\setlength{\CVLowerRightInset}{2cm}
+
+% =====================================================================
+% CONTENT SPACING PRESETS
+% Edit spacing here; document content below should not need manual \vspace.
+% =====================================================================
+
+\newlength{\CVEntryBetween}
+\newlength{\CVEntryBodyLift}
+
+\newif\ifCVFirstEntry
+\newif\ifCVFirstSkill
+\newif\ifCVFirstPublication
+\newif\ifCVFirstFunding
+\newif\ifCVFirstPresentation
+\newif\ifCVFirstTraining
+\newif\ifCVFirstResearchSubsection
+\newif\ifCVFirstPresentationSubsection
+\newif\ifCVFirstTrainingGroup
+\newif\ifCVFirstServiceGroup
+
+\newcommand{\cvconfigureentries}[2]{%
+  \setlength{\CVEntryBetween}{#1}%
+  \setlength{\CVEntryBodyLift}{#2}%
+  \global\CVFirstEntrytrue
+}
+
+\newcommand{\cvresetentries}{\global\CVFirstEntrytrue}
+\newcommand{\cvresetskills}{\global\CVFirstSkilltrue}
+\newcommand{\cvresetpublications}{\global\CVFirstPublicationtrue}
+\newcommand{\cvresetfunding}{\global\CVFirstFundingtrue}
+\newcommand{\cvresetpresentations}{\global\CVFirstPresentationtrue}
+\newcommand{\cvresettraining}{\global\CVFirstTrainingtrue}
+
+\newcommand{\cvskillrow}[2]{%
+  \Needspace{4.3\baselineskip}%
+  \noindent
+  \begin{minipage}[t]{0.486\textwidth}
+    \RaggedRight
+    \begin{cvskillscolumn}
+      #1
+    \end{cvskillscolumn}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.486\textwidth}
+    \RaggedRight
+    \begin{cvskillscolumn}
+      #2
+    \end{cvskillscolumn}
+  \end{minipage}\par
+  \vspace{0.20cm}%
+}
+
+\newcommand{\cvbeforeentry}{%
+  \ifCVFirstEntry
+    \global\CVFirstEntryfalse
+  \else
+    \vspace*{\CVEntryBetween}%
+  \fi
+}
+
+\newcommand{\cvbeforeskill}{%
+  \ifCVFirstSkill
+    \global\CVFirstSkillfalse
+  \else
+    \vspace*{0.2cm}%
+  \fi
+}
+
+\newcommand{\cvbeforepublication}{%
+  \ifCVFirstPublication
+    \global\CVFirstPublicationfalse
+  \else
+    \vspace*{0.05cm}%
+  \fi
+}
+
+\newcommand{\cvbeforefunding}{%
+  \ifCVFirstFunding
+    \global\CVFirstFundingfalse
+  \else
+    \vspace*{0.1cm}%
+  \fi
+}
+
+\newcommand{\cvbeforepresentation}{%
+  \ifCVFirstPresentation
+    \global\CVFirstPresentationfalse
+  \else
+    \vspace*{0.2cm}%
+  \fi
+}
+
+\newcommand{\cvbeforetraining}{%
+  \ifCVFirstTraining
+    \global\CVFirstTrainingfalse
+  \else
+    \vspace*{0.05cm}%
+  \fi
+}
+
+% One intentional extra 0.05 cm separation retained from the master CV.
+\newcommand{\cvtrainingextraseparation}{\vspace*{0.05cm}}
+
+\newcommand{\cvpagebreak}{%
+  \newpage
+  \cvresetentries
+}
+
+% Section preset: key, space before, space after, setup executed after title.
+\newcommand{\cvdefinesectionpreset}[4]{%
+  \expandafter\def\csname CVSectionBefore#1\endcsname{#2}%
+  \expandafter\def\csname CVSectionAfter#1\endcsname{#3}%
+  \expandafter\def\csname CVSectionSetup#1\endcsname{#4}%
+}
+
+\cvdefinesectionpreset{plain}{0pt}{0pt}{}
+\cvdefinesectionpreset{education}{\CVTopEducationGap}{0.1cm}{%
+  \cvconfigureentries{0.3cm}{-0.15cm}%
+}
+\cvdefinesectionpreset{skills}{0.4cm}{0pt}{}
+\cvdefinesectionpreset{experience}{0.4cm}{0pt}{\cvconfigureentries{0.15cm}{-0.18cm}}
+\cvdefinesectionpreset{research}{0.32cm}{0pt}{\global\CVFirstResearchSubsectiontrue}
+\cvdefinesectionpreset{funding}{0.30cm}{0.1cm}{\cvresetfunding}
+\cvdefinesectionpreset{presentations}{0.30cm}{-0.08cm}{\global\CVFirstPresentationSubsectiontrue}
+\cvdefinesectionpreset{training}{0.30cm}{0pt}{\global\CVFirstTrainingGrouptrue}
+\cvdefinesectionpreset{service}{0.30cm}{0pt}{\global\CVFirstServiceGrouptrue}
+\cvdefinesectionpreset{languages}{0.30cm}{0pt}{}
+
+\newenvironment{cvskillscolumn}{\cvresetskills}{}
+
+% =====================================================================
+% HEADER BLOCK
+% =====================================================================
+
+\newcommand{\cvtopblock}[1]{%
+  % Measure the profile first so the left column automatically matches
+  % its height. This keeps the name aligned with the top of the profile
+  % and the contact block aligned with the profile's final line.
+  \sbox{\CVProfileBox}{%
+    \begin{minipage}[t]{0.602\textwidth}
+      \vspace{0pt}%
+      {\hyphenpenalty=650\relax
+       \exhyphenpenalty=650\relax
+       \fontsize{8.65}{10.05}\selectfont
+       \justifying
+       #1\par
+      }%
+    \end{minipage}%
+  }%
+
+  \setlength{\CVProfileHeight}{%
+    \dimexpr\ht\CVProfileBox+\dp\CVProfileBox\relax
+  }%
+
+  \Needspace{\dimexpr\CVProfileHeight+2.0\baselineskip\relax}%
+
+  \noindent
+  \begin{minipage}[t][\CVProfileHeight][s]{0.355\textwidth}
+    \vspace{0pt}%
+
+    {\HeaderFont
+      \fontsize{22.4}{22.8}\selectfont
+      \bfseries
+      \color{CVBlue}%
+      \mbox{\CandidateName}
+      \par
+    }
+
+    \vspace{\CVNameHeadlineGap}
+
+{\fontsize{8.85}{9.65}\selectfont
+  \color{CVInstitution}%
+  \RaggedRight
+  \TargetHeadline%
+  \if\relax\detokenize{\TargetSubheadline}\relax
+  \else
+    \\[-0.03em]\TargetSubheadline%
+  \fi
+  \par
+}
+
+    % The flexible vertical space keeps the contact block anchored to
+    % the bottom of the profile, regardless of profile length.
+    \vfill
+
+    {\fontsize{8.25}{9.05}\selectfont
+      \color{CVBlack}
+      \CandidateLocation
+      \par
+    }
+
+    \vspace{\CVContactLineGap}
+
+    {\fontsize{8.25}{9.05}\selectfont
+      \color{CVBlack}
+      \href{mailto:\CandidateEmail}{\CandidateEmail}
+      \par
+    }
+
+    \vspace{\CVContactLineGap}
+
+    {\fontsize{8.25}{9.05}\selectfont
+      \color{CVBlack}
+      \href{\CandidateLinkedIn}{\CandidateLinkedInText}
+      \par
+    }
+
+  \end{minipage}%
+  \hspace{0.038\textwidth}%
+  \begin{minipage}[t]{0.602\textwidth}
+    \vspace{0pt}%
+
+    {\hyphenpenalty=650\relax
+     \exhyphenpenalty=650\relax
+     \fontsize{8.65}{10.05}\selectfont
+     \justifying
+     #1\par
+    }
+
+  \end{minipage}\par
+}
+
+% =====================================================================
+% SECTION HIERARCHY
+% =====================================================================
+
+\newcommand{\cvsection}[2][plain]{%
+  \vspace*{\csname CVSectionBefore#1\endcsname}%
+  \Needspace{3.8\baselineskip}%
+  \vspace{\CVSectionGlobalGap}%
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}l@{\hspace{0.82em}}X@{}}
+    {\HeaderFont
+      \fontsize{9.35}{10.0}\selectfont
+      \bfseries
+      \MakeUppercase{#2}
+    }
+    &
+    \raisebox{0.55ex}{
+      \color{CVRule}
+      \rule{\linewidth}{0.34pt}
+    }
+  \end{tabularx}\par
+  \vspace{0.11em}%
+  \vspace*{\csname CVSectionAfter#1\endcsname}%
+  \csname CVSectionSetup#1\endcsname
+}
+
+\newcommand{\cvsubsection}[1]{%
+  \ifCVFirstResearchSubsection
+    \vspace*{0.1cm}%
+    \global\CVFirstResearchSubsectionfalse
+  \else
+    \vspace*{0.21cm}%
+  \fi
+  \Needspace{1.55\baselineskip}%
+  \vspace{0.12em}%
+  {\fontsize{8.05}{8.85}\selectfont
+    \bfseries
+    \color{CVInstitution}%
+    \MakeUppercase{#1}\par
+  }
+  \vspace{0.055em}%
+  \vspace*{-0.15cm}%
+  \cvresetpublications
+}
+
+% =====================================================================
+% EDUCATION AND EXPERIENCE ENTRIES
+% =====================================================================
+
+\newcommand{\cvdatefirst}[1]{%
+  {\fontsize{7.35}{8.00}\selectfont
+    \color{CVMuted}
+    #1
+  }%
+}
+
+\newcommand{\cvdatesecond}[1]{%
+  {\fontsize{7.35}{8.00}\selectfont
+    \color{CVMuted}
+    #1
+  }%
+}
+
+\newcommand{\cventry}[6]{%
+  \cvbeforeentry
+  \Needspace{3.0\baselineskip}%
+
+  \vspace{0.075em}%
+
+  \noindent
+  \makebox[\CVDateColumn][r]{
+    \cvdatefirst{#1}
+  }%
+  \hspace{\CVEntryGap}%
+  {\fontsize{9.15}{9.72}\selectfont
+    \bfseries
+    #3
+  }\par
+
+  \vspace{-0.105em}%
+
+  \noindent
+  \makebox[\CVDateColumn][r]{
+    \cvdatesecond{#2}
+  }%
+  \hspace{\CVEntryGap}%
+  \makebox[\CVEntryWidth][l]{%
+
+    {\fontsize{8.28}{8.90}\selectfont
+      \color{CVInstitution}
+      #4
+    }%
+
+    \hfill
+
+    \if\relax\detokenize{#5}\relax
+    \else
+      {\fontsize{7.45}{8.05}\selectfont
+        \color{CVMuted}
+        #5
+      }%
+    \fi
+  }\par
+
+  \vspace{-0.015em}%
+
+  \noindent
+  \hspace*{\CVEntryIndent}%
+  \begin{minipage}[t]{\CVEntryWidth}
+    \vspace{0pt}%
+    \vspace*{\CVEntryBodyLift}%
+    #6
+  \end{minipage}\par
+
+  \vspace{0.075em}%
+}
+
+\newcommand{\cvdetail}[2]{%
+  \noindent
+
+  \begin{minipage}[t]{\CVDetailLabel}
+    \vspace{0pt}%
+
+    {\fontsize{7.15}{7.95}\selectfont
+      \bfseries
+      \color{CVBlue!90!black}%
+      \RaggedRight
+      \MakeUppercase{#1}\par
+    }
+
+  \end{minipage}%
+  \hspace{\CVDetailGap}%
+  \begin{minipage}[t]{
+    \dimexpr
+      \linewidth
+      -\CVDetailLabel
+      -\CVDetailGap
+    \relax
+  }
+
+    \vspace{0pt}%
+
+    {\fontsize{8.22}{9.16}\selectfont
+      \RaggedRight
+      #2\par
+    }
+
+  \end{minipage}\par
+
+  \vspace{0.040em}%
+}
+
+\newcommand{\cvparagraph}[1]{%
+  {\fontsize{8.28}{9.22}\selectfont
+    \RaggedRight
+    #1\par
+  }%
+}
+
+\newenvironment{cvbullets}{%
+  \begin{itemize}[
+    leftmargin=0.94em,
+    rightmargin=0.04em,
+    labelwidth=0.32em,
+    labelsep=0.27em,
+    itemsep=0.052em,
+    topsep=0.012em,
+    parsep=0pt,
+    partopsep=0pt,
+    label={\color{CVMuted}\textbullet}
+  ]%
+
+  \fontsize{8.24}{9.20}\selectfont
+  \RaggedRight
+}{%
+  \end{itemize}%
+}
+
+\newcommand{\cvbullet}[1]{
+  \item #1
+}
+
+\newcommand{\cvskill}[2]{%
+  \cvbeforeskill
+  \Needspace{1.8\baselineskip}%
+
+  {\fontsize{8.20}{9.12}\selectfont
+    \RaggedRight
+
+    \textbf{#1}\par
+
+    \vspace{-0.025em}%
+
+    #2\par
+  }%
+
+  \vspace{0.095em}%
+}
+
+% =====================================================================
+% RESEARCH OUTPUTS
+% =====================================================================
+
+\newcounter{cvpub}
+
+\newcommand{\resetcvpub}{%
+  \setcounter{cvpub}{0}%
+  \cvresetpublications
+}
+
+\newcommand{\cvpreprint}[2]{%
+  \href{#1}{
+    \textcolor{blue!82!black}{#2}
+  }%
+}
+
+% #1 title
+% #2 authors
+% #3 venue/details
+% #4 status/preprint
+%
+% Only the title is bold.
+
+\newcommand{\cvpublication}[4]{%
+  \cvbeforepublication
+  \Needspace{2.55\baselineskip}%
+
+  \refstepcounter{cvpub}%
+
+  \noindent
+  \begin{minipage}[t]{\CVPubNumberWidth}
+    \vspace{0pt}%
+
+    \makebox[\linewidth][r]{%
+      {\fontsize{7.45}{8.20}\selectfont
+        \color{CVMuted}
+        [\thecvpub]
+      }%
+    }%
+
+  \end{minipage}%
+  \hspace{\CVPubGap}%
+  \begin{minipage}[t]{
+    \dimexpr
+      \linewidth
+      -\CVPubNumberWidth
+      -\CVPubGap
+    \relax
+  }
+
+    \vspace{0pt}%
+
+    {\fontsize{8.18}{9.00}\selectfont
+      \RaggedRight
+      \textbf{#1}\par
+    }
+
+    \vspace{0.002em}%
+
+    {\fontsize{7.58}{8.34}\selectfont
+      \RaggedRight
+      #2\par
+    }
+
+    \if\relax\detokenize{#3#4}\relax
+    \else
+
+      \vspace{-0.005em}%
+
+      {\fontsize{7.42}{8.20}\selectfont
+        \color{CVMuted}
+        \RaggedRight
+
+        #3%
+
+        \if\relax\detokenize{#4}\relax
+        \else
+          \if\relax\detokenize{#3}\relax
+          \else
+            \space
+          \fi
+          #4%
+        \fi
+
+        \par
+      }
+
+    \fi
+
+  \end{minipage}\par
+
+  \vspace{0.105em}%
+}
+
+% =====================================================================
+% FUNDING, PRESENTATIONS, TRAINING, SERVICE
+% =====================================================================
+
+\newcommand{\cvfundingentry}[3]{%
+  \cvbeforefunding
+  \Needspace{1.55\baselineskip}%
+
+  {\fontsize{8.05}{8.86}\selectfont
+    \RaggedRight
+    \textbf{#1}\par
+  }
+
+  \vspace{-0.02em}%
+
+  {\fontsize{7.50}{8.28}\selectfont
+    \RaggedRight
+    {\color{CVInstitution}\itshape #2.}%
+    \enspace
+    {\color{CVMuted}#3}%
+    \par
+  }
+
+  \vspace{0.105em}%
+}
+\newcommand{\cvpresentationsubsection}[1]{%
+  \ifCVFirstPresentationSubsection
+    \vspace*{0.15cm}%
+    \global\CVFirstPresentationSubsectionfalse
+  \else
+    \vspace*{0.2cm}%
+  \fi
+  \Needspace{1.55\baselineskip}%
+  \vspace{0.12em}%
+
+  \noindent
+  \hspace*{\dimexpr\CVLowerDateWidth+\CVLowerDateGap\relax}%
+  {\fontsize{8.05}{8.85}\selectfont
+    \bfseries
+    \color{CVInstitution}%
+    \MakeUppercase{#1}\par
+  }
+
+  \vspace{0.055em}%
+  \vspace*{-0.15cm}%
+  \cvresetpresentations
+}
+
+% #1 date
+% #2 title
+% #3 role/type
+% #4 venue/details
+
+\newcommand{\cvpresentation}[4]{%
+  \cvbeforepresentation
+  \Needspace{1.75\baselineskip}%
+
+  \noindent
+  \begin{minipage}[t]{\CVLowerDateWidth}
+    \vspace{0pt}%
+
+    % Date
+    {\fontsize{7.30}{8.05}\selectfont
+      \color{CVMuted}
+      \RaggedLeft
+      #1\par
+    }
+
+    % Presentation type
+    \if\relax\detokenize{#3}\relax
+    \else
+      \vspace{-0.01em}%
+      {\fontsize{7.00}{7.70}\selectfont
+        \color{CVMuted}
+        \RaggedLeft
+        #3\par
+      }
+    \fi
+
+  \end{minipage}%
+  \hspace{\CVLowerDateGap}%
+    \begin{minipage}[t]{%
+      \dimexpr
+        \textwidth
+        -\CVLowerDateWidth
+        -\CVLowerDateGap
+        -\CVLowerRightInset
+      \relax
+    }
+
+    \vspace{0pt}%
+
+    % Presentation title
+    {\fontsize{8.06}{8.88}\selectfont
+      \bfseries
+      \RaggedRight
+      #2\par
+    }
+
+    % Venue / event
+    \if\relax\detokenize{#4}\relax
+    \else
+      \vspace{-0.005em}%
+      {\fontsize{7.44}{8.22}\selectfont
+        \color{CVMuted}
+        \RaggedRight
+        #4\par
+      }
+    \fi
+
+  \end{minipage}\par
+
+  \vspace{0.105em}%
+}
+
+\newcommand{\cvlowergroup}[2][plain]{%
+  \csname cvlowergroupbefore#1\endcsname
+  \Needspace{1.45\baselineskip}%
+  \vspace{0.085em}%
+  {\fontsize{8.08}{8.86}\selectfont
+    \bfseries
+    \color{CVInstitution}%
+    #2\par
+  }%
+  \vspace{0.020em}%
+  \csname cvlowergroupafter#1\endcsname
+}
+
+\expandafter\def\csname cvlowergroupbeforeplain\endcsname{}
+\expandafter\def\csname cvlowergroupafterplain\endcsname{}
+
+\expandafter\def\csname cvlowergroupbeforetraining\endcsname{%
+  \ifCVFirstTrainingGroup
+    \vspace*{0.1cm}%
+    \global\CVFirstTrainingGroupfalse
+  \else
+    \vspace*{0.25cm}%
+  \fi
+}
+\expandafter\def\csname cvlowergroupaftertraining\endcsname{%
+  \vspace*{0.05cm}%
+  \cvresettraining
+}
+
+\expandafter\def\csname cvlowergroupbeforeservice\endcsname{%
+  \ifCVFirstServiceGroup
+    \vspace*{0.1cm}%
+    \global\CVFirstServiceGroupfalse
+  \else
+    \vspace*{0.2cm}%
+  \fi
+}
+\expandafter\def\csname cvlowergroupafterservice\endcsname{%
+  \vspace*{-0.15cm}%
+}
+
+\newcommand{\cvtraining}[3]{%
+  \cvbeforetraining
+  \Needspace{1.08\baselineskip}%
+
+  \noindent
+  {\fontsize{7.78}{8.48}\selectfont
+    \RaggedRight
+    \hangindent=0.90em
+    \hangafter=1
+    \makebox[0.78em][l]{%
+      {\fontsize{5.95}{6.55}\selectfont
+        \color{CVMuted}%
+        \raisebox{0.10ex}{\textbullet}%
+      }%
+    }%
+    #1%
+    \enspace
+    {\color{CVMuted}\itshape #2}%
+    \enspace
+    {\fontsize{7.12}{7.88}\selectfont
+      \color{CVMuted}%
+      (#3)%
+    }%
+    \par
+  }%
+
+  \vspace{-0.025em}%
+}
+
+\newcommand{\cvservice}[4]{%
+  \Needspace{1.20\baselineskip}%
+
+  \noindent
+  \begin{minipage}[t]{\CVLowerDateWidth}
+    \vspace{0pt}%
+
+    {\fontsize{7.18}{7.92}\selectfont
+      \color{CVMuted}%
+      \RaggedLeft
+      #1\par
+    }
+
+  \end{minipage}%
+  \hspace{\CVLowerDateGap}%
+  \begin{minipage}[t]{%
+    \dimexpr
+      \textwidth
+      -\CVLowerDateWidth
+      -\CVLowerDateGap
+    \relax
+  }
+
+    \vspace{0pt}%
+
+    {\fontsize{7.78}{8.50}\selectfont
+      \RaggedRight
+
+      {\bfseries #2}%
+      \enspace
+      {\color{CVInstitution}#3}%
+
+      \if\relax\detokenize{#4}\relax
+      \else
+        \enspace
+        {\fontsize{7.18}{7.92}\selectfont\color{CVMuted}#4}%
+      \fi
+
+      \par
+    }
+
+  \end{minipage}\par
+
+  \vspace{0.028em}%
+}
+
+\newcommand{\cvcompactline}[1]{%
+  {\fontsize{7.90}{8.74}\selectfont
+    \RaggedRight
+    #1\par
+  }%
+}
+
+% =====================================================================
+% DOCUMENT CONTENT
+% =====================================================================
+
+\begin{document}
+
+\fontsize{8.85}{10.15}\selectfont
+\color{CVText}
+
+\cvtopblock{\ProfileText}
+
+% =====================================================================
+% EDUCATION
+% =====================================================================
+\vspace*{0.2cm}
+\cvsection[education]{Education}
+\cventry{Feb 2024}{Jul 2026}{MSc in Statistics}{Graduate Program in Statistics, University of Brasília (UnB)}{Brasília, Brazil}{%
+    \cvdetail{Thesis}{%
+        \emph{``\textbf{Statistical Modelling of Spatial Extremes in Complex Systems}''}
+        \\
+        Developed a Bayesian hierarchical geostatistical model for spatial
+        extremes with BGEV marginals, allowing all distributional
+        parameters to vary spatially through latent Gaussian structures.
+        The model is designed to capture bimodality, tail behaviour, and
+        spatial heterogeneity within a unified probabilistic framework.
+      }
+
+    \cvdetail{Methods}{%
+        Bayesian hierarchical modelling;
+        Extreme Value Theory;
+        latent Gaussian processes with spatial covariance;
+        support-preserving parameter transformations;
+        prior specification and regularisation;
+        non-centred parameterisation;
+        HMC/NUTS inference in Stan;
+        spatial confounding control via QR projection;
+        MCMC simulation and diagnostics;
+        parameter recovery;
+        uncertainty quantification;
+        and estimation of extreme quantiles.
+      }
+
+    \cvdetail{Research}{%
+        Alongside the dissertation, developed independent research in
+        statistical methodology, extreme value theory, climatology, and
+        astrostatistics, resulting in 4 submitted manuscripts.
+        2 further manuscripts are being developed from the thesis itself,
+        one methodological and one applied.
+        Additional research conducted during the MSc led to 3
+        oral/invited presentations and 6 scientific posters at national
+        and international events.
+      }
+
+    \cvdetail{Courses}{%
+        Statistical Inference,
+        Bayesian Inference,
+        Mathematical Statistics,
+        Computational Techniques in Statistics,
+        Machine Learning,
+        Geostatistics,
+        Extreme Value Theory and Copulas,
+        Generalized Linear Models.
+      }
+
+    \cvdetail{Status}{%
+        Thesis defended.
+        All academic requirements completed.
+        Formal diploma issuance pending.
+      }
+  }
+
+
+\cventry{Aug 2018}{Dec 2023}{BSc in Statistics}{University of Brasília (UnB)}{Brasília, Brazil}{%
+    \cvdetail{Thesis}{%
+        \emph{``\textbf{Imputation Methods for Missing Data Using Predictive Modelling}''}
+        \\
+        Monte Carlo simulation study comparing single and multiple
+        imputation strategies, analysing regression and machine learning methods across
+        different missing data scenarios.
+      }
+
+    \cvdetail{Training}{%
+        Probability and statistical inference;
+        regression;
+        Bayesian methods;
+        computational statistics;
+        stochastic processes;
+        time series;
+        multivariate analysis;
+        computing;
+        experimental design;
+        calculus;
+        numerical methods;
+        linear algebra;
+        fundamentals of physics;
+        fundamentals of astronomy and astrophysics.
+      }
+
+    \cvdetail{Research}{%
+        CNPq-funded undergraduate research project on
+        \emph{``Imputation Methods for Dichotomous Variables''.}
+        Research on simple and multiple imputation methods through simulation and real data analysis in R.
+      }
+  }
+
+
+\cventry{Sep 2022}{Mar 2023}{Academic Exchange on Modelling and Data Science}{Lodz University of Technology}{Łódź, Poland}{%
+    \cvparagraph{%
+      On campus coursework in statistical physics, experimental physics,
+      stochastic processes, computational modelling, computer science,
+      and logic, completed in partnership with the University of Brasília.
+    }
+  }
+
+% =====================================================================
+% RESEARCH OUTPUTS
+% =====================================================================
+
+\cvsection[research]{Research Outputs}
+
+\resetcvpub
+\cvsubsection{Submitted manuscripts and preprints}
+    \cvpublication
+      {Extremes of Solar Spectral Irradiance in the SORCE/XPS Record}
+      {Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F.}
+      {Submitted to \emph{Frontiers in Astronomy and Space Sciences}, Astrostatistics topic.}
+      {%
+            Preprint [astro-ph.SR]:
+            \cvpreprint
+              {https://arxiv.org/abs/2608.30878}
+              {arXiv:2608.30878}
+          }
+    \cvpublication
+      {Multiple Imputation Methods under Extreme Values}
+      {Brasil, E.}
+      {Submitted to the \emph{Austrian Journal of Statistics}.}
+      {%
+        Preprint [stat.CO]:
+        \cvpreprint
+          {https://arxiv.org/abs/2602.04751}
+          {arXiv:2602.04751}
+      }
+    \cvpublication
+      {Joint return levels of maximum temperature and minimum relative humidity by combining copulas with an extreme value framework for bimodal data}
+      {Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E.}
+      {%
+       Submitted to \emph{Advances in Statistical Climatology, Meteorology and Oceanography}.
+      }
+      {%
+        Preprint [stat.ME]:
+        \cvpreprint
+          {https://arxiv.org/abs/2608.10252}
+          {arXiv:2608.10252}
+      }
+    \cvpublication
+      {Conditional copula representations and extremal bounds for multivariate statistical functionals}
+      {Vila, R.; Otiniano, C.; Brito, C.; Brasil, E.}
+      {Submitted to \emph{Statistics and Probability Letters}.}
+      {%
+        Preprint [math.ST]:
+        \cvpreprint
+          {https://arxiv.org/abs/2607.26256}
+          {arXiv:2607.26256}
+      }
+
+% =====================================================================
+% CORE METHODS, SCIENTIFIC COMPUTING & DATA
+% =====================================================================
+
+\cvsection[skills]{Core Methods, Scientific Computing \& Data}
+
+\cvskillrow
+{%
+  \cvskill{Statistical inference, uncertainty \& hierarchical modelling}{%
+      Bayesian and frequentist inference;
+      hierarchical and latent-variable models;
+      Gaussian processes;
+      parameter inference;
+      uncertainty quantification;
+      model criticism and diagnostics.
+    }
+}
+{%
+  \cvskill{Dependence, extremes \& complex stochastic structure}{%
+      Extreme Value Theory;
+      GEV/BGEV models;
+      copulas;
+      multivariate and extremal dependence;
+      spatial and spatiotemporal modelling;
+      covariance structures.
+    }
+}
+
+\cvskillrow
+{%
+  \cvskill{Simulation, calibration \& model assessment}{%
+      Monte Carlo simulation;
+      simulation studies;
+      synthetic-data experiments;
+      parameter recovery;
+      calibration and sensitivity analysis;
+      posterior and MCMC diagnostics;
+      robustness assessment.
+    }
+}
+{%
+  \cvskill{Scientific \& Bayesian computing}{%
+      R/RStudio/R Markdown for statistical modelling and simulation;
+      Python for scientific computing, data analysis, and automation;
+      Stan for hierarchical Bayesian inference with HMC/NUTS.
+    }
+}
+
+\cvskillrow
+{%
+  \cvskill{Astrostatistical \& physical data analysis}{%
+    astrostatistical applications; NASA SORCE solar spectral irradiance; space science and time indexed physical measurements; heterogeneous observational datasets; data validation; uncertainty assessment.
+    }
+}
+{%
+  \cvskill{Climate \& atmospheric systems}{%
+      Solar irradiance and air density;
+      temperature and humidity extremes;
+      climate and financial risk.
+    }
+}
+
+\cvskillrow
+{%
+  \cvskill{Quantitative social \& public-sector research}{%
+      Education indicators, national microdata and longitudinal records;
+      public policy;
+      diversity, equity and inclusion;
+      administrative data validation.
+    }
+}
+{%
+  \cvskill{Reproducible data workflows}{%
+      SQL, DBeaver, ODBC;
+      LaTeX;
+      Git/GitHub;
+      reproducible reporting;
+      Shiny and Power BI;
+      Stata and SAS.
+    }
+}
+
+% =====================================================================
+% RESEARCH & PROFESSIONAL EXPERIENCE
+% =====================================================================
+
+\cvsection[experience]{Research \& Professional Experience}
+
+\cventry{Sep 2025}{Present}{Statistician}{HU Brasil, Federal University Hospitals}{Brazil}{%
+    \begin{cvbullets}
+      \cvbullet{%
+        Analysis and creation of large observational and administrative
+        datasets within the Brazilian public sector, with emphasis on
+        data quality, validation, robustness, and reproducible research.
+      }
+
+      \cvbullet{%
+        Develop automated analytical pipelines, dashboards, and research
+        outputs; contribute to published and ongoing studies on diversity,
+        equity and inclusion, social impacts, and psychological research.
+      }
+    \end{cvbullets}
+  }
+
+
+\cventry{May 2025}{May 2026}{Senior Research Assistant and Data Science Fellow}{Ipea, Institute for Applied Economic Research}{Brazil}{%
+    \begin{cvbullets}
+      \cvbullet{%
+        Conducted qualitative and quantitative research with large national
+        microdata, longitudinal datasets, and territorial information,
+        integrating and validating heterogeneous sources across spatial
+        and temporal scales.
+      }
+
+      \cvbullet{%
+        Developed reproducible statistical workflows, automated analyses,
+        and dashboards; coauthored three technical research notes and a
+        forthcoming book chapter on Brazilian education, with findings
+        communicated through scientific events.
+      }
+    \end{cvbullets}
+  }
+
+\cventry{Aug 2024}{Dec 2025}{Technical Officer, International Cooperation Mercosul}{Inep, National Institute for Educational Studies and Research}{Brazil}{%
+    \begin{cvbullets}
+      \cvbullet{%
+        Supported South American academic cooperation and undergraduate
+        programme evaluation within the Mercosul accreditation system,
+        including liaison with Latin American partners in meetings
+        conducted in Portuguese and Spanish.
+      }
+    \end{cvbullets}
+  }
+
+
+\cventry{Sep 2023}{May 2025}{Data Analyst and Consultant}{Alcance Profissional}{Brazil}{%
+    \begin{cvbullets}
+      \cvbullet{%
+        Built automated data workflows, reproducible analytical pipelines,
+        and reporting processes, with focus on data organization,
+        efficiency, and repeatability.
+      }
+    \end{cvbullets}
+  }
+
+
+\cventry{Oct 2021}{Sep 2022}{Statistics Intern}{FGCoop, Brazilian Credit Cooperative Guarantee Fund}{Brazil}{%
+    \begin{cvbullets}
+      \cvbullet{%
+        Supported statistical monitoring, indicator analysis,
+        risk modelling activities, and quantitative reporting.
+      }
+    \end{cvbullets}
+  }
+
+% =====================================================================
+% FUNDING, SCHOLARSHIPS & DISTINCTIONS
+% =====================================================================
+
+\cvsection[funding]{Fellowships, Scholarships \& Distinctions}
+\cvfundingentry{NSF EPSCoR International Research Travel Support}{International research support}{Supported by NSF EPSCoR and the Center for Space Plasma and Aeronomic Research (CSPAR), The University of Alabama in Huntsville, for an oral astrostatistics presentation at UAH and subsequent publication support for the associated \emph{Frontiers in Astronomy and Space Sciences} manuscript.}
+\cvfundingentry{CNPq MSc fellowship and Admission Distinction}{Ranked 1st in MSc admission}{First among 20 admitted candidates to the MSc in Statistics at UnB; awarded a two-year CNPq graduate scholarship.}
+\cvfundingentry{Ipea National Research Fellowship}{Ranked 1st for the project}{Selected for Ipea's data science research team through a nationwide competitive selection (12 months).}
+\cvfundingentry{CNPq and UnB Undergraduate Research Support}{Undergraduate research funding}{Institutional Scientific Initiation Scholarship Programme and academic teaching assistantship support (18 months).}
+\cvfundingentry{PPGEST/UnB Scientific Travel Funding}{Competitive scientific travel support}{Awarded for research presentations at national and international scientific events from 2024 to 2026.}
+
+% =====================================================================
+% SELECTED SCIENTIFIC PRESENTATIONS
+% =====================================================================
+\cvsection[presentations]{Scientific Presentations}
+    \cvpresentation{Jun 2026}{Extremes in Nature: statistics, uncertainty, and forecasting in the face of extreme phenomena}{Invited speaker}{1st Workshop of the Graduate Program in Statistics, University of Brasília, Brazil}
+    \cvpresentation{Nov 2025}{Joint extremes of solar irradiance and air density: an EVT and copula approach to tail uncertainty}{Oral}{Systematic and Measurement Errors across the Sciences: Astrostatistics and Data Science, The University of Alabama in Huntsville, USA; astrophysics applications track}
+    \cvpresentation{Oct 2025}{Analysis of extreme solar irradiance in NASA's Solar Radiation and Climate Experiment (SORCE) mission: an Extreme Value Theory approach}{Poster}{5th Paraíba Meeting of Statistics, João Pessoa, Brazil}
+    \cvpresentation{Oct 2025}{Impact of extreme values on multiple imputation of missing data using MICE in R}{Poster}{19th School of Regression Models, João Pessoa, Brazil}
+    \cvpresentation{Aug 2025}{Climate-financial risk modelling for the agricultural sector using bivariate copulas}{Poster}{69th Brazilian Statistics Meeting (RBras) and 21st SEAGRO, Vitória, Brazil}
+    \cvpresentation{Aug 2025}{Bivariate analysis of maximum temperature and minimum relative humidity in Brasília (DF)}{Poster}{69th Brazilian Statistics Meeting (RBras) and 21st SEAGRO, Vitória, Brazil}
+    \cvpresentation{Aug 2025}{Extreme solar irradiance and its relationship with atmospheric variables: an approach using Extreme Value Theory and copulas}{Poster}{69th Brazilian Statistics Meeting (RBras) and 21st SEAGRO, Vitória, Brazil}
+    \cvpresentation{Sep 2024}{Assessing imputation methods for missing data using statistical models: a simulation approach}{Oral}{1st Brazil and Colombia Binational Colloquium on Probability and Statistics, Natal, Brazil}
+    \cvpresentation{Sep 2022}{Imputation techniques for dichotomous variables}{Oral}{University of Brasília Undergraduate Research Congress, Brasília, Brazil}
+    \cvpresentation{2026}{A Bayesian hierarchical model for spatial extremes with bimodality}{Accepted Poster}{Brazilian Symposium on Probability and Statistics (SINAPE)}
+    \cvpresentation{2026}{Listening to the workforce: statistical planning of the Diversity, Equity, and Inclusion Census in Brazil's largest public network of university hospitals}{Accepted Poster}{Brazilian Symposium on Probability and Statistics (SINAPE)}
+    \cvpresentation{2026}{The expansion of full-time education in Brazil (2007--2024): federal programmes, funding, and patterns of enrolment growth}{Accepted Oral}{2nd Pan-American Meeting on the Economics of Education}
+    \cvpresentation{2026}{Full-time education in Brazil: funding, expansion, and challenges under the Fundeb framework}{Accepted Oral}{50th Annual Meeting of ANPOCS}
+
+
+% =====================================================================
+% ADDITIONAL RESEARCH OUTPUTS
+% =====================================================================
+\cvsection[research]{Additional Research Outputs}
+
+\cvsubsection{Manuscripts in preparation}
+    \cvpublication
+      {Characterising complex dependence between extreme solar irradiance and air density}
+      {}
+      {}
+      {First-author manuscript in preparation; submission planned for Nov. 2026.}
+    \cvpublication
+      {Bayesian hierarchical modelling of spatial extremes with BGEV marginals}
+      {}
+      {}
+      {First-author manuscript in preparation; submission planned for Jan. 2027.}
+
+\cvsubsection{Interdisciplinary Contributions}
+    \cvpublication
+      {Labor Relations at the Brazilian Hospital Services Company: Democratization and the Promotion of Diversity, Equity, and Inclusion}
+      {%
+        Dau, D.;
+        Junqueira, E.;
+        Brasil, E.;
+        Lobo, L.;
+        Viana, L.;
+        Maia, M.;
+        Sousa, T.
+      }
+      {%
+        \emph{Revista Jurídica da Empresa Brasileira de Serviços Hospitalares},
+        2(2), 2025;
+        published in Portuguese.
+      }
+      {}
+    \cvpublication
+      {Full-Time Education Dashboard: Data Sources, Implementation, and Analytical Use}
+      {Brasil, E.; Resende, M.; Nascimento, P. M.}
+      {%
+        Technical research note,
+        Ipea,
+        2026;
+        in Portuguese.
+      }
+      {Editorial review.}
+    \cvpublication
+      {Calculation and Presentation of Educational Indicators in the 2024--2027 Multi-Year Plan}
+      {Brasil, E.; Candeia, L.; Rocha, V.; Senkevics, A.}
+      {%
+        Technical research note,
+        Ipea,
+        2026;
+        in Portuguese.
+      }
+      {Editorial review.}
+    \cvpublication
+      {The Evolution of Full-Time Education in Brazil}
+      {Resende, M.; Santos, F.; Brasil, E.; Brito, A.}
+      {%
+        Technical research note,
+        Ipea,
+        2026;
+        in Portuguese.
+      }
+      {Editorial review.}
+    \cvpublication
+      {Full-Time Education in Brazil: Financing, Expansion, and Challenges in Light of Fundeb}
+      {Xavier, A.; Senkevics, A.; Brasil, E.; Rocha, V.}
+      {%
+        Book chapter,
+        2026;
+        in Portuguese.
+      }
+      {Forthcoming.}
+
+% =====================================================================
+% SELECTED ADVANCED TRAINING
+% =====================================================================
+
+\cvsection[training]{Selected Advanced Training}
+\cvlowergroup[training]{Statistical inference, simulation \& scientific computing}
+\cvtraining{1st Workshop on Neural Simulation-Based Inference}{The Statistical Methods for the Physical Sciences, Carnegie Mellon University}{Oct 2025}
+\cvtraining{Statistical Modelling of Digital Images}{5th Paraíba Meeting of Statistics}{Oct 2025}
+\cvtraining{R and Python with Spark for big-data}{5th Paraíba Meeting of Statistics}{Oct 2025}
+\cvtrainingextraseparation
+\cvtraining{Missing Data in Longitudinal Analysis}{25th SINAPE, Fortaleza}{Aug 2024}
+\cvtraining{Regression Models for Heavy-Tailed and Asymmetric Data}{17th School of Regression Models, IBGE}{Dec 2021}
+\cvtraining
+  {Machine Learning with \texttt{tidymodels} in R}
+  {17th School of Regression Models, IBGE}
+  {Dec 2021}
+
+\cvlowergroup[training]{Astronomy, astrophysics \& physical sciences}
+\cvtraining{Astronomy}{Brazilian Space Agency}{May 2026}
+\cvtraining{Introduction to Physical Oceanography}{Brazilian Space Agency}{Mar 2026}
+\cvtraining{Quantum and Statistical Physics Workshop}{International Center of Physics, University of Brasília}{Apr 2024}
+\cvtraining{Fundamentals of Astronomy and Astrophysics}{University of Brasília}{2020}
+\cvtraining{AstroTech: Science and Technology behind Astronomical Discovery}{University of Edinburgh}{Jul 2020}
+\cvtraining{Quantum Mechanics}{École Polytechnique}{Jul 2020}
+\cvtraining{Origins of Life in the Cosmic Context}{University of São Paulo}{Jul 2020}
+
+\cvlowergroup[training]{Research practice \& reproducibility}
+\cvtraining{Research Data Management, Collaborations, and Integrity}{Elsevier and Springer Nature}{Aug 2025}
+\cvtraining{Climate Change and Sovereign Risk}{Asian Development Bank Institute}{Feb 2025}
+\cvtraining{R, Python, R Markdown, Data Cleaning, and Tidyverse Workflows}{DataCamp}{Aug--Sep 2021}
+\cvtraining{Mathematical Foundations for Cryptography}{University of Colorado}{Jul 2020}
+
+% =====================================================================
+% ACADEMIC SERVICE, TEACHING & VOLUNTEERING
+% =====================================================================
+
+\cvsection[service]{Academic Service, Teaching \& Volunteering}
+\cvlowergroup[service]{Academic leadership \& service}
+\cvservice{Jun 2026}{Organizing committee member}{1st Extension Forum, Institute of Exact Sciences, University of Brasília}{}
+
+\cvservice
+  {2025}
+  {Peer reviewer (6 manuscripts)}
+  {\emph{Computational Statistics}, Springer Nature}
+  {}
+
+\cvservice{2024}{Academic event monitor}{7th Workshop on Survival Analysis and Applications, University of Brasília}{}
+
+\cvservice{Jan 2022}{General coordinator}{50th Summer School and 14th Summer Workshop in Mathematics, University of Brasília}{}
+
+\cvservice{May 2021}{Academic event monitor}{6th Colloquium on Mathematics of the Central-West Region, University of Brasília}{}
+
+
+\cvlowergroup[service]{Teaching \& academic support}
+\cvservice{Mar--Jul 2025}{Graduate Teaching Internship in Statistics}{University of Brasília}{}
+
+\cvservice{2019}{Teaching Assistantship in Probability Theory}{University of Brasília}{}
+
+\cvservice{Long-term}{Academic Tutoring and Mentoring}{Secondary school and undergraduate students on statistics, mathematics, and physics}{}
+
+% =====================================================================
+% LANGUAGES
+% =====================================================================
+
+\cvsection[languages]{Languages}
+
+\cvcompactline{%
+  \textbf{Portuguese}: native.
+  \quad
+  \textbf{English}: fluent.
+  \quad
+  \textbf{French}: intermediate.
+  \quad
+  \textbf{Spanish}: reading and listening comprehension.
+  \quad
+  \textbf{Polish}: introductory exposure.
+}
+
+\end{document}

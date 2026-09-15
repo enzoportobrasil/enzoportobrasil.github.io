@@ -584,4 +584,7 @@ Applied and interdisciplinary work connecting statistical practice with educatio
 View work|Ver trabalhos|Ver trabajos
 View applied research outputs|Ver produção de pesquisa aplicada|Ver producción de investigación aplicada
 Editorial visualization of Brazil with municipal boundaries and territorial patterns.|Visualização editorial do Brasil com limites municipais e padrões territoriais.|Visualización editorial de Brasil con límites municipales y patrones territoriales.
+Download Academic CV|Baixar CV Acadêmico|Descargar CV Académico
+Email|E-mail|Correo electrónico
+LinkedIn ↗|LinkedIn ↗|LinkedIn ↗
 `.trim().split('\n').map(line => line.split('|'));
