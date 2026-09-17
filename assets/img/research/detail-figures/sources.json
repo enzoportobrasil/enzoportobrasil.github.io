@@ -1,0 +1,80 @@
+[
+  {
+    "name": "solar-record",
+    "source": "https://arxiv.org/pdf/2608.30878",
+    "page": 6,
+    "crop_points": [
+      80,
+      80,
+      508,
+      347
+    ],
+    "width": 1600,
+    "height": 998
+  },
+  {
+    "name": "solar-tail-fit",
+    "source": "https://arxiv.org/pdf/2608.30878",
+    "page": 8,
+    "crop_points": [
+      80,
+      77,
+      515,
+      260
+    ],
+    "width": 1600,
+    "height": 673
+  },
+  {
+    "name": "imputation-clean",
+    "source": "https://arxiv.org/pdf/2602.04751",
+    "page": 12,
+    "crop_points": [
+      71,
+      551,
+      525,
+      698
+    ],
+    "width": 1600,
+    "height": 518
+  },
+  {
+    "name": "imputation-extremes",
+    "source": "https://arxiv.org/pdf/2602.04751",
+    "page": 13,
+    "crop_points": [
+      71,
+      70,
+      525,
+      210
+    ],
+    "width": 1600,
+    "height": 493
+  },
+  {
+    "name": "compound-fit",
+    "source": "https://arxiv.org/pdf/2608.10252",
+    "page": 14,
+    "crop_points": [
+      96,
+      78,
+      510,
+      273
+    ],
+    "width": 1600,
+    "height": 754
+  },
+  {
+    "name": "compound-densities",
+    "source": "https://arxiv.org/pdf/2608.10252",
+    "page": 14,
+    "crop_points": [
+      71,
+      395,
+      525,
+      557
+    ],
+    "width": 1600,
+    "height": 571
+  }
+]

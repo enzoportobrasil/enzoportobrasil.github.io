@@ -250,8 +250,9 @@ uncertainty quantification|quantificação da incerteza|cuantificación de la in
 A living archive of research materials.|Um arquivo vivo de materiais de pesquisa.|Un archivo vivo de materiales de investigación.
 Dissertations, research reports, presentation materials and records of academic training.|Dissertações, relatórios de pesquisa, materiais de apresentações e registros de formação acadêmica.|Tesis, informes de investigación, materiales de presentaciones y registros de formación académica.
 Theses & research documents|Teses, dissertações e documentos de pesquisa|Tesis y documentos de investigación
-Complete dissertation · Universidade de Brasília · Portuguese · 168 pages · PDF · 39.2 MB|Dissertação completa · Universidade de Brasília · Português · 168 páginas · PDF · 39,2 MB|Tesis completa · Universidade de Brasília · Portugués · 168 páginas · PDF · 39,2 MB
-Read the dissertation ↗|Ler a dissertação ↗|Leer la tesis ↗
+MSc dissertation · University of Brasília (UnB) · Portuguese · Full text available upon request|Dissertação de mestrado · Universidade de Brasília (UnB) · Português · Texto completo disponível mediante solicitação|Tesis de maestría · Universidade de Brasília (UnB) · Portugués · Texto completo disponible previa solicitud
+Request full text ↗|Solicitar texto completo ↗|Solicitar texto completo ↗
+The full dissertation is currently available upon request while related manuscripts are being prepared for publication.|O texto integral da dissertação está atualmente disponível mediante solicitação enquanto manuscritos relacionados estão sendo preparados para publicação.|El texto completo de la tesis está actualmente disponible previa solicitud mientras se preparan manuscritos relacionados para publicación.
 Undergraduate research report · Portuguese · 12 pages · PDF|Relatório de iniciação científica · Português · 12 páginas · PDF|Informe de iniciación científica · Portugués · 12 páginas · PDF
 Open full text ↗|Abrir texto completo ↗|Abrir texto completo ↗
 Slides & posters|Slides e pôsteres|Diapositivas y pósteres
