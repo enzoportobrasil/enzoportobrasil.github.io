@@ -15,3 +15,18 @@ SKILL.md
 __pycache__/
 *.pyc
 .DS_Store
+
+# Privacy: sensitive originals and audit working files.
+# Originals live OUTSIDE this repository, in
+#   ../enzoportobrasil-private-documents/
+# Nothing sensitive is stored in-repo, so these rules are a second line of
+# defence against an accidental re-add. They are deliberately narrow: they must
+# not shadow legitimate research figures or certificates.
+/enzoportobrasil-private-documents/
+/assets/other_certificates/_archive/
+/assets/reserve/personal/
+.private_document_manifest.json
+*.private-manifest.json
+/scripts/privacy_audit/_work/
+*.redaction-tmp.pdf
+*.pre-redaction.pdf
