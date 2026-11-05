@@ -101,6 +101,11 @@ window.SITE_TRANSLATIONS.push(...[
     "Completado"
   ],
   [
+    "Scheduled",
+    "Agendado",
+    "Programado"
+  ],
+  [
     "Course participant",
     "Participante de curso",
     "Participante del curso"
@@ -741,9 +746,64 @@ window.SITE_TRANSLATIONS.push(...[
     "VI Coloquio de Matemáticas de la Región Centro-Oeste: revisión del libro de resúmenes"
   ],
   [
-    "May 2026",
-    "Mai 2026",
-    "May 2026"
+    "Satellites",
+    "Satélites",
+    "Satélites"
+  ],
+  [
+    "Remote Sensing",
+    "Sensoriamento remoto",
+    "Teledetección"
+  ],
+  [
+    "Algorithm Programming in Python",
+    "Programação de algoritmos em Python",
+    "Programación de algoritmos en Python"
+  ],
+  [
+    "MADiscs: Star and planet formation in the region of Madrid",
+    "MADiscs: Star and planet formation in the region of Madrid",
+    "MADiscs: Star and planet formation in the region of Madrid"
+  ],
+  [
+    "NUVA eMeeting: From the HST UV Initiative to the Next UV Observatory",
+    "NUVA eMeeting: From the HST UV Initiative to the Next UV Observatory",
+    "NUVA eMeeting: From the HST UV Initiative to the Next UV Observatory"
+  ],
+  [
+    "The Nature of Dark Energy · Pedro Ferreira (University of Oxford)",
+    "The Nature of Dark Energy · Pedro Ferreira (University of Oxford)",
+    "The Nature of Dark Energy · Pedro Ferreira (University of Oxford)"
+  ],
+  [
+    "Galaxy Evolution in Clusters · Bianca Poggianti (INAF, Padova)",
+    "Galaxy Evolution in Clusters · Bianca Poggianti (INAF, Padova)",
+    "Galaxy Evolution in Clusters · Bianca Poggianti (INAF, Padova)"
+  ],
+  [
+    "Extended Bodies in the Solar System: Rotation, Tides, and Figures · Nicolas Rambaux (Paris Observatory)",
+    "Extended Bodies in the Solar System: Rotation, Tides, and Figures · Nicolas Rambaux (Paris Observatory)",
+    "Extended Bodies in the Solar System: Rotation, Tides, and Figures · Nicolas Rambaux (Paris Observatory)"
+  ],
+  [
+    "The Milky Way after Gaia · Victor Debattista (Lancashire University)",
+    "The Milky Way after Gaia · Victor Debattista (Lancashire University)",
+    "The Milky Way after Gaia · Victor Debattista (Lancashire University)"
+  ],
+  [
+    "Nov 2026",
+    "Nov 2026",
+    "Nov 2026"
+  ],
+  [
+    "Oct 2026",
+    "Out 2026",
+    "Oct 2026"
+  ],
+  [
+    "Sep 2026",
+    "Set 2026",
+    "Sep 2026"
   ],
   [
     "Mar 2026",

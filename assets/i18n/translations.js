@@ -1070,4 +1070,26 @@ BSc thesis · University of Brasília (UnB) · Portuguese · 61 pages|Trabalho d
 7.5 h|7,5 h|7,5 h
 Statistician working on inference, simulation and uncertainty, applied to physical, astronomical, environmental and social systems. Based in Brasília, Brazil.|Estatístico que trabalha com inferência, simulação e incerteza, aplicadas a sistemas físicos, astronômicos, ambientais e sociais. Em Brasília, Brasil.|Estadístico que trabaja en inferencia, simulación e incertidumbre, aplicadas a sistemas físicos, astronómicos, ambientales y sociales. En Brasília, Brasil.
 7th Workshop on Survival Analysis and Applications (WASA)|VII Workshop em Análise de Sobrevivência e Aplicações (WASA)|VII Workshop em Análise de Sobrevivência e Aplicações (WASA)
+Accepted article|Artigo aceito|Artículo aceptado
+Accepted for publication in Frontiers in Astronomy and Space Sciences, Astrostatistics topic.|Aceito para publicação na Frontiers in Astronomy and Space Sciences, tópico de Astroestatística.|Aceptado para su publicación en Frontiers in Astronomy and Space Sciences, tema de Astroestadística.
+Read article (Frontiers) ↗|Ler artigo (Frontiers) ↗|Leer artículo (Frontiers) ↗
+Code (Zenodo) ↗|Código (Zenodo) ↗|Código (Zenodo) ↗
+Article (Frontiers):|Artigo (Frontiers):|Artículo (Frontiers):
+Code (Zenodo):|Código (Zenodo):|Código (Zenodo):
+Accepted article · 2026|Artigo aceito · 2026|Artículo aceptado · 2026
+Code and data · 2026|Código e dados · 2026|Código y datos · 2026
+Reproducible analysis for the SORCE/XPS extremes article|Análise reprodutível do artigo sobre extremos SORCE/XPS|Análisis reproducible del artículo sobre extremos SORCE/XPS
+In:|In:|En:
+Forthcoming; book launch in December 2026.|A publicar; lançamento do livro em dezembro de 2026.|Próxima publicación; presentación del libro en diciembre de 2026.
+Book launch in December 2026.|Lançamento do livro em dezembro de 2026.|Presentación del libro en diciembre de 2026.
+Scheduled Poster|Pôster agendado|Póster programado
+Scheduled poster|Pôster agendado|Póster programado
+XXVIII Ciclo de Cursos Especiais in Astronomy and Astrophysics, Observatório Nacional, Rio de Janeiro, Brazil|XXVIII Ciclo de Cursos Especiais em Astronomia e Astrofísica, Observatório Nacional, Rio de Janeiro, Brasil|XXVIII Ciclo de Cursos Especiais en Astronomía y Astrofísica, Observatório Nacional, Río de Janeiro, Brasil
+XXVIII Ciclo de Cursos Especiais (CCE) in Astronomy & Astrophysics · Observatório Nacional|XXVIII Ciclo de Cursos Especiais (CCE) em Astronomia e Astrofísica · Observatório Nacional|XXVIII Ciclo de Cursos Especiais (CCE) en Astronomía y Astrofísica · Observatório Nacional
+9–13 November 2026 · Observatório Nacional, Rio de Janeiro, Brazil.|9–13 de novembro de 2026 · Observatório Nacional, Rio de Janeiro, Brasil.|9–13 de noviembre de 2026 · Observatório Nacional, Río de Janeiro, Brasil.
+CCE · Observatório Nacional · Nov 2026|CCE · Observatório Nacional · nov. 2026|CCE · Observatório Nacional · nov. 2026
+Brazilian Space Agency (AEB) · Federal University of Rio Grande do Norte (UFRN)|Agência Espacial Brasileira (AEB) · Universidade Federal do Rio Grande do Norte (UFRN)|Agência Espacial Brasileira (AEB) · Universidade Federal do Rio Grande do Norte (UFRN)
+Brazilian Space Agency (AEB) · National Institute for Space Research (INPE) · Federal University of São Carlos (UFSCar)|Agência Espacial Brasileira (AEB) · Instituto Nacional de Pesquisas Espaciais (INPE) · Universidade Federal de São Carlos (UFSCar)|Agência Espacial Brasileira (AEB) · Instituto Nacional de Pesquisas Espaciais (INPE) · Universidade Federal de São Carlos (UFSCar)
+European Space Astronomy Centre (ESAC), European Space Agency · Madrid|European Space Astronomy Centre (ESAC), Agência Espacial Europeia · Madri|European Space Astronomy Centre (ESAC), Agencia Espacial Europea · Madrid
+May 2026|Mai 2026|May 2026
 `.trim().split('\n').map(line => line.split('|'));

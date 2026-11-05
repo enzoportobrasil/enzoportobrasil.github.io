@@ -46,7 +46,7 @@ def build():
         else:assert item['file'] is None, 'Nonpublic source path must not enter the public manifest'
         if item.get('related'):assert (ROOT/item['related'].split('#')[0]).is_file()
     def training_row(item):
-        status={'in-progress':'In progress','completed':'Completed','participated':item['role'],'recorded':''}[item['status']]
+        status={'in-progress':'In progress','completed':'Completed','scheduled':'Scheduled','participated':item['role'],'recorded':''}[item['status']]
         meta=f'<span>{E(item["institution"])}</span>'
         if duration(item):meta+=' · <span>'+E(duration(item))+'</span>'
         if status:meta+=' · <span>'+E(status)+'</span>'
