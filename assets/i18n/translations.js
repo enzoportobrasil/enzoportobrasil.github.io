@@ -1092,4 +1092,5 @@ Brazilian Space Agency (AEB) · Federal University of Rio Grande do Norte (UFRN)
 Brazilian Space Agency (AEB) · National Institute for Space Research (INPE) · Federal University of São Carlos (UFSCar)|Agência Espacial Brasileira (AEB) · Instituto Nacional de Pesquisas Espaciais (INPE) · Universidade Federal de São Carlos (UFSCar)|Agência Espacial Brasileira (AEB) · Instituto Nacional de Pesquisas Espaciais (INPE) · Universidade Federal de São Carlos (UFSCar)
 European Space Astronomy Centre (ESAC), European Space Agency · Madrid|European Space Astronomy Centre (ESAC), Agência Espacial Europeia · Madri|European Space Astronomy Centre (ESAC), Agencia Espacial Europea · Madrid
 May 2026|Mai 2026|May 2026
+fluent (TOEFL iBT: 5.0, C1)|fluente (TOEFL iBT: 5.0, C1)|fluido (TOEFL iBT: 5.0, C1)
 `.trim().split('\n').map(line => line.split('|'));
