@@ -552,5 +552,19 @@
     "sha256": "4f5b874e7b1e260fbcc93aac81f8f5dd2c309ffef636daf545d839d86d82455a",
     "type": "acceptance-letter",
     "selected": false
+  },
+  {
+    "original": "atualização SITE_19.11.2026/certificado_2nd encontro panamericano de economia da educacao - APRESENTACAO.pdf",
+    "path": "panamerican-education-2026/documents/presentation-certificate.pdf",
+    "sha256": "8ec1c84f1005a697329101a7de556d510e68fd8a0a9fa09676a62465044e6cc3",
+    "type": "certificate",
+    "selected": true
+  },
+  {
+    "original": "atualização SITE_19.11.2026/TD_3261_publicacao_expressa - A Expansão da educação em tempo integral no Brasil (2007-2024).pdf",
+    "path": "panamerican-education-2026/documents/full-time-education-expansion-discussion-paper.pdf",
+    "sha256": "947d077934412fad30e3266d69fa9d51f2e3123ea8bc96c00db50e08d642f623",
+    "type": "full-text",
+    "selected": true
   }
 ]

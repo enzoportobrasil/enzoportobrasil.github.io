@@ -206,3 +206,18 @@ Consulted: official SYS2025, RBras/SEAGRO and UnB workshop pages; official ANPOC
 - 24 distinct linked PDFs returned HTTP 200 with `application/pdf`; all 11 download controls produced byte-identical copies of their source PDFs using real browser clicks.
 - PIBIC: no initial iframe; clicking loads the YouTube player, visually confirmed with its play control and without autoplay. Blocking both enhancement scripts preserves the first album photograph and the external YouTube preview link.
 - All local HTML resource paths and fragment targets checked, and all 43 newly handled originals matched their recorded hashes. No public HTML link points into a Pages-excluded source path.
+
+## Update — 19 November 2026
+
+### sys2025 recording
+
+- Source: YouTube `4lNGkbZ5uGg`, "sys2025, Day 2: Afternoon Session" (UAH Stats Lab), confirmed by the public oEmbed endpoint; total length 2:10:47, embedding allowed.
+- The talk starts at 1:54:19 (6859 s) and runs to the end of the recording, as indicated by the site owner. Both the action button and the caption link use `&t=6859s`; the player uses `start=6859`.
+- The player reuses the existing `.pibic-video` / `.video-frame` / `.video-preview` / `.video-play` styles. Its cover is the existing talk title slide (`research/area-hubs/sys-title-slide-*.webp`, 16:9). `talk-video.js` replaces the link with a `youtube-nocookie.com` iframe only after a click; nothing is requested from YouTube on page load, and without JavaScript the link opens YouTube at the same time stamp.
+
+### 2nd Pan-American Meeting on the Economics of Education
+
+- `panamerican-education-2026/documents/presentation-certificate.pdf`: Even3 certificate, UFF, Niterói, 9–11 November 2026, issued 11 November 2026. It lists the four authors; the site owner confirmed that Manoela Vilela Araujo Resende delivered the presentation, so the entry is labelled as a coauthored presentation.
+- `full-time-education-expansion-discussion-paper.pdf`: Ipea Texto para Discussão 3261 (Publicação Expressa), 43 pages, Portuguese. Repository record: handle 11058/21599, issued 16 November 2026. The DOI printed on the cover (10.38116/petd3261-port) did not yet resolve on 19 November 2026, so it is not linked.
+- The entry moved from Upcoming to a separate "Interdisciplinary presentation" block. The same PDF is linked from `publications.html#education-3`, and the certificate is in `assets/data/certificates.json`.
+- Both PDFs are byte-identical to the supplied files (hashes in `file-manifest.json`).

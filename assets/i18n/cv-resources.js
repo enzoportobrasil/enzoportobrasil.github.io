@@ -136,6 +136,11 @@ window.SITE_TRANSLATIONS.push(...[
     "Ponente"
   ],
   [
+    "Coauthor",
+    "Coautor",
+    "Coautor"
+  ],
+  [
     "View certificate ↗",
     "Ver certificado ↗",
     "Ver certificado ↗"
@@ -349,6 +354,11 @@ window.SITE_TRANSLATIONS.push(...[
     "Academic Service & Organisation",
     "Serviço e organização acadêmica",
     "Servicio y organización académica"
+  ],
+  [
+    "2nd Pan-American Meeting on the Economics of Education",
+    "2º Encontro Pan-Americano de Economia da Educação",
+    "2.º Encuentro Panamericano de Economía de la Educación"
   ],
   [
     "sys2025 · Systematic and Measurement Errors across the Sciences",

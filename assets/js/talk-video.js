@@ -30,3 +30,21 @@
     opener?.focus({ preventScroll: true });
   });
 })();
+
+/* sys2025: the YouTube link becomes a player only after a click; nothing is requested from YouTube on page load. */
+(() => {
+  document.querySelectorAll('[data-youtube-embed]').forEach(link => {
+    link.addEventListener('click', event => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      const frame = document.createElement('iframe');
+      frame.src = link.dataset.youtubeEmbed + '&autoplay=1';
+      frame.title = link.getAttribute('aria-label') || 'YouTube video';
+      frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      frame.allowFullscreen = true;
+      frame.referrerPolicy = 'strict-origin-when-cross-origin';
+      link.replaceWith(frame);
+      frame.focus();
+    });
+  });
+})();

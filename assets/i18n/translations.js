@@ -892,6 +892,15 @@ Full-time education in Brazil: funding, expansion and challenges under Fundeb|Ed
 The expansion of full-time education in Brazil (2007–2024): federal programmes, funding and enrolment patterns|A expansão da educação em tempo integral no Brasil (2007–2024): programas federais, financiamento e padrões de matrícula|La expansión de la educación a tiempo completo en Brasil (2007–2024): programas federales, financiación y patrones de matrícula
 2nd Pan-American Meeting on the Economics of Education|2º Encontro Pan-Americano de Economia da Educação|2.º Encuentro Panamericano de Economía de la Educación
 9–11 November 2026 · Fluminense Federal University, Niterói, Rio de Janeiro, Brazil.|9–11 de novembro de 2026 · Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.|9–11 de noviembre de 2026 · Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.
+Watch the recorded talk on YouTube from 1:54:19|Assistir à palestra gravada no YouTube a partir de 1:54:19|Ver la charla grabada en YouTube desde 1:54:19
+Recorded presentation · English · Day 2 afternoon session, from 1:54:19 ·|Apresentação gravada · Inglês · sessão da tarde do 2º dia, a partir de 1:54:19 ·|Presentación grabada · Inglés · sesión de la tarde del 2.º día, desde 1:54:19 ·
+Interdisciplinary ↓|Interdisciplinar ↓|Interdisciplinar ↓
+Interdisciplinary presentation|Apresentação interdisciplinar|Presentación interdisciplinaria
+Presented by Manoela Vilela Araujo Resende.|Apresentado por Manoela Vilela Araujo Resende.|Presentado por Manoela Vilela Araujo Resende.
+View study|Ver estudo|Ver estudio
+Related publication|Publicação relacionada|Publicación relacionada
+Coauthored presentation|Apresentação em coautoria|Presentación en coautoría
+Full study · Ipea Discussion Paper 3261 · 43 pages · Portuguese · PDF · 2.9 MB|Estudo completo · Texto para Discussão Ipea 3261 · 43 páginas · Português · PDF · 2,9 MB|Estudio completo · Documento de discusión Ipea 3261 · 43 páginas · Portugués · PDF · 2,9 MB
 Support|Apoio|Apoyo
 Acknowledgements|Agradecimentos|Agradecimientos
 My research, training, and scientific presentations have benefited from the support of the following institutions and programmes:|Minha pesquisa, minha formação e minhas apresentações científicas contaram com o apoio das seguintes instituições e programas:|Mi investigación, mi formación y mis presentaciones científicas se han beneficiado del apoyo de las siguientes instituciones y programas:
@@ -998,6 +1007,8 @@ Awarded for research presentations at national and international scientific even
 Poster|Pôster|Póster
 Accepted Poster|Pôster aceito|Póster aceptado
 Accepted Oral|Apresentação oral aceita|Presentación oral aceptada
+Oral (coauthor)|Oral (coautoria)|Oral (coautoría)
+2nd Pan-American Meeting on the Economics of Education, Fluminense Federal University, Niterói, Brazil|2º Encontro Pan-Americano de Economia da Educação, Universidade Federal Fluminense, Niterói, Brasil|2.º Encuentro Panamericano de Economía de la Educación, Universidade Federal Fluminense, Niterói, Brasil
 1st Workshop of the Graduate Program in Statistics, University of Brasília, Brazil|I Workshop da Pós-Graduação em Estatística, Universidade de Brasília, Brasil|I Workshop da Pós-Graduação em Estatística, Universidade de Brasília, Brasil
 Systematic and Measurement Errors across the Sciences: Astrostatistics and Data Science, The University of Alabama in Huntsville, USA; astrophysics applications track|Systematic and Measurement Errors across the Sciences: Astrostatistics and Data Science, The University of Alabama in Huntsville, EUA; área de aplicações em astrofísica|Systematic and Measurement Errors across the Sciences: Astrostatistics and Data Science, The University of Alabama in Huntsville, EE. UU.; área de aplicaciones en astrofísica
 5th Paraíba Meeting of Statistics, João Pessoa, Brazil|V Encontro Paraibano de Estatística, João Pessoa, Brasil|V Encontro Paraibano de Estatística, João Pessoa, Brasil
@@ -1016,6 +1027,8 @@ First-author manuscript in preparation; submission planned for Jan. 2027.|Manusc
 Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2), 2025; published in Portuguese.|Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2), 2025; publicado em português.|Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2), 2025; publicado en portugués.
 Technical research note, Ipea, 2026; in Portuguese.|Nota técnica de pesquisa, Ipea, 2026; em português.|Nota técnica de investigación, Ipea, 2026; en portugués.
 Editorial review.|Avaliação editorial.|Evaluación editorial.
+Discussion paper (Texto para Discussão n. 3261), Ipea, 2026; in Portuguese.|Texto para Discussão n. 3261, Ipea, 2026; em português.|Documento de discusión (Texto para Discussão n. 3261), Ipea, 2026; en portugués.
+Express publication.|Publicação expressa.|Publicación exprés.
 Book chapter, 2026; in Portuguese.|Capítulo de livro, 2026; em português.|Capítulo de libro, 2026; en portugués.
 Forthcoming.|A publicar.|Próxima publicación.
 Organizing committee member|Membro da comissão organizadora|Miembro del comité organizador

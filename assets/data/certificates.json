@@ -1,5 +1,25 @@
 [
   {
+    "id": "panamerican-education-2026",
+    "title": "2nd Pan-American Meeting on the Economics of Education",
+    "institution": "Fluminense Federal University (UFF) · Niterói",
+    "date": "2026-11-11",
+    "category": "social-education-humanities",
+    "related": "talks.html#panamerican-education-2026",
+    "file": "assets/img/apresentacoes/panamerican-education-2026/documents/presentation-certificate.pdf",
+    "public": true,
+    "year": 2026,
+    "type_label": "Presentation certificate",
+    "type": "event",
+    "cv": false,
+    "source": "certificate",
+    "role": "Coauthor",
+    "status": "participated",
+    "hours": null,
+    "title_pt": "2º Encontro Pan-Americano de Economia da Educação",
+    "title_es": "2.º Encuentro Panamericano de Economía de la Educación"
+  },
+  {
     "id": "sys2025",
     "title": "sys2025 · Systematic and Measurement Errors across the Sciences",
     "institution": "The University of Alabama in Huntsville",
