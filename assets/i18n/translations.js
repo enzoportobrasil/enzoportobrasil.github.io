@@ -1085,6 +1085,7 @@ Statistician working on inference, simulation and uncertainty, applied to physic
 7th Workshop on Survival Analysis and Applications (WASA)|VII Workshop em Análise de Sobrevivência e Aplicações (WASA)|VII Workshop em Análise de Sobrevivência e Aplicações (WASA)
 Accepted article|Artigo aceito|Artículo aceptado
 Accepted for publication in Frontiers in Astronomy and Space Sciences, Astrostatistics topic.|Aceito para publicação na Frontiers in Astronomy and Space Sciences, tópico de Astroestatística.|Aceptado para su publicación en Frontiers in Astronomy and Space Sciences, tema de Astroestadística.
+Accepted for publication in Frontiers in Astronomy and Space Sciences, Astrostatistics.|Aceito para publicação na Frontiers in Astronomy and Space Sciences, Astroestatística.|Aceptado para su publicación en Frontiers in Astronomy and Space Sciences, Astroestadística.
 Read article (Frontiers) ↗|Ler artigo (Frontiers) ↗|Leer artículo (Frontiers) ↗
 Code (Zenodo) ↗|Código (Zenodo) ↗|Código (Zenodo) ↗
 Article (Frontiers):|Artigo (Frontiers):|Artículo (Frontiers):
