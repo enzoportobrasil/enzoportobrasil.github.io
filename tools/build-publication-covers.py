@@ -1,6 +1,7 @@
 """Render the document covers on publications.html from the vector PDFs.
 
-Run: python tools/build-publication-covers.py   (requires PyMuPDF and Pillow)
+Run: python tools/build-publication-covers.py [name ...]   (requires PyMuPDF and Pillow)
+     With names, only those covers are rebuilt; without, all of them.
 
 Two outputs per document, in assets/img/research/area-hubs/:
   <name>-cover-<w>.webp  thumbnail, exactly 160 x 226 CSS px (96 x 136 on phones), one
@@ -11,6 +12,8 @@ Two outputs per document, in assets/img/research/area-hubs/:
                          clicked (assets/js/cover-viewer.js).
 
 Remote PDFs are downloaded once into _source-materials/covers/ (kept out of git).
+Documents that are not online are kept there as a single-page PDF holding only the
+cover page (<name>-p1.pdf); the full texts are not stored in the site folder.
 To add a cover: add a line to COVERS, run this script, and copy the markup of an
 existing cover on publications.html, changing only the name.
 """
@@ -37,6 +40,10 @@ COVERS = {
     'pibic': ('assets/img/apresentacoes/pibic-2022/documents/dichotomous-imputation-full-text.pdf', 1),
     'ipea-td3261': ('assets/img/apresentacoes/panamerican-education-2026/documents/full-time-education-expansion-discussion-paper.pdf', 1),
     'hu-labor-relations': ('https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/revista-juridica-da-hu-brasil/numero-atual/revista-juridica-da-ebserh-v2n2-dez2025.pdf', 72),
+    'msc-dissertation': ('_source-materials/covers/msc-dissertation-p1.pdf', 1),
+    'ipea-eti-dashboard': ('_source-materials/covers/ipea-eti-dashboard-p1.pdf', 1),
+    'ipea-ppa-indicators': ('_source-materials/covers/ipea-ppa-indicators-p1.pdf', 1),
+    'ipea-fundeb-chapter': ('_source-materials/covers/ipea-fundeb-chapter-p1.pdf', 1),
 }
 
 
@@ -75,8 +82,13 @@ def full_page(page, width):
     return image.filter(ImageFilter.UnsharpMask(radius=0.5, percent=40, threshold=0))
 
 
-def build():
+def build(names=()):
+    unknown = set(names) - set(COVERS)
+    if unknown:
+        raise SystemExit(f'unknown cover name(s): {", ".join(sorted(unknown))}')
     for name, (source, page_number) in COVERS.items():
+        if names and name not in names:
+            continue
         page = pymupdf.open(stream=pdf_bytes(source), filetype='pdf')[page_number - 1]
         for width in THUMBS:
             thumbnail(page, width).save(OUT / f'{name}-cover-{width}.webp', 'WEBP', quality=95, method=6)
@@ -86,4 +98,5 @@ def build():
 
 
 if __name__ == '__main__':
-    build()
+    import sys
+    build(sys.argv[1:])

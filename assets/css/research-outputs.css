@@ -116,6 +116,8 @@
    tools/build-publication-covers.py; the frame is drawn outside the image so it stays pixel for pixel. */
 .research-outputs-page { --cover-w: 160px; }
 .research-outputs-page .scholarly-row--cover { grid-template-columns: var(--cover-w) minmax(0, 1fr) auto; }
+/* Records without links show their status label where the links would be. */
+.research-outputs-page .scholarly-row--cover > .scholarly-state { padding-top: 7px; }
 .research-outputs-page .scholarly-cover { position: relative; width: var(--cover-w); margin: 6px 0 0; aspect-ratio: 80 / 113; overflow: hidden; border-radius: 2px; background: #faf9f6; box-shadow: 0 0 0 1px var(--outputs-rule), 0 1px 2px rgb(0 0 0 / .18); transition: transform .45s cubic-bezier(.2, .7, .2, 1), box-shadow .45s ease; }
 .research-outputs-page .scholarly-cover img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top center; }
 .research-outputs-page .scholarly-cover::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(115deg, transparent 35%, rgb(255 255 255 / .38) 50%, transparent 65%); transform: translateX(-120%); }
@@ -127,13 +129,16 @@
   .research-outputs-page .scholarly-row--cover { grid-template-columns: var(--cover-w) minmax(0, 1fr); grid-template-rows: auto 1fr; column-gap: 28px; }
   .research-outputs-page .scholarly-row--cover > .scholarly-cover { grid-column: 1; grid-row: 1 / span 2; }
   .research-outputs-page .scholarly-row--cover > .scholarly-copy,
-  .research-outputs-page .scholarly-row--cover > .scholarly-links { grid-column: 2; }
+  .research-outputs-page .scholarly-row--cover > .scholarly-links,
+  .research-outputs-page .scholarly-row--cover > .scholarly-state { grid-column: 2; }
+  .research-outputs-page .scholarly-row--cover > .scholarly-state { padding-top: 0; }
 }
 @media (max-width: 560px) {
   .research-outputs-page { --cover-w: 96px; }
   .research-outputs-page .scholarly-row--cover { grid-template-rows: auto auto; column-gap: 18px; }
   .research-outputs-page .scholarly-row--cover > .scholarly-cover { grid-row: 1; margin-top: 4px; }
-  .research-outputs-page .scholarly-row--cover > .scholarly-links { grid-column: 1 / -1; }
+  .research-outputs-page .scholarly-row--cover > .scholarly-links,
+  .research-outputs-page .scholarly-row--cover > .scholarly-state { grid-column: 1 / -1; }
 }
 @media (prefers-reduced-motion: reduce) {
   .research-outputs-page .scholarly-cover { transition: none; }
