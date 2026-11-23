@@ -5,6 +5,12 @@ The site uses static HTML in `talks.html` and the shared stylesheet plus
 
 ## Event folders
 
+- `cce-2026/`: poster and four courses, XXVIII Ciclo de Cursos Especiais,
+  Observatório Nacional, 9–13 November 2026. Photos keep the author's numbering
+  (1–14, with 10.1 and 10.2); lecturers in photos 7, 8, 9 and 10.1 were matched
+  to the official timetable (cce2026.on.br) by each photo's EXIF time. The certificate
+  (issued 20 November 2026) covers the poster and all four courses, 36 h.
+  A printout of the event site is kept locally in `_source-materials/cce-2026/`.
 - `workshop-pgest-unb-2026/`: invited talk, 11 June 2026.
 - `sys2025/`: contributed oral presentation, 15 November 2025; workshop 14–17 November.
 

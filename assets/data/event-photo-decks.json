@@ -1,4 +1,175 @@
 {
+  "cce-2026": {
+    "photos": [
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/1_stained-glass-instruments.jpeg",
+        "sha256": "8272a58d9e29648a0f5b19aef36b6b54fdab9ca7778bb53b983de4dbe5bec97d",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/stained-glass-instruments.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/1_stained-glass-instruments.jpeg",
+        "width": 1198,
+        "height": 1023,
+        "alt": "Enzo beside a stained-glass panel showing a globe, telescopes and drawing instruments.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/2_data-centre-selfie.heic",
+        "sha256": "d629ef202ed8cc1285cc0688b86db12256146e86a7dc5c3a1d0ed7bd7b7794f9",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/data-centre-selfie.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/web/deck/data-centre-selfie-original.webp",
+        "width": 1200,
+        "height": 857,
+        "alt": "Enzo taking a selfie outside the Observatório Nacional data processing centre.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/3_skylight-and-columns.jpeg",
+        "sha256": "bfecbe707f7b960a4e80c72fce7412445e549524b47acff5a6b1c55371143493",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/skylight-and-columns.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/3_skylight-and-columns.jpeg",
+        "width": 900,
+        "height": 1200,
+        "alt": "Columns and a stained-glass skylight inside a historic building on the Observatório Nacional campus, above a banner for the exhibition Olhar o céu, medir a Terra.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/4_urania-window.jpeg",
+        "sha256": "a04017d762d3b547e2f58c2380b9e46afe9b67be5ad7cfe2d6fee364d9c65944",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/urania-window.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/4_urania-window.jpeg",
+        "width": 1092,
+        "height": 1200,
+        "alt": "Stained-glass window of Urania, the muse of astronomy, dated MCMXX, above a staircase.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/5_observatory-dome.jpeg",
+        "sha256": "e88d198a825ff0a81ac9bb2ef7470dcecb641c472d26fe85ff1e2446e2fa978f",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/observatory-dome.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/5_observatory-dome.jpeg",
+        "width": 768,
+        "height": 1024,
+        "alt": "Enzo smiling in front of a telescope dome on the Observatório Nacional campus.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/6_poster-portrait.jpeg",
+        "sha256": "1bcc62c688d0c485be7e14480c6b40857b5e0af96df837372f702cc08019f602",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/poster-portrait.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/6_poster-portrait.jpeg",
+        "width": 768,
+        "height": 1024,
+        "alt": "Enzo smiling beside the poster on extremes of solar spectral irradiance in the SORCE/XPS record.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/7_ferreira-dark-energy.jpeg",
+        "sha256": "5edeb8b617996b4519f173e894056868ad696a7d6f77e5bcd1f9d94a67aa722b",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/ferreira-dark-energy.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/7_ferreira-dark-energy.jpeg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Pedro Ferreira, of the University of Oxford, pointing to Bayes' theorem on a slide during the course on dark energy.",
+        "postcard": false,
+        "caption": "Pedro Ferreira (University of Oxford) in the course The Nature of Dark Energy"
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/8_rambaux-solar-system.heic",
+        "sha256": "c72351cf4f60a75be9f92594e4fc2a34b3e80c1cfbd856f3b83e08d628d6250a",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/rambaux-solar-system.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/web/deck/rambaux-solar-system-original.webp",
+        "width": 1200,
+        "height": 744,
+        "alt": "Nicolas Rambaux, of the Paris Observatory, presenting a map of spacecraft journeys through the Solar System during the course on Solar System bodies.",
+        "postcard": false,
+        "caption": "Nicolas Rambaux (Paris Observatory) in the course Extended Bodies in the Solar System"
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/9_debattista-milky-way.heic",
+        "sha256": "e3abb4875c3164e689d7108501420d4e1947e31e0c372192501db1046dc60d37",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/debattista-milky-way.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/web/deck/debattista-milky-way-original.webp",
+        "width": 1200,
+        "height": 1077,
+        "alt": "Victor Debattista, of the University of Lancashire, discussing the Gaia phase-space spiral during the course on the Milky Way.",
+        "postcard": false,
+        "caption": "Victor Debattista (University of Lancashire) in the course The Milky Way After Gaia"
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/10.1_poggianti-jellyfish-galaxy.jpeg",
+        "sha256": "e6d8433f5949ad50ecf8b6b0357fdf95c2a4b872d8579f4c9336a0f80ff16706",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/poggianti-jellyfish-galaxy.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/10.1_poggianti-jellyfish-galaxy.jpeg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Bianca Poggianti, of INAF in Padova, presenting multi-wavelength observations of the jellyfish galaxy JW100 during the course on galaxy clusters.",
+        "postcard": false,
+        "caption": "Bianca Poggianti (INAF, Padova) in the course Galaxy Evolution in Clusters"
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/10.2_galaxy-cluster-notes.heic",
+        "sha256": "d2aee4fbeda0d1ef8aacfa483ff625c95bf40948fe7c3f5bdc88f6cef7e18dc3",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/galaxy-cluster-notes.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/web/deck/galaxy-cluster-notes-original.webp",
+        "width": 1200,
+        "height": 937,
+        "alt": "Handwritten notes on jellyfish galaxies from the course on galaxy evolution in clusters.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/11_main-building-steps.jpeg",
+        "sha256": "cda7652c875516984856001a61ad6baa8ac1ba68551d78d2044e7fac1b360122",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/main-building-steps.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/11_main-building-steps.jpeg",
+        "width": 1200,
+        "height": 1073,
+        "alt": "Enzo on the front steps of the historic main building on the Observatório Nacional campus.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/11.1_group-photo.png",
+        "sha256": "ae7f3dad7eb402d68154d3bfcb104bc444107066acbed85e78125d25529a4ce9",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/group-photo.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/11.1_group-photo.png",
+        "width": 1024,
+        "height": 576,
+        "alt": "Participants, lecturers and organizers of the XXVIII CCE gathered in front of a telescope dome at the Observatório Nacional.",
+        "postcard": false,
+        "caption": "In memory of Dr. Carlos Bengaly",
+        "caption_href": "https://www.gov.br/observatorio/pt-br/assuntos/noticias/observatorio-nacional-lamenta-o-falecimento-do-dr-carlos-andre-paes-bengaly-junior"
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/12_balcony-skylight.jpeg",
+        "sha256": "43c31eec461c9af9c6c7cd4d7fa77a23ac8a17edd60c4dfc51a884d2fe73487e",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/balcony-skylight.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/12_balcony-skylight.jpeg",
+        "width": 768,
+        "height": 1024,
+        "alt": "Enzo with a companion on a balcony beneath an ornate ceiling with a stained-glass skylight.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/13_lakeside-selfie.jpeg",
+        "sha256": "44551996a022cb22ddbcd6322079b85de0a139fc63e3f1ce0dc34e982cd819c1",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/lakeside-selfie.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/13_lakeside-selfie.jpeg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Selfie of Enzo and a companion by a lake at sunset, with palm trees and a small colonnaded pavilion behind them.",
+        "postcard": false
+      },
+      {
+        "source": "assets/img/apresentacoes/cce-2026/photos_selected/14_lake-at-sunset.jpeg",
+        "sha256": "693b49572d1bf2a499582826f520ec524bbcd4dc52020278a1b200273a056386",
+        "src": "assets/img/apresentacoes/cce-2026/web/deck/lake-at-sunset.webp",
+        "enlarge": "assets/img/apresentacoes/cce-2026/photos_selected/14_lake-at-sunset.jpeg",
+        "width": 900,
+        "height": 1200,
+        "alt": "A lake at dusk, with palm trees and a small colonnaded pavilion reflected in the water.",
+        "postcard": false
+      }
+    ],
+    "unnumbered": []
+  },
   "sys2025": {
     "photos": [
       {

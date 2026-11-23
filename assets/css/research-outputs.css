@@ -110,3 +110,46 @@
 /* Document actions retain a compact, consistent rail within thesis records only. */
 .research-outputs-page .outputs-theses .scholarly-links { width: 210px; max-width: 100%; flex-direction: column; align-items: flex-start; gap: 16px; }
 .research-outputs-page .outputs-theses .scholarly-context { align-self: flex-start; }
+
+/* Document covers sit on the left in a fixed column, so every title in a section shares one indent.
+   Images are rendered at exactly 160 x 226 (96 x 136 on phones) per screen density by
+   tools/build-publication-covers.py; the frame is drawn outside the image so it stays pixel for pixel. */
+.research-outputs-page { --cover-w: 160px; }
+.research-outputs-page .scholarly-row--cover { grid-template-columns: var(--cover-w) minmax(0, 1fr) auto; }
+.research-outputs-page .scholarly-cover { position: relative; width: var(--cover-w); margin: 6px 0 0; aspect-ratio: 80 / 113; overflow: hidden; border-radius: 2px; background: #faf9f6; box-shadow: 0 0 0 1px var(--outputs-rule), 0 1px 2px rgb(0 0 0 / .18); transition: transform .45s cubic-bezier(.2, .7, .2, 1), box-shadow .45s ease; }
+.research-outputs-page .scholarly-cover img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+.research-outputs-page .scholarly-cover::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(115deg, transparent 35%, rgb(255 255 255 / .38) 50%, transparent 65%); transform: translateX(-120%); }
+@media (hover: hover) and (pointer: fine) {
+  .research-outputs-page .scholarly-row--cover:hover .scholarly-cover { transform: translateY(-4px); box-shadow: 0 0 0 1px var(--accent), 0 14px 30px -12px rgb(0 0 0 / .55); }
+  .research-outputs-page .scholarly-row--cover:hover .scholarly-cover::after { transform: translateX(120%); transition: transform .9s ease; }
+}
+@media (max-width: 1024px) {
+  .research-outputs-page .scholarly-row--cover { grid-template-columns: var(--cover-w) minmax(0, 1fr); grid-template-rows: auto 1fr; column-gap: 28px; }
+  .research-outputs-page .scholarly-row--cover > .scholarly-cover { grid-column: 1; grid-row: 1 / span 2; }
+  .research-outputs-page .scholarly-row--cover > .scholarly-copy,
+  .research-outputs-page .scholarly-row--cover > .scholarly-links { grid-column: 2; }
+}
+@media (max-width: 560px) {
+  .research-outputs-page { --cover-w: 96px; }
+  .research-outputs-page .scholarly-row--cover { grid-template-rows: auto auto; column-gap: 18px; }
+  .research-outputs-page .scholarly-row--cover > .scholarly-cover { grid-row: 1; margin-top: 4px; }
+  .research-outputs-page .scholarly-row--cover > .scholarly-links { grid-column: 1 / -1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .research-outputs-page .scholarly-cover { transition: none; }
+  .research-outputs-page .scholarly-cover::after { display: none; }
+}
+
+/* Deep link from Talks (publications.html#sorce-frontiers): clear the sticky header and mark the entry. */
+.research-outputs-page .scholarly-row[id] { scroll-margin-top: 110px; }
+.research-outputs-page .scholarly-row:target { border-bottom-color: var(--accent); box-shadow: inset 3px 0 0 var(--accent); padding-left: 16px; }
+
+/* Cover links open the first page at reading size (assets/js/cover-viewer.js). */
+.research-outputs-page .scholarly-cover-link { display: block; width: 100%; height: 100%; cursor: zoom-in; }
+.research-outputs-page .scholarly-cover-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.cover-viewer { max-width: 96vw; max-height: 96dvh; padding: 52px 16px 16px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink); }
+.cover-viewer::backdrop { background: rgb(0 0 0 / .82); }
+.cover-viewer figure { margin: 0; }
+.cover-viewer img { display: block; width: min(92vw, calc((100dvh - 120px) * .707)); height: auto; background: #fff; }
+.cover-viewer figcaption { max-width: min(92vw, calc((100dvh - 120px) * .707)); margin-top: 10px; color: var(--muted); font-size: .8rem; line-height: 1.5; }
+.cover-viewer-close { position: absolute; top: 4px; right: 8px; width: 44px; height: 44px; border: 0; background: transparent; color: var(--ink); font-size: 1.6rem; cursor: pointer; }

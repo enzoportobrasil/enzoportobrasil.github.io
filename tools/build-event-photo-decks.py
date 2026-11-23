@@ -2,8 +2,12 @@
 
 Run: python3 tools/build-event-photo-decks.py (requires Pillow).
 HEIC decoding uses macOS sips; elsewhere install pillow-heif.
+Prefixes may be whole or dotted numbers (10_, 10.1_, 10.2_, 11_); they sort numerically.
 Unnumbered images are reported and omitted; duplicate numbers are errors.
 The manifest records source hashes to avoid recompressing unchanged images.
+Alt text, the optional short caption shown under a deck and its optional link
+(caption_href) are edited in
+assets/data/event-photo-decks.json and are kept on every rebuild.
 """
 from pathlib import Path
 from html import escape
@@ -20,7 +24,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / 'assets/img/apresentacoes'
 MANIFEST = ROOT / 'assets/data/event-photo-decks.json'
 EVENTS = {
-    'sys2025': ('Huntsville', 'Huntsville, in photographs'),
+    'cce-2026': ('Rio de Janeiro', 'Rio de Janeiro'),
+    'sys2025': ('Huntsville', 'Huntsville'),
     'emr-epbest-2025': ('EPBEST / EMR', 'EPBEST / EMR'),
     'wasa-2024': ('WASA', 'WASA'),
 }
@@ -32,9 +37,9 @@ def ordered_photos(directory):
     for source in directory.iterdir():
         if not source.is_file() or source.suffix.lower() not in EXTENSIONS:
             continue
-        match = re.match(r'^([1-9][0-9]*)_(.+)$', source.name)
+        match = re.match(r'^([1-9][0-9]*(?:\.[0-9]+)*)_(.+)$', source.name)
         if match:
-            numbered.append((int(match[1]), source))
+            numbered.append((tuple(int(part) for part in match[1].split('.')), source))
         else:
             unnumbered.append(source.name)
     numbers = [n for n, _ in numbered]
@@ -57,10 +62,12 @@ class ExistingAlts(HTMLParser):
 
 def build():
     page = ROOT / 'talks.html'
-    html = page.read_text()
+    # newline='' keeps the page's existing line endings byte for byte.
+    with page.open(encoding='utf-8', newline='') as handle:
+        html = handle.read()
     known = ExistingAlts()
     known.feed(html)
-    previous = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
+    previous = json.loads(MANIFEST.read_text(encoding='utf-8')) if MANIFEST.exists() else {}
     manifest = {}
     for event, (label, heading) in EVENTS.items():
         sources, unnumbered = ordered_photos(BASE / event / 'photos_selected')
@@ -70,7 +77,7 @@ def build():
         old = {r['source']: r for r in previous.get(event, {}).get('photos', [])}
         for position, source in enumerate(sources):
             source_path = source.relative_to(ROOT).as_posix()
-            stem = re.sub(r'^\d+_', '', source.stem)
+            stem = re.sub(r'^[0-9.]+_', '', source.stem)
             postcard = event == 'sys2025' and 'huntsville-postcard' in stem
             slug = 'huntsville-postcard' if postcard else stem
             target = BASE / event / 'web/deck' / (slug + '.webp')
@@ -103,16 +110,26 @@ def build():
             with Image.open(target) as image:
                 width, height = image.size
             alt = cached.get('alt') or known.alts.get(slug) or known.alts.get(slug.replace('-photo', '')) or f'{label} event photograph {position + 1}.'
-            records.append(dict(source=source_path, sha256=digest, src=target.relative_to(ROOT).as_posix(), enlarge=enlarge, width=width, height=height, alt=alt, postcard=postcard))
+            record = dict(source=source_path, sha256=digest, src=target.relative_to(ROOT).as_posix(), enlarge=enlarge, width=width, height=height, alt=alt, postcard=postcard)
+            if cached.get('caption'):
+                record['caption'] = cached['caption']
+                if cached.get('caption_href'):
+                    record['caption_href'] = cached['caption_href']
+            records.append(record)
         cards = []
         for i, r in enumerate(records):
             cls = 'event-photo-card' + (' event-photo-card--postcard' if r['postcard'] else '')
-            cards.append(f'<a class="{cls}" href="{quote(r["enlarge"], safe="/")}" data-position="{i}" aria-label="{escape(r["alt"], quote=True)}"><img src="{quote(r["src"], safe="/")}" alt="{escape(r["alt"], quote=True)}" width="{r["width"]}" height="{r["height"]}" loading="lazy" decoding="async" draggable="false"></a>')
+            caption = f' data-caption="{escape(r["caption"], quote=True)}"' if r.get('caption') else ''
+            if r.get('caption_href'):
+                caption += f' data-caption-href="{escape(r["caption_href"], quote=True)}"'
+            cards.append(f'<a class="{cls}" href="{quote(r["enlarge"], safe="/")}" data-position="{i}"{caption} aria-label="{escape(r["alt"], quote=True)}"><img src="{quote(r["src"], safe="/")}" alt="{escape(r["alt"], quote=True)}" width="{r["width"]}" height="{r["height"]}" loading="lazy" decoding="async" draggable="false"></a>')
         track_id = f'{event}-cards'
+        # Short visible note for the current photo; it may hold a link, so it stays in the accessibility tree.
+        caption_slot = '<p class="event-photo-caption" data-deck-caption></p>' if any(r.get('caption') for r in records) else ''
         deck = f'''<section class="event-photo-deck" data-photo-deck aria-label="{label} photo album" aria-roledescription="carousel" tabindex="0">
 <div class="event-photo-deck-heading"><span class="eyebrow">{heading}</span><span class="event-photo-counter" aria-hidden="true">01 / {len(records):02}</span></div>
 <div class="event-photo-cards" id="{track_id}">{chr(10).join(cards)}</div>
-<div class="event-photo-controls" hidden><button type="button" data-deck-prev aria-label="Previous photograph" aria-controls="{track_id}">←</button><a class="event-photo-enlarge" href="{quote(records[0]['enlarge'], safe='/')}">Enlarge ↗</a><button type="button" data-deck-next aria-label="Next photograph" aria-controls="{track_id}">→</button></div>
+<div class="event-photo-controls" hidden>{caption_slot}<button type="button" data-deck-prev aria-label="Previous photograph" aria-controls="{track_id}">←</button><button type="button" data-deck-next aria-label="Next photograph" aria-controls="{track_id}">→</button></div>
 <p class="sr-only" data-deck-status aria-live="polite" aria-atomic="true"></p>
 </section>'''
         pattern = f'(<!-- photo-deck:{event}:start -->).*?(<!-- photo-deck:{event}:end -->)'
@@ -123,8 +140,9 @@ def build():
         print(f'{event}: {len(records)} photos: ' + ', '.join(p.name for p in sources))
         for name in unnumbered:
             print(f'UNNUMBERED (omitted): {event}/{name}')
-    page.write_text(html)
-    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
+    with page.open('w', encoding='utf-8', newline='') as handle:
+        handle.write(html)
+    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
 
 
 if __name__ == '__main__':

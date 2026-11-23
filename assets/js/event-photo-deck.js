@@ -17,6 +17,8 @@
     const cards = [...track.children];
     const mobile = matchMedia('(max-width: 820px)');
     const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+    // Optional short caption (data-caption) for the current photograph, e.g. who is lecturing.
+    const caption = deck.querySelector('[data-deck-caption]');
     let index = 0;
     let gesture = null;
     let suppressClick = false;
@@ -32,6 +34,18 @@
       });
       const count = `${String(index + 1).padStart(2, '0')} / ${String(cards.length).padStart(2, '0')}`;
       deck.querySelector('.event-photo-counter').textContent = count;
+      if (caption) {
+        const note = cards[index].dataset.caption || '';
+        const text = note && window.SITE_I18N ? window.SITE_I18N.text(note) : note;
+        const href = cards[index].dataset.captionHref;
+        caption.textContent = '';
+        if (href) {
+          const link = document.createElement('a');
+          link.href = href; link.target = '_blank'; link.rel = 'noreferrer';
+          link.textContent = `${text} ↗`;
+          caption.append(link);
+        } else caption.textContent = text;
+      }
       if (announce) deck.querySelector('[data-deck-status]').textContent = `${count}. ${cards[index].querySelector('img').alt}`;
     };
     const show = (next) => {
@@ -78,6 +92,7 @@
       }, 120);
     }, { passive: true });
     mobile.addEventListener('change', () => { mark(false); if (mobile.matches) show(index); else track.scrollLeft = 0; });
+    if (caption) document.addEventListener('site:language', () => mark(false));
     deck.classList.add('is-ready');
     deck.querySelector('.event-photo-controls').hidden = false;
     mark(false);

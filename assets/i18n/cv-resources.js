@@ -361,9 +361,9 @@ window.SITE_TRANSLATIONS.push(...[
     "2.º Encuentro Panamericano de Economía de la Educación"
   ],
   [
-    "sys2025 · Systematic and Measurement Errors across the Sciences",
-    "sys2025 · Systematic and Measurement Errors across the Sciences",
-    "sys2025 · Systematic and Measurement Errors across the Sciences"
+    "sys2025: Systematic and Measurement Errors across the Sciences",
+    "sys2025: Systematic and Measurement Errors across the Sciences",
+    "sys2025: Systematic and Measurement Errors across the Sciences"
   ],
   [
     "19th School of Regression Models (EMR)",
@@ -386,9 +386,9 @@ window.SITE_TRANSLATIONS.push(...[
     "I Colóquio Binacional Brasil–Colômbia de Probabilidade e Estatística"
   ],
   [
-    "PIBIC · Scientific Initiation Programme",
-    "PIBIC · Programa de Iniciação Científica",
-    "PIBIC · Programa de Iniciación Científica"
+    "PIBIC (Scientific Initiation Programme)",
+    "PIBIC (Programa de Iniciação Científica)",
+    "PIBIC (Programa de Iniciación Científica)"
   ],
   [
     "Probability and Statistics: To p or not to p?",
@@ -781,24 +781,29 @@ window.SITE_TRANSLATIONS.push(...[
     "NUVA eMeeting: From the HST UV Initiative to the Next UV Observatory"
   ],
   [
-    "The Nature of Dark Energy · Pedro Ferreira (University of Oxford)",
-    "The Nature of Dark Energy · Pedro Ferreira (University of Oxford)",
-    "The Nature of Dark Energy · Pedro Ferreira (University of Oxford)"
+    "XXVIII Ciclo de Cursos Especiais in Astronomy and Astrophysics",
+    "XXVIII Ciclo de Cursos Especiais em Astronomia e Astrofísica",
+    "XXVIII Ciclo de Cursos Especiais en Astronomía y Astrofísica"
   ],
   [
-    "Galaxy Evolution in Clusters · Bianca Poggianti (INAF, Padova)",
-    "Galaxy Evolution in Clusters · Bianca Poggianti (INAF, Padova)",
-    "Galaxy Evolution in Clusters · Bianca Poggianti (INAF, Padova)"
+    "The Nature of Dark Energy (Pedro Ferreira, University of Oxford)",
+    "The Nature of Dark Energy (Pedro Ferreira, University of Oxford)",
+    "The Nature of Dark Energy (Pedro Ferreira, University of Oxford)"
   ],
   [
-    "Extended Bodies in the Solar System: Rotation, Tides, and Figures · Nicolas Rambaux (Paris Observatory)",
-    "Extended Bodies in the Solar System: Rotation, Tides, and Figures · Nicolas Rambaux (Paris Observatory)",
-    "Extended Bodies in the Solar System: Rotation, Tides, and Figures · Nicolas Rambaux (Paris Observatory)"
+    "Galaxy Evolution in Clusters (Bianca Poggianti, INAF, Padova)",
+    "Galaxy Evolution in Clusters (Bianca Poggianti, INAF, Padova)",
+    "Galaxy Evolution in Clusters (Bianca Poggianti, INAF, Padova)"
   ],
   [
-    "The Milky Way after Gaia · Victor Debattista (Lancashire University)",
-    "The Milky Way after Gaia · Victor Debattista (Lancashire University)",
-    "The Milky Way after Gaia · Victor Debattista (Lancashire University)"
+    "Extended Bodies in the Solar System: Rotation, Tides, and Figures (Nicolas Rambaux, Paris Observatory)",
+    "Extended Bodies in the Solar System: Rotation, Tides, and Figures (Nicolas Rambaux, Paris Observatory)",
+    "Extended Bodies in the Solar System: Rotation, Tides, and Figures (Nicolas Rambaux, Paris Observatory)"
+  ],
+  [
+    "The Milky Way After Gaia (Victor Debattista, University of Lancashire)",
+    "The Milky Way After Gaia (Victor Debattista, University of Lancashire)",
+    "The Milky Way After Gaia (Victor Debattista, University of Lancashire)"
   ],
   [
     "Nov 2026",
@@ -901,9 +906,9 @@ window.SITE_TRANSLATIONS.push(...[
     "May 2021"
   ],
   [
-    "Earlier academic events · 2018–2020",
-    "Eventos acadêmicos anteriores · 2018–2020",
-    "Eventos académicos anteriores · 2018–2020"
+    "Earlier academic events, 2018–2020",
+    "Eventos acadêmicos anteriores, 2018–2020",
+    "Eventos académicos anteriores, 2018–2020"
   ],
   [
     "Sep 2019",

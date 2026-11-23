@@ -82,5 +82,26 @@
     "page": 1,
     "width": 1600,
     "height": 2262
+  },
+  {
+    "name": "sorce-preprint-cover",
+    "source": "https://arxiv.org/pdf/2608.30878",
+    "page": 1,
+    "width": 1600,
+    "height": 2263
+  },
+  {
+    "name": "ipea-td3261-cover",
+    "source": "assets/img/apresentacoes/panamerican-education-2026/documents/full-time-education-expansion-discussion-paper.pdf",
+    "page": 1,
+    "width": 1600,
+    "height": 2263
+  },
+  {
+    "name": "hu-labor-relations-cover",
+    "source": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/revista-juridica-da-hu-brasil/numero-atual/revista-juridica-da-ebserh-v2n2-dez2025.pdf",
+    "page": 72,
+    "width": 1600,
+    "height": 2240
   }
 ]

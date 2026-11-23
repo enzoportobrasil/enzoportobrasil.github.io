@@ -34,7 +34,7 @@ Statistician working on inference, environmental extremes and astrostatistics, w
 Education|Formação|Formación
 MSc in Statistics|Mestrado em Estatística|Maestría en Estadística
 Feb 2024 – Jul 2026|Fev 2024 – Jul 2026|Feb 2024 – Jul 2026
-University of Brasília · Brasília, Brazil|Universidade de Brasília · Brasília, Brasil|Universidade de Brasília · Brasília, Brasil
+University of Brasília, Brasília, Brazil|Universidade de Brasília, Brasília, Brasil|Universidade de Brasília, Brasília, Brasil
 Thesis:|Trabalho de conclusão:|Trabajo de titulación:
 Statistical Modelling of Spatial Extremes in Complex Systems|Modelagem estatística de extremos espaciais em sistemas complexos|Modelización estadística de extremos espaciales en sistemas complejos
 . Bayesian hierarchical geostatistical model for spatial extremes with BGEV marginals and latent Gaussian structures; inference through HMC/NUTS in Stan; simulation-based model assessment; application to relative-humidity deficit extremes in the Amazon.|. Modelo geoestatístico hierárquico bayesiano para extremos espaciais com marginais BGEV e estruturas gaussianas latentes; inferência via HMC/NUTS no Stan; avaliação por simulação; aplicação a extremos de déficit de umidade relativa na Amazônia.|. Modelo geoestadístico jerárquico bayesiano para extremos espaciales con marginales BGEV y estructuras gaussianas latentes; inferencia mediante HMC/NUTS en Stan; evaluación por simulación; aplicación a extremos del déficit de humedad relativa en la Amazonía.
@@ -44,20 +44,20 @@ Imputation Methods for Missing Data Using Predictive Modelling|Métodos de imput
 . Simulation study comparing single and multiple imputation strategies under different missing-data scenarios.|. Estudo de simulação comparando estratégias de imputação simples e múltipla em diferentes cenários de dados faltantes.|. Estudio de simulación que compara estrategias de imputación simple y múltiple en distintos escenarios de datos faltantes.
 Academic Exchange on Modelling and Data Science|Intercâmbio acadêmico em modelagem e ciência de dados|Intercambio académico en modelización y ciencia de datos
 Sep 2022 – Mar 2023|Set 2022 – Mar 2023|Sep 2022 – Mar 2023
-Lodz University of Technology · Łódź, Poland|Lodz University of Technology · Łódź, Polônia|Lodz University of Technology · Łódź, Polonia
+Lodz University of Technology, Łódź, Poland|Lodz University of Technology, Łódź, Polônia|Lodz University of Technology, Łódź, Polonia
 On-campus coursework in statistical physics, experimental physics, computational modelling, computer science and logic.|Disciplinas presenciais de física estatística, física experimental, modelagem computacional, computação e lógica.|Cursos presenciales de física estadística, física experimental, modelización computacional, informática y lógica.
 Research & professional experience|Experiência em pesquisa e atuação profissional|Experiencia en investigación y trayectoria profesional
 Statistician|Estatístico|Estadístico
 Sep 2025 – Present|Set 2025 – Atual|Sep 2025 – Actualidad
-HU Brasil · Federal University Hospitals|HU Brasil · Hospitais Universitários Federais|HU Brasil · Hospitales Universitarios Federales
+HU Brasil, Federal University Hospitals|HU Brasil, Hospitais Universitários Federais|HU Brasil, Hospitales Universitarios Federales
 Large observational and administrative datasets; data quality and validation; automated analytical pipelines, dashboards, reproducible research and statistical reporting.|Grandes bases de dados observacionais e administrativos; qualidade e validação de dados; rotinas analíticas automatizadas, painéis, pesquisa reprodutível e relatórios estatísticos.|Grandes bases de datos observacionales y administrativos; calidad y validación de datos; procesos analíticos automatizados, paneles, investigación reproducible e informes estadísticos.
 Senior Research Assistant & Data Science Fellow|Assistente de pesquisa sênior e bolsista em ciência de dados|Asistente de investigación sénior y becario en ciencia de datos
 May 2025 – May 2026|Mai 2025 – Mai 2026|May 2025 – May 2026
-Ipea · Institute for Applied Economic Research|Ipea · Instituto de Pesquisa Econômica Aplicada|Ipea · Instituto de Pesquisa Econômica Aplicada
+Ipea, Institute for Applied Economic Research|Ipea, Instituto de Pesquisa Econômica Aplicada|Ipea, Instituto de Pesquisa Econômica Aplicada
 National microdata, longitudinal and territorial information; reproducible statistical workflows; automated analyses; technical research notes and book-chapter contributions.|Microdados nacionais e informações longitudinais e territoriais; fluxos estatísticos reprodutíveis; análises automatizadas; notas técnicas e contribuições em capítulo de livro.|Microdatos nacionales e información longitudinal y territorial; flujos estadísticos reproducibles; análisis automatizados; notas técnicas y contribuciones a un capítulo de libro.
-Technical Officer · International Cooperation Mercosul|Técnico · Cooperação Internacional Mercosul|Técnico · Cooperación Internacional Mercosur
+Technical Officer, International Cooperation Mercosul|Técnico, Cooperação Internacional Mercosul|Técnico, Cooperación Internacional Mercosur
 Aug 2024 – Dec 2025|Ago 2024 – Dez 2025|Ago 2024 – Dic 2025
-Inep · National Institute for Educational Studies and Research|Inep · Instituto Nacional de Estudos e Pesquisas Educacionais|Inep · Instituto Nacional de Estudos e Pesquisas Educacionais
+Inep, National Institute for Educational Studies and Research|Inep, Instituto Nacional de Estudos e Pesquisas Educacionais|Inep, Instituto Nacional de Estudos e Pesquisas Educacionais
 South American academic cooperation and undergraduate programme evaluation within the Mercosul accreditation system.|Cooperação acadêmica sul-americana e avaliação de cursos de graduação no sistema de acreditação do Mercosul.|Cooperación académica sudamericana y evaluación de programas de grado en el sistema de acreditación del Mercosur.
 Fellowships & distinctions|Bolsas e distinções|Becas y distinciones
 CNPq MSc fellowship and admission distinction:|Bolsa de mestrado do CNPq e classificação na seleção:|Beca de maestría del CNPq y resultado de admisión:
@@ -83,14 +83,13 @@ Graduate teaching internship in Statistics, University of Brasília, 2025.|Está
 Teaching assistantship in Probability Theory, University of Brasília, 2019.|Monitoria em Teoria da Probabilidade, Universidade de Brasília, 2019.|Asistencia docente en Teoría de la Probabilidad, Universidade de Brasília, 2019.
 Scientific event organization and academic volunteering in mathematics, physics and statistics.|Organização de eventos científicos e voluntariado acadêmico em matemática, física e estatística.|Organización de eventos científicos y voluntariado académico en matemáticas, física y estadística.
 Languages|Idiomas|Idiomas
-Portuguese: native · English: fluent · French: intermediate · Spanish: reading and listening comprehension · Polish: introductory exposure.|Português: nativo · Inglês: fluente · Francês: intermediário · Espanhol: compreensão escrita e oral · Polonês: contato introdutório.|Portugués: nativo · Inglés: fluido · Francés: intermedio · Español: comprensión lectora y auditiva · Polaco: conocimientos introductorios.
+Portuguese: native, English: fluent, French: intermediate, Spanish: reading and listening comprehension, Polish: introductory exposure.|Português: nativo, Inglês: fluente, Francês: intermediário, Espanhol: compreensão escrita e oral, Polonês: contato introdutório.|Portugués: nativo, Inglés: fluido, Francés: intermedio, Español: comprensión lectora y auditiva, Polaco: conocimientos introductorios.
 Statistician working on inference, simulation and uncertainty, applied to physical, environmental and social systems. Based in Brasília, Brazil.|Estatístico que trabalha com inferência, simulação e incerteza, aplicadas a sistemas físicos, ambientais e sociais. Em Brasília, Brasil.|Estadístico que trabaja en inferencia, simulación e incertidumbre, aplicadas a sistemas físicos, ambientales y sociales. En Brasília, Brasil.
 Statistician and interdisciplinary researcher, working across statistical inference, simulation and scientific computing. Based in Brasília, Brazil.|Estatístico e pesquisador interdisciplinar, atuando em inferência estatística, simulação e computação científica. Em Brasília, Brasil.|Estadístico e investigador interdisciplinario, dedicado a la inferencia estadística, la simulación y la computación científica. En Brasília, Brasil.
 What is possible to do with statistics?|O que é possível fazer com estatística?|¿Qué es posible hacer con la estadística?
 Statistics, uncertainty and scientific questions.|Estatística, incerteza e questões científicas.|Estadística, incertidumbre y preguntas científicas.
 Menu|Menu|Menú
-Brasília · Brazil|Brasília · Brasil|Brasília · Brasil
-Statistician · Inference · Extreme events · Astrostatistics|Estatístico · Inferência · Eventos extremos · Astroestatística|Estadístico · Inferencia · Eventos extremos · Astroestadística
+Statistician in inference, extreme events and astrostatistics|Estatístico em inferência, eventos extremos e astroestatística|Estadístico en inferencia, eventos extremos y astroestadística
 Inference for|Inferência para|Inferencia para
 extreme events,|eventos extremos,|eventos extremos,
 uncertainty, and|incerteza e|incertidumbre y
@@ -108,7 +107,7 @@ That question now connects my work on spatial extremes, dependence and environme
 Spatial extremes|Extremos espaciais|Extremos espaciales
 Bayesian & frequentist inference|Inferência bayesiana e frequentista|Inferencia bayesiana y frecuentista
 Read the research narrative|Conheça a trajetória de pesquisa|Conozca la trayectoria de investigación
-03 · Selected research|03 · Pesquisas selecionadas|03 · Investigaciones seleccionadas
+03 / Selected research|03 / Pesquisas selecionadas|03 / Investigaciones seleccionadas
 Methods meet|Métodos encontram|Métodos y
 scientific systems.|sistemas científicos.|sistemas científicos.
 Four connected research directions, moving between mathematical questions and the physical systems that make them consequential.|Quatro linhas de pesquisa conectadas, entre questões matemáticas e os sistemas físicos que lhes dão sentido.|Cuatro líneas de investigación conectadas, entre preguntas matemáticas y los sistemas físicos que les dan sentido.
@@ -116,13 +115,13 @@ Spatial research overview|Panorama da pesquisa espacial|Panorama de la investiga
 Bayesian analysis|Análise bayesiana|Análisis bayesiano
 MSc thesis|Dissertação de mestrado|Tesis de maestría
 How can a spatial model represent extremes when one marginal shape is too restrictive? My MSc dissertation develops a Bayesian hierarchical model with Bimodal Generalized Extreme Value (BGEV) marginals, applied to relative humidity deficit in the Amazon.|Como representar extremos espaciais quando uma forma marginal é restritiva demais? Minha dissertação desenvolve um modelo hierárquico bayesiano com marginais BGEV, aplicado ao déficit de umidade relativa na Amazônia.|¿Cómo representar extremos espaciales cuando una forma marginal resulta demasiado restrictiva? Mi tesis desarrolla un modelo jerárquico bayesiano con marginales BGEV, aplicado al déficit de humedad relativa en la Amazonía.
-BGEV · Gaussian spatial fields · HMC/NUTS in Stan|BGEV · Campos espaciais gaussianos · HMC/NUTS no Stan|BGEV · Campos espaciales gaussianos · HMC/NUTS en Stan
+BGEV, Gaussian spatial fields, HMC/NUTS in Stan|BGEV, Campos espaciais gaussianos, HMC/NUTS no Stan|BGEV, Campos espaciales gaussianos, HMC/NUTS en Stan
 View project|Ver projeto|Ver proyecto
 Editorial illustration|Ilustração editorial|Ilustración editorial
 Sun-Earth system|Sistema Sol–Terra|Sistema Sol–Tierra
 Extreme events|Eventos extremos|Eventos extremos
 What can a finite satellite record tell us about unusually large changes in solar irradiance? Extreme Value Theory meets the observational limits of NASA’s SORCE/XPS record.|O que um registro finito de satélite pode revelar sobre mudanças excepcionalmente grandes na irradiância solar? A Teoria dos Valores Extremos encontra os limites observacionais do registro SORCE/XPS da NASA.|¿Qué puede revelar un registro satelital finito sobre cambios excepcionalmente grandes en la irradiancia solar? La Teoría de Valores Extremos se encuentra con los límites observacionales del registro SORCE/XPS de la NASA.
-SORCE/XPS · Extreme Value Theory · Preprint|SORCE/XPS · Teoria dos Valores Extremos · Preprint|SORCE/XPS · Teoría de Valores Extremos · Preprint
+SORCE/XPS, Extreme Value Theory, Preprint|SORCE/XPS, Teoria dos Valores Extremos, Preprint|SORCE/XPS, Teoría de Valores Extremos, Preprint
 Illustrative density contours|Contornos de densidade ilustrativos|Contornos de densidad ilustrativos
 Missing data|Dados faltantes|Datos faltantes
 Simulation|Simulação|Simulación
@@ -132,7 +131,7 @@ Illustrative photograph|Fotografia ilustrativa|Fotografía ilustrativa
 Dependence|Dependência|Dependencia
 Compound Extremes & Dependence|Extremos compostos e dependência|Extremos compuestos y dependencia
 How does dependence change the frequency of joint extremes? Copulas connect temperature, humidity and multivariate risk.|Como a dependência altera a frequência de extremos conjuntos? Cópulas conectam temperatura, umidade e risco multivariado.|¿Cómo cambia la dependencia la frecuencia de los extremos conjuntos? Las cópulas conectan temperatura, humedad y riesgo multivariado.
-04 · Research coordinates|04 · Coordenadas de pesquisa|04 · Coordenadas de investigación
+04 / Research coordinates|04 / Coordenadas de pesquisa|04 / Coordenadas de investigación
 Uncertainty may tell us more than we expect.|A incerteza pode nos dizer mais do que imaginamos.|La incertidumbre puede decirnos más de lo que imaginamos.
 Questions that recur across my work, from missing observations to environmental and astronomical systems.|Perguntas que reaparecem no meu trabalho, de observações faltantes a sistemas ambientais e astronômicos.|Preguntas que reaparecen en mi trabajo, desde observaciones faltantes hasta sistemas ambientales y astronómicos.
 Incomplete observations|Observações incompletas|Observaciones incompletas
@@ -144,12 +143,12 @@ Tail behaviour, copulas and compound risk.|Comportamento de cauda, cópulas e ri
 Bayesian hierarchical models and latent fields.|Modelos hierárquicos bayesianos e campos latentes.|Modelos jerárquicos bayesianos y campos latentes.
 Physical & environmental systems|Sistemas físicos e ambientais|Sistemas físicos y ambientales
 Environmental extremes and solar observations, with growing interests in astronomy and cosmology.|Extremos ambientais e observações solares, com interesse crescente em astronomia e cosmologia.|Extremos ambientales y observaciones solares, con interés creciente en astronomía y cosmología.
-05 · Selected outputs|05 · Produção selecionada|05 · Producción seleccionada
+05 / Selected outputs|05 / Produção selecionada|05 / Producción seleccionada
 Recent research|Pesquisas recentes|Investigaciones recientes
 Public outputs linked to stable academic sources.|Trabalhos públicos com acesso às fontes acadêmicas.|Trabajos públicos con acceso a las fuentes académicas.
 Read preprint on arXiv ↗|Ler preprint no arXiv ↗|Leer preprint en arXiv ↗
 Full publications & outputs|Todas as publicações e trabalhos|Todas las publicaciones y trabajos
-06 · Research practice|06 · Prática de pesquisa|06 · Práctica de investigación
+06 / Research practice|06 / Prática de pesquisa|06 / Práctica de investigación
 How I tend to think about a scientific problem|Como costumo pensar um problema científico|Cómo suelo pensar un problema científico
 What observations can support|O que as observações permitem inferir|Lo que permiten inferir las observaciones
 I often begin by asking what the observations can support, which assumptions the answer depends on, and what remains uncertain.|Costumo começar pelo que as observações permitem inferir, pelas suposições das quais a resposta depende e pelo que permanece incerto.|Suelo comenzar por lo que las observaciones permiten inferir, los supuestos de los que depende la respuesta y lo que sigue siendo incierto.
@@ -168,11 +167,11 @@ Papers, preprints and applied research outputs, with submission status distingui
 Preprints & submitted manuscripts|Preprints e manuscritos submetidos|Preprints y manuscritos enviados
 Statistical and physical sciences|Ciências estatísticas e físicas|Ciencias estadísticas y físicas
 Research context →|Contexto da pesquisa →|Contexto de la investigación →
-Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F. · Submitted to|Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F. · Submetido a|Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F. · Enviado a
-· Astrostatistics topic|· Tema de astroestatística|· Tema de astroestadística
-Brasil, E. · Submitted to the|Brasil, E. · Submetido ao|Brasil, E. · Enviado a
-Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E. · Submitted to|Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E. · Submetido a|Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E. · Enviado a
-Vila, R.; Otiniano, C.; Brito, C.; Brasil, E. · Submitted to|Vila, R.; Otiniano, C.; Brito, C.; Brasil, E. · Submetido a|Vila, R.; Otiniano, C.; Brito, C.; Brasil, E. · Enviado a
+Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F., Submitted to|Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F., Submetido a|Brasil, E.; Otiniano, C.; Brito, C.; Albernaz, B.; Morales, F., Enviado a
+, Astrostatistics topic|, Tema de astroestatística|, Tema de astroestadística
+Brasil, E., Submitted to the|Brasil, E., Submetido ao|Brasil, E., Enviado a
+Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E., Submitted to|Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E., Submetido a|Albernaz, B.; Otiniano, C.; Brito, C.; Morales, F.; Brasil, E., Enviado a
+Vila, R.; Otiniano, C.; Brito, C.; Brasil, E., Submitted to|Vila, R.; Otiniano, C.; Brito, C.; Brasil, E., Submetido a|Vila, R.; Otiniano, C.; Brito, C.; Brasil, E., Enviado a
 In development|Em desenvolvimento|En desarrollo
 Manuscripts in preparation|Manuscritos em preparação|Manuscritos en preparación
 Ongoing work on spatial extremes and solar–atmospheric dependence.|Trabalhos em andamento sobre extremos espaciais e dependência entre variáveis solares e atmosféricas.|Trabajos en curso sobre extremos espaciales y dependencia entre variables solares y atmosféricas.
@@ -186,7 +185,7 @@ Published|Publicado|Publicado
 Applied research|Pesquisa aplicada|Investigación aplicada
 Technical research notes and book chapter on full-time education in Brazil|Notas técnicas e capítulo de livro sobre educação em tempo integral no Brasil|Notas técnicas y capítulo de libro sobre educación a tiempo completo en Brasil
 Research contributions developed at Ipea using national microdata, territorial information, reproducible analytical workflows and public-sector data.|Contribuições de pesquisa desenvolvidas no Ipea com microdados nacionais, informações territoriais, fluxos analíticos reprodutíveis e dados do setor público.|Contribuciones de investigación desarrolladas en el Ipea con microdatos nacionales, información territorial, flujos analíticos reproducibles y datos del sector público.
-Research portfolio · 2026|Portfólio de pesquisa · 2026|Portafolio de investigación · 2026
+Research portfolio, 2026|Portfólio de pesquisa, 2026|Portafolio de investigación, 2026
 One statistical language,|Uma linguagem estatística,|Un lenguaje estadístico,
 several scientific systems.|vários sistemas científicos.|varios sistemas científicos.
 My work is connected by recurring questions about incomplete observations, rare events, dependence, spatial structure, and how modelling assumptions shape scientific inference. Each scientific setting brings different observational constraints to those questions.|Meu trabalho se conecta por perguntas recorrentes sobre observações incompletas, eventos raros, dependência, estrutura espacial e o papel das suposições de modelagem na inferência científica. Cada contexto traz limitações observacionais próprias para essas perguntas.|Mi trabajo se conecta a través de preguntas recurrentes sobre observaciones incompletas, eventos raros, dependencia, estructura espacial y el papel de los supuestos en la inferencia científica. Cada contexto aporta restricciones observacionales distintas a esas preguntas.
@@ -207,7 +206,7 @@ Hierarchical modelling of spatially heterogeneous extremes, flexible marginal be
 Problem|Problema|Problema
 Rare events across dependent locations|Eventos raros em locais dependentes|Eventos raros en ubicaciones dependientes
 Approach|Abordagem|Enfoque
-BGEV marginals · Gaussian fields · HMC/NUTS|Marginais BGEV · Campos gaussianos · HMC/NUTS|Marginales BGEV · Campos gaussianos · HMC/NUTS
+BGEV marginals, Gaussian fields, HMC/NUTS|Marginais BGEV, Campos gaussianos, HMC/NUTS|Marginales BGEV, Campos gaussianos, HMC/NUTS
 Setting|Contexto|Contexto
 Relative-humidity-deficit extremes in the Amazon|Extremos de déficit de umidade relativa na Amazônia|Extremos del déficit de humedad relativa en la Amazonía
 Thesis project|Projeto da dissertação|Proyecto de tesis
@@ -215,14 +214,14 @@ Solar data|Dados solares|Datos solares
 Solar & physical systems|Sistemas solares e físicos|Sistemas solares y físicos
 Extreme Value Theory applied to solar spectral irradiance, alongside related studies of solar and atmospheric dependence. The observational record and measurement uncertainty shape the interpretation.|Teoria dos Valores Extremos aplicada à irradiância espectral solar, junto a estudos de dependência entre variáveis solares e atmosféricas. O registro observacional e a incerteza de medição orientam a interpretação.|Teoría de Valores Extremos aplicada a la irradiancia espectral solar, junto con estudios de dependencia entre variables solares y atmosféricas. El registro observacional y la incertidumbre de medición orientan la interpretación.
 Extreme solar spectral irradiance|Irradiância espectral solar extrema|Irradiancia espectral solar extrema
-Extreme Value Theory · tail modelling|Teoria dos Valores Extremos · Modelagem de caudas|Teoría de Valores Extremos · Modelización de colas
+Extreme Value Theory, tail modelling|Teoria dos Valores Extremos, Modelagem de caudas|Teoría de Valores Extremos, Modelización de colas
 NASA SORCE/XPS observations|Observações SORCE/XPS da NASA|Observaciones SORCE/XPS de la NASA
 Solar irradiance project|Projeto de irradiância solar|Proyecto de irradiancia solar
 Robustness|Robustez|Robustez
 Missing data under extremes|Dados faltantes sob valores extremos|Datos faltantes ante valores extremos
 Imputation, predictive modelling and simulation, including how conventional missing-data methods behave when extreme values and complex data structures matter.|Imputação, modelagem preditiva e simulação, incluindo o comportamento de métodos usuais para dados faltantes diante de valores extremos e estruturas complexas.|Imputación, modelización predictiva y simulación, incluido el comportamiento de los métodos habituales para datos faltantes ante valores extremos y estructuras complejas.
 Incomplete observations with extreme values|Observações incompletas com valores extremos|Observaciones incompletas con valores extremos
-Multiple imputation · controlled simulation|Imputação múltipla · Simulação controlada|Imputación múltiple · Simulación controlada
+Multiple imputation, controlled simulation|Imputação múltipla, Simulação controlada|Imputación múltiple, Simulación controlada
 Question|Pergunta|Pregunta
 How do tails alter downstream inference?|Como as caudas afetam a inferência posterior à imputação?|¿Cómo afectan las colas a la inferencia posterior a la imputación?
 Imputation project|Projeto de imputação|Proyecto de imputación
@@ -230,7 +229,7 @@ Climate|Clima|Clima
 Dependence & compound extremes|Dependência e extremos compostos|Dependencia y extremos compuestos
 Copula-based and extreme-value approaches for multivariate behaviour, joint return levels, conditional dependence and complex environmental risk.|Abordagens com cópulas e valores extremos para comportamento multivariado, níveis de retorno conjuntos, dependência condicional e risco ambiental complexo.|Enfoques con cópulas y valores extremos para el comportamiento multivariado, niveles de retorno conjuntos, dependencia condicional y riesgo ambiental complejo.
 Joint behaviour beyond marginal extremes|Comportamento conjunto além dos extremos marginais|Comportamiento conjunto más allá de los extremos marginales
-Copulas · joint return levels|Cópulas · Níveis de retorno conjuntos|Cópulas · Niveles de retorno conjuntos
+Copulas, joint return levels|Cópulas, Níveis de retorno conjuntos|Cópulas, Niveles de retorno conjuntos
 Temperature, humidity and physical variables|Temperatura, umidade e variáveis físicas|Temperatura, humedad y variables físicas
 Climate-dependence project|Projeto de dependência climática|Proyecto de dependencia climática
 Applied & interdisciplinary work|Trabalho aplicado e interdisciplinar|Trabajo aplicado e interdisciplinario
@@ -250,10 +249,10 @@ uncertainty quantification|quantificação da incerteza|cuantificación de la in
 A living archive of research materials.|Um arquivo vivo de materiais de pesquisa.|Un archivo vivo de materiales de investigación.
 Dissertations, research reports, presentation materials and records of academic training.|Dissertações, relatórios de pesquisa, materiais de apresentações e registros de formação acadêmica.|Tesis, informes de investigación, materiales de presentaciones y registros de formación académica.
 Theses & research documents|Teses, dissertações e documentos de pesquisa|Tesis y documentos de investigación
-MSc dissertation · University of Brasília (UnB) · Portuguese · Full text available upon request|Dissertação de mestrado · Universidade de Brasília (UnB) · Português · Texto completo disponível mediante solicitação|Tesis de maestría · Universidade de Brasília (UnB) · Portugués · Texto completo disponible previa solicitud
+MSc dissertation, University of Brasília (UnB), Portuguese, Full text available upon request|Dissertação de mestrado, Universidade de Brasília (UnB), Português, Texto completo disponível mediante solicitação|Tesis de maestría, Universidade de Brasília (UnB), Portugués, Texto completo disponible previa solicitud
 Request full text ↗|Solicitar texto completo ↗|Solicitar texto completo ↗
 The full dissertation is currently available upon request while related manuscripts are being prepared for publication.|O texto integral da dissertação está atualmente disponível mediante solicitação enquanto manuscritos relacionados estão sendo preparados para publicação.|El texto completo de la tesis está actualmente disponible previa solicitud mientras se preparan manuscritos relacionados para publicación.
-Undergraduate research report · Portuguese · 12 pages · PDF|Relatório de iniciação científica · Português · 12 páginas · PDF|Informe de iniciación científica · Portugués · 12 páginas · PDF
+Undergraduate research report, Portuguese, 12 pages, PDF|Relatório de iniciação científica, Português, 12 páginas, PDF|Informe de iniciación científica, Portugués, 12 páginas, PDF
 Open full text ↗|Abrir texto completo ↗|Abrir texto completo ↗
 Slides & posters|Slides e pôsteres|Diapositivas y pósteres
 Complete presentations and posters, organised by event and linked to their research directions.|Apresentações e pôsteres completos, organizados por evento e vinculados às suas linhas de pesquisa.|Presentaciones y pósteres completos, organizados por evento y vinculados a sus líneas de investigación.
@@ -276,7 +275,7 @@ Oral presentation certificate|Certificado de apresentação oral|Certificado de 
 Research programme certificate|Certificado do programa de iniciação científica|Certificado del programa de iniciación científica
 Certificate (PDF) ↗|Certificado (PDF) ↗|Certificado (PDF) ↗
 Related presentation →|Apresentação relacionada →|Presentación relacionada →
-PIBIC · Scientific Initiation Programme|PIBIC · Programa de Iniciação Científica|PIBIC · Programa de Iniciación Científica
+PIBIC (Scientific Initiation Programme)|PIBIC (Programa de Iniciação Científica)|PIBIC (Programa de Iniciación Científica)
 Talks & posters|Apresentações e pôsteres|Presentaciones y pósteres
 Sharing the research.|Compartilhando a pesquisa.|Compartiendo la investigación.
 Talks and posters, with complete slides, research figures and records of the scientific events.|Apresentações e pôsteres, com slides completos, figuras de pesquisa e registros dos eventos científicos.|Presentaciones y pósteres, con diapositivas completas, figuras de investigación y registros de los eventos científicos.
@@ -284,12 +283,12 @@ Posters & early research ↓|Pôsteres e primeiras pesquisas ↓|Pósteres y pri
 Upcoming ↓|Próximas apresentações ↓|Próximas presentaciones ↓
 Invited speaker|Palestrante convidado|Ponente invitado
 11 June 2026|11 de junho de 2026|11 de junio de 2026
-Universidade de Brasília · Brasília, Brazil|Universidade de Brasília · Brasília, Brasil|Universidade de Brasília · Brasília, Brasil
+Universidade de Brasília, Brasília, Brazil|Universidade de Brasília, Brasília, Brasil|Universidade de Brasília, Brasília, Brasil
 In this invited talk at UnB, I explored the distinction between rare and extreme events, then introduced Extreme Value Theory and copulas through my research on solar irradiance and air density. The talk also connects extremes to missing-data imputation and spatial modelling.|Nesta palestra a convite da UnB, explorei a distinção entre eventos raros e extremos e apresentei a Teoria dos Valores Extremos e cópulas a partir da minha pesquisa sobre irradiância solar e densidade do ar. A palestra também conecta extremos à imputação de dados faltantes e à modelagem espacial.|En esta charla por invitación de la UnB, exploré la distinción entre eventos raros y extremos e introduje la Teoría de Valores Extremos y las cópulas a partir de mi investigación sobre irradiancia solar y densidad del aire. La charla también conecta los extremos con la imputación de datos faltantes y la modelización espacial.
 Related research →|Pesquisa relacionada →|Investigación relacionada →
 Open slides ↗|Abrir slides ↗|Abrir diapositivas ↗
 Download slides ↓|Baixar slides ↓|Descargar diapositivas ↓
-Complete slides · 26 pages · Portuguese · PDF · 45.3 MB|Slides completos · 26 páginas · Português · PDF · 45,3 MB|Diapositivas completas · 26 páginas · Portugués · PDF · 45,3 MB
+Complete slides, 26 pages, Portuguese, PDF, 45.3 MB|Slides completos, 26 páginas, Português, PDF, 45,3 MB|Diapositivas completas, 26 páginas, Portugués, PDF, 45,3 MB
 University event page ↗|Página do evento na universidade ↗|Página universitaria del evento ↗
 Discussing the fitted distributions at the UnB workshop.|Discussão das distribuições ajustadas no workshop da UnB.|Discusión de las distribuciones ajustadas en el taller de la UnB.
 Enlarge ↗|Ampliar ↗|Ampliar ↗
@@ -299,10 +298,10 @@ Contributed oral presentation|Comunicação oral|Comunicación oral
 15 November 2025|15 de novembro de 2025|15 de noviembre de 2025
 Joint extremes of solar irradiance and air density|Extremos conjuntos de irradiância solar e densidade do ar|Extremos conjuntos de irradiancia solar y densidad del aire
 an EVT and copula approach to tail uncertainty|uma abordagem com TVE e cópulas para a incerteza nas caudas|un enfoque con TVE y cópulas para la incertidumbre en las colas
-The University of Alabama in Huntsville · Huntsville, Alabama, USA|The University of Alabama in Huntsville · Huntsville, Alabama, EUA|The University of Alabama in Huntsville · Huntsville, Alabama, EE. UU.
+The University of Alabama in Huntsville, Huntsville, Alabama, USA|The University of Alabama in Huntsville, Huntsville, Alabama, EUA|The University of Alabama in Huntsville, Huntsville, Alabama, EE. UU.
 Workshop: 14–17 November 2025|Workshop: 14–17 de novembro de 2025|Taller: 14–17 de noviembre de 2025
 At sys2025, I presented a study combining NASA SORCE/XPS solar irradiance and measurement uncertainty with air density derived from INMET observations in Brasília. GEV and BGEV marginal models, together with copulas, provide the framework for studying joint extremes, Value at Risk and return levels.|No sys2025, apresentei um estudo que combina irradiância solar e incerteza de medição do SORCE/XPS da NASA com densidade do ar derivada de observações do INMET em Brasília. Modelos marginais GEV e BGEV, junto com cópulas, estruturam o estudo de extremos conjuntos, valor em risco e níveis de retorno.|En sys2025 presenté un estudio que combina irradiancia solar e incertidumbre de medición del SORCE/XPS de la NASA con densidad del aire derivada de observaciones del INMET en Brasília. Los modelos marginales GEV y BGEV, junto con cópulas, estructuran el estudio de extremos conjuntos, valor en riesgo y niveles de retorno.
-Complete slides · 35 pages · English · PDF · 29.4 MB|Slides completos · 35 páginas · Inglês · PDF · 29,4 MB|Diapositivas completas · 35 páginas · Inglés · PDF · 29,4 MB
+Complete slides, 35 pages, English, PDF, 29.4 MB|Slides completos, 35 páginas, Inglês, PDF, 29,4 MB|Diapositivas completas, 35 páginas, Inglés, PDF, 29,4 MB
 Participation certificate (PDF) ↗|Certificado de participação (PDF) ↗|Certificado de participación (PDF) ↗
 Official workshop website ↗|Site oficial do workshop ↗|Sitio oficial del taller ↗
 From observations to marginal models, copulas and Value at Risk for block maxima. Figure used in slide 29.|Das observações aos modelos marginais, cópulas e valor em risco para máximos em blocos. Figura utilizada no slide 29.|De las observaciones a los modelos marginales, las cópulas y el valor en riesgo para máximos por bloques. Figura utilizada en la diapositiva 29.
@@ -314,12 +313,12 @@ Oral presentation|Apresentação oral|Presentación oral
 18 September 2024|18 de setembro de 2024|18 de septiembre de 2024
 Assessing imputation techniques for missing data using statistical models|Avaliação de técnicas de imputação para dados faltantes com modelos estatísticos|Evaluación de técnicas de imputación de datos faltantes con modelos estadísticos
 a simulation approach|uma abordagem por simulação|un enfoque por simulación
-coBIPE · 1st Brazil–Colombia Binational Colloquium on Probability and Statistics|coBIPE · I Colóquio Binacional Brasil–Colômbia de Probabilidade e Estatística|coBIPE · I Coloquio Binacional Brasil–Colombia de Probabilidad y Estadística
-Universidade Federal do Rio Grande do Norte · Natal, Brazil|Universidade Federal do Rio Grande do Norte · Natal, Brasil|Universidade Federal do Rio Grande do Norte · Natal, Brasil
+coBIPE, 1st Brazil–Colombia Binational Colloquium on Probability and Statistics|coBIPE, I Colóquio Binacional Brasil–Colômbia de Probabilidade e Estatística|coBIPE, I Coloquio Binacional Brasil–Colombia de Probabilidad y Estadística
+Universidade Federal do Rio Grande do Norte, Natal, Brazil|Universidade Federal do Rio Grande do Norte, Natal, Brasil|Universidade Federal do Rio Grande do Norte, Natal, Brasil
 Colloquium: 16–18 September 2024|Colóquio: 16–18 de setembro de 2024|Coloquio: 16–18 de septiembre de 2024
 Missing data can hinder statistical analyses that rely on complete datasets. In work coauthored with Eduardo Yoshio Nakano, I explored how regression-based imputation can help, using simulated datasets to compare single and multiple imputation, measures of central tendency, and predictive modelling.|Dados faltantes podem dificultar análises estatísticas que dependem de bases completas. Em trabalho com Eduardo Yoshio Nakano, explorei a contribuição da imputação por regressão, usando bases simuladas para comparar imputação simples e múltipla, medidas de tendência central e modelagem preditiva.|Los datos faltantes pueden dificultar los análisis estadísticos que requieren bases completas. En un trabajo con Eduardo Yoshio Nakano exploré la contribución de la imputación por regresión, utilizando bases simuladas para comparar imputación simple y múltiple, medidas de tendencia central y modelización predictiva.
 We examined the proportion of missing data, the nature of the incomplete variables, and how many variables were affected. We also compared imputation with ignoring or deleting incomplete observations. The study points to the importance of matching the method to the nature and extent of missing data, and brings together the literature and simulation results to offer practical guidance for researchers.|Examinamos a proporção de dados faltantes, a natureza das variáveis incompletas e o número de variáveis afetadas. Também comparamos a imputação com ignorar ou excluir observações incompletas. O estudo destaca a importância de adequar o método à natureza e à extensão das ausências, reunindo literatura e resultados de simulação para orientar pesquisadores.|Examinamos la proporción de datos faltantes, la naturaleza de las variables incompletas y el número de variables afectadas. También comparamos la imputación con ignorar o eliminar observaciones incompletas. El estudio destaca la importancia de adecuar el método a la naturaleza y extensión de las ausencias, reuniendo bibliografía y resultados de simulación para orientar a investigadores.
-Complete slides · 27 pages · English · PDF · 16.2 MB|Slides completos · 27 páginas · Inglês · PDF · 16,2 MB|Diapositivas completas · 27 páginas · Inglés · PDF · 16,2 MB
+Complete slides, 27 pages, English, PDF, 16.2 MB|Slides completos, 27 páginas, Inglês, PDF, 16,2 MB|Diapositivas completas, 27 páginas, Inglés, PDF, 16,2 MB
 Oral presentation certificate (PDF) ↗|Certificado de apresentação oral (PDF) ↗|Certificado de presentación oral (PDF) ↗
 Introducing the imputation methods.|Apresentando os métodos de imputação.|Presentación de los métodos de imputación.
 Comparing single and multiple imputation scenarios.|Comparando cenários de imputação simples e múltipla.|Comparación de escenarios de imputación simple y múltiple.
@@ -328,18 +327,18 @@ Posters & early research|Pôsteres e primeiras pesquisas|Pósteres y primeras in
 Poster presentations|Apresentações de pôsteres|Presentaciones de pósteres
 27–31 October 2025|27–31 de outubro de 2025|27–31 de octubre de 2025
 Extremes, from solar data to imputation.|Extremos, dos dados solares à imputação.|Extremos, de los datos solares a la imputación.
-João Pessoa, Paraíba, Brazil · EPBEST: 27–28 October · EMR: 29–31 October|João Pessoa, Paraíba, Brasil · EPBEST: 27–28 de outubro · EMR: 29–31 de outubro|João Pessoa, Paraíba, Brasil · EPBEST: 27–28 de octubre · EMR: 29–31 de octubre
+João Pessoa, Paraíba, Brazil, EPBEST: 27–28 October, EMR: 29–31 October|João Pessoa, Paraíba, Brasil, EPBEST: 27–28 de outubro, EMR: 29–31 de outubro|João Pessoa, Paraíba, Brasil, EPBEST: 27–28 de octubre, EMR: 29–31 de octubre
 Two posters brought together different sides of my research: modelling extreme solar irradiance and examining what happens to missing-data imputation when observations include extreme values.|Dois pôsteres reuniram diferentes lados da minha pesquisa: modelar irradiância solar extrema e examinar o que acontece com a imputação de dados faltantes quando há valores extremos.|Dos pósteres reunieron distintas facetas de mi investigación: modelizar irradiancia solar extrema y examinar qué ocurre con la imputación de datos faltantes cuando hay valores extremos.
 Between the posters in João Pessoa.|Entre os pôsteres em João Pessoa.|Entre los pósteres en João Pessoa.
 A moment together at the poster session.|Um momento juntos na sessão de pôsteres.|Un momento juntos en la sesión de pósteres.
-Complete poster · Portuguese.|Pôster completo · Português.|Póster completo · Portugués.
+Complete poster, Portuguese.|Pôster completo, Português.|Póster completo, Portugués.
 Open full poster ↗|Abrir pôster completo ↗|Abrir póster completo ↗
-V EPBEST · 27–28 October 2025|V EPBEST · 27–28 de outubro de 2025|V EPBEST · 27–28 de octubre de 2025
+V EPBEST, 27–28 October 2025|V EPBEST, 27–28 de outubro de 2025|V EPBEST, 27–28 de octubre de 2025
 Using SORCE/XPS observations from 2005–2019, this study compares normal and α-stable models for solar-irradiance log-returns and fits GEV models to block extremes to estimate Value at Risk and return levels.|Com observações SORCE/XPS de 2005–2019, o estudo compara modelos normais e α-estáveis para log-retornos da irradiância solar e ajusta modelos GEV a extremos em blocos para estimar valor em risco e níveis de retorno.|Con observaciones SORCE/XPS de 2005–2019, el estudio compara modelos normales y α-estables para retornos logarítmicos de la irradiancia solar y ajusta modelos GEV a extremos por bloques para estimar valor en riesgo y niveles de retorno.
 Open poster ↗|Abrir pôster ↗|Abrir póster ↗
 Download poster ↓|Baixar pôster ↓|Descargar póster ↓
 Presentation certificate (PDF) ↗|Certificado de apresentação (PDF) ↗|Certificado de presentación (PDF) ↗
-XIX EMR · 29–31 October 2025|XIX EMR · 29–31 de outubro de 2025|XIX EMR · 29–31 de octubre de 2025
+XIX EMR, 29–31 October 2025|XIX EMR, 29–31 de outubro de 2025|XIX EMR, 29–31 de octubre de 2025
 Monte Carlo simulations compare six MICE methods on clean data and data contaminated with extreme values, examining prediction error and the behaviour of estimated regression coefficients.|Simulações de Monte Carlo comparam seis métodos do MICE em dados sem contaminação e dados contaminados por valores extremos, examinando o erro de predição e o comportamento dos coeficientes de regressão estimados.|Simulaciones de Monte Carlo comparan seis métodos de MICE en datos sin contaminación y datos contaminados por valores extremos, examinando el error de predicción y el comportamiento de los coeficientes de regresión estimados.
 Participation certificates|Certificados de participação|Certificados de participación
 EPBEST participation certificate (PDF) ↗|Certificado de participação no EPBEST (PDF) ↗|Certificado de participación en EPBEST (PDF) ↗
@@ -347,7 +346,7 @@ EMR participation certificate (PDF) ↗|Certificado de participação na EMR (PD
 Coauthored posters|Pôsteres em coautoria|Pósteres en coautoría
 4–8 August 2025|4–8 de agosto de 2025|4–8 de agosto de 2025
 Climate, dependence, and extremes.|Clima, dependência e extremos.|Clima, dependencia y extremos.
-Universidade Federal do Espírito Santo · Vitória, Espírito Santo, Brazil|Universidade Federal do Espírito Santo · Vitória, Espírito Santo, Brasil|Universidade Federal do Espírito Santo · Vitória, Espírito Santo, Brasil
+Universidade Federal do Espírito Santo, Vitória, Espírito Santo, Brazil|Universidade Federal do Espírito Santo, Vitória, Espírito Santo, Brasil|Universidade Federal do Espírito Santo, Vitória, Espírito Santo, Brasil
 Three collaborative posters explore solar–atmospheric dependence, temperature and humidity extremes in Brasília, and climate-related financial risk in agriculture.|Três pôsteres em colaboração exploram a dependência entre variáveis solares e atmosféricas, extremos de temperatura e umidade em Brasília e risco financeiro associado ao clima na agricultura.|Tres pósteres en colaboración exploran la dependencia entre variables solares y atmosféricas, extremos de temperatura y humedad en Brasília y riesgo financiero asociado al clima en la agricultura.
 Official event website ↗|Site oficial do evento ↗|Sitio oficial del evento ↗
 SORCE solar irradiance and INMET-derived air density are analysed with GEV marginal models and bivariate copulas to investigate dependence and joint return levels.|A irradiância solar do SORCE e a densidade do ar derivada do INMET são analisadas com modelos marginais GEV e cópulas bivariadas para investigar dependência e níveis de retorno conjuntos.|La irradiancia solar de SORCE y la densidad del aire derivada del INMET se analizan con modelos marginales GEV y cópulas bivariadas para investigar dependencia y niveles de retorno conjuntos.
@@ -358,23 +357,23 @@ Poster presentation|Apresentação de pôster|Presentación de póster
 Evaluating imputation strategies for missing data|Avaliação de estratégias de imputação de dados faltantes|Evaluación de estrategias de imputación de datos faltantes
 through statistical modeling and simulations|por meio de modelagem estatística e simulações|mediante modelización estadística y simulaciones
 Using simulated datasets, we compare single and multiple imputation across different amounts and types of missing data. The study examines predictive regression models and central-tendency methods, alongside the consequences of ignoring or deleting incomplete observations.|Com bases simuladas, comparamos imputação simples e múltipla para diferentes quantidades e tipos de dados faltantes. O estudo examina modelos preditivos de regressão e métodos de tendência central, junto às consequências de ignorar ou excluir observações incompletas.|Con bases simuladas, comparamos imputación simple y múltiple para distintas cantidades y tipos de datos faltantes. El estudio examina modelos predictivos de regresión y métodos de tendencia central, junto con las consecuencias de ignorar o eliminar observaciones incompletas.
-Complete poster · Portuguese, with an English title · PDF|Pôster completo · Português, com título em inglês · PDF|Póster completo · Portugués, con título en inglés · PDF
+Complete poster, Portuguese, with an English title, PDF|Pôster completo, Português, com título em inglês, PDF|Póster completo, Portugués, con título en inglés, PDF
 Poster presentation certificate (PDF) ↗|Certificado de apresentação de pôster (PDF) ↗|Certificado de presentación de póster (PDF) ↗
 The complete WASA poster.|O pôster completo do WASA.|El póster completo de WASA.
 A cheerful moment with the poster.|Um momento de alegria junto ao pôster.|Un momento de alegría junto al póster.
 Together in the workshop auditorium.|Juntos no auditório do workshop.|Juntos en el auditorio del taller.
 Earlier presentations|Apresentações anteriores|Presentaciones anteriores
-Undergraduate research · recorded presentation|Iniciação científica · Apresentação gravada|Iniciación científica · Presentación grabada
-Brasília, Brazil · Slides dated 1 September 2022|Brasília, Brasil · Slides de 1º de setembro de 2022|Brasília, Brasil · Diapositivas del 1 de septiembre de 2022
-Enzo Porto Brasil · Supervisor: Eduardo Yoshio Nakano|Enzo Porto Brasil · Orientador: Eduardo Yoshio Nakano|Enzo Porto Brasil · Director: Eduardo Yoshio Nakano
+Undergraduate research, recorded presentation|Iniciação científica, Apresentação gravada|Iniciación científica, Presentación grabada
+Brasília, Brazil, Slides dated 1 September 2022|Brasília, Brasil, Slides de 1º de setembro de 2022|Brasília, Brasil, Diapositivas del 1 de septiembre de 2022
+Enzo Porto Brasil, Supervisor: Eduardo Yoshio Nakano|Enzo Porto Brasil, Orientador: Eduardo Yoshio Nakano|Enzo Porto Brasil, Director: Eduardo Yoshio Nakano
 My undergraduate research compares mode imputation and logistic-regression imputation for a binary variable in a horseshoe-crab dataset. Repeated simulations introduce different proportions of missing values, allowing us to examine recovery accuracy and the prediction error of a subsequent linear model for shell width.|Minha iniciação científica compara imputação pela moda e por regressão logística para uma variável binária em dados de caranguejos-ferradura. Simulações repetidas introduzem diferentes proporções de valores faltantes para examinar a acurácia da recuperação e o erro de predição de um modelo linear subsequente para a largura da carapaça.|Mi investigación de iniciación científica compara imputación por la moda y por regresión logística para una variable binaria en datos de cangrejos herradura. Simulaciones repetidas introducen distintas proporciones de valores faltantes para examinar la exactitud de la recuperación y el error de predicción de un modelo lineal posterior para la anchura del caparazón.
 The study found more accurate recovery of the binary values and lower variability in prediction error with logistic-regression imputation. Mode imputation produced a slightly lower mean prediction error in these simulations.|A imputação por regressão logística recuperou os valores binários com maior acurácia e apresentou menor variabilidade no erro de predição. A imputação pela moda produziu um erro médio de predição ligeiramente menor nessas simulações.|La imputación por regresión logística recuperó los valores binarios con mayor exactitud y mostró menor variabilidad en el error de predicción. La imputación por la moda produjo un error medio de predicción ligeramente menor en estas simulaciones.
 Download full text ↓|Baixar texto completo ↓|Descargar texto completo ↓
-Full research report · 12 pages · Portuguese · PDF|Relatório completo · 12 páginas · Português · PDF|Informe completo · 12 páginas · Portugués · PDF
+Full research report, 12 pages, Portuguese, PDF|Relatório completo, 12 páginas, Português, PDF|Informe completo, 12 páginas, Portugués, PDF
 Open complete slides (Portuguese) ↗|Abrir slides completos (português) ↗|Abrir diapositivas completas (portugués) ↗
 Research programme certificate (PDF) ↗|Certificado de iniciação científica (PDF) ↗|Certificado de iniciación científica (PDF) ↗
 Watch on YouTube|Assistir no YouTube|Ver en YouTube
-Recorded presentation · Portuguese.|Apresentação gravada · Português.|Presentación grabada · Portugués.
+Recorded presentation, Portuguese.|Apresentação gravada, Português.|Presentación grabada, Portugués.
 Watch on YouTube ↗|Assistir no YouTube ↗|Ver en YouTube ↗
 Load video|Carregar vídeo|Cargar vídeo
 Load the PIBIC video player|Carregar o player do vídeo PIBIC|Cargar el reproductor del vídeo PIBIC
@@ -384,7 +383,7 @@ Upcoming presentations|Próximas apresentações|Próximas presentaciones
 Sep–Oct 2026|Set–Out 2026|Sep–Oct 2026
 Event dates: 29 September–2 October online; 7–9 October at Unicamp, Campinas, São Paulo, Brazil.|Datas do evento: 29 de setembro a 2 de outubro on-line; 7–9 de outubro na Unicamp, Campinas, São Paulo, Brasil.|Fechas del evento: del 29 de septiembre al 2 de octubre en línea; del 7 al 9 de octubre en Unicamp, Campinas, São Paulo, Brasil.
 Accepted presentation|Apresentação aceita|Presentación aceptada
-9–11 November 2026 · Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brazil.|9–11 de novembro de 2026 · Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.|9–11 de noviembre de 2026 · Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.
+9–11 November 2026, Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brazil.|9–11 de novembro de 2026, Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.|9–11 de noviembre de 2026, Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.
 Accepted abstract|Resumo aceito|Resumen aceptado
 Accepted for presentation; individual session dates and times are to be confirmed.|Aceitos para apresentação; datas e horários das sessões individuais ainda serão confirmados.|Aceptados para presentación; las fechas y los horarios de las sesiones individuales aún están por confirmar.
 Talks, research and moments along the way.|Apresentações, pesquisa e momentos do percurso.|Presentaciones, investigación y momentos del camino.
@@ -407,8 +406,8 @@ Methods|Métodos|Métodos
 Joint return levels|Níveis de retorno conjuntos|Niveles de retorno conjuntos
 Multivariate dependence|Dependência multivariada|Dependencia multivariada
 Related outputs|Trabalhos relacionados|Trabajos relacionados
-Temperature–humidity poster · 2025 →|Pôster de temperatura e umidade · 2025 →|Póster de temperatura y humedad · 2025 →
-Climate–financial risk poster · 2025 →|Pôster de risco climático-financeiro · 2025 →|Póster de riesgo climático-financiero · 2025 →
+Temperature–humidity poster, 2025 →|Pôster de temperatura e umidade, 2025 →|Póster de temperatura y humedad, 2025 →
+Climate–financial risk poster, 2025 →|Pôster de risco climático-financeiro, 2025 →|Póster de riesgo climático-financiero, 2025 →
 RBras/SEAGRO presentations →|Apresentações na RBras/SEAGRO →|Presentaciones en RBras/SEAGRO →
 Statistical inference for extreme events, uncertainty and complex physical systems.|Inferência estatística para eventos extremos, incerteza e sistemas físicos complexos.|Inferencia estadística para eventos extremos, incertidumbre y sistemas físicos complejos.
 / Missing data|/ Dados faltantes|/ Datos faltantes
@@ -424,10 +423,10 @@ Why it matters to my research|O que esse trabalho trouxe à minha pesquisa|Qué 
 This work makes the continuity in my trajectory explicit. Missing data did not disappear when I started studying extremes; the original question became harder. It also reinforced a methodological habit that appears throughout my work: use synthetic-data experiments to understand what a procedure recovers before trusting it on observations where the truth is unknown.|Este trabalho explicita a continuidade da minha trajetória. Os dados faltantes não desapareceram quando comecei a estudar extremos; a pergunta original ficou mais difícil. Ele também reforçou um hábito metodológico: usar experimentos com dados sintéticos para entender o que um procedimento recupera antes de confiar nele em observações cuja verdade é desconhecida.|Este trabajo hace explícita la continuidad de mi trayectoria. Los datos faltantes no desaparecieron cuando empecé a estudiar extremos; la pregunta original se volvió más difícil. También reforzó un hábito metodológico: utilizar experimentos con datos sintéticos para entender qué recupera un procedimiento antes de confiar en él para observaciones cuya verdad es desconocida.
 Status|Situação|Estado
 Submitted to Austrian Journal of Statistics|Submetido ao Austrian Journal of Statistics|Enviado a Austrian Journal of Statistics
-PIBIC report · 2022 →|Relatório PIBIC · 2022 →|Informe PIBIC · 2022 →
-coBIPE talk · 2024 →|Apresentação coBIPE · 2024 →|Presentación coBIPE · 2024 →
-WASA poster · 2024 →|Pôster WASA · 2024 →|Póster WASA · 2024 →
-MICE and extremes poster · 2025 →|Pôster sobre MICE e extremos · 2025 →|Póster sobre MICE y extremos · 2025 →
+PIBIC report, 2022 →|Relatório PIBIC (2022 →)|Informe PIBIC (2022 →)
+coBIPE talk, 2024 →|Apresentação coBIPE, 2024 →|Presentación coBIPE, 2024 →
+WASA poster, 2024 →|Pôster WASA, 2024 →|Póster WASA, 2024 →
+MICE and extremes poster, 2025 →|Pôster sobre MICE e extremos, 2025 →|Póster sobre MICE y extremos, 2025 →
 / Astrostatistics|/ Astroestatística|/ Astroestadística
 Solar & astronomical data|Dados solares e astronômicos|Datos solares y astronómicos
 A project using Extreme Value Theory to study extreme behaviour in solar spectral irradiance measured by NASA’s SORCE mission, bringing statistical methodology into dialogue with physical observations.|Um projeto que usa a Teoria dos Valores Extremos para estudar o comportamento extremo da irradiância espectral solar medida pela missão SORCE da NASA, colocando a metodologia estatística em diálogo com observações físicas.|Un proyecto que utiliza la Teoría de Valores Extremos para estudiar el comportamiento extremo de la irradiancia espectral solar medida por la misión SORCE de la NASA, poniendo la metodología estadística en diálogo con observaciones físicas.
@@ -443,15 +442,15 @@ The project marks a shift from treating a physical dataset as merely another app
 Tail modelling|Modelagem de caudas|Modelización de colas
 Physical observational data|Dados observacionais físicos|Datos observacionales físicos
 R / reproducible analysis|R / Análise reprodutível|R / Análisis reproducible
-Solar irradiance poster · 2025 →|Pôster de irradiância solar · 2025 →|Póster de irradiancia solar · 2025 →
-Solar–atmospheric poster · 2025 →|Pôster sobre variáveis solares e atmosféricas · 2025 →|Póster sobre variables solares y atmosféricas · 2025 →
-Alabama talk · 2025 →|Apresentação no Alabama · 2025 →|Presentación en Alabama · 2025 →
-UnB invited talk · 2026 →|Palestra a convite da UnB · 2026 →|Charla por invitación de la UnB · 2026 →
+Solar irradiance poster, 2025 →|Pôster de irradiância solar, 2025 →|Póster de irradiancia solar, 2025 →
+Solar–atmospheric poster, 2025 →|Pôster sobre variáveis solares e atmosféricas, 2025 →|Póster sobre variables solares y atmosféricas, 2025 →
+Alabama talk, 2025 →|Apresentação no Alabama, 2025 →|Presentación en Alabama, 2025 →
+UnB invited talk, 2026 →|Palestra a convite da UnB, 2026 →|Charla por invitación de la UnB, 2026 →
 / Spatial Extremes|/ Extremos espaciais|/ Extremos espaciales
-MSc dissertation · Statistics|Dissertação de mestrado · Estatística|Tesis de maestría · Estadística
-Universidade de Brasília · 29 July 2026|Universidade de Brasília · 29 de julho de 2026|Universidade de Brasília · 29 de julio de 2026
+MSc dissertation in Statistics|Dissertação de mestrado em Estatística|Tesis de maestría en Estadística
+Universidade de Brasília, 29 July 2026|Universidade de Brasília, 29 de julho de 2026|Universidade de Brasília, 29 de julio de 2026
 Download PDF ↓|Baixar PDF ↓|Descargar PDF ↓
-Complete dissertation · Portuguese · PDF · 39.2 MB|Dissertação completa · Português · PDF · 39,2 MB|Tesis completa · Portugués · PDF · 39,2 MB
+Complete dissertation, Portuguese, PDF, 39.2 MB|Dissertação completa, Português, PDF, 39,2 MB|Tesis completa, Portugués, PDF, 39,2 MB
 Abstract|Resumo|Resumen
 The Generalized Extreme Value (GEV) distribution is widely used in the modelling of spatial extremes, but it may be limited when representing data from complex systems subject to multiple occurrence regimes. In this work, a Bayesian hierarchical geostatistical model is proposed for spatial extreme values with Bimodal Generalized Extreme Value (BGEV) marginal distribution, allowing the accommodation of bimodality and greater marginal flexibility. In the proposed model, latent predictors associated with the four parameters of the BGEV distribution are specified through Gaussian spatial structures, with appropriate transformations to preserve the parametric constraints of the distribution. Inference is performed using Hamiltonian Monte Carlo, employing the No-U-Turn Sampler algorithm implemented in the Stan software, accessed through R. The performance of the model is evaluated through a simulation study and an application to quarterly extremes of relative humidity deficit in the Amazon region. The results indicate the potential of the methodology for modelling spatial extreme data with bimodal behavior, while preserving a hierarchical structure capable of representing spatial heterogeneity in the marginal parameters.|A distribuição Generalizada de Valores Extremos (GEV) é amplamente utilizada na modelagem de extremos espaciais, mas pode ser limitada para representar dados de sistemas complexos sujeitos a múltiplos regimes de ocorrência. Neste trabalho, propõe-se um modelo geoestatístico hierárquico bayesiano para extremos espaciais com distribuição marginal Generalizada de Valores Extremos Bimodal (BGEV), permitindo acomodar bimodalidade e maior flexibilidade marginal. Os preditores latentes associados aos quatro parâmetros da BGEV são especificados por estruturas espaciais gaussianas, com transformações adequadas para preservar as restrições paramétricas. A inferência é realizada por Monte Carlo Hamiltoniano, com o algoritmo No-U-Turn Sampler implementado no Stan, acessado pelo R. O desempenho é avaliado por um estudo de simulação e uma aplicação a extremos trimestrais de déficit de umidade relativa na Amazônia. Os resultados indicam o potencial da metodologia para modelar dados extremos espaciais com comportamento bimodal, preservando uma estrutura hierárquica capaz de representar heterogeneidade espacial nos parâmetros marginais.|La distribución Generalizada de Valores Extremos (GEV) se utiliza ampliamente en la modelización de extremos espaciales, pero puede resultar limitada para representar datos de sistemas complejos sujetos a múltiples regímenes de ocurrencia. En este trabajo se propone un modelo geoestadístico jerárquico bayesiano para extremos espaciales con distribución marginal Generalizada de Valores Extremos Bimodal (BGEV), que permite incorporar bimodalidad y mayor flexibilidad marginal. Los predictores latentes asociados a los cuatro parámetros de la BGEV se especifican mediante estructuras espaciales gaussianas, con transformaciones adecuadas para preservar las restricciones paramétricas. La inferencia se realiza mediante Monte Carlo Hamiltoniano, con el algoritmo No-U-Turn Sampler implementado en Stan, accedido desde R. El rendimiento se evalúa mediante un estudio de simulación y una aplicación a extremos trimestrales del déficit de humedad relativa en la Amazonía. Los resultados indican el potencial de la metodología para modelizar datos extremos espaciales con comportamiento bimodal, conservando una estructura jerárquica capaz de representar heterogeneidad espacial en los parámetros marginales.
 Supervision|Orientação|Dirección
@@ -468,11 +467,11 @@ Estimated 2-, 5- and 10-year return levels for quarterly maxima of relative humi
 View original image ↗|Ver imagem original ↗|Ver imagen original ↗
 From dissertation to research programme|Da dissertação à linha de pesquisa|De la tesis a la línea de investigación
 The dissertation brings together model construction, simulation assessment and an Amazon application. A methodological manuscript is in preparation; the dissertation remains the complete public account of this work.|A dissertação reúne a construção do modelo, a avaliação por simulação e uma aplicação na Amazônia. Um manuscrito metodológico está em preparação; a dissertação permanece como o relato público completo deste trabalho.|La tesis reúne la construcción del modelo, la evaluación por simulación y una aplicación en la Amazonía. Un manuscrito metodológico está en preparación; la tesis sigue siendo el relato público completo de este trabajo.
-UnB talk on extremes · 2026 →|Palestra sobre extremos na UnB · 2026 →|Charla sobre extremos en la UnB · 2026 →
+UnB talk on extremes, 2026 →|Palestra sobre extremos na UnB, 2026 →|Charla sobre extremos en la UnB, 2026 →
 Manuscripts in preparation →|Manuscritos em preparação →|Manuscritos en preparación →
 EVT|TVE|TVE
-2026 · MSc|2026 · Mestrado|2026 · Maestría
-Dau, D.; Junqueira, E.; Brasil, E.; Lobo, L.; Viana, L.; Maia, M.; Sousa, T. · Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2) · Portuguese|Dau, D.; Junqueira, E.; Brasil, E.; Lobo, L.; Viana, L.; Maia, M.; Sousa, T. · Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2) · Português|Dau, D.; Junqueira, E.; Brasil, E.; Lobo, L.; Viana, L.; Maia, M.; Sousa, T. · Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2) · Portugués
+2026, MSc|2026, Mestrado|2026, Maestría
+Dau, D.; Junqueira, E.; Brasil, E.; Lobo, L.; Viana, L.; Maia, M.; Sousa, T., Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2), Portuguese|Dau, D.; Junqueira, E.; Brasil, E.; Lobo, L.; Viana, L.; Maia, M.; Sousa, T., Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2), Português|Dau, D.; Junqueira, E.; Brasil, E.; Lobo, L.; Viana, L.; Maia, M.; Sousa, T., Revista Jurídica da Empresa Brasileira de Serviços Hospitalares, 2(2), Portugués
 Extremes in nature|Extremos na natureza|Extremos en la naturaleza
 statistics, uncertainty and prediction in the face of extreme phenomena|estatística, incerteza e previsão diante de fenômenos extremos|estadística, incertidumbre y predicción ante fenómenos extremos
 Imputation techniques for dichotomous variables|Técnicas de imputação para variáveis dicotômicas|Técnicas de imputación para variables dicotómicas
@@ -539,7 +538,7 @@ Enzo smiling beside the University of Alabama in Huntsville research centre sign
 Enzo standing beside the U.S. Space and Rocket Center sign, with a rocket behind him at sunset.|Enzo ao lado da placa do U.S. Space and Rocket Center, com um foguete ao fundo ao pôr do sol.|Enzo junto al cartel del U.S. Space and Rocket Center, con un cohete al fondo al atardecer.
 A Huntsville postcard with a rocket, statistical symbols and the phrase Be greater than average.|Cartão-postal de Huntsville com um foguete, símbolos estatísticos e a frase Be greater than average.|Postal de Huntsville con un cohete, símbolos estadísticos y la frase Be greater than average.
 This photograph could not be loaded. Please try again.|Não foi possível carregar esta fotografia. Tente novamente.|No se pudo cargar esta fotografía. Inténtelo de nuevo.
-A distribution, constructed · 18 seconds|A construção de uma distribuição · 18 segundos|La construcción de una distribución · 18 segundos
+A distribution, constructed in 18 seconds|A construção de uma distribuição em 18 segundos|La construcción de una distribución en 18 segundos
 Start with a GEV|Comece com uma GEV|Comience con una GEV
 Transform the variable|Transforme a variável|Transforme la variable
 Account for the Jacobian|Inclua o jacobiano|Incorpore el jacobiano
@@ -547,7 +546,7 @@ Let parameters vary in space|Deixe os parâmetros variarem no espaço|Permita qu
 Probability density|Densidade de probabilidade|Densidad de probabilidad
 Cumulative probability|Probabilidade acumulada|Probabilidad acumulada
 Transformed BGEV|BGEV transformada|BGEV transformada
-Initial GEV · ξ = 0, μ = 0, ϱ = 1|GEV inicial · ξ = 0, μ = 0, ϱ = 1|GEV inicial · ξ = 0, μ = 0, ϱ = 1
+Initial GEV: ξ = 0, μ = 0, ϱ = 1|GEV inicial: ξ = 0, μ = 0, ϱ = 1|GEV inicial: ξ = 0, μ = 0, ϱ = 1
 Pause|Pausar|Pausar
 Play|Reproduzir|Reproducir
 ↺ Restart|↺ Reiniciar|↺ Reiniciar
@@ -557,7 +556,7 @@ Mathematics & spatial model (English)|Matemática e modelo espacial (inglês)|Ma
 Begin with ξ = 0, μ = 0 and ϱ = 1.|Comece com ξ = 0, μ = 0 e ϱ = 1.|Comience con ξ = 0, μ = 0 y ϱ = 1.
 Fixed probabilities move to new positions. Marker height is not density.|Probabilidades fixas mudam de posição. A altura dos marcadores não é a densidade.|Probabilidades fijas cambian de posición. La altura de los marcadores no es la densidad.
 Location {site} → orange density|Local {site} → densidade laranja|Ubicación {site} → densidad naranja
-Illustrative simulation · seed 2026|Simulação ilustrativa · Semente 2026|Simulación ilustrativa · Semilla 2026
+Illustrative simulation, seed 2026|Simulação ilustrativa, Semente 2026|Simulación ilustrativa, Semilla 2026
 Quantile rail: p = 0.1, 0.3, 0.5, 0.7, 0.9.|Guia de quantis: p = 0,1, 0,3, 0,5, 0,7, 0,9.|Guía de cuantiles: p = 0,1, 0,3, 0,5, 0,7, 0,9.
 Fixed window −4 ≤ y ≤ 8; {mass}% probability outside.|Janela fixa −4 ≤ y ≤ 8; {mass}% de probabilidade fora.|Ventana fija −4 ≤ y ≤ 8; {mass}% de probabilidad fuera.
 Left density limit at y = 1: {limit}; density is zero beyond support.|Limite da densidade à esquerda em y = 1: {limit}; densidade nula fora do suporte.|Límite de la densidad por la izquierda en y = 1: {limit}; densidad nula fuera del soporte.
@@ -571,11 +570,11 @@ Cumulative distribution, from zero to one|Distribuição acumulada, de zero a um
 Shape parameter presets|Valores predefinidos do parâmetro de forma|Valores predefinidos del parámetro de forma
 Reference delta values|Valores de referência de delta|Valores de referencia de delta
 BGEV delta|Delta da BGEV|Delta de la BGEV
-Bimodal Generalized Extreme Value · μ ∈ ℝ, ϱ > 0, δ > −1. Interactive range: 0 ≤ δ ≤ 3.|Generalizada de Valores Extremos Bimodal · μ ∈ ℝ, ϱ > 0, δ > −1. Faixa interativa: 0 ≤ δ ≤ 3.|Generalizada de Valores Extremos Bimodal · μ ∈ ℝ, ϱ > 0, δ > −1. Intervalo interactivo: 0 ≤ δ ≤ 3.
-2023 · BSc|2023 · Graduação|2023 · Grado
-BSc thesis · Universidade de Brasília · Portuguese · 61 pages|Trabalho de conclusão de curso · Universidade de Brasília · Português · 61 páginas|Trabajo de grado · Universidade de Brasília · Portugués · 61 páginas
+Bimodal Generalized Extreme Value: μ ∈ ℝ, ϱ > 0, δ > −1. Interactive range: 0 ≤ δ ≤ 3.|Generalizada de Valores Extremos Bimodal: μ ∈ ℝ, ϱ > 0, δ > −1. Faixa interativa: 0 ≤ δ ≤ 3.|Generalizada de Valores Extremos Bimodal: μ ∈ ℝ, ϱ > 0, δ > −1. Intervalo interactivo: 0 ≤ δ ≤ 3.
+2023, BSc|2023, Graduação|2023, Grado
+BSc thesis, Universidade de Brasília, Portuguese, 61 pages|Trabalho de conclusão de curso, Universidade de Brasília, Português, 61 páginas|Trabajo de grado, Universidade de Brasília, Portugués, 61 páginas
 University repository ↗|Repositório da universidade ↗|Repositorio de la universidad ↗
-BSc thesis · 2023 ↗|Trabalho de graduação · 2023 ↗|Trabajo de grado · 2023 ↗
+BSc thesis, 2023 ↗|Trabalho de graduação, 2023 ↗|Trabajo de grado, 2023 ↗
 Read article (PDF) ↗|Ler artigo (PDF) ↗|Leer artículo (PDF) ↗
 Applied Research & Social Impact|Pesquisa Aplicada & Impacto Social|Investigación Aplicada & Impacto Social
 APPLIED RESEARCH|PESQUISA APLICADA|INVESTIGACIÓN APLICADA
@@ -603,11 +602,8 @@ Examining how conventional imputation strategies behave when incomplete observat
 When does dependence make joint extremes more likely? Copulas connect atmospheric density, humidity, temperature, irradiance, and multivariate risk.|Quando a dependência torna extremos conjuntos mais prováveis? Cópulas conectam densidade atmosférica, umidade, temperatura, irradiância e risco multivariado.|¿Cuándo hace la dependencia que los extremos conjuntos sean más probables? Las cópulas conectan densidad atmosférica, humedad, temperatura, irradiancia y riesgo multivariado.
 MICRODATA & BIG DATA|MICRODADOS & BIG DATA|MICRODATOS & BIG DATA
 Interdisciplinary work connecting statistical and data science practice with education, health sciences, public institutions, and socially relevant questions.|Trabalho interdisciplinar que conecta a prática estatística e de ciência de dados à educação, às ciências da saúde, às instituições públicas e a questões socialmente relevantes.|Trabajo interdisciplinario que conecta la práctica estadística y de ciencia de datos con la educación, las ciencias de la salud, las instituciones públicas y cuestiones socialmente relevantes.
-04 / Research coordinates|04 / Coordenadas de pesquisa|04 / Coordenadas de investigación
 Uncertainty may tell us more than we expect|A incerteza pode nos dizer mais do que imaginamos|La incertidumbre puede decirnos más de lo que imaginamos
 Environmental extremes and solar observations, extending statistical inquiry toward astronomy and cosmology.|Extremos ambientais e observações solares, levando a investigação estatística em direção à astronomia e à cosmologia.|Extremos ambientales y observaciones solares, que extienden la indagación estadística hacia la astronomía y la cosmología.
-05 / Selected outputs|05 / Produção selecionada|05 / Producción seleccionada
-06 / Research practice|06 / Prática de pesquisa|06 / Práctica de investigación
 Still curious. Still learning. Still wondering.|Ainda curioso. Ainda aprendendo. Ainda me perguntando.|Todavía curioso. Todavía aprendiendo. Todavía preguntándome.
 If you have any questions, feel free to get in touch :D|Se tiver alguma dúvida, fique à vontade para entrar em contato :D|Si tienes alguna pregunta, no dudes en escribirme :D
 Enzo Porto Brasil — Statistics, Extremes & Physical Systems|Enzo Porto Brasil — Estatística, extremos e sistemas físicos|Enzo Porto Brasil — Estadística, extremos y sistemas físicos
@@ -631,9 +627,9 @@ Compound Extremes|Extremos compostos|Extremos compuestos
 Research area connecting joint extremes, copulas and uncertainty across environmental, solar-atmospheric and climate-financial applications.|Área de pesquisa que conecta extremos conjuntos, cópulas e incerteza em aplicações ambientais, solar-atmosféricas e climático-financeiras.|Área de investigación que conecta extremos conjuntos, cópulas e incertidumbre en aplicaciones ambientales, solar-atmosféricas y climático-financieras.
 Research area spanning missing-data mechanisms, predictive modelling, simulation and multiple imputation under extreme observations.|Área de pesquisa que abrange mecanismos de dados faltantes, modelagem preditiva, simulação e imputação múltipla sob observações extremas.|Área de investigación que abarca mecanismos de datos faltantes, modelización predictiva, simulación e imputación múltiple ante observaciones extremas.
 A Bayesian hierarchical model for spatial extremes with Bimodal Generalized Extreme Value (BGEV) marginals. Gaussian spatial structures allow all four marginal parameters to vary across locations. Simulation experiments and quarterly humidity-deficit extremes in the Brazilian Amazon examine what the model can recover, and where its interpretation needs care.|Um modelo hierárquico bayesiano para extremos espaciais com marginais Generalizada de Valores Extremos Bimodal (BGEV). Estruturas espaciais gaussianas permitem que os quatro parâmetros marginais variem entre locais. Experimentos de simulação e extremos trimestrais de déficit de umidade na Amazônia brasileira examinam o que o modelo consegue recuperar e onde sua interpretação exige cuidado.|Un modelo jerárquico bayesiano para extremos espaciales con marginales Generalizada de Valores Extremos Bimodal (BGEV). Las estructuras espaciales gaussianas permiten que los cuatro parámetros marginales varíen entre ubicaciones. Los experimentos de simulación y los extremos trimestrales del déficit de humedad en la Amazonía brasileña examinan qué puede recuperar el modelo y dónde su interpretación requiere cuidado.
-· University of Brasília (UnB) · 2026|· Universidade de Brasília (UnB) · 2026|· Universidade de Brasília (UnB) · 2026
+University of Brasília (UnB), 2026|Universidade de Brasília (UnB), 2026|Universidade de Brasília (UnB), 2026
 Explore the model ↓|Explorar o modelo ↓|Explorar el modelo ↓
-MSc dissertation · Portuguese, with English abstract · PDF|Dissertação de mestrado · Português, com resumo em inglês · PDF|Tesis de maestría · Portugués, con resumen en inglés · PDF
+MSc dissertation, Portuguese, with English abstract, PDF|Dissertação de mestrado, Português, com resumo em inglês, PDF|Tesis de maestría, Portugués, con resumen en inglés, PDF
 01 / The question|01 / A pergunta|01 / La pregunta
 When one regime is not enough|Quando um regime não basta|Cuando un solo régimen no basta
 The conventional Generalized Extreme Value (GEV) distribution is a standard model for block extremes. However, in a complex system the observed marginal distribution may reflect more than one occurrence regime. A single unimodal shape can then leave part of that structure unresolved.|A distribuição Generalizada de Valores Extremos (GEV) convencional é um modelo padrão para extremos em blocos. No entanto, em um sistema complexo, a distribuição marginal observada pode refletir mais de um regime de ocorrência. Uma única forma unimodal pode então deixar parte dessa estrutura sem ser resolvida.|La distribución Generalizada de Valores Extremos (GEV) convencional es un modelo estándar para extremos por bloques. Sin embargo, en un sistema complejo, la distribución marginal observada puede reflejar más de un régimen de ocurrencia. Una única forma unimodal puede entonces dejar sin resolver parte de esa estructura.
@@ -641,7 +637,7 @@ The dissertation asks how to accommodate this marginal flexibility and complexit
 Bayesian hierarchical modelling|Modelagem hierárquica bayesiana|Modelización jerárquica bayesiana
 BGEV marginals|Marginais BGEV|Marginales BGEV
 Gaussian spatial fields|Campos espaciais gaussianos|Campos espaciales gaussianos
-HMC / NUTS · Stan and R|HMC / NUTS · Stan e R|HMC / NUTS · Stan y R
+HMC/NUTS in Stan and R|HMC/NUTS em Stan e R|HMC/NUTS en Stan y R
 02 / The model|02 / O modelo|02 / El modelo
 Local extremes, shared spatial structure|Extremos locais, estrutura espacial compartilhada|Extremos locales, estructura espacial compartida
 At each location, a BGEV marginal describes the extremes through four parameters: μ, ϱ, ξ and δ. Spatial covariates and latent Gaussian effects enter their predictors. Transformations preserve the parameter constraints; spatial dependence is induced through these latent structures.|Em cada local, uma marginal BGEV descreve os extremos por meio de quatro parâmetros: μ, ϱ, ξ e δ. Covariáveis espaciais e efeitos gaussianos latentes entram em seus preditores. Transformações preservam as restrições dos parâmetros; a dependência espacial é induzida por essas estruturas latentes.|En cada ubicación, una marginal BGEV describe los extremos mediante cuatro parámetros: μ, ϱ, ξ y δ. Las covariables espaciales y los efectos gaussianos latentes entran en sus predictores. Las transformaciones preservan las restricciones de los parámetros; la dependencia espacial se induce a través de estas estructuras latentes.
@@ -675,9 +671,9 @@ The Amazon application translates local posterior estimates into a descriptive a
 Overall, the results support the proposed model as a promising framework for spatial extremes, with consistent behavior across the simulation study and an environmental and atmospheric application. Additional sensitivity checks were also carried out during model development as part of the calibration process, although these analyses are not presented in detail in the dissertation. The computational diagnostics helped identify specific components, particularly those associated with μ(s), where further refinement may improve sampling efficiency. Extending the framework to fully Bayesian prediction at unobserved locations is a natural next step that could further broaden its spatial applicability.|No geral, os resultados sustentam o modelo proposto como uma estrutura promissora para extremos espaciais, com comportamento consistente no estudo de simulação e em uma aplicação ambiental e atmosférica. Verificações adicionais de sensibilidade também foram realizadas durante o desenvolvimento do modelo, como parte do processo de calibração, embora essas análises não sejam apresentadas em detalhe na dissertação. Os diagnósticos computacionais ajudaram a identificar componentes específicas, sobretudo as associadas a μ(s), em que refinamentos adicionais podem melhorar a eficiência da amostragem. Estender a estrutura para a predição totalmente bayesiana em locais não observados é um próximo passo natural, que poderia ampliar ainda mais sua aplicabilidade espacial.|En conjunto, los resultados respaldan el modelo propuesto como un marco prometedor para extremos espaciales, con un comportamiento consistente en el estudio de simulación y en una aplicación ambiental y atmosférica. También se realizaron comprobaciones adicionales de sensibilidad durante el desarrollo del modelo, como parte del proceso de calibración, aunque estos análisis no se presentan en detalle en la tesis. Los diagnósticos computacionales ayudaron a identificar componentes específicos, sobre todo los asociados a μ(s), en los que un mayor refinamiento puede mejorar la eficiencia del muestreo. Extender el marco a la predicción completamente bayesiana en ubicaciones no observadas es un paso siguiente natural que podría ampliar aún más su aplicabilidad espacial.
 06 / Research outputs|06 / Produção científica|06 / Producción científica
 Read the complete work|Leia o trabalho completo|Lea el trabajo completo
-Full text · 2026|Texto completo · 2026|Texto completo · 2026
-Presentation · 2026|Apresentação · 2026|Presentación · 2026
-Extremes in nature · invited talk at UnB|Extremos na natureza · palestra a convite da UnB|Extremos en la naturaleza · charla por invitación de la UnB
+Full text, 2026|Texto completo, 2026|Texto completo, 2026
+Presentation, 2026|Apresentação, 2026|Presentación, 2026
+Extremes in nature: invited talk at UnB|Extremos na natureza: palestra a convite da UnB|Extremos en la naturaleza: charla por invitación de la UnB
 Talk →|Apresentação →|Presentación →
 Ongoing work|Trabalho em andamento|Trabajo en curso
 Related manuscripts in preparation|Manuscritos relacionados em preparação|Manuscritos relacionados en preparación
@@ -693,10 +689,10 @@ Locations of 11 INMET stations along the Amazonas–Pará corridor, with rivers 
 Open source for Four maps showing descriptive posterior surfaces for the BGEV parameters in the Amazon application.|Abrir a imagem original: quatro mapas com superfícies a posteriori descritivas para os parâmetros BGEV na aplicação na Amazônia.|Abrir la imagen original: cuatro mapas con superficies a posteriori descriptivas para los parámetros BGEV en la aplicación en la Amazonía.
 Four maps showing descriptive posterior surfaces for the BGEV parameters in the Amazon application.|Quatro mapas com superfícies a posteriori descritivas para os parâmetros BGEV na aplicação na Amazônia.|Cuatro mapas con superficies a posteriori descriptivas para los parámetros BGEV en la aplicación en la Amazonía.
 Related research|Pesquisas relacionadas|Investigaciones relacionadas
-Solar spectral irradiance · Extreme value inference|Irradiância espectral solar · Inferência de valores extremos|Irradiancia espectral solar · Inferencia de valores extremos
+Solar spectral irradiance and extreme value inference|Irradiância espectral solar e inferência de valores extremos|Irradiancia espectral solar e inferencia de valores extremos
 How large are the rare increases and reductions in solar spectral irradiance recorded by SORCE/XPS? This research models both tails of daily irradiance changes, with attention to the finite observational record and measurement uncertainty. A connected line of work examines joint extremes with atmospheric variables.|Quão grandes são os raros aumentos e reduções da irradiância espectral solar registrados pelo SORCE/XPS? Esta pesquisa modela as duas caudas das mudanças diárias da irradiância, com atenção ao registro observacional finito e à incerteza de medição. Uma linha de trabalho relacionada examina extremos conjuntos com variáveis atmosféricas.|¿Qué magnitud tienen los raros aumentos y reducciones de la irradiancia espectral solar registrados por SORCE/XPS? Esta investigación modeliza ambas colas de los cambios diarios de irradiancia, con atención al registro observacional finito y a la incertidumbre de medición. Una línea de trabajo relacionada examina extremos conjuntos con variables atmosféricas.
 Enzo Porto Brasil and collaborators|Enzo Porto Brasil e colaboradores|Enzo Porto Brasil y colaboradores
-· University of Brasília (UnB) · 2025–2026|· Universidade de Brasília (UnB) · 2025–2026|· Universidade de Brasília (UnB) · 2025–2026
+University of Brasília (UnB), 2025–2026|Universidade de Brasília (UnB), 2025–2026|Universidade de Brasília (UnB), 2025–2026
 Read related preprint ↗|Ler preprint relacionado ↗|Leer preprint relacionado ↗
 Talks and posters ↓|Apresentações e pôsteres ↓|Presentaciones y pósteres ↓
 The broader research line: SORCE observations and uncertainty alongside INMET derived air density. The Lyman-alpha panel provides historical context; the preprint analyses the XPS 0.1–7.0 nm band. The air density maxima are shifted upward by 0.02 kg/m³ for visual separation, as marked in the original.|A linha de pesquisa mais ampla: observações e incerteza do SORCE ao lado da densidade do ar derivada do INMET. O painel Lyman-alfa oferece contexto histórico; o preprint analisa a banda XPS de 0,1–7,0 nm. Os máximos de densidade do ar estão deslocados para cima em 0,02 kg/m³ para separação visual, como indicado no original.|La línea de investigación más amplia: observaciones e incertidumbre de SORCE junto con la densidad del aire derivada del INMET. El panel de Lyman-alfa ofrece contexto histórico; el preprint analiza la banda XPS de 0,1–7,0 nm. Los máximos de densidad del aire están desplazados hacia arriba 0,02 kg/m³ para separarlos visualmente, como se indica en el original.
@@ -708,20 +704,20 @@ From observations to tail inference|Das observações à inferência nas caudas|
 A regular daily series is constructed by linear interpolation. Stationary GEV models are fitted to block extremes by maximum likelihood, with probability weighted moments as a sensitivity check. Autocorrelation and Ljung–Box diagnostics guide the choice of block lengths.|Uma série diária regular é construída por interpolação linear. Modelos GEV estacionários são ajustados a extremos em blocos por máxima verossimilhança, com momentos ponderados por probabilidade como verificação de sensibilidade. Diagnósticos de autocorrelação e de Ljung–Box orientam a escolha do tamanho dos blocos.|Se construye una serie diaria regular mediante interpolación lineal. Los modelos GEV estacionarios se ajustan a extremos por bloques por máxima verosimilitud, con momentos ponderados por probabilidad como comprobación de sensibilidad. Los diagnósticos de autocorrelación y de Ljung–Box orientan la elección de la longitud de los bloques.
 Reported measurement precision and absolute uncertainty inform the interpretation; they are not propagated through the preprint’s likelihood. Gaps, interpolation and the stationarity assumption remain part of the inferential context.|A precisão de medição informada e a incerteza absoluta orientam a interpretação; elas não são propagadas pela verossimilhança do preprint. Lacunas, interpolação e a suposição de estacionariedade continuam fazendo parte do contexto inferencial.|La precisión de medición informada y la incertidumbre absoluta orientan la interpretación; no se propagan a través de la verosimilitud del preprint. Las lagunas, la interpolación y el supuesto de estacionariedad siguen formando parte del contexto inferencial.
 Observations|Observações|Observaciones
-SORCE/XPS · photodiode 7|SORCE/XPS · fotodiodo 7|SORCE/XPS · fotodiodo 7
-0.1–7.0 nm · 2005–2019|0,1–7,0 nm · 2005–2019|0,1–7,0 nm · 2005–2019
+SORCE/XPS, photodiode 7|SORCE/XPS, fotodiodo 7|SORCE/XPS, fotodiodo 7
+0.1–7.0 nm, 2005–2019|0,1–7,0 nm, 2005–2019|0,1–7,0 nm, 2005–2019
 Daily logarithmic changes|Mudanças logarítmicas diárias|Cambios logarítmicos diarios
-GEV · block extremes|GEV · extremos em blocos|GEV · extremos por bloques
+GEV for block extremes|GEV para extremos em blocos|GEV para extremos por bloques
 Maximum likelihood / PWM|Máxima verossimilhança / PWM|Máxima verosimilitud / PWM
 Tail diagnostics|Diagnósticos de cauda|Diagnósticos de cola
 Annualized return levels|Níveis de retorno anualizados|Niveles de retorno anualizados
 The SORCE/XPS preprint|O preprint SORCE/XPS|El preprint SORCE/XPS
 Increases and reductions deserve separate attention|Aumentos e reduções merecem atenção separada|Los aumentos y las reducciones merecen atención por separado
 The upper and lower tails are fitted separately, using different block lengths selected from the dependence diagnostics. Return levels describe recurrence under these stationary models, not a schedule of future solar events.|As caudas superior e inferior são ajustadas separadamente, com tamanhos de bloco diferentes escolhidos a partir dos diagnósticos de dependência. Os níveis de retorno descrevem a recorrência sob esses modelos estacionários, não um calendário de eventos solares futuros.|Las colas superior e inferior se ajustan por separado, con longitudes de bloque distintas elegidas a partir de los diagnósticos de dependencia. Los niveles de retorno describen la recurrencia bajo estos modelos estacionarios, no un calendario de futuros eventos solares.
-Upper tail · extreme increases|Cauda superior · aumentos extremos|Cola superior · aumentos extremos
+Upper tail: extreme increases|Cauda superior: aumentos extremos|Cola superior: aumentos extremos
 Maxima of daily log-changes are taken over 60-day blocks. The density and quantile diagnostics assess the fit; the return-level curve shows how inference becomes less precise beyond the observed record.|Os máximos das mudanças logarítmicas diárias são tomados em blocos de 60 dias. Os diagnósticos de densidade e de quantis avaliam o ajuste; a curva de níveis de retorno mostra como a inferência se torna menos precisa além do registro observado.|Los máximos de los cambios logarítmicos diarios se toman en bloques de 60 días. Los diagnósticos de densidad y de cuantiles evalúan el ajuste; la curva de niveles de retorno muestra cómo la inferencia se vuelve menos precisa más allá del registro observado.
 Upper tail: GEV density fit, quantile diagnostic and annualized return levels for 60-day block maxima. Bands show uncertainty in the quantile and return-level estimates. Preprint, Figure 4.|Cauda superior: ajuste da densidade GEV, diagnóstico de quantis e níveis de retorno anualizados para máximos em blocos de 60 dias. As faixas mostram a incerteza nas estimativas de quantis e de níveis de retorno. Preprint, Figura 4.|Cola superior: ajuste de la densidad GEV, diagnóstico de cuantiles y niveles de retorno anualizados para máximos en bloques de 60 días. Las bandas muestran la incertidumbre en las estimaciones de cuantiles y de niveles de retorno. Preprint, Figura 4.
-Lower tail · extreme reductions|Cauda inferior · reduções extremas|Cola inferior · reducciones extremas
+Lower tail: extreme reductions|Cauda inferior: reduções extremas|Cola inferior: reducciones extremas
 For 15-day blocks, the minimum daily log-change is multiplied by −1 so that the magnitude of a reduction can be modelled as an upper extreme. Positive levels in this transformed plot therefore refer to decreases in irradiance on the original scale.|Em blocos de 15 dias, a mudança logarítmica diária mínima é multiplicada por −1 para que a magnitude de uma redução possa ser modelada como um extremo superior. Assim, níveis positivos nesse gráfico transformado se referem a diminuições da irradiância na escala original.|En bloques de 15 días, el cambio logarítmico diario mínimo se multiplica por −1 para que la magnitud de una reducción pueda modelizarse como un extremo superior. Por tanto, los niveles positivos en este gráfico transformado se refieren a disminuciones de la irradiancia en la escala original.
 Lower tail: diagnostics and return levels for transformed 15-day block minima. The transformation reverses the sign of the minimum log-change. Preprint, Figure 5.|Cauda inferior: diagnósticos e níveis de retorno para mínimos transformados em blocos de 15 dias. A transformação inverte o sinal da mudança logarítmica mínima. Preprint, Figura 5.|Cola inferior: diagnósticos y niveles de retorno para mínimos transformados en bloques de 15 días. La transformación invierte el signo del cambio logarítmico mínimo. Preprint, Figura 5.
 The positive fitted shape estimates are compatible with heavy tails under these block constructions. Their difference is descriptive: the unequal block lengths do not support a formal test of tail asymmetry. Long-period return levels depend on extrapolation and do not define physical limits for solar emission.|As estimativas positivas do parâmetro de forma ajustado são compatíveis com caudas pesadas sob essas construções de blocos. A diferença entre elas é descritiva: os tamanhos de bloco desiguais não permitem um teste formal de assimetria das caudas. Níveis de retorno de longo período dependem de extrapolação e não definem limites físicos para a emissão solar.|Las estimaciones positivas del parámetro de forma ajustado son compatibles con colas pesadas bajo estas construcciones de bloques. Su diferencia es descriptiva: las longitudes de bloque desiguales no permiten una prueba formal de asimetría de las colas. Los niveles de retorno de largo período dependen de la extrapolación y no definen límites físicos para la emisión solar.
@@ -738,7 +734,7 @@ Solar and broader extremes|Extremos solares e um panorama mais amplo|Extremos so
 These outputs develop compound variable analyses or present the solar work within a wider discussion of extremes.|Estes trabalhos desenvolvem análises de variáveis compostas ou apresentam o trabalho solar dentro de uma discussão mais ampla sobre extremos.|Estos trabajos desarrollan análisis de variables compuestas o presentan el trabajo solar dentro de una discusión más amplia sobre extremos.
 Extreme solar irradiance and its relationship with atmospheric variables|Irradiância solar extrema e sua relação com variáveis atmosféricas|Irradiancia solar extrema y su relación con variables atmosféricas
 Joint extremes of solar irradiance and air density: an EVT and copula approach to tail uncertainty|Extremos conjuntos de irradiância solar e densidade do ar: uma abordagem com TVE e cópulas para a incerteza nas caudas|Extremos conjuntos de irradiancia solar y densidad del aire: un enfoque con TVE y cópulas para la incertidumbre en las colas
-UnB workshop · 2026|Workshop da UnB · 2026|Taller de la UnB · 2026
+UnB workshop, 2026|Workshop da UnB, 2026|Taller de la UnB, 2026
 Extremes in Nature: statistics, uncertainty and prediction in extreme phenomena|Extremos na natureza: estatística, incerteza e previsão em fenômenos extremos|Extremos en la naturaleza: estadística, incertidumbre y predicción en fenómenos extremos
 Research connections|Conexões de pesquisa|Conexiones de investigación
 The continuing question is how measurement, preprocessing and statistical assumptions shape what can be learned from a physical record. The SORCE/XPS analysis develops this question for individual tails; the connected solar–atmospheric work extends it to joint behaviour.|A pergunta que continua é como a medição, o pré-processamento e as suposições estatísticas moldam o que se pode aprender com um registro físico. A análise SORCE/XPS desenvolve essa pergunta para caudas individuais; o trabalho relacionado sobre variáveis solares e atmosféricas a estende ao comportamento conjunto.|La pregunta que continúa es cómo la medición, el preprocesamiento y los supuestos estadísticos moldean lo que se puede aprender de un registro físico. El análisis SORCE/XPS desarrolla esta pregunta para colas individuales; el trabajo relacionado sobre variables solares y atmosféricas la extiende al comportamiento conjunto.
@@ -753,7 +749,7 @@ GEV density, quantile diagnostic and annualized return levels for sign-reversed 
 Six marginal-density panels: maxima and minima of irradiance log-changes, air density and absolute uncertainty, with GEV and selected BGEV fits.|Seis painéis de densidades marginais: máximos e mínimos das mudanças logarítmicas da irradiância, da densidade do ar e da incerteza absoluta, com ajustes GEV e ajustes BGEV selecionados.|Seis paneles de densidades marginales: máximos y mínimos de los cambios logarítmicos de la irradiancia, la densidad del aire y la incertidumbre absoluta, con ajustes GEV y ajustes BGEV seleccionados.
 Connected research|Pesquisas relacionadas|Investigaciones relacionadas
 / Compound Extremes|/ Extremos compostos|/ Extremos compuestos
-Research area · 2025–2026|Área de pesquisa · 2025–2026|Área de investigación · 2025–2026
+Research area, 2025–2026|Área de pesquisa, 2025–2026|Área de investigación, 2025–2026
 This research area studies how extreme conditions occur together and how their dependence affects inference in environmental and physical systems. It brings together work on temperature and humidity, solar irradiance and atmospheric variables, climate and financial risk, and the use of copulas to model joint behaviour.|Esta área de pesquisa estuda como condições extremas ocorrem juntas e como sua dependência afeta a inferência em sistemas ambientais e físicos. Ela reúne trabalhos sobre temperatura e umidade, irradiância solar e variáveis atmosféricas, risco climático e financeiro, e o uso de cópulas para modelar o comportamento conjunto.|Esta área de investigación estudia cómo las condiciones extremas ocurren conjuntamente y cómo su dependencia afecta a la inferencia en sistemas ambientales y físicos. Reúne trabajos sobre temperatura y humedad, irradiancia solar y variables atmosféricas, riesgo climático y financiero, y el uso de cópulas para modelizar el comportamiento conjunto.
 Explore the work ↓|Explorar os trabalhos ↓|Explorar los trabajos ↓
 Themes and methods ↓|Temas e métodos ↓|Temas y métodos ↓
@@ -761,18 +757,18 @@ High temperature and low humidity, or extremes in solar and atmospheric records,
 Selected relationships between solar irradiance and atmospheric variables. From left to right: maxima of irradiance log returns and air density, minima of the same variables, and minima of irradiance log returns with absolute uncertainty. The panels show the joint distributions observed in the project data.|Relações selecionadas entre irradiância solar e variáveis atmosféricas. Da esquerda para a direita: máximos dos log-retornos da irradiância e densidade do ar, mínimos das mesmas variáveis e mínimos dos log-retornos da irradiância com a incerteza absoluta. Os painéis mostram as distribuições conjuntas observadas nos dados do projeto.|Relaciones seleccionadas entre la irradiancia solar y variables atmosféricas. De izquierda a derecha: máximos de los retornos logarítmicos de la irradiancia y densidad del aire, mínimos de las mismas variables y mínimos de los retornos logarítmicos de la irradiancia con la incertidumbre absoluta. Los paneles muestran las distribuciones conjuntas observadas en los datos del proyecto.
 Open PDF ↗|Abrir PDF ↗|Abrir PDF ↗
 Research outputs and connected studies|Produção científica e estudos relacionados|Producción científica y estudios relacionados
-Talk · UnB workshop · 2026|Palestra · Workshop da UnB · 2026|Charla · Taller de la UnB · 2026
+Talk, UnB workshop, 2026|Palestra, Workshop da UnB, 2026|Charla, Taller de la UnB, 2026
 A broader presentation of extreme phenomena, including the joint solar–atmospheric analyses.|Uma apresentação mais ampla sobre fenômenos extremos, incluindo as análises conjuntas de variáveis solares e atmosféricas.|Una presentación más amplia sobre fenómenos extremos, incluidos los análisis conjuntos de variables solares y atmosféricas.
 Explore the talk →|Explorar a apresentação →|Explorar la presentación →
 Slides ↗|Slides ↗|Diapositivas ↗
-Talk · sys2025 · 2025|Apresentação · sys2025 · 2025|Presentación · sys2025 · 2025
+Talk, sys2025, 2025|Apresentação, sys2025, 2025|Presentación, sys2025, 2025
 An EVT and copula approach to tail uncertainty, presented in Huntsville, Alabama.|Uma abordagem com TVE e cópulas para a incerteza nas caudas, apresentada em Huntsville, Alabama.|Un enfoque con TVE y cópulas para la incertidumbre en las colas, presentado en Huntsville, Alabama.
 GEV and BGEV margins combined with a copula to study high temperature and low relative humidity.|Marginais GEV e BGEV combinadas com uma cópula para estudar temperatura alta e umidade relativa baixa.|Marginales GEV y BGEV combinadas con una cópula para estudiar la temperatura alta y la humedad relativa baja.
 Read preprint ↗|Ler preprint ↗|Leer preprint ↗
 A conditional copula representation for expectations of measurable functions, with extremal bounds under fixed marginals.|Uma representação por cópula condicional para esperanças de funções mensuráveis, com limites extremais sob marginais fixas.|Una representación mediante cópula condicional para esperanzas de funciones medibles, con cotas extremales bajo marginales fijas.
 SORCE/XPS research →|Pesquisa SORCE/XPS →|Investigación SORCE/XPS →
 Conference posters|Pôsteres em congressos|Pósteres en congresos
-Poster · RBras / SEAGRO · 2025|Pôster · RBras / SEAGRO · 2025|Póster · RBras / SEAGRO · 2025
+Poster, RBras / SEAGRO, 2025|Pôster, RBras / SEAGRO, 2025|Póster, RBras / SEAGRO, 2025
 Bivariate analysis of maximum temperature and minimum relative humidity in Brasília|Análise bivariada da temperatura máxima e da umidade relativa mínima em Brasília|Análisis bivariado de la temperatura máxima y la humedad relativa mínima en Brasília
 An earlier conference study of the bivariate temperature/humidity distribution.|Um estudo anterior, apresentado em congresso, sobre a distribuição bivariada de temperatura e umidade.|Un estudio anterior, presentado en un congreso, sobre la distribución bivariada de temperatura y humedad.
 View poster ↗|Ver pôster ↗|Ver póster ↗
@@ -797,35 +793,35 @@ Full preview of the temperature–humidity poster by Beatriz Albernaz and collab
 Full preview of the climate–financial risk poster by Carolyne Brito and collaborators.|Visualização completa do pôster de risco climático-financeiro de Carolyne Brito e colaboradores.|Vista previa completa del póster de riesgo climático-financiero de Carolyne Brito y colaboradores.
 Full preview of the solar irradiance and atmospheric variables poster.|Visualização completa do pôster sobre irradiância solar e variáveis atmosféricas.|Vista previa completa del póster sobre irradiancia solar y variables atmosféricas.
 / Imputation & Missing Data|/ Imputação e dados faltantes|/ Imputación y datos faltantes
-Research area · 2022–2026|Área de pesquisa · 2022–2026|Área de investigación · 2022–2026
+Research area, 2022–2026|Área de pesquisa, 2022–2026|Área de investigación, 2022–2026
 Missing data mechanisms, predictive modelling and simulation evaluation, from undergraduate research to multiple imputation in the presence of extreme and noisy observations. This area brings together papers, presentations and the experiments behind them.|Mecanismos de dados faltantes, modelagem preditiva e avaliação por simulação, da pesquisa de graduação à imputação múltipla na presença de observações extremas e ruidosas. Esta área reúne artigos, apresentações e os experimentos por trás deles.|Mecanismos de datos faltantes, modelización predictiva y evaluación mediante simulación, desde la investigación de grado hasta la imputación múltiple en presencia de observaciones extremas y ruidosas. Esta área reúne artículos, presentaciones y los experimentos que hay detrás.
 A question carried across several studies|Uma pergunta que atravessa vários estudos|Una pregunta que atraviesa varios estudios
 The early work examined how statistical models recover missing values in controlled settings. The PIBIC study focused on dichotomous variables; the undergraduate thesis broadened the comparison of imputation strategies across variables of different statistical natures, including quantitative, count, and categorical data. Later work asks how those strategies behave when incomplete data also contain other systematic errors.|Os primeiros trabalhos examinaram como modelos estatísticos recuperam valores faltantes em cenários controlados. O estudo PIBIC se concentrou em variáveis dicotômicas; o trabalho de conclusão de curso ampliou a comparação de estratégias de imputação para variáveis de diferentes naturezas estatísticas, incluindo dados quantitativos, de contagem e categóricos. Trabalhos posteriores perguntam como essas estratégias se comportam quando os dados incompletos também contêm outros erros sistemáticos.|Los primeros trabajos examinaron cómo los modelos estadísticos recuperan valores faltantes en escenarios controlados. El estudio PIBIC se centró en variables dicotómicas; el trabajo de grado amplió la comparación de estrategias de imputación a variables de distinta naturaleza estadística, incluidos datos cuantitativos, de conteo y categóricos. Los trabajos posteriores se preguntan cómo se comportan esas estrategias cuando los datos incompletos también contienen otros errores sistemáticos.
 Comparing single and multiple imputation across four missingness levels. The red line marks the reference MSE in the supplied simulation figure.|Comparação entre imputação simples e múltipla em quatro níveis de dados faltantes. A linha vermelha marca o EQM de referência na figura de simulação fornecida.|Comparación entre imputación simple y múltiple en cuatro niveles de datos faltantes. La línea roja marca el ECM de referencia en la figura de simulación proporcionada.
 A later simulation setting: n = 80, with clean and contaminated data shown separately. First page of the n = 80/200 diagnostic collection; the full PDF contains 32 pages.|Um cenário de simulação posterior: n = 80, com dados sem contaminação e contaminados mostrados separadamente. Primeira página da coleção de diagnósticos para n = 80/200; o PDF completo tem 32 páginas.|Un escenario de simulación posterior: n = 80, con datos sin contaminación y contaminados mostrados por separado. Primera página de la colección de diagnósticos para n = 80/200; el PDF completo tiene 32 páginas.
-Research outputs · newest first|Produção científica · mais recentes primeiro|Producción científica · más recientes primero
+Research outputs, newest first|Produção científica, mais recentes primeiro|Producción científica, más recientes primero
 From experiments to papers and presentations|Dos experimentos aos artigos e apresentações|De los experimentos a los artículos y presentaciones
 Six MICE methods evaluated through Monte Carlo simulation, with attention to prediction and regression inference.|Seis métodos do MICE avaliados por simulação de Monte Carlo, com atenção à predição e à inferência em regressão.|Seis métodos de MICE evaluados mediante simulación de Monte Carlo, con atención a la predicción y a la inferencia en regresión.
-Poster · EMR / EPBEST · 2025|Pôster · EMR / EPBEST · 2025|Póster · EMR / EPBEST · 2025
+Poster, EMR / EPBEST, 2025|Pôster, EMR / EPBEST, 2025|Póster, EMR / EPBEST, 2025
 Effects of extreme values on multiple imputation with MICE in R|Efeitos de valores extremos na imputação múltipla com MICE no R|Efectos de los valores extremos en la imputación múltiple con MICE en R
 Conference presentation of the connection between missing data, extreme observations and MICE.|Apresentação em congresso sobre a conexão entre dados faltantes, observações extremas e MICE.|Presentación en un congreso sobre la conexión entre datos faltantes, observaciones extremas y MICE.
-Poster · WASA · 2024|Pôster · WASA · 2024|Póster · WASA · 2024
+Poster, WASA, 2024|Pôster, WASA, 2024|Póster, WASA, 2024
 Evaluating imputation strategies for missing data through statistical modeling and simulations|Avaliação de estratégias de imputação de dados faltantes por meio de modelagem estatística e simulações|Evaluación de estrategias de imputación de datos faltantes mediante modelización estadística y simulaciones
 A conference output from the earlier simulation-based comparison of imputation techniques.|Um trabalho de congresso derivado da comparação anterior, por simulação, de técnicas de imputação.|Un trabajo de congreso derivado de la comparación anterior, mediante simulación, de técnicas de imputación.
 Presentation record →|Registro da apresentação →|Registro de la presentación →
-Oral presentation · Natal · 2024|Apresentação oral · Natal · 2024|Presentación oral · Natal · 2024
+Oral presentation, Natal, 2024|Apresentação oral, Natal, 2024|Presentación oral, Natal, 2024
 Assessing imputation techniques for missing data using statistical models: a simulation approach|Avaliação de técnicas de imputação para dados faltantes com modelos estatísticos: uma abordagem por simulação|Evaluación de técnicas de imputación de datos faltantes con modelos estadísticos: un enfoque por simulación
 Statistical models and simulation, presented at the Brazil–Colombia Binational Colloquium on Probability and Statistics.|Modelos estatísticos e simulação, apresentados no Colóquio Binacional Brasil–Colômbia de Probabilidade e Estatística.|Modelos estadísticos y simulación, presentados en el Coloquio Binacional Brasil–Colombia de Probabilidad y Estadística.
-Undergraduate thesis · 2023|Trabalho de conclusão de curso · 2023|Trabajo de grado · 2023
+Undergraduate thesis, 2023|Trabalho de conclusão de curso, 2023|Trabajo de grado, 2023
 The BSc study that developed the comparison of single and multiple imputation through simulation.|O estudo de graduação que desenvolveu a comparação entre imputação simples e múltipla por simulação.|El estudio de grado que desarrolló la comparación entre imputación simple y múltiple mediante simulación.
-PIBIC research · 2022|Pesquisa PIBIC · 2022|Investigación PIBIC · 2022
+PIBIC research, 2022|Pesquisa PIBIC (2022)|Investigación PIBIC (2022)
 An undergraduate research report on missing values in binary variables.|Um relatório de iniciação científica sobre valores faltantes em variáveis binárias.|Un informe de iniciación científica sobre valores faltantes en variables binarias.
 Read report ↗|Ler relatório ↗|Leer informe ↗
 Supporting material|Material complementar|Material complementario
 Simulation materials|Materiais de simulação|Materiales de simulación
 During the simulation studies, graphical reports were generated to examine imputation performance across sample sizes and settings. The collections below include examples of diagnostics and results beyond the figures selected on this page.|Durante os estudos de simulação, foram gerados relatórios gráficos para examinar o desempenho da imputação em diferentes tamanhos amostrais e cenários. As coleções abaixo incluem exemplos de diagnósticos e resultados além das figuras selecionadas nesta página.|Durante los estudios de simulación se generaron informes gráficos para examinar el rendimiento de la imputación en distintos tamaños muestrales y escenarios. Las colecciones siguientes incluyen ejemplos de diagnósticos y resultados más allá de las figuras seleccionadas en esta página.
-n = 20 and 40 · PDF ↗|n = 20 e 40 · PDF ↗|n = 20 y 40 · PDF ↗
-n = 80 and 200 · PDF ↗|n = 80 e 200 · PDF ↗|n = 80 y 200 · PDF ↗
+n = 20 and 40 (PDF) ↗|n = 20 e 40 (PDF) ↗|n = 20 y 40 (PDF) ↗
+n = 80 and 200 (PDF) ↗|n = 80 e 200 (PDF) ↗|n = 80 y 200 (PDF) ↗
 Missingness|Ausência de dados|Ausencia de datos
 How the missing data mechanism and the incomplete variable shape the problem.|Como o mecanismo de dados faltantes e a variável incompleta moldam o problema.|Cómo el mecanismo de datos faltantes y la variable incompleta moldean el problema.
 Predictive modelling|Modelagem preditiva|Modelización predictiva
@@ -853,31 +849,31 @@ Rare and extreme events.|Eventos raros e extremos.|Eventos raros y extremos.
 Contributed talk|Comunicação oral|Comunicación oral
 At sys2025, I presented a study combining NASA SORCE/XPS solar irradiance measurements and their associated uncertainties with air-density estimates derived from INMET observations in Brasília. Using Generalized Extreme Value (GEV) and Bimodal GEV models together with copulas, we investigated the dependence and joint tail behaviour of solar and atmospheric extremes. The work also brought systematic measurement errors into the discussion, connecting uncertainty in space mission records with statistical inference.|No sys2025, apresentei um estudo que combina medições de irradiância solar do SORCE/XPS da NASA e suas incertezas associadas com estimativas de densidade do ar derivadas de observações do INMET em Brasília. Usando modelos Generalizados de Valores Extremos (GEV) e GEV Bimodal junto com cópulas, investigamos a dependência e o comportamento conjunto nas caudas de extremos solares e atmosféricos. O trabalho também trouxe os erros sistemáticos de medição para a discussão, conectando a incerteza em registros de missões espaciais à inferência estatística.|En sys2025 presenté un estudio que combina mediciones de irradiancia solar del SORCE/XPS de la NASA y sus incertidumbres asociadas con estimaciones de densidad del aire derivadas de observaciones del INMET en Brasília. Utilizando modelos Generalizados de Valores Extremos (GEV) y GEV Bimodal junto con cópulas, investigamos la dependencia y el comportamiento conjunto en las colas de los extremos solares y atmosféricos. El trabajo también incorporó a la discusión los errores sistemáticos de medición, conectando la incertidumbre en los registros de misiones espaciales con la inferencia estadística.
 Certificate|Certificado|Certificado
-Federal University of Rio Grande do Norte · Natal, Brazil|Universidade Federal do Rio Grande do Norte · Natal, Brasil|Universidade Federal do Rio Grande do Norte · Natal, Brasil
+Federal University of Rio Grande do Norte, Natal, Brazil|Universidade Federal do Rio Grande do Norte, Natal, Brasil|Universidade Federal do Rio Grande do Norte, Natal, Brasil
 Missing data can hinder statistical analyses that rely on complete datasets. In work coauthored with Eduardo Nakano, I explored how regression imputation can help, using simulated datasets to compare single and multiple imputation, measures of central tendency, and predictive modelling.|Dados faltantes podem dificultar análises estatísticas que dependem de bases completas. Em um trabalho em coautoria com Eduardo Nakano, explorei como a imputação por regressão pode ajudar, usando bases simuladas para comparar imputação simples e múltipla, medidas de tendência central e modelagem preditiva.|Los datos faltantes pueden dificultar los análisis estadísticos que requieren bases de datos completas. En un trabajo en coautoría con Eduardo Nakano, exploré cómo puede ayudar la imputación por regresión, utilizando bases simuladas para comparar imputación simple y múltiple, medidas de tendencia central y modelización predictiva.
 Research presentation, Natal, 2024.|Apresentação de pesquisa, Natal, 2024.|Presentación de investigación, Natal, 2024.
 Four imputation scenarios.|Quatro cenários de imputação.|Cuatro escenarios de imputación.
 Extremes, from solar data to imputation|Extremos, dos dados solares à imputação|Extremos, de los datos solares a la imputación
-5th Paraíba Meeting of Statistics (EPBEST) · 19th School of Regression Models (EMR)|V Encontro Paraibano de Estatística (EPBEST) · XIX Escola de Modelos de Regressão (EMR)|V Encontro Paraibano de Estatística (EPBEST) · XIX Escola de Modelos de Regressão (EMR)
+5th Paraíba Meeting of Statistics (EPBEST), 19th School of Regression Models (EMR)|V Encontro Paraibano de Estatística (EPBEST), XIX Escola de Modelos de Regressão (EMR)|V Encontro Paraibano de Estatística (EPBEST), XIX Escola de Modelos de Regressão (EMR)
 Two posters brought together different sides of my research: modelling extreme solar irradiance and examining what happens to missing data imputation when observations include extreme contamination.|Dois pôsteres reuniram lados diferentes da minha pesquisa: a modelagem da irradiância solar extrema e o exame do que acontece com a imputação de dados faltantes quando as observações incluem contaminação extrema.|Dos pósteres reunieron distintas facetas de mi investigación: la modelización de la irradiancia solar extrema y el examen de lo que ocurre con la imputación de datos faltantes cuando las observaciones incluyen contaminación extrema.
 Poster in Portuguese.|Pôster em português.|Póster en portugués.
-5th EPBEST · 27–28 October 2025|V EPBEST · 27–28 de outubro de 2025|V EPBEST · 27–28 de octubre de 2025
+5th EPBEST, 27–28 October 2025|V EPBEST, 27–28 de outubro de 2025|V EPBEST, 27–28 de octubre de 2025
 Using SORCE/XPS observations from 2005-2019, this study examines temporal variability and extreme changes in solar irradiance, comparing normal and stable models for its variation and applying Extreme Value Theory to characterize unusually large fluctuations.|Com observações SORCE/XPS de 2005-2019, este estudo examina a variabilidade temporal e as mudanças extremas da irradiância solar, comparando modelos normais e estáveis para sua variação e aplicando a Teoria dos Valores Extremos para caracterizar flutuações excepcionalmente grandes.|Con observaciones SORCE/XPS de 2005-2019, este estudio examina la variabilidad temporal y los cambios extremos de la irradiancia solar, comparando modelos normales y estables para su variación y aplicando la Teoría de Valores Extremos para caracterizar fluctuaciones inusualmente grandes.
 View poster|Ver pôster|Ver póster
-19th EMR · 29–31 October 2025|XIX EMR · 29–31 de outubro de 2025|XIX EMR · 29–31 de octubre de 2025
+19th EMR, 29–31 October 2025|XIX EMR, 29–31 de outubro de 2025|XIX EMR, 29–31 de octubre de 2025
 Using Monte Carlo simulations, the study compares six imputation methods available in the R package MICE (Multivariate Imputation by Chained Equations) under both clean data and data contaminated by extreme values, assessing prediction error and the stability of estimated regression coefficients.|Com simulações de Monte Carlo, o estudo compara seis métodos de imputação disponíveis no pacote MICE do R (Multivariate Imputation by Chained Equations), tanto em dados sem contaminação quanto em dados contaminados por valores extremos, avaliando o erro de predição e a estabilidade dos coeficientes de regressão estimados.|Mediante simulaciones de Monte Carlo, el estudio compara seis métodos de imputación disponibles en el paquete MICE de R (Multivariate Imputation by Chained Equations), tanto con datos sin contaminación como con datos contaminados por valores extremos, evaluando el error de predicción y la estabilidad de los coeficientes de regresión estimados.
 Certificates|Certificados|Certificados
 EPBEST certificate|Certificado do EPBEST|Certificado de EPBEST
 EMR certificate|Certificado da EMR|Certificado de EMR
 Climate, dependence, and extremes|Clima, dependência e extremos|Clima, dependencia y extremos
-69th Brazilian Statistics Meeting (RBras) · 21st SEAGRO|69ª Reunião Anual da RBras · 21º SEAGRO|69.ª Reunión Anual de la RBras · 21.º SEAGRO
-Federal University of Espírito Santo (UFES) · Vitória, Espírito Santo, Brazil|Universidade Federal do Espírito Santo (UFES) · Vitória, Espírito Santo, Brasil|Universidade Federal do Espírito Santo (UFES) · Vitória, Espírito Santo, Brasil
+69th Brazilian Statistics Meeting (RBras), 21st SEAGRO|69ª Reunião Anual da RBras, 21º SEAGRO|69.ª Reunión Anual de la RBras, 21.º SEAGRO
+Federal University of Espírito Santo (UFES), Vitória, Espírito Santo, Brazil|Universidade Federal do Espírito Santo (UFES), Vitória, Espírito Santo, Brasil|Universidade Federal do Espírito Santo (UFES), Vitória, Espírito Santo, Brasil
 Three collaborative posters examine the dependence between solar and atmospheric variables, temperature and humidity extremes in Brasília, and climate related financial risk in agriculture.|Três pôsteres em colaboração examinam a dependência entre variáveis solares e atmosféricas, os extremos de temperatura e umidade em Brasília e o risco financeiro associado ao clima na agricultura.|Tres pósteres en colaboración examinan la dependencia entre variables solares y atmosféricas, los extremos de temperatura y humedad en Brasília y el riesgo financiero asociado al clima en la agricultura.
 The study compares single and multiple imputation across simulated datasets with different amounts and types of missing data. It evaluates predictive regression models and central tendency methods, as well as the consequences of ignoring or deleting incomplete observations.|O estudo compara imputação simples e múltipla em bases simuladas com diferentes quantidades e tipos de dados faltantes. Ele avalia modelos preditivos de regressão e métodos de tendência central, bem como as consequências de ignorar ou excluir observações incompletas.|El estudio compara imputación simple y múltiple en bases simuladas con distintas cantidades y tipos de datos faltantes. Evalúa modelos predictivos de regresión y métodos de tendencia central, así como las consecuencias de ignorar o eliminar observaciones incompletas.
 Earlier presentation|Apresentação anterior|Presentación anterior
-Undergraduate research · PIBIC · 2021–2022|Iniciação científica · PIBIC · 2021–2022|Iniciación científica · PIBIC · 2021–2022
-PIBIC · University of Brasília|PIBIC · Universidade de Brasília|PIBIC · Universidade de Brasília
-Enzo Porto Brasil · Supervisor: Eduardo Nakano|Enzo Porto Brasil · Orientador: Eduardo Nakano|Enzo Porto Brasil · Director: Eduardo Nakano
+Undergraduate research, PIBIC (2021–2022)|Iniciação científica, PIBIC (2021–2022)|Iniciación científica, PIBIC (2021–2022)
+PIBIC (University of Brasília)|PIBIC (Universidade de Brasília)|PIBIC (Universidade de Brasília)
+Enzo Porto Brasil, Supervisor: Eduardo Nakano|Enzo Porto Brasil, Orientador: Eduardo Nakano|Enzo Porto Brasil, Director: Eduardo Nakano
 This undergraduate project compared mode and logistic regression imputation for a dichotomous variable in a horseshoe-crab dataset, using repeated simulations with varying proportions of missing data.|Este projeto de graduação comparou a imputação pela moda e por regressão logística para uma variável dicotômica em dados de caranguejos-ferradura, usando simulações repetidas com diferentes proporções de dados faltantes.|Este proyecto de grado comparó la imputación por la moda y por regresión logística para una variable dicotómica en datos de cangrejos herradura, mediante simulaciones repetidas con distintas proporciones de datos faltantes.
 I examined recovery of binary values and prediction error in a subsequent model for shell width. This was one of my first experiences using simulation to understand how missing data decisions shape later statistical analysis and research conclusions.|Examinei a recuperação dos valores binários e o erro de predição em um modelo posterior para a largura da carapaça. Foi uma das minhas primeiras experiências usando simulação para entender como decisões sobre dados faltantes moldam a análise estatística posterior e as conclusões da pesquisa.|Examiné la recuperación de los valores binarios y el error de predicción en un modelo posterior para la anchura del caparazón. Fue una de mis primeras experiencias utilizando la simulación para entender cómo las decisiones sobre datos faltantes moldean el análisis estadístico posterior y las conclusiones de la investigación.
 Watch presentation|Assistir à apresentação|Ver la presentación
@@ -886,21 +882,21 @@ Slides|Slides|Diapositivas
 Download report ↓|Baixar relatório ↓|Descargar informe ↓
 Download certificate ↓|Baixar certificado ↓|Descargar certificado ↓
 Related research ↗|Pesquisa relacionada ↗|Investigación relacionada ↗
-Recorded presentation · Portuguese · 4 min 48 s|Apresentação gravada · Português · 4 min 48 s|Presentación grabada · Portugués · 4 min 48 s
+Recorded presentation, Portuguese, 4 min 48 s|Apresentação gravada, Português, 4 min 48 s|Presentación grabada, Portugués, 4 min 48 s
 Full-time education in Brazil: funding, expansion and challenges under Fundeb|Educação em tempo integral no Brasil: financiamento, expansão e desafios no âmbito do Fundeb|Educación a tiempo completo en Brasil: financiación, expansión y desafíos en el marco del Fundeb
-50th Annual ANPOCS Meeting · Working Group 70: Education, Institutions and Inequalities|50º Encontro Anual da ANPOCS · GT 70: Educação, Instituições e Desigualdades|50.º Encuentro Anual de la ANPOCS · Grupo de Trabajo 70: Educación, Instituciones y Desigualdades
+50th Annual ANPOCS Meeting, Working Group 70: Education, Institutions and Inequalities|50º Encontro Anual da ANPOCS, GT 70: Educação, Instituições e Desigualdades|50.º Encuentro Anual de la ANPOCS, Grupo de Trabajo 70: Educación, Instituciones y Desigualdades
 The expansion of full-time education in Brazil (2007–2024): federal programmes, funding and enrolment patterns|A expansão da educação em tempo integral no Brasil (2007–2024): programas federais, financiamento e padrões de matrícula|La expansión de la educación a tiempo completo en Brasil (2007–2024): programas federales, financiación y patrones de matrícula
 2nd Pan-American Meeting on the Economics of Education|2º Encontro Pan-Americano de Economia da Educação|2.º Encuentro Panamericano de Economía de la Educación
-9–11 November 2026 · Fluminense Federal University, Niterói, Rio de Janeiro, Brazil.|9–11 de novembro de 2026 · Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.|9–11 de noviembre de 2026 · Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.
+9–11 November 2026, Fluminense Federal University, Niterói, Rio de Janeiro, Brazil.|9–11 de novembro de 2026, Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.|9–11 de noviembre de 2026, Universidade Federal Fluminense, Niterói, Rio de Janeiro, Brasil.
 Watch the recorded talk on YouTube from 1:54:19|Assistir à palestra gravada no YouTube a partir de 1:54:19|Ver la charla grabada en YouTube desde 1:54:19
-Recorded presentation · English · Day 2 afternoon session, from 1:54:19 ·|Apresentação gravada · Inglês · sessão da tarde do 2º dia, a partir de 1:54:19 ·|Presentación grabada · Inglés · sesión de la tarde del 2.º día, desde 1:54:19 ·
+Recorded presentation, English, Day 2 afternoon session, from 1:54:19|Apresentação gravada, Inglês, sessão da tarde do 2º dia, a partir de 1:54:19|Presentación grabada, Inglés, sesión de la tarde del 2.º día, desde 1:54:19
 Interdisciplinary ↓|Interdisciplinar ↓|Interdisciplinar ↓
 Interdisciplinary presentation|Apresentação interdisciplinar|Presentación interdisciplinaria
 Presented by Manoela Vilela Araujo Resende.|Apresentado por Manoela Vilela Araujo Resende.|Presentado por Manoela Vilela Araujo Resende.
 View study|Ver estudo|Ver estudio
 Related publication|Publicação relacionada|Publicación relacionada
 Coauthored presentation|Apresentação em coautoria|Presentación en coautoría
-Full study · Ipea Discussion Paper 3261 · 43 pages · Portuguese · PDF · 2.9 MB|Estudo completo · Texto para Discussão Ipea 3261 · 43 páginas · Português · PDF · 2,9 MB|Estudio completo · Documento de discusión Ipea 3261 · 43 páginas · Portugués · PDF · 2,9 MB
+Full study, Ipea Discussion Paper 3261, 43 pages, Portuguese, PDF, 2.9 MB|Estudo completo, Texto para Discussão Ipea 3261, 43 páginas, Português, PDF, 2,9 MB|Estudio completo, Documento de discusión Ipea 3261, 43 páginas, Portugués, PDF, 2,9 MB
 Support|Apoio|Apoyo
 Acknowledgements|Agradecimentos|Agradecimientos
 My research, training, and scientific presentations have benefited from the support of the following institutions and programmes:|Minha pesquisa, minha formação e minhas apresentações científicas contaram com o apoio das seguintes instituições e programas:|Mi investigación, mi formación y mis presentaciones científicas se han beneficiado del apoyo de las siguientes instituciones y programas:
@@ -973,16 +969,12 @@ Extreme Value Theory; GEV/BGEV models; copulas; multivariate and extremal depend
 Reproducible data workflows|Fluxos de dados reprodutíveis|Flujos de datos reproducibles
 SQL, DBeaver, ODBC; LaTeX; Git/GitHub; reproducible reporting; Shiny and Power BI; Stata and SAS.|SQL, DBeaver, ODBC; LaTeX; Git/GitHub; relatórios reprodutíveis; Shiny e Power BI; Stata e SAS.|SQL, DBeaver, ODBC; LaTeX; Git/GitHub; informes reproducibles; Shiny y Power BI; Stata y SAS.
 Present|Atual|Actualidad
-HU Brasil, Federal University Hospitals|HU Brasil, Hospitais Universitários Federais|HU Brasil, Hospitales Universitarios Federales
 Brazil|Brasil|Brasil
 Analysis and creation of large observational and administrative datasets within the Brazilian public sector, with emphasis on data quality, validation, robustness, and reproducible research.|Análise e construção de grandes bases de dados observacionais e administrativos no setor público brasileiro, com ênfase em qualidade de dados, validação, robustez e pesquisa reprodutível.|Análisis y creación de grandes bases de datos observacionales y administrativos en el sector público brasileño, con énfasis en la calidad de los datos, la validación, la robustez y la investigación reproducible.
 Develop automated analytical pipelines, dashboards, and research outputs; contribute to published and ongoing studies on diversity, equity and inclusion, social impacts, and psychological research.|Desenvolvimento de rotinas analíticas automatizadas, painéis e produtos de pesquisa; contribuição para estudos publicados e em andamento sobre diversidade, equidade e inclusão, impactos sociais e pesquisa em psicologia.|Desarrollo de procesos analíticos automatizados, paneles y resultados de investigación; contribución a estudios publicados y en curso sobre diversidad, equidad e inclusión, impactos sociales e investigación psicológica.
 Senior Research Assistant and Data Science Fellow|Assistente de pesquisa sênior e bolsista em ciência de dados|Asistente de investigación sénior y becario en ciencia de datos
-Ipea, Institute for Applied Economic Research|Ipea, Instituto de Pesquisa Econômica Aplicada|Ipea, Instituto de Pesquisa Econômica Aplicada
 Conducted qualitative and quantitative research with large national microdata, longitudinal datasets, and territorial information, integrating and validating heterogeneous sources across spatial and temporal scales.|Pesquisa qualitativa e quantitativa com grandes microdados nacionais, bases longitudinais e informações territoriais, integrando e validando fontes heterogêneas em diferentes escalas espaciais e temporais.|Investigación cualitativa y cuantitativa con grandes microdatos nacionales, bases longitudinales e información territorial, integrando y validando fuentes heterogéneas en distintas escalas espaciales y temporales.
 Developed reproducible statistical workflows, automated analyses, and dashboards; coauthored three technical research notes and a forthcoming book chapter on Brazilian education, with findings communicated through scientific events.|Desenvolvimento de fluxos estatísticos reprodutíveis, análises automatizadas e painéis; coautoria de três notas técnicas de pesquisa e de um capítulo de livro a ser publicado sobre a educação brasileira, com resultados divulgados em eventos científicos.|Desarrollo de flujos estadísticos reproducibles, análisis automatizados y paneles; coautoría de tres notas técnicas de investigación y de un capítulo de libro de próxima publicación sobre la educación brasileña, con resultados difundidos en eventos científicos.
-Technical Officer, International Cooperation Mercosul|Técnico, Cooperação Internacional Mercosul|Técnico, Cooperación Internacional Mercosur
-Inep, National Institute for Educational Studies and Research|Inep, Instituto Nacional de Estudos e Pesquisas Educacionais|Inep, Instituto Nacional de Estudos e Pesquisas Educacionais
 Supported South American academic cooperation and undergraduate programme evaluation within the Mercosul accreditation system, including liaison with Latin American partners in meetings conducted in Portuguese and Spanish.|Apoio à cooperação acadêmica sul-americana e à avaliação de cursos de graduação no sistema de acreditação do Mercosul, incluindo a interlocução com parceiros latino-americanos em reuniões conduzidas em português e espanhol.|Apoyo a la cooperación académica sudamericana y a la evaluación de programas de grado en el sistema de acreditación del Mercosur, incluida la interlocución con socios latinoamericanos en reuniones realizadas en portugués y español.
 Data Analyst and Consultant|Analista de dados e consultor|Analista de datos y consultor
 Built automated data workflows, reproducible analytical pipelines, and reporting processes, with focus on data organization, efficiency, and repeatability.|Construção de fluxos de dados automatizados, rotinas analíticas reprodutíveis e processos de relatórios, com foco em organização de dados, eficiência e repetibilidade.|Creación de flujos de datos automatizados, procesos analíticos reproducibles y procesos de elaboración de informes, con foco en la organización de datos, la eficiencia y la repetibilidad.
@@ -1056,23 +1048,23 @@ introductory exposure|contato introdutório|conocimientos introductorios
 Building Electrician: Control and Industrial Processes|Eletricista Predial: Controle e Processos Industriais|Electricista de Edificios: Control y Procesos Industriales
 Professional Education Center – Brasília Technical School (CEP–ETB)|Centro de Educação Profissional – Escola Técnica de Brasília (CEP–ETB)|Centro de Educação Profissional – Escola Técnica de Brasília (CEP–ETB)
 Leonardo da Vinci Educational Center|Centro Educacional Leonardo da Vinci|Centro Educacional Leonardo da Vinci
-Brazilian Statistical Association (ABE) · Fortaleza|Associação Brasileira de Estatística (ABE) · Fortaleza|Associação Brasileira de Estatística (ABE) · Fortaleza
-Professor Thiago Marques’s Statistics Community · EstaTiDados|Comunidade de Estatística do Professor Thiago Marques · EstaTiDados|Comunidad de Estadística del profesor Thiago Marques · EstaTiDados
-17th School of Regression Models (EMR) · Brazilian Institute of Geography and Statistics (IBGE)|XVII Escola de Modelos de Regressão (EMR) · Instituto Brasileiro de Geografia e Estatística (IBGE)|XVII Escola de Modelos de Regressão (EMR) · Instituto Brasileiro de Geografia e Estatística (IBGE)
+Brazilian Statistical Association (ABE), Fortaleza|Associação Brasileira de Estatística (ABE), Fortaleza|Associação Brasileira de Estatística (ABE), Fortaleza
+Professor Thiago Marques’s Statistics Community, EstaTiDados|Comunidade de Estatística do Professor Thiago Marques, EstaTiDados|Comunidad de Estadística del profesor Thiago Marques, EstaTiDados
+17th School of Regression Models (EMR), Brazilian Institute of Geography and Statistics (IBGE)|XVII Escola de Modelos de Regressão (EMR), Instituto Brasileiro de Geografia e Estatística (IBGE)|XVII Escola de Modelos de Regressão (EMR), Instituto Brasileiro de Geografia e Estatística (IBGE)
 Brazilian Space Agency (AEB)|Agência Espacial Brasileira (AEB)|Agência Espacial Brasileira (AEB)
-International Center of Physics · University of Brasília (UnB)|Centro Internacional de Física · Universidade de Brasília (UnB)|Centro Internacional de Física · Universidade de Brasília (UnB)
-University of São Paulo (USP) · Coursera|Universidade de São Paulo (USP) · Coursera|Universidade de São Paulo (USP) · Coursera
-19th School of Regression Models (EMR) · João Pessoa|XIX Escola de Modelos de Regressão (EMR) · João Pessoa|XIX Escola de Modelos de Regressão (EMR) · João Pessoa
-25th SINAPE · Fortaleza|25º SINAPE · Fortaleza|25.º SINAPE · Fortaleza
-National Autonomous University of Mexico (UNAM) · Coursera|Universidade Nacional Autônoma do México (UNAM) · Coursera|Universidad Nacional Autónoma de México (UNAM) · Coursera
-Monterrey Institute of Technology and Higher Education (ITESM) · Coursera|Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM) · Coursera|Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM) · Coursera
-University of the Andes · Coursera|Universidad de los Andes · Coursera|Universidad de los Andes · Coursera
+International Center of Physics (University of Brasília, UnB)|Centro Internacional de Física (Universidade de Brasília, UnB)|Centro Internacional de Física (Universidade de Brasília, UnB)
+University of São Paulo (USP), Coursera|Universidade de São Paulo (USP), Coursera|Universidade de São Paulo (USP), Coursera
+19th School of Regression Models (EMR), João Pessoa|XIX Escola de Modelos de Regressão (EMR), João Pessoa|XIX Escola de Modelos de Regressão (EMR), João Pessoa
+25th SINAPE, Fortaleza|25º SINAPE, Fortaleza|25.º SINAPE, Fortaleza
+National Autonomous University of Mexico (UNAM), Coursera|Universidade Nacional Autônoma do México (UNAM), Coursera|Universidad Nacional Autónoma de México (UNAM), Coursera
+Monterrey Institute of Technology and Higher Education (ITESM), Coursera|Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM), Coursera|Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM), Coursera
+University of the Andes, Coursera|Universidad de los Andes, Coursera|Universidad de los Andes, Coursera
 University of Brasília (UnB)|Universidade de Brasília (UnB)|Universidade de Brasília (UnB)
-5th Paraíba Meeting of Statistics (EPBEST) · João Pessoa|V Encontro Paraibano de Estatística (EPBEST) · João Pessoa|V Encontro Paraibano de Estatística (EPBEST) · João Pessoa
+5th Paraíba Meeting of Statistics (EPBEST), João Pessoa|V Encontro Paraibano de Estatística (EPBEST), João Pessoa|V Encontro Paraibano de Estatística (EPBEST), João Pessoa
 Federal University of Rio Grande do Norte (UFRN)|Universidade Federal do Rio Grande do Norte (UFRN)|Universidade Federal do Rio Grande do Norte (UFRN)
 Reviewer|Revisor|Revisor
-Complete dissertation · University of Brasília (UnB) · Portuguese · 168 pages · PDF · 39.2 MB|Dissertação completa · Universidade de Brasília (UnB) · Português · 168 páginas · PDF · 39,2 MB|Tesis completa · Universidade de Brasília (UnB) · Portugués · 168 páginas · PDF · 39,2 MB
-BSc thesis · University of Brasília (UnB) · Portuguese · 61 pages|Trabalho de conclusão de curso · Universidade de Brasília (UnB) · Português · 61 páginas|Trabajo de grado · Universidade de Brasília (UnB) · Portugués · 61 páginas
+Complete dissertation, University of Brasília (UnB), Portuguese, 168 pages, PDF, 39.2 MB|Dissertação completa, Universidade de Brasília (UnB), Português, 168 páginas, PDF, 39,2 MB|Tesis completa, Universidade de Brasília (UnB), Portugués, 168 páginas, PDF, 39,2 MB
+BSc thesis, University of Brasília (UnB), Portuguese, 61 pages|Trabalho de conclusão de curso, Universidade de Brasília (UnB), Português, 61 páginas|Trabajo de grado, Universidade de Brasília (UnB), Portugués, 61 páginas
 95.3|95,3|95,3
 82.3|82,3|82,3
 86.3|86,3|86,3
@@ -1090,8 +1082,8 @@ Read article (Frontiers) ↗|Ler artigo (Frontiers) ↗|Leer artículo (Frontier
 Code (Zenodo) ↗|Código (Zenodo) ↗|Código (Zenodo) ↗
 Article (Frontiers):|Artigo (Frontiers):|Artículo (Frontiers):
 Code (Zenodo):|Código (Zenodo):|Código (Zenodo):
-Accepted article · 2026|Artigo aceito · 2026|Artículo aceptado · 2026
-Code and data · 2026|Código e dados · 2026|Código y datos · 2026
+Accepted article, 2026|Artigo aceito, 2026|Artículo aceptado, 2026
+Code and data, 2026|Código e dados, 2026|Código y datos, 2026
 Reproducible analysis for the SORCE/XPS extremes article|Análise reprodutível do artigo sobre extremos SORCE/XPS|Análisis reproducible del artículo sobre extremos SORCE/XPS
 In:|In:|En:
 Forthcoming; book launch in December 2026.|A publicar; lançamento do livro em dezembro de 2026.|Próxima publicación; presentación del libro en diciembre de 2026.
@@ -1099,12 +1091,91 @@ Book launch in December 2026.|Lançamento do livro em dezembro de 2026.|Presenta
 Scheduled Poster|Pôster agendado|Póster programado
 Scheduled poster|Pôster agendado|Póster programado
 XXVIII Ciclo de Cursos Especiais in Astronomy and Astrophysics, Observatório Nacional, Rio de Janeiro, Brazil|XXVIII Ciclo de Cursos Especiais em Astronomia e Astrofísica, Observatório Nacional, Rio de Janeiro, Brasil|XXVIII Ciclo de Cursos Especiais en Astronomía y Astrofísica, Observatório Nacional, Río de Janeiro, Brasil
-XXVIII Ciclo de Cursos Especiais (CCE) in Astronomy & Astrophysics · Observatório Nacional|XXVIII Ciclo de Cursos Especiais (CCE) em Astronomia e Astrofísica · Observatório Nacional|XXVIII Ciclo de Cursos Especiais (CCE) en Astronomía y Astrofísica · Observatório Nacional
-9–13 November 2026 · Observatório Nacional, Rio de Janeiro, Brazil.|9–13 de novembro de 2026 · Observatório Nacional, Rio de Janeiro, Brasil.|9–13 de noviembre de 2026 · Observatório Nacional, Río de Janeiro, Brasil.
-CCE · Observatório Nacional · Nov 2026|CCE · Observatório Nacional · nov. 2026|CCE · Observatório Nacional · nov. 2026
-Brazilian Space Agency (AEB) · Federal University of Rio Grande do Norte (UFRN)|Agência Espacial Brasileira (AEB) · Universidade Federal do Rio Grande do Norte (UFRN)|Agência Espacial Brasileira (AEB) · Universidade Federal do Rio Grande do Norte (UFRN)
-Brazilian Space Agency (AEB) · National Institute for Space Research (INPE) · Federal University of São Carlos (UFSCar)|Agência Espacial Brasileira (AEB) · Instituto Nacional de Pesquisas Espaciais (INPE) · Universidade Federal de São Carlos (UFSCar)|Agência Espacial Brasileira (AEB) · Instituto Nacional de Pesquisas Espaciais (INPE) · Universidade Federal de São Carlos (UFSCar)
-European Space Astronomy Centre (ESAC), European Space Agency · Madrid|European Space Astronomy Centre (ESAC), Agência Espacial Europeia · Madri|European Space Astronomy Centre (ESAC), Agencia Espacial Europea · Madrid
+XXVIII Ciclo de Cursos Especiais (CCE) in Astronomy & Astrophysics, Observatório Nacional|XXVIII Ciclo de Cursos Especiais (CCE) em Astronomia e Astrofísica, Observatório Nacional|XXVIII Ciclo de Cursos Especiais (CCE) en Astronomía y Astrofísica, Observatório Nacional
+9–13 November 2026, Observatório Nacional, Rio de Janeiro, Brazil.|9–13 de novembro de 2026, Observatório Nacional, Rio de Janeiro, Brasil.|9–13 de noviembre de 2026, Observatório Nacional, Río de Janeiro, Brasil.
+CCE, Observatório Nacional, Nov 2026|CCE, Observatório Nacional, nov. 2026|CCE, Observatório Nacional, nov. 2026
+Brazilian Space Agency (AEB), Federal University of Rio Grande do Norte (UFRN)|Agência Espacial Brasileira (AEB), Universidade Federal do Rio Grande do Norte (UFRN)|Agência Espacial Brasileira (AEB), Universidade Federal do Rio Grande do Norte (UFRN)
+Brazilian Space Agency (AEB), National Institute for Space Research (INPE), Federal University of São Carlos (UFSCar)|Agência Espacial Brasileira (AEB), Instituto Nacional de Pesquisas Espaciais (INPE), Universidade Federal de São Carlos (UFSCar)|Agência Espacial Brasileira (AEB), Instituto Nacional de Pesquisas Espaciais (INPE), Universidade Federal de São Carlos (UFSCar)
+European Space Astronomy Centre (ESAC), European Space Agency, Madrid|European Space Astronomy Centre (ESAC), Agência Espacial Europeia, Madri|European Space Astronomy Centre (ESAC), Agencia Espacial Europea, Madrid
 May 2026|Mai 2026|May 2026
 fluent (TOEFL iBT: 5.0, C1)|fluente (TOEFL iBT: 5.0, C1)|fluido (TOEFL iBT: 5.0, C1)
+Rio de Janeiro, 2026 ↓|Rio de Janeiro, 2026 ↓|Río de Janeiro, 2026 ↓
+Poster & advanced courses|Pôster e cursos avançados|Póster y cursos avanzados
+9–13 November 2026|9–13 de novembro de 2026|9–13 de noviembre de 2026
+Astrostatistical inference for extremes|Inferência astroestatística para extremos|Inferencia astroestadística para extremos
+of solar spectral irradiance in the SORCE/XPS record|da irradiância solar espectral no registro SORCE/XPS|de la irradiancia solar espectral en el registro SORCE/XPS
+XXVIII Ciclo de Cursos Especiais (CCE) in Astronomy & Astrophysics|XXVIII Ciclo de Cursos Especiais (CCE) em Astronomia e Astrofísica|XXVIII Ciclo de Cursos Especiais (CCE) en Astronomía y Astrofísica
+Observatório Nacional, Rio de Janeiro, Brazil|Observatório Nacional, Rio de Janeiro, Brasil|Observatório Nacional, Río de Janeiro, Brasil
+At the Observatório Nacional, I presented a poster on extremes of soft X-ray irradiance in NASA's SORCE/XPS record. The data and methods overlap with my earlier presentations on solar irradiance, but this poster shows the study in its final form, as it appears in our article in Frontiers in Astronomy and Space Sciences. It asks how much of an estimated extreme comes from the Sun and how much from the record itself: which days the instrument observed, how each daily value was produced and how gaps were handled.|No Observatório Nacional, apresentei um pôster sobre extremos da irradiância de raios X moles no registro SORCE/XPS da NASA. Os dados e os métodos se aproximam dos que levei a apresentações anteriores sobre irradiância solar, mas este pôster mostra o estudo em sua forma final, como aparece no nosso artigo na Frontiers in Astronomy and Space Sciences. A pergunta é quanto de um extremo estimado vem do Sol e quanto vem do próprio registro: dos dias que o instrumento observou, de como cada valor diário foi produzido e de como as lacunas foram tratadas.|En el Observatório Nacional presenté un póster sobre extremos de la irradiancia de rayos X blandos en el registro SORCE/XPS de la NASA. Los datos y los métodos coinciden en parte con mis presentaciones anteriores sobre irradiancia solar, pero este póster muestra el estudio en su forma final, tal como aparece en nuestro artículo en Frontiers in Astronomy and Space Sciences. La pregunta es cuánto de un extremo estimado proviene del Sol y cuánto del propio registro: de los días que observó el instrumento, de cómo se produjo cada valor diario y de cómo se trataron los vacíos.
+During the same week I took the four courses of this edition, 36 hours in total:|Na mesma semana, fiz os quatro cursos desta edição, 36 horas no total:|Esa misma semana asistí a los cuatro cursos de esta edición, 36 horas en total:
+The Nature of Dark Energy|A natureza da energia escura|La naturaleza de la energía oscura
+Galaxy Evolution in Clusters|Evolução de galáxias em aglomerados|Evolución de galaxias en cúmulos
+Extended Bodies in the Solar System: Rotation, Tides, and Figures|Corpos extensos no Sistema Solar: rotação, marés e formas|Cuerpos extensos en el Sistema Solar: rotación, mareas y formas
+The Milky Way After Gaia|A Via Láctea após Gaia|La Vía Láctea después de Gaia
+Pedro Ferreira, University of Oxford|Pedro Ferreira, Universidade de Oxford|Pedro Ferreira, Universidad de Oxford
+Bianca Poggianti, INAF, Padova|Bianca Poggianti, INAF, Pádua|Bianca Poggianti, INAF, Padua
+Nicolas Rambaux, Paris Observatory|Nicolas Rambaux, Observatório de Paris|Nicolas Rambaux, Observatorio de París
+Victor Debattista, University of Lancashire|Victor Debattista, Universidade de Lancashire|Victor Debattista, Universidad de Lancashire
+Rio de Janeiro|Rio de Janeiro|Río de Janeiro
+Rio de Janeiro photo album|Álbum de fotografias do Rio de Janeiro|Álbum de fotografías de Río de Janeiro
+Read the Frontiers article →|Ler o artigo na Frontiers →|Leer el artículo en Frontiers →
+Event website ↗|Site do evento ↗|Sitio del evento ↗
+Complete poster, English, PDF, 0.6 MB, The certificate covers the poster and all four courses.|Pôster completo, Inglês, PDF, 0,6 MB, O certificado inclui o pôster e os quatro cursos.|Póster completo, Inglés, PDF, 0,6 MB, El certificado incluye el póster y los cuatro cursos.
+Pedro Ferreira, University of Oxford, The Nature of Dark Energy|Pedro Ferreira, Universidade de Oxford, A natureza da energia escura|Pedro Ferreira, Universidad de Oxford, La naturaleza de la energía oscura
+Nicolas Rambaux, Paris Observatory, Extended Bodies in the Solar System|Nicolas Rambaux, Observatório de Paris, Corpos extensos no Sistema Solar|Nicolas Rambaux, Observatorio de París, Cuerpos extensos en el Sistema Solar
+Victor Debattista, University of Lancashire, The Milky Way After Gaia|Victor Debattista, Universidade de Lancashire, A Via Láctea após Gaia|Victor Debattista, Universidad de Lancashire, La Vía Láctea después de Gaia
+Bianca Poggianti, INAF, Padova, Galaxy Evolution in Clusters|Bianca Poggianti, INAF, Pádua, Evolução de galáxias em aglomerados|Bianca Poggianti, INAF, Padua, Evolución de galaxias en cúmulos
+Course notes, Galaxy Evolution in Clusters|Anotações do curso, Evolução de galáxias em aglomerados|Apuntes del curso, Evolución de galaxias en cúmulos
+Enzo smiling in front of a telescope dome on the Observatório Nacional campus.|Enzo sorrindo diante de uma cúpula de telescópio no campus do Observatório Nacional.|Enzo sonriendo frente a una cúpula de telescopio en el campus del Observatório Nacional.
+Enzo taking a selfie outside the Observatório Nacional data processing centre.|Enzo tirando uma selfie em frente ao Centro de Processamento de Dados do Observatório Nacional.|Enzo haciéndose una selfi frente al Centro de Procesamiento de Datos del Observatório Nacional.
+Columns and a stained-glass skylight inside a historic building on the Observatório Nacional campus, above a banner for the exhibition Olhar o céu, medir a Terra.|Colunas e claraboia de vitral em um edifício histórico do campus do Observatório Nacional, acima do banner da exposição Olhar o céu, medir a Terra.|Columnas y un tragaluz de vitral en un edificio histórico del campus del Observatório Nacional, sobre un cartel de la exposición Olhar o céu, medir a Terra.
+Stained-glass window of Urania, the muse of astronomy, dated MCMXX, above a staircase.|Vitral de Urânia, musa da astronomia, datado de MCMXX, acima de uma escadaria.|Vitral de Urania, musa de la astronomía, fechado en MCMXX, sobre una escalera.
+Enzo beside a stained-glass panel showing a globe, telescopes and drawing instruments.|Enzo ao lado de um vitral com globo, lunetas e instrumentos de desenho.|Enzo junto a un vitral con un globo terráqueo, catalejos e instrumentos de dibujo.
+Enzo smiling beside the poster on extremes of solar spectral irradiance in the SORCE/XPS record.|Enzo sorrindo ao lado do pôster sobre extremos da irradiância solar espectral no registro SORCE/XPS.|Enzo sonriendo junto al póster sobre extremos de la irradiancia solar espectral en el registro SORCE/XPS.
+Pedro Ferreira, of the University of Oxford, pointing to Bayes' theorem on a slide during the course on dark energy.|Pedro Ferreira, da Universidade de Oxford, aponta para o teorema de Bayes em um slide durante o curso sobre energia escura.|Pedro Ferreira, de la Universidad de Oxford, señala el teorema de Bayes en una diapositiva durante el curso sobre energía oscura.
+Nicolas Rambaux, of the Paris Observatory, presenting a map of spacecraft journeys through the Solar System during the course on Solar System bodies.|Nicolas Rambaux, do Observatório de Paris, apresenta um mapa das viagens de sondas pelo Sistema Solar durante o curso sobre corpos do Sistema Solar.|Nicolas Rambaux, del Observatorio de París, presenta un mapa de los viajes de sondas por el Sistema Solar durante el curso sobre cuerpos del Sistema Solar.
+Victor Debattista, of the University of Lancashire, discussing the Gaia phase-space spiral during the course on the Milky Way.|Victor Debattista, da Universidade de Lancashire, discute a espiral no espaço de fase revelada pelo Gaia durante o curso sobre a Via Láctea.|Victor Debattista, de la Universidad de Lancashire, analiza la espiral en el espacio de fases revelada por Gaia durante el curso sobre la Vía Láctea.
+Bianca Poggianti, of INAF in Padova, presenting multi-wavelength observations of the jellyfish galaxy JW100 during the course on galaxy clusters.|Bianca Poggianti, do INAF em Pádua, apresenta observações em vários comprimentos de onda da galáxia água-viva JW100 durante o curso sobre aglomerados de galáxias.|Bianca Poggianti, del INAF en Padua, presenta observaciones en múltiples longitudes de onda de la galaxia medusa JW100 durante el curso sobre cúmulos de galaxias.
+Handwritten notes on jellyfish galaxies from the course on galaxy evolution in clusters.|Anotações à mão sobre galáxias água-viva no curso de evolução de galáxias em aglomerados.|Apuntes a mano sobre galaxias medusa del curso de evolución de galaxias en cúmulos.
+Enzo on the front steps of the historic main building on the Observatório Nacional campus.|Enzo na escadaria do edifício histórico principal do campus do Observatório Nacional.|Enzo en la escalinata del edificio histórico principal del campus del Observatório Nacional.
+Enzo with a companion on a balcony beneath an ornate ceiling with a stained-glass skylight.|Enzo acompanhado em uma sacada sob um teto ornamentado com claraboia de vitral.|Enzo acompañado en un balcón bajo un techo ornamentado con un tragaluz de vitral.
+Selfie of Enzo and a companion by a lake at sunset, with palm trees and a small colonnaded pavilion behind them.|Selfie de Enzo acompanhado à beira de um lago ao pôr do sol, com palmeiras e um pequeno pavilhão de colunas ao fundo.|Selfi de Enzo acompañado junto a un lago al atardecer, con palmeras y un pequeño pabellón de columnas al fondo.
+A lake at dusk, with palm trees and a small colonnaded pavilion reflected in the water.|Lago ao entardecer, com palmeiras e um pequeno pavilhão de colunas refletidos na água.|Un lago al anochecer, con palmeras y un pequeño pabellón de columnas reflejados en el agua.
+Rio de Janeiro 2026 ↓|Rio de Janeiro 2026 ↓|Río de Janeiro 2026 ↓
+Complete poster in English (PDF, 0.6 MB). The certificate covers the poster and all four courses.|Pôster completo em inglês (PDF, 0,6 MB). O certificado inclui o pôster e os quatro cursos.|Póster completo en inglés (PDF, 0,6 MB). El certificado incluye el póster y los cuatro cursos.
+Complete slides, 26 pages, in Portuguese (PDF, 45.3 MB)|Slides completos, 26 páginas, em português (PDF, 45,3 MB)|Diapositivas completas, 26 páginas, en portugués (PDF, 45,3 MB)
+Complete slides, 35 pages, in English (PDF, 29.4 MB)|Slides completos, 35 páginas, em inglês (PDF, 29,4 MB)|Diapositivas completas, 35 páginas, en inglés (PDF, 29,4 MB)
+Complete slides, 27 pages, in English (PDF, 16.2 MB)|Slides completos, 27 páginas, em inglês (PDF, 16,2 MB)|Diapositivas completas, 27 páginas, en inglés (PDF, 16,2 MB)
+Recorded presentation in English, from the Day 2 afternoon session, starting at 1:54:19. |Apresentação gravada em inglês, na sessão da tarde do 2º dia, a partir de 1:54:19.|Presentación grabada en inglés, en la sesión de la tarde del 2.º día, desde 1:54:19.
+1st Brazil–Colombia Binational Colloquium on Probability and Statistics (coBIPE)|I Colóquio Binacional Brasil–Colômbia de Probabilidade e Estatística (coBIPE)|I Coloquio Binacional Brasil–Colombia de Probabilidad y Estadística (coBIPE)
+5th Paraíba Meeting of Statistics (EPBEST) and 19th School of Regression Models (EMR)|V Encontro Paraibano de Estatística (EPBEST) e XIX Escola de Modelos de Regressão (EMR)|V Encontro Paraibano de Estatística (EPBEST) y XIX Escola de Modelos de Regressão (EMR)
+João Pessoa, Paraíba, Brazil. EPBEST on 27–28 October, EMR on 29–31 October|João Pessoa, Paraíba, Brasil. EPBEST em 27–28 de outubro, EMR em 29–31 de outubro|João Pessoa, Paraíba, Brasil. EPBEST del 27 al 28 de octubre, EMR del 29 al 31 de octubre
+69th Brazilian Statistics Meeting (RBras) and 21st SEAGRO|69ª Reunião Anual da RBras e 21º SEAGRO|69.ª Reunión Anual de la RBras y 21.º SEAGRO
+Complete poster in Portuguese, with an English title (PDF)|Pôster completo em português, com título em inglês (PDF)|Póster completo en portugués, con título en inglés (PDF)
+Undergraduate research (PIBIC), 2021–2022|Iniciação científica (PIBIC), 2021–2022|Iniciación científica (PIBIC), 2021–2022
+PIBIC, University of Brasília|PIBIC, Universidade de Brasília|PIBIC, Universidade de Brasília
+Brasília, Brazil. Slides dated 1 September 2022|Brasília, Brasil. Slides de 1º de setembro de 2022|Brasília, Brasil. Diapositivas del 1 de septiembre de 2022
+Enzo Porto Brasil, supervised by Eduardo Nakano|Enzo Porto Brasil, com orientação de Eduardo Nakano|Enzo Porto Brasil, bajo la dirección de Eduardo Nakano
+Full research report, 12 pages, in Portuguese (PDF)|Relatório completo, 12 páginas, em português (PDF)|Informe completo, 12 páginas, en portugués (PDF)
+Recorded presentation in Portuguese, 4 min 48 s|Apresentação gravada em português, 4 min 48 s|Presentación grabada en portugués, 4 min 48 s
+Full study: Ipea Discussion Paper 3261, 43 pages, in Portuguese (PDF, 2.9 MB).|Estudo completo: Texto para Discussão Ipea 3261, 43 páginas, em português (PDF, 2,9 MB).|Estudio completo: Documento de discusión Ipea 3261, 43 páginas, en portugués (PDF, 2,9 MB).
+29 September to 2 October online, and 7–9 October at Unicamp, Campinas, São Paulo, Brazil.|De 29 de setembro a 2 de outubro on-line, e de 7 a 9 de outubro na Unicamp, Campinas, São Paulo, Brasil.|Del 29 de septiembre al 2 de octubre en línea, y del 7 al 9 de octubre en Unicamp, Campinas, São Paulo, Brasil.
+Presented|Apresentação realizada|Presentación realizada
+Interdisciplinary presentations|Apresentações interdisciplinares|Presentaciones interdisciplinarias
+Poster in English.|Pôster em inglês.|Póster en inglés.
+View poster: Astrostatistical inference for extremes of solar spectral irradiance in the SORCE/XPS record|Ver pôster: Inferência astroestatística para extremos da irradiância solar espectral no registro SORCE/XPS|Ver póster: Inferencia astroestadística para extremos de la irradiancia solar espectral en el registro SORCE/XPS
+Poster on extremes of solar spectral irradiance in the SORCE/XPS record.|Pôster sobre extremos da irradiância solar espectral no registro SORCE/XPS.|Póster sobre extremos de la irradiancia solar espectral en el registro SORCE/XPS.
+Pedro Ferreira (University of Oxford) in the course The Nature of Dark Energy|Pedro Ferreira (Universidade de Oxford) no curso A natureza da energia escura|Pedro Ferreira (Universidad de Oxford) en el curso La naturaleza de la energía oscura
+Nicolas Rambaux (Paris Observatory) in the course Extended Bodies in the Solar System|Nicolas Rambaux (Observatório de Paris) no curso Corpos extensos no Sistema Solar|Nicolas Rambaux (Observatorio de París) en el curso Cuerpos extensos en el Sistema Solar
+Victor Debattista (University of Lancashire) in the course The Milky Way After Gaia|Victor Debattista (Universidade de Lancashire) no curso A Via Láctea após Gaia|Victor Debattista (Universidad de Lancashire) en el curso La Vía Láctea después de Gaia
+Bianca Poggianti (INAF, Padova) in the course Galaxy Evolution in Clusters|Bianca Poggianti (INAF, Pádua) no curso Evolução de galáxias em aglomerados|Bianca Poggianti (INAF, Padua) en el curso Evolución de galaxias en cúmulos
+My notes from the course Galaxy Evolution in Clusters|Minhas anotações do curso Evolução de galáxias em aglomerados|Mis apuntes del curso Evolución de galaxias en cúmulos
+50th Annual Meeting of ANPOCS, Unicamp, Campinas, Brazil|50º Encontro Anual da ANPOCS, Unicamp, Campinas, Brasil|50.º Encuentro Anual de la ANPOCS, Unicamp, Campinas, Brasil
+Courses taken during the week (36 hours)|Cursos realizados durante a semana (36 horas)|Cursos realizados durante la semana (36 horas)
+View first page|Ver primeira página|Ver primera página
+First page|Primeira página|Primera página
+Close|Fechar|Cerrar
+Poster in English (PDF, 0.6 MB). The certificate covers the poster and all four courses.|Pôster em inglês (PDF, 0,6 MB). O certificado inclui o pôster e os quatro cursos.|Póster en inglés (PDF, 0,6 MB). El certificado incluye el póster y los cuatro cursos.
+In memory of Dr. Carlos Bengaly|Em memória do Dr. Carlos Bengaly|En memoria del Dr. Carlos Bengaly
+Participants, lecturers and organizers of the XXVIII CCE gathered in front of a telescope dome at the Observatório Nacional.|Participantes, professores e organizadores do XXVIII CCE reunidos diante de uma cúpula de telescópio no Observatório Nacional.|Participantes, profesores y organizadores del XXVIII CCE reunidos frente a una cúpula de telescopio en el Observatório Nacional.
 `.trim().split('\n').map(line => line.split('|'));

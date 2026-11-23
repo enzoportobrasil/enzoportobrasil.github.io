@@ -1,6 +1,9 @@
 # Heavy source materials are kept locally, not shipped with the website.
 /_source-materials/
 
+# Local inbox for new files before they are organised into assets/.
+/0_ARQUIVOS_NOVOS/
+
 # Local previews and QA dependencies.
 /_site/
 /.bundle/
