@@ -15,6 +15,7 @@
   const attrOriginals = new WeakMap();
   const text = (value, parameters = {}) => {
     const key = canonical.get(normalize(value)) || normalize(value);
+    if (key.includes(' | ')) return key.split(' | ').map(part => text(part, parameters)).join(' | ');
     let translated = dictionaries[language].get(key);
     if (!translated && key.includes(': ')) {
       const colon = key.indexOf(': ');

@@ -606,22 +606,19 @@ Uncertainty may tell us more than we expect|A incerteza pode nos dizer mais do q
 Environmental extremes and solar observations, extending statistical inquiry toward astronomy and cosmology.|Extremos ambientais e observações solares, levando a investigação estatística em direção à astronomia e à cosmologia.|Extremos ambientales y observaciones solares, que extienden la indagación estadística hacia la astronomía y la cosmología.
 Still curious. Still learning. Still wondering.|Ainda curioso. Ainda aprendendo. Ainda me perguntando.|Todavía curioso. Todavía aprendiendo. Todavía preguntándome.
 If you have any questions, feel free to get in touch :D|Se tiver alguma dúvida, fique à vontade para entrar em contato :D|Si tienes alguna pregunta, no dudes en escribirme :D
-Enzo Porto Brasil — Statistics, Extremes & Physical Systems|Enzo Porto Brasil — Estatística, extremos e sistemas físicos|Enzo Porto Brasil — Estadística, extremos y sistemas físicos
+Enzo Porto Brasil|Enzo Porto Brasil|Enzo Porto Brasil
+Statistics, Extremes & Physical Systems|Estatística, extremos e sistemas físicos|Estadística, extremos y sistemas físicos
+Page not found|Página não encontrada|Página no encontrada
+Talks & Posters|Apresentações e pôsteres|Presentaciones y pósteres
+Solar Irradiance & Astrostatistics|Irradiância solar e astroestatística|Irradiancia solar y astroestadística
+Spatial Extremes|Extremos espaciais|Extremos espaciales
 Enzo Porto Brasil — statistician and quantitative researcher working on extreme events, Bayesian spatial modelling, uncertainty, astrostatistics and scientific computing.|Enzo Porto Brasil — estatístico e pesquisador quantitativo que trabalha com eventos extremos, modelagem espacial bayesiana, incerteza, astroestatística e computação científica.|Enzo Porto Brasil — estadístico e investigador cuantitativo que trabaja en eventos extremos, modelización espacial bayesiana, incertidumbre, astroestadística y computación científica.
-Page not found — Enzo Porto Brasil|Página não encontrada — Enzo Porto Brasil|Página no encontrada — Enzo Porto Brasil
-Academic CV — Enzo Porto Brasil|Currículo acadêmico — Enzo Porto Brasil|Currículum académico — Enzo Porto Brasil
 Academic CV of Enzo Porto Brasil, statistician and researcher.|Currículo acadêmico de Enzo Porto Brasil, estatístico e pesquisador.|Currículum académico de Enzo Porto Brasil, estadístico e investigador.
-Publications — Enzo Porto Brasil|Publicações — Enzo Porto Brasil|Publicaciones — Enzo Porto Brasil
 Publications, preprints and research outputs by Enzo Porto Brasil.|Publicações, preprints e produção científica de Enzo Porto Brasil.|Publicaciones, preprints y producción científica de Enzo Porto Brasil.
-Research — Enzo Porto Brasil|Pesquisa — Enzo Porto Brasil|Investigación — Enzo Porto Brasil
 Research programme of Enzo Porto Brasil in spatial extremes, Bayesian statistics, astrostatistics, missing data and scientific computing.|Linhas de pesquisa de Enzo Porto Brasil em extremos espaciais, estatística bayesiana, astroestatística, dados faltantes e computação científica.|Líneas de investigación de Enzo Porto Brasil en extremos espaciales, estadística bayesiana, astroestadística, datos faltantes y computación científica.
-Resources — Enzo Porto Brasil|Recursos — Enzo Porto Brasil|Recursos — Enzo Porto Brasil
 Research materials, notes, code and reproducible resources by Enzo Porto Brasil.|Materiais de pesquisa, notas, código e recursos reprodutíveis de Enzo Porto Brasil.|Materiales de investigación, notas, código y recursos reproducibles de Enzo Porto Brasil.
-Talks & Posters — Enzo Porto Brasil|Apresentações e pôsteres — Enzo Porto Brasil|Presentaciones y pósteres — Enzo Porto Brasil
 Talks, posters and undergraduate research by Enzo Porto Brasil, with complete documents, photographs and a recorded presentation.|Apresentações, pôsteres e pesquisa de graduação de Enzo Porto Brasil, com documentos completos, fotografias e uma apresentação gravada.|Presentaciones, pósteres e investigación de grado de Enzo Porto Brasil, con documentos completos, fotografías y una presentación grabada.
-Solar Irradiance & Astrostatistics — Enzo Porto Brasil|Irradiância solar e astroestatística — Enzo Porto Brasil|Irradiancia solar y astroestadística — Enzo Porto Brasil
 Research by Enzo Porto Brasil on extreme solar spectral irradiance using NASA SORCE data and Extreme Value Theory.|Pesquisa de Enzo Porto Brasil sobre irradiância espectral solar extrema com dados SORCE da NASA e Teoria dos Valores Extremos.|Investigación de Enzo Porto Brasil sobre irradiancia espectral solar extrema con datos SORCE de la NASA y Teoría de Valores Extremos.
-Spatial Extremes — Enzo Porto Brasil|Extremos espaciais — Enzo Porto Brasil|Extremos espaciales — Enzo Porto Brasil
 MSc research by Enzo Porto Brasil on Bayesian hierarchical modelling of spatial extremes with BGEV marginals.|Pesquisa de mestrado de Enzo Porto Brasil sobre modelagem hierárquica bayesiana de extremos espaciais com marginais BGEV.|Investigación de maestría de Enzo Porto Brasil sobre modelización jerárquica bayesiana de extremos espaciales con marginales BGEV.
 Compound Extremes|Extremos compostos|Extremos compuestos
 Research area connecting joint extremes, copulas and uncertainty across environmental, solar-atmospheric and climate-financial applications.|Área de pesquisa que conecta extremos conjuntos, cópulas e incerteza em aplicações ambientais, solar-atmosféricas e climático-financeiras.|Área de investigación que conecta extremos conjuntos, cópulas e incertidumbre en aplicaciones ambientales, solar-atmosféricas y climático-financieras.
