@@ -1120,7 +1120,6 @@ Rio de Janeiro|Rio de Janeiro|Río de Janeiro
 Rio de Janeiro photo album|Álbum de fotografias do Rio de Janeiro|Álbum de fotografías de Río de Janeiro
 Read the Frontiers article →|Ler o artigo na Frontiers →|Leer el artículo en Frontiers →
 Event website ↗|Site do evento ↗|Sitio del evento ↗
-Book of Abstracts ↗|Livro de Resumos ↗|Libro de Resúmenes ↗
 Abstract published in the|Resumo publicado no|Resumen publicado en el
 Book of Abstracts|Livro de Resumos|Libro de Resúmenes
 Complete poster, English, PDF, 0.6 MB, The certificate covers the poster and all four courses.|Pôster completo, Inglês, PDF, 0,6 MB, O certificado inclui o pôster e os quatro cursos.|Póster completo, Inglés, PDF, 0,6 MB, El certificado incluye el póster y los cuatro cursos.
