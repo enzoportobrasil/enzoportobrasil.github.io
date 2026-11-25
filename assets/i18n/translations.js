@@ -1120,6 +1120,8 @@ Rio de Janeiro|Rio de Janeiro|Río de Janeiro
 Rio de Janeiro photo album|Álbum de fotografias do Rio de Janeiro|Álbum de fotografías de Río de Janeiro
 Read the Frontiers article →|Ler o artigo na Frontiers →|Leer el artículo en Frontiers →
 Event website ↗|Site do evento ↗|Sitio del evento ↗
+Book of Abstracts ↗|Livro de Resumos ↗|Libro de Resúmenes ↗
+Abstract published in the Book of Abstracts, p. 38 (UFRN, 2025; ISBN 978-65-5569-630-1)|Resumo publicado no Livro de Resumos, p. 38 (UFRN, 2025; ISBN 978-65-5569-630-1)|Resumen publicado en el Libro de Resúmenes, p. 38 (UFRN, 2025; ISBN 978-65-5569-630-1)
 Complete poster, English, PDF, 0.6 MB, The certificate covers the poster and all four courses.|Pôster completo, Inglês, PDF, 0,6 MB, O certificado inclui o pôster e os quatro cursos.|Póster completo, Inglés, PDF, 0,6 MB, El certificado incluye el póster y los cuatro cursos.
 Pedro Ferreira, University of Oxford, The Nature of Dark Energy|Pedro Ferreira, Universidade de Oxford, A natureza da energia escura|Pedro Ferreira, Universidad de Oxford, La naturaleza de la energía oscura
 Nicolas Rambaux, Paris Observatory, Extended Bodies in the Solar System|Nicolas Rambaux, Observatório de Paris, Corpos extensos no Sistema Solar|Nicolas Rambaux, Observatorio de París, Cuerpos extensos en el Sistema Solar
