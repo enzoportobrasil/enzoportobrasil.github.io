@@ -99,7 +99,7 @@ Explore research|Explorar pesquisas|Explorar investigaciones
 Publications & preprints|Publicações e preprints|Publicaciones y preprints
 My academic CV|Meu currículo acadêmico|Mi currículum académico
 Read the research through-line|Conheça o fio condutor da pesquisa|Conozca el hilo conductor de la investigación
-02 / Profile & research|02 / Perfil e pesquisa|02 / Perfil e investigación
+2 / Profile & research|2 / Perfil e pesquisa|2 / Perfil e investigación
 How can we turn uncertainty about the unknown into clear, accessible science?|Como traduzir a incerteza diante do desconhecido em ciência acessível e clara?|¿Cómo convertir la incertidumbre ante lo desconocido en ciencia clara y accesible?
 I trained in Statistics at the University of Brasília, drawn to a way of reasoning about uncertainty that could travel across scientific questions. Probability and inference remain my foundation, even as the systems I study change.|Minha formação em Estatística na Universidade de Brasília nasceu da busca por uma forma de pensar a incerteza que pudesse acompanhar diferentes perguntas científicas. Probabilidade e inferência continuam sendo minha base, mesmo quando os sistemas que estudo mudam.|Me formé en Estadística en la Universidade de Brasília, buscando una forma de razonar sobre la incertidumbre que pudiera acompañarme en distintas preguntas científicas. La probabilidad y la inferencia siguen siendo mi base, aunque cambien los sistemas que estudio.
 My first research asked what could be recovered when observations were missing. Predictive modelling and simulation led me to a harder version of that question: what can we infer when the observations that matter most are scarce or extreme?|Minhas primeiras pesquisas perguntavam o que era possível recuperar quando faltavam observações. A modelagem preditiva e a simulação me levaram a uma versão mais difícil dessa pergunta: o que podemos inferir quando as observações mais importantes são escassas ou extremas?|Mis primeras investigaciones preguntaban qué se podía recuperar cuando faltaban observaciones. La modelización predictiva y la simulación me llevaron a una versión más difícil de esa pregunta: ¿qué podemos inferir cuando las observaciones que más importan son escasas o extremas?
@@ -107,7 +107,7 @@ That question now connects my work on spatial extremes, dependence and environme
 Spatial extremes|Extremos espaciais|Extremos espaciales
 Bayesian & frequentist inference|Inferência bayesiana e frequentista|Inferencia bayesiana y frecuentista
 Read the research narrative|Conheça a trajetória de pesquisa|Conozca la trayectoria de investigación
-03 / Selected research|03 / Pesquisas selecionadas|03 / Investigaciones seleccionadas
+3 / Selected research|3 / Pesquisas selecionadas|3 / Investigaciones seleccionadas
 Methods meet|Métodos encontram|Métodos y
 scientific systems.|sistemas científicos.|sistemas científicos.
 Four connected research directions, moving between mathematical questions and the physical systems that make them consequential.|Quatro linhas de pesquisa conectadas, entre questões matemáticas e os sistemas físicos que lhes dão sentido.|Cuatro líneas de investigación conectadas, entre preguntas matemáticas y los sistemas físicos que les dan sentido.
@@ -131,7 +131,7 @@ Illustrative photograph|Fotografia ilustrativa|Fotografía ilustrativa
 Dependence|Dependência|Dependencia
 Compound Extremes & Dependence|Extremos compostos e dependência|Extremos compuestos y dependencia
 How does dependence change the frequency of joint extremes? Copulas connect temperature, humidity and multivariate risk.|Como a dependência altera a frequência de extremos conjuntos? Cópulas conectam temperatura, umidade e risco multivariado.|¿Cómo cambia la dependencia la frecuencia de los extremos conjuntos? Las cópulas conectan temperatura, humedad y riesgo multivariado.
-04 / Research coordinates|04 / Coordenadas de pesquisa|04 / Coordenadas de investigación
+4 / Research coordinates|4 / Coordenadas de pesquisa|4 / Coordenadas de investigación
 Uncertainty may tell us more than we expect.|A incerteza pode nos dizer mais do que imaginamos.|La incertidumbre puede decirnos más de lo que imaginamos.
 Questions that recur across my work, from missing observations to environmental and astronomical systems.|Perguntas que reaparecem no meu trabalho, de observações faltantes a sistemas ambientais e astronômicos.|Preguntas que reaparecen en mi trabajo, desde observaciones faltantes hasta sistemas ambientales y astronómicos.
 Incomplete observations|Observações incompletas|Observaciones incompletas
@@ -143,12 +143,12 @@ Tail behaviour, copulas and compound risk.|Comportamento de cauda, cópulas e ri
 Bayesian hierarchical models and latent fields.|Modelos hierárquicos bayesianos e campos latentes.|Modelos jerárquicos bayesianos y campos latentes.
 Physical & environmental systems|Sistemas físicos e ambientais|Sistemas físicos y ambientales
 Environmental extremes and solar observations, with growing interests in astronomy and cosmology.|Extremos ambientais e observações solares, com interesse crescente em astronomia e cosmologia.|Extremos ambientales y observaciones solares, con interés creciente en astronomía y cosmología.
-05 / Selected outputs|05 / Produção selecionada|05 / Producción seleccionada
+5 / Selected outputs|5 / Produção selecionada|5 / Producción seleccionada
 Recent research|Pesquisas recentes|Investigaciones recientes
 Public outputs linked to stable academic sources.|Trabalhos públicos com acesso às fontes acadêmicas.|Trabajos públicos con acceso a las fuentes académicas.
 Read preprint on arXiv ↗|Ler preprint no arXiv ↗|Leer preprint en arXiv ↗
 Full publications & outputs|Todas as publicações e trabalhos|Todas las publicaciones y trabajos
-06 / Research practice|06 / Prática de pesquisa|06 / Práctica de investigación
+6 / Research practice|6 / Prática de pesquisa|6 / Práctica de investigación
 How I tend to think about a scientific problem|Como costumo pensar um problema científico|Cómo suelo pensar un problema científico
 What observations can support|O que as observações permitem inferir|Lo que permiten inferir las observaciones
 I often begin by asking what the observations can support, which assumptions the answer depends on, and what remains uncertain.|Costumo começar pelo que as observações permitem inferir, pelas suposições das quais a resposta depende e pelo que permanece incerto.|Suelo comenzar por lo que las observaciones permiten inferir, los supuestos de los que depende la respuesta y lo que sigue siendo incierto.
@@ -589,7 +589,7 @@ Email|E-mail|Correo electrónico
 LinkedIn ↗|LinkedIn ↗|LinkedIn ↗
 Curriculum vitae|Currículo|Currículum
 Personal Website|Site pessoal|Sitio web personal
-01 / Where I begin|01 / Onde eu começo|01 / Donde empiezo
+1 / Where I begin|1 / Onde eu começo|1 / Donde empiezo
 One of the things I value most in research is crossing disciplinary boundaries. My research is increasingly focused on astrostatistics and cosmology, especially on how statistical inference can help us understand extreme events, uncertainty, and structure in complex physical systems. I also work with environmental and climate data, where many of the same statistical questions appear.|Uma das coisas que mais valorizo na pesquisa é atravessar fronteiras entre disciplinas. Minha pesquisa está cada vez mais voltada para a astroestatística e a cosmologia, especialmente para como a inferência estatística pode nos ajudar a entender eventos extremos, incerteza e estrutura em sistemas físicos complexos. Também trabalho com dados ambientais e climáticos, onde muitas das mesmas questões estatísticas aparecem.|Una de las cosas que más valoro en la investigación es cruzar fronteras disciplinarias. Mi investigación se centra cada vez más en la astroestadística y la cosmología, especialmente en cómo la inferencia estadística puede ayudarnos a entender eventos extremos, incertidumbre y estructura en sistemas físicos complejos. También trabajo con datos ambientales y climáticos, donde aparecen muchas de las mismas preguntas estadísticas.
 I came to Statistics at the University of Brasília, drawn to a way of reasoning about uncertainty that could travel across scientific questions. Probability and inference remain my foundation, even as the systems I study change. From early on, I've been driven by the possibility of contributing to what we know about the cosmos. Statistics became my way into that pursuit.|Cheguei à Estatística na Universidade de Brasília atraído por uma forma de raciocinar sobre a incerteza que pudesse atravessar diferentes perguntas científicas. Probabilidade e inferência continuam sendo minha base, mesmo quando os sistemas que estudo mudam. Desde cedo, me move a possibilidade de contribuir para o que sabemos sobre o cosmos. A Estatística se tornou meu caminho para essa busca.|Llegué a la Estadística en la Universidade de Brasília atraído por una forma de razonar sobre la incertidumbre que pudiera atravesar distintas preguntas científicas. La probabilidad y la inferencia siguen siendo mi base, aunque cambien los sistemas que estudio. Desde muy pronto me ha movido la posibilidad de contribuir a lo que sabemos sobre el cosmos. La Estadística se convirtió en mi camino hacia esa búsqueda.
 My first research asked what could be recovered when observations were missing. Predictive modelling and simulation led me to a harder version of that question: what can we infer when the observations that matter most are rare, incomplete, or difficult to model?|Minhas primeiras pesquisas perguntavam o que era possível recuperar quando faltavam observações. A modelagem preditiva e a simulação me levaram a uma versão mais difícil dessa pergunta: o que podemos inferir quando as observações mais importantes são raras, incompletas ou difíceis de modelar?|Mis primeras investigaciones preguntaban qué se podía recuperar cuando faltaban observaciones. La modelización predictiva y la simulación me llevaron a una versión más difícil de esa pregunta: ¿qué podemos inferir cuando las observaciones que más importan son raras, incompletas o difíciles de modelizar?
